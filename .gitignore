@@ -1,0 +1,50 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+credentials*.json
+secrets*.json
+
+# Local agent/application state
+.codex/
+.agents/
+.aws/
+.vs/
+.idea/
+.DS_Store
+Thumbs.db
+node_modules/
+bin/
+obj/
+dist/
+build/
+out/
+coverage/
+*.log
+logs/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+data/
+runtime/
+exports/
+backups/
+
+# Downloaded models and release packages
+models/
+*.gguf
+*.safetensors
+releases/
+*.msi
+*.msix
+*.exe
+
+# Keep reviewed manifests and authorized source assets in version control.
+# Large binary assets require a deliberate Git LFS decision before adding.
