@@ -36,6 +36,10 @@ data/
 runtime/
 exports/
 backups/
+tmp/
+
+# Local reference material; publish reviewed production assets separately.
+/角色素材/
 
 # Downloaded models and release packages
 models/
