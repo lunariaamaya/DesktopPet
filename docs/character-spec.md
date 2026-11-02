@@ -1,6 +1,8 @@
 # 首位角色：设计与三维制作规格
 
-版本：0.7 · 日期：2026-11-02 · 状态：回到 v02 基线，仅补侧面两处配饰，候选待复核；三维模型尚未制作。
+版本：0.8 · 日期：2026-11-02 · 状态：v02 配饰补全版 01 获用户认可；版 02 仅修正侧面猫尾视角，待复核；三维模型尚未制作。
+
+最新局部修订：[配饰补全版 02](../assets/characters/first-character/concepts/turnaround-v02-accessories-v02.png)，[生成记录](../assets/characters/first-character/concepts/turnaround-v02-accessories-v02.md)。在已认可版 01 基础上仅参考 v03 的侧面猫尾装饰，将蝴蝶结改为收窄侧向投影；不恢复 v03 其他改动。其余要求维持本轮底图，未主动改变其他部位。此图仍是生成式编辑候选，不保证局部外逐像素不变。
 
 **当前优先规则：** 用户否定后续整体修改，以 v02 为基准，参考 v04 仅补全侧面项链与猫耳发饰背部小花，其他部分不改。见[局部修订图](../assets/characters/first-character/concepts/turnaround-v02-accessories-v01.png)及[完整生成记录](../assets/characters/first-character/concepts/turnaround-v02-accessories-v01.md)。v03–v06 不作为建模依据，以下旧版本文字仅供历史追溯，不能自动叠加回本次图中。当前图属于生成式编辑候选，不保证修改区外逐像素一致。
 
