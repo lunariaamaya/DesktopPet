@@ -1,6 +1,8 @@
 # 首位角色：设计与三维制作规格
 
-版本：0.15 · 日期：2026-11-02 · 状态：经用户授权完成程序化降噪与新肤色匹配，版 10 待复核；三维模型尚未制作。
+版本：0.16 · 日期：2026-11-02 · 状态：基于版10完成版11指定材质配色匹配，待复核；三维模型尚未制作。
+
+最新候选：[配色匹配版 11](../assets/characters/first-character/concepts/turnaround-v02-accessories-v11.png)，[方法与验证](../assets/characters/first-character/concepts/turnaround-v02-accessories-v11.md)。以版10为底图，仅匹配用户参考中肤色、头饰、猫耳、尾饰与镂空内色。使用程序化材质掩模与色度变换，不移动/缩放/重画；选区外、alpha、原纯白像素变化均为0。肤色已接近取样，未强行改变；配色观感待用户复核。
 
 最新候选：[程序修复版 10](../assets/characters/first-character/concepts/turnaround-v02-accessories-v10.png)，[算法、色样、验证及复现说明](../assets/characters/first-character/concepts/turnaround-v02-accessories-v10.md)。以版08原始像素处理，不采用无效的生成式去噪图；背景近白连通区归一为纯白，保边降噪；再按用户新参考图的侧视小腿匹配浅粉象牙白 #FEEEEA。参考色名仅为沟通描述。下方旧版颜色描述不覆盖本次指定区域取样。输出不合成新几何，但会平滑细微纹理，仍需用户复核。
 

@@ -1,0 +1,106 @@
+{
+  "width": 1536,
+  "height": 1024,
+  "meanLumaChange": 0.009959,
+  "maxLumaChange": 0.4778,
+  "unchangedPureWhitePixels": 933813,
+  "materials": [
+    {
+      "id": "skin",
+      "sourceSamples": 901,
+      "referenceSamples": 901,
+      "chromaDeltaRB": [
+        -0.340915,
+        -0.247685
+      ],
+      "transform": "chroma_offset",
+      "similarityComplex": [
+        0.988266,
+        -0.025002
+      ],
+      "changedPixels": 0
+    },
+    {
+      "id": "purple_ribbons",
+      "sourceSamples": 35340,
+      "referenceSamples": 17534,
+      "chromaDeltaRB": [
+        -20.0,
+        10.852593
+      ],
+      "transform": "chroma_similarity",
+      "similarityComplex": [
+        0.940558,
+        0.47966
+      ],
+      "changedPixels": 37674
+    },
+    {
+      "id": "cat_inner",
+      "sourceSamples": 730,
+      "referenceSamples": 494,
+      "chromaDeltaRB": [
+        9.532096,
+        1.602879
+      ],
+      "transform": "chroma_offset",
+      "similarityComplex": [
+        1.281684,
+        0.184638
+      ],
+      "changedPixels": 1382
+    },
+    {
+      "id": "cat_white",
+      "sourceSamples": 6981,
+      "referenceSamples": 5208,
+      "chromaDeltaRB": [
+        -1.969002,
+        10.134372
+      ],
+      "transform": "chroma_offset",
+      "similarityComplex": [
+        1.623069,
+        1.089582
+      ],
+      "changedPixels": 16471
+    },
+    {
+      "id": "tail_white",
+      "sourceSamples": 8343,
+      "referenceSamples": 4247,
+      "chromaDeltaRB": [
+        -1.974311,
+        9.002267
+      ],
+      "transform": "chroma_offset",
+      "similarityComplex": [
+        1.390928,
+        1.302353
+      ],
+      "changedPixels": 18545
+    },
+    {
+      "id": "cutout_insets",
+      "sourceSamples": 8205,
+      "referenceSamples": 3420,
+      "chromaDeltaRB": [
+        -14.943048,
+        -7.586982
+      ],
+      "transform": "chroma_similarity",
+      "similarityComplex": [
+        0.652661,
+        -0.139423
+      ],
+      "changedPixels": 10980
+    }
+  ],
+  "verification": {
+    "outsideMaskChanges": 0,
+    "alphaChanges": 0,
+    "pureWhiteChanges": 0,
+    "changedPixels": 85052,
+    "dimensionsPreserved": true
+  }
+}
