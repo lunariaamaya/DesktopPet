@@ -1,6 +1,8 @@
 # 首位角色：设计与三维制作规格
 
-版本：0.11 · 日期：2026-11-02 · 状态：局部版 04 已被用户判定失败，版 05 重新修正后视虎口轮廓，待复核；三维模型尚未制作。
+版本：0.12 · 日期：2026-11-02 · 状态：用户认可最新版装饰位置；版 06 仅处理同材质连续色与照明，待复核；三维模型尚未制作。
+
+最新候选：[版 06](../assets/characters/first-character/concepts/turnaround-v02-accessories-v06.png)，[完整记录](../assets/characters/first-character/concepts/turnaround-v02-accessories-v06.md)。同部位同材质保持连续底色，去除斑块状不连续色；保留合理的平滑体积明暗。每幅视图按各自镜头正面柔光绘制：正视角色正前、侧视对应侧面、后视角色正后。此次不主动改结构和装饰，不将绘图结果称为三维光照验证。
 
 最新候选：[版 05](../assets/characters/first-character/concepts/turnaround-v02-accessories-v05.png)，[完整生成记录](../assets/characters/first-character/concepts/turnaround-v02-accessories-v05.md)。以版 03 重做后视手指：近侧小指/无名指间隙小，其他四指紧邻；拇指退到远侧，不出现近侧大虎口。版 04 失败，不能据其宣称后视结构已正确。新版可见间隙收拢，但仍待用户确认手指遮挡。
 
