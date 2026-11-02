@@ -1,0 +1,46 @@
+[
+  {
+    "File": "turnaround-v02-accessories-v08.png",
+    "Region": "blank",
+    "MeanRGB": [
+      254.1606,
+      254.062,
+      254.1584
+    ],
+    "BrightnessStdDev": 0.532858,
+    "MeanAbsHorizontalResidual": 0.256233
+  },
+  {
+    "File": "turnaround-v02-accessories-v08.png",
+    "Region": "calf",
+    "MeanRGB": [
+      254.0119,
+      234.8889,
+      229.7976
+    ],
+    "BrightnessStdDev": 0.741525,
+    "MeanAbsHorizontalResidual": 0.281085
+  },
+  {
+    "File": "turnaround-v02-accessories-v10.png",
+    "Region": "blank",
+    "MeanRGB": [
+      255.0,
+      255.0,
+      255.0
+    ],
+    "BrightnessStdDev": 0.0,
+    "MeanAbsHorizontalResidual": 0.0
+  },
+  {
+    "File": "turnaround-v02-accessories-v10.png",
+    "Region": "calf",
+    "MeanRGB": [
+      253.9921,
+      237.7659,
+      233.746
+    ],
+    "BrightnessStdDev": 0.493787,
+    "MeanAbsHorizontalResidual": 0.100529
+  }
+]
