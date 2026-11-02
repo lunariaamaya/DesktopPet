@@ -1,6 +1,8 @@
 # 首位角色：设计与三维制作规格
 
-版本：0.13 · 日期：2026-11-02 · 状态：版 07 仅调整为冷白肤色，待复核；三维模型尚未制作。
+版本：0.14 · 日期：2026-11-02 · 状态：版 08 参照用户图片小腿重调肤色，待复核；三维模型尚未制作。
+
+最新肤色候选：[版 08](../assets/characters/first-character/concepts/turnaround-v02-accessories-v08.png)，[完整提示词与色值取样](../assets/characters/first-character/concepts/turnaround-v02-accessories-v08.md)。以用户「角色图.png」小腿受光区为准，描述为低饱和浅桃粉象牙白（非标准色名），参考取样 #FEEFE9–#FFF1EA，受光目标约 #FFF0E9；取代前版笼统的灰冷白方向。保留浅白底、少量桃粉血色和连续柔和明暗，不使用全身红调。
 
 最新候选：[版 07](../assets/characters/first-character/concepts/turnaround-v02-accessories-v07.png)，[完整记录](../assets/characters/first-character/concepts/turnaround-v02-accessories-v07.md)。肤色以低饱和浅白偏冷为准，脸颊仅极淡粉红；降低四肢、耳部与手足泛红及偏红轮廓。其他材质及当前配饰布局不主动修改，仍沿用各视图镜头正面柔光。
 
