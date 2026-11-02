@@ -1,0 +1,16 @@
+{
+  "method": "continuous_white_tone_curve",
+  "hairChangedPixels": 280283,
+  "dressChangedPixels": 194291,
+  "hairMeanBefore": 225.715283,
+  "hairMeanAfter": 233.486172,
+  "dressMeanBefore": 237.814522,
+  "dressMeanAfter": 242.88921,
+  "verification": {
+    "outsideMaskChanges": 0,
+    "alphaChanges": 0,
+    "pureWhiteChanges": 0,
+    "changedPixels": 474574,
+    "dimensionsPreserved": true
+  }
+}

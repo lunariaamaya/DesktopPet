@@ -125,6 +125,53 @@ public static class CharacterColorMatch
             return text.Append("]}").ToString();
         }
     }
+    public static string BrightenWhites(string input,string reference,string output,string maskPath) {
+        if(System.IO.File.Exists(output)||System.IO.File.Exists(maskPath))throw new InvalidOperationException("Output already exists.");
+        using(var image=Load(input))using(var guide=Load(reference)) {
+            int w=image.Width,h=image.Height,n=w*h;
+            if(w!=1536||h!=1024||guide.Size!=image.Size)throw new InvalidOperationException("Unsupported layout.");
+            byte[] src=Read(image),dst=(byte[])src.Clone(),refdata=Read(guide),mask=new byte[n*4];
+            int[,] hair={{110,12,510,515},{640,12,940,515},{1040,12,1430,515}};
+            int[,] dress={{130,267,493,799},{570,267,881,799},{1055,430,1411,799}};
+            int[] changed=new int[2];double[,] sums=new double[2,4];double[] selection=new double[n];int[] region=new int[n];
+            for(int p=0;p<n;p++) {
+                int x=p%w,y=p/w,k=p*4;mask[k+3]=255;
+                if(In(x,y,cat)||Tail(x,y))continue;
+                bool isHair=In(x,y,hair),isDress=In(x,y,dress);
+                if(!isHair&&!isDress)continue;
+                double b=src[k],g=src[k+1],r=src[k+2],l=L(r,g,b);
+                if(r==255&&g==255&&b==255)continue;
+                double spread=Math.Max(r,Math.Max(g,b))-Math.Min(r,Math.Min(g,b));
+                double weight=Smooth((l-135)/60)*Smooth((40-spread)/20)*(1-Smooth(Warm(r,g,b)/.4))*(1-Smooth(Purple(r,g,b)/.4));
+                if(weight<=0)continue;
+                selection[p]=weight;region[p]=isHair?0:1;
+            }
+            // Smooth ONLY the selection field to prevent color-threshold speckles; image is never blurred.
+            for(int p=0;p<n;p++) {
+                int x=p%w,y=p/w,k=p*4;double b=src[k],g=src[k+1],r=src[k+2],l=L(r,g,b);
+                if(selection[p]<=0||Warm(r,g,b)>.4||Purple(r,g,b)>.4)continue;
+                double weight=0,den=0;
+                for(int dy=-4;dy<=4;dy++)for(int dx=-4;dx<=4;dx++) {
+                    int xx=x+dx,yy=y+dy;if(xx<0||yy<0||xx>=w||yy>=h)continue;
+                    double q=Math.Exp(-(dx*dx+dy*dy)/8.0);weight+=q*selection[yy*w+xx];den+=q;
+                }
+                weight/=den;int c=region[p];double strength=.32;
+                // Continuous screen-to-white curve; no hue jumps or new illumination texture.
+                double[] channels={b,g,r};
+                for(int j=0;j<3;j++)dst[k+j]=(byte)Math.Clamp(Math.Round(channels[j]+(255-channels[j])*strength*weight),0,255);
+                bool diff=false;for(int j=0;j<3;j++)if(dst[k+j]!=src[k+j])diff=true;
+                if(diff) {
+                    changed[c]++;sums[c,0]+=l;sums[c,1]+=L(dst[k+2],dst[k+1],dst[k]);
+                    sums[c,2]+=L(refdata[k+2],refdata[k+1],refdata[k]);sums[c,3]++;
+                }
+                mask[k]=(byte)(c==0?230:80);mask[k+1]=(byte)(c==0?180:220);mask[k+2]=70;
+            }
+            Save(image,dst,output);using(var diagnostic=new Bitmap(w,h,PixelFormat.Format32bppArgb))Save(diagnostic,mask,maskPath);
+            return "{\"method\":\"continuous_white_tone_curve\",\"hairChangedPixels\":"+changed[0]+",\"dressChangedPixels\":"+changed[1]+
+                ",\"hairMeanBefore\":"+F(sums[0,0]/Math.Max(1,sums[0,3]))+",\"hairMeanAfter\":"+F(sums[0,1]/Math.Max(1,sums[0,3]))+
+                ",\"dressMeanBefore\":"+F(sums[1,0]/Math.Max(1,sums[1,3]))+",\"dressMeanAfter\":"+F(sums[1,1]/Math.Max(1,sums[1,3]))+"}";
+        }
+    }
     public static string Verify(string input,string output,string maskPath) {
         using(var a=Load(input))using(var b=Load(output))using(var m=Load(maskPath)) {
             if(a.Size!=b.Size||a.Size!=m.Size)throw new InvalidOperationException("Dimensions changed.");

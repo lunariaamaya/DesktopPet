@@ -1,6 +1,8 @@
 # 首位角色：设计与三维制作规格
 
-版本：0.16 · 日期：2026-11-02 · 状态：基于版10完成版11指定材质配色匹配，待复核；三维模型尚未制作。
+版本：0.17 · 日期：2026-11-02 · 状态：版12单独提亮白发/白裙，待复核；三维模型尚未制作。
+
+最新候选：[白色提亮版12](../assets/characters/first-character/concepts/turnaround-v02-accessories-v12.png)，[方法与验证](../assets/characters/first-character/concepts/turnaround-v02-accessories-v12.md)。版11保留版10明暗，未整体提亮头发和白裙，用户反馈偏灰暗。本轮以连续白色提亮曲线减弱灰影，保留发束/衣褶体积，不重画造型；具体白度待用户复核。
 
 最新候选：[配色匹配版 11](../assets/characters/first-character/concepts/turnaround-v02-accessories-v11.png)，[方法与验证](../assets/characters/first-character/concepts/turnaround-v02-accessories-v11.md)。以版10为底图，仅匹配用户参考中肤色、头饰、猫耳、尾饰与镂空内色。使用程序化材质掩模与色度变换，不移动/缩放/重画；选区外、alpha、原纯白像素变化均为0。肤色已接近取样，未强行改变；配色观感待用户复核。
 
