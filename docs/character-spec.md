@@ -1,6 +1,8 @@
 # 首位角色：设计与三维制作规格
 
-版本：0.9 · 日期：2026-11-02 · 状态：v02 局部修订 03 仅调整后视头发遮挡，待复核；三维模型尚未制作。
+版本：0.10 · 日期：2026-11-02 · 状态：v02 局部修订 04 仅调整后视手指遮挡，待复核；三维模型尚未制作。
+
+最新局部修订：[版 04](../assets/characters/first-character/concepts/turnaround-v02-accessories-v04.png)，[完整记录](../assets/characters/first-character/concepts/turnaround-v02-accessories-v04.md)。仅重画后视图指部遮挡，要求小指近、拇指远并部分遮挡，手腕与手势保持。整图中手部较小，手指结构辨识仍需复核，不自动视为建模结构定稿。
 
 最新局部修订：[版 03](../assets/characters/first-character/concepts/turnaround-v02-accessories-v03.png)，[完整生成记录](../assets/characters/first-character/concepts/turnaround-v02-accessories-v03.md)。以配饰补全版 02 为底图，仅调整后视长发位置：后方卷束覆盖手臂，露出手腕与手掌；发色、蓬松感保留，不主动修改其他部位。原图保留，候选待用户对照复核。
 
