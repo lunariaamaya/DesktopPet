@@ -1,6 +1,8 @@
 # 首位角色：设计与三维制作规格
 
-版本：0.12 · 日期：2026-11-02 · 状态：用户认可最新版装饰位置；版 06 仅处理同材质连续色与照明，待复核；三维模型尚未制作。
+版本：0.13 · 日期：2026-11-02 · 状态：版 07 仅调整为冷白肤色，待复核；三维模型尚未制作。
+
+最新候选：[版 07](../assets/characters/first-character/concepts/turnaround-v02-accessories-v07.png)，[完整记录](../assets/characters/first-character/concepts/turnaround-v02-accessories-v07.md)。肤色以低饱和浅白偏冷为准，脸颊仅极淡粉红；降低四肢、耳部与手足泛红及偏红轮廓。其他材质及当前配饰布局不主动修改，仍沿用各视图镜头正面柔光。
 
 最新候选：[版 06](../assets/characters/first-character/concepts/turnaround-v02-accessories-v06.png)，[完整记录](../assets/characters/first-character/concepts/turnaround-v02-accessories-v06.md)。同部位同材质保持连续底色，去除斑块状不连续色；保留合理的平滑体积明暗。每幅视图按各自镜头正面柔光绘制：正视角色正前、侧视对应侧面、后视角色正后。此次不主动改结构和装饰，不将绘图结果称为三维光照验证。
 
