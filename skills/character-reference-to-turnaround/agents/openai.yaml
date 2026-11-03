@@ -1,0 +1,4 @@
+interface:
+  display_name: "角色素材到三视图"
+  short_description: "从角色图片与视频整理外观基线，生成设计稿并逐项修订、验证和冻结建模三视图"
+  default_prompt: "使用 $character-reference-to-turnaround，根据我的角色素材整理设计要求，生成角色设计稿与三视图，并记录每次局部修订和验收结果。"
