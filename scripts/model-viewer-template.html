@@ -1,0 +1,38 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>首位角色 · 三维草模 v01</title><style>
+*{box-sizing:border-box}body{margin:0;background:#f4f3f7;color:#393345;font:15px system-ui,sans-serif}header{padding:18px 24px;background:white;border-bottom:1px solid #e4dfea}h1{font-size:19px;margin:0 0 8px}p{margin:0;color:#776e82;line-height:1.6}canvas{display:block;width:100%;height:calc(100vh - 165px);min-height:400px}nav{display:flex;gap:10px;justify-content:center;padding:12px;flex-wrap:wrap}button{border:1px solid #d7cce4;background:white;color:#554268;border-radius:8px;padding:8px 18px;cursor:pointer}#status{text-align:center;font-size:12px;color:#817489;padding:5px}
+</style><header><h1>首位角色 · 可旋转三维草模 v01</h1><p>参考：白色提亮版12。拖动旋转，滚轮缩放。当前是静态结构初稿，尚未精修面部、拓扑或绑定动画。</p></header>
+<canvas id="view"></canvas><nav><button data-angle="0">正面</button><button data-angle="1.5707963">侧面</button><button data-angle="3.1415926">背面</button><button id="rotate">自动旋转</button><button id="hair">隐藏/显示头发</button></nav><div id="status">正在加载内嵌模型…</div>
+<script>
+const encoded='__GLB_BASE64__';
+const canvas=document.querySelector('#view'),status=document.querySelector('#status');
+try{
+const gl=canvas.getContext('webgl2',{antialias:true});if(!gl)throw Error('浏览器不支持WebGL2');
+const bytes=Uint8Array.from(atob(encoded),c=>c.charCodeAt(0)),dv=new DataView(bytes.buffer);
+if(dv.getUint32(0,true)!==0x46546c67)throw Error('模型头部无效');
+let at=12,gltf,bin;while(at<bytes.length){const n=dv.getUint32(at,true),t=dv.getUint32(at+4,true);if(t===0x4e4f534a)gltf=JSON.parse(new TextDecoder().decode(bytes.subarray(at+8,at+8+n)));if(t===0x004e4942)bin=bytes.subarray(at+8,at+8+n);at+=8+n;}
+function shader(kind,src){const s=gl.createShader(kind);gl.shaderSource(s,src);gl.compileShader(s);if(!gl.getShaderParameter(s,gl.COMPILE_STATUS))throw Error(gl.getShaderInfoLog(s));return s;}
+const program=gl.createProgram();gl.attachShader(program,shader(gl.VERTEX_SHADER,`#version 300 es
+layout(location=0)in vec3 pos;layout(location=1)in vec3 normal;uniform mat4 model,vp;out vec3 n;void main(){n=transpose(inverse(mat3(model)))*normal;gl_Position=vp*model*vec4(pos,1.);}`));
+gl.attachShader(program,shader(gl.FRAGMENT_SHADER,`#version 300 es
+precision highp float;in vec3 n;uniform vec4 color;uniform vec3 light;out vec4 frag;void main(){vec3 N=normalize(n);if(!gl_FrontFacing)N=-N;float lam=max(dot(N,normalize(light)),0.);float fill=max(dot(N,normalize(vec3(-.4,.8,-.3))),0.);vec3 c=color.rgb*(.49+.45*lam+.16*fill);frag=vec4(pow(clamp(c,0.,1.),vec3(1./2.2)),color.a);}`));gl.linkProgram(program);if(!gl.getProgramParameter(program,gl.LINK_STATUS))throw Error(gl.getProgramInfoLog(program));gl.useProgram(program);
+const uni={};for(const name of ['model','vp','color','light'])uni[name]=gl.getUniformLocation(program,name);
+const ident=()=>new Float32Array([1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1]);
+function mul(a,b){const o=new Float32Array(16);for(let c=0;c<4;c++)for(let r=0;r<4;r++)for(let k=0;k<4;k++)o[c*4+r]+=a[k*4+r]*b[c*4+k];return o;}
+function local(node){if(node.matrix)return new Float32Array(node.matrix);const q=node.rotation||[0,0,0,1],s=node.scale||[1,1,1],t=node.translation||[0,0,0],x=q[0],y=q[1],z=q[2],w=q[3];return new Float32Array([(1-2*y*y-2*z*z)*s[0],(2*x*y+2*z*w)*s[0],(2*x*z-2*y*w)*s[0],0,(2*x*y-2*z*w)*s[1],(1-2*x*x-2*z*z)*s[1],(2*y*z+2*x*w)*s[1],0,(2*x*z+2*y*w)*s[2],(2*y*z-2*x*w)*s[2],(1-2*x*x-2*y*y)*s[2],0,...t,1]);}
+const vertex=gl.createBuffer(),element=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,vertex);gl.bufferData(gl.ARRAY_BUFFER,bin,gl.STATIC_DRAW);gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER,element);gl.bufferData(gl.ELEMENT_ARRAY_BUFFER,bin,gl.STATIC_DRAW);
+const draws=[];let triangles=0;
+function attr(id,loc){const a=gltf.accessors[id],v=gltf.bufferViews[a.bufferView];gl.bindBuffer(gl.ARRAY_BUFFER,vertex);gl.enableVertexAttribArray(loc);gl.vertexAttribPointer(loc,3,a.componentType,a.normalized||false,v.byteStride||0,(v.byteOffset||0)+(a.byteOffset||0));}
+function visit(id,parent){const node=gltf.nodes[id],m=mul(parent,local(node));if(node.mesh!==undefined)for(const p of gltf.meshes[node.mesh].primitives){if((p.mode??4)!==4)continue;const vao=gl.createVertexArray();gl.bindVertexArray(vao);attr(p.attributes.POSITION,0);if(p.attributes.NORMAL!==undefined)attr(p.attributes.NORMAL,1);gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER,element);const a=gltf.accessors[p.indices],v=gltf.bufferViews[a.bufferView],mat=gltf.materials?.[p.material]?.pbrMetallicRoughness;draws.push({vao,m,count:a.count,type:a.componentType,offset:(a.byteOffset||0)+(v.byteOffset||0),color:mat?.baseColorFactor||[.8,.8,.8,1],hair:node.extras?.module==='hair'});triangles+=a.count/3;}for(const child of node.children||[])visit(child,m);}
+for(const id of gltf.scenes[gltf.scene||0].nodes)visit(id,ident());gl.bindVertexArray(null);
+const norm=v=>{const d=Math.hypot(...v)||1;return v.map(x=>x/d);},cross=(a,b)=>[a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],a[0]*b[1]-a[1]*b[0]],dot=(a,b)=>a.reduce((s,v,i)=>s+v*b[i],0);
+function look(eye,target){const z=norm(eye.map((v,i)=>v-target[i])),x=norm(cross([0,1,0],z)),y=cross(z,x);return new Float32Array([x[0],y[0],z[0],0,x[1],y[1],z[1],0,x[2],y[2],z[2],0,-dot(x,eye),-dot(y,eye),-dot(z,eye),1]);}
+function perspective(aspect){const f=1/Math.tan(Math.PI/9),near=.01,far=100;return new Float32Array([f/aspect,0,0,0,0,f,0,0,0,0,(far+near)/(near-far),-1,0,0,2*far*near/(near-far),0]);}
+let yaw=0,pitch=.04,distance=2.35,auto=false,showHair=true,drag=null;
+canvas.onpointerdown=e=>{drag=[e.clientX,e.clientY];canvas.setPointerCapture(e.pointerId);};canvas.onpointermove=e=>{if(!drag)return;yaw-=(e.clientX-drag[0])*.009;pitch=Math.max(-.65,Math.min(.65,pitch+(e.clientY-drag[1])*.008));drag=[e.clientX,e.clientY];};canvas.onpointerup=()=>drag=null;canvas.onpointercancel=()=>drag=null;
+canvas.addEventListener('wheel',e=>{e.preventDefault();distance=Math.max(1.1,Math.min(5,distance*Math.exp(e.deltaY*.001)));},{passive:false});
+document.querySelectorAll('[data-angle]').forEach(b=>b.onclick=()=>{yaw=Number(b.dataset.angle);pitch=.02;auto=false;});document.querySelector('#rotate').onclick=()=>auto=!auto;document.querySelector('#hair').onclick=()=>showHair=!showHair;
+gl.enable(gl.DEPTH_TEST);gl.clearColor(.965,.962,.977,1);status.textContent=`${draws.length} 个网格图元 · ${Math.round(triangles).toLocaleString()} 个三角形 · 静态草模，无动画`;
+let previous=performance.now();function frame(now){if(auto)yaw+=(now-previous)*.00025;previous=now;const ratio=Math.min(devicePixelRatio,2),w=Math.round(canvas.clientWidth*ratio),h=Math.round(canvas.clientHeight*ratio);if(canvas.width!==w||canvas.height!==h){canvas.width=w;canvas.height=h;}gl.viewport(0,0,w,h);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);const delta=[distance*Math.sin(yaw)*Math.cos(pitch),distance*Math.sin(pitch),distance*Math.cos(yaw)*Math.cos(pitch)],eye=[delta[0],.7+delta[1],delta[2]];gl.uniformMatrix4fv(uni.vp,false,mul(perspective(w/h),look(eye,[0,.7,0])));gl.uniform3f(uni.light,delta[0],delta[1]+1,delta[2]);for(const d of draws){if(d.hair&&!showHair)continue;gl.bindVertexArray(d.vao);gl.uniformMatrix4fv(uni.model,false,d.m);gl.uniform4fv(uni.color,d.color);gl.drawElements(gl.TRIANGLES,d.count,d.type,d.offset);}requestAnimationFrame(frame);}requestAnimationFrame(frame);
+}catch(e){status.textContent='无法显示模型：'+e.message;console.error(e);}
+</script></html>

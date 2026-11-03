@@ -43,12 +43,15 @@ tmp/
 
 # Downloaded models and release packages
 models/
+!/assets/characters/first-character/models/
 *.gguf
 *.safetensors
 releases/
 *.msi
 *.msix
 *.exe
+*.blend1
+*.blend2
 
 # Keep reviewed manifests and authorized source assets in version control.
 # Large binary assets require a deliberate Git LFS decision before adding.

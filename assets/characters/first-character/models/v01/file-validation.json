@@ -1,0 +1,13 @@
+{
+  "glb_header_valid": true,
+  "mesh_count": 316,
+  "node_count": 316,
+  "material_count": 14,
+  "animations": 0,
+  "skins": 0,
+  "glb_bytes": 2295504,
+  "sha256": "f17d3c853f5a23590e728247699136e83b9af803c75ea2b4ca03101174bb254b",
+  "standalone_viewer": "viewer.html",
+  "external_viewer_dependencies": false,
+  "validation_limit": "structural header/schema checks, not full Khronos validator"
+}

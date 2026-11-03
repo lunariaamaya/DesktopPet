@@ -1,6 +1,8 @@
 # 首位角色：设计与三维制作规格
 
-版本：0.17 · 日期：2026-11-02 · 状态：版12单独提亮白发/白裙，待复核；三维模型尚未制作。
+版本：0.18 · 日期：2026-11-03 · 状态：用户将版12暂定为最终三视图；已生成三维结构草模v01，未完成美术精修/绑定。
+
+三维制作基线已冻结为白色提亮版12（暂定最终），原图SHA256为23255c1276dd2a795df165e24cb5f143188759e907a14751e3fb6403425b15cf。已交付[三维草模v01与明确限制](../assets/characters/first-character/models/v01/README.md)，包括真实GLB、Blender源工程、可旋转离线查看器和渲染。采用参考规格驱动的程序化建模，不是AI多视图重建，面部与卷发相似度尚不足，不应宣称已满足最终角色造型或动画要求。以下旧记录中的“未生成模型”仅指当时状态。
 
 最新候选：[白色提亮版12](../assets/characters/first-character/concepts/turnaround-v02-accessories-v12.png)，[方法与验证](../assets/characters/first-character/concepts/turnaround-v02-accessories-v12.md)。版11保留版10明暗，未整体提亮头发和白裙，用户反馈偏灰暗。本轮以连续白色提亮曲线减弱灰影，保留发束/衣褶体积，不重画造型；具体白度待用户复核。
 

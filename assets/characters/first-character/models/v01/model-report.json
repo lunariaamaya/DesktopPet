@@ -1,0 +1,19 @@
+{
+  "status": "procedural_blockout_v01",
+  "reference": "turnaround-v02-accessories-v12.png",
+  "reference_sha256": "23255c1276dd2a795df165e24cb5f143188759e907a14751e3fb6403425b15cf",
+  "vertices": 52642,
+  "polygons": 52832,
+  "mesh_objects": 316,
+  "rigged": false,
+  "animations": false,
+  "method": "reference-guided procedural modeling, not AI multi-view reconstruction",
+  "limitations": [
+    "not final facial likeness",
+    "no production retopology",
+    "no UV texture atlas",
+    "no facial blendshapes",
+    "no deformation rig",
+    "no cloth/hair simulation"
+  ]
+}
