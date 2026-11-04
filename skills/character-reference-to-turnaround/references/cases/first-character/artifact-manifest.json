@@ -1,0 +1,686 @@
+{
+  "snapshot_date": "2026-11-04",
+  "scope": "User materials through 2D design, turnaround and pose branches; excludes 3D models and tool caches.",
+  "hash_note": "Hashes identify this packaged snapshot; Markdown links were rebased, so record hashes can differ from source records.",
+  "files": [
+    {
+      "path": "concepts/design-shy-fullbody-v01.md",
+      "bytes": 4922,
+      "sha256": "d16045fda7645f56d0cdab19bffd2be81774270a105fe1fff0e6b1d176dd7f00",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\design-shy-fullbody-v01.md",
+      "kind": "saved-artwork-or-record"
+    },
+    {
+      "path": "concepts/design-shy-fullbody-v01.png",
+      "bytes": 1582577,
+      "sha256": "70c5b0086543210712760f659f860eb218e02f355535ad80733644168092d127",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\design-shy-fullbody-v01.png",
+      "kind": "saved-artwork-or-record",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB"
+    },
+    {
+      "path": "concepts/design-shy-seated-v01.md",
+      "bytes": 3592,
+      "sha256": "776af6b417258b789475fc3d5d77e94f25a4d3dc543cb3a73cd4ebe205d2ea20",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\design-shy-seated-v01.md",
+      "kind": "saved-artwork-or-record"
+    },
+    {
+      "path": "concepts/design-shy-seated-v01.png",
+      "bytes": 1843180,
+      "sha256": "ea31c0da5744c30f948a7753d795876cbfe50ba4b0517938cff83646b419ce61",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\design-shy-seated-v01.png",
+      "kind": "saved-artwork-or-record",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGB"
+    },
+    {
+      "path": "concepts/design-v01.png",
+      "bytes": 1745878,
+      "sha256": "c9d8198dad396ba790993dd49e48ce31aba786e0908d82eb3b73d3866afa769d",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\design-v01.png",
+      "kind": "saved-artwork-or-record",
+      "width": 1226,
+      "height": 1283,
+      "mode": "RGB"
+    },
+    {
+      "path": "concepts/generation-v01.md",
+      "bytes": 2879,
+      "sha256": "1c6b1d039058a1811ba4b548d7cbc2141e21a0057fbf785cdad67ba2eeb90e5d",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\generation-v01.md",
+      "kind": "saved-artwork-or-record"
+    },
+    {
+      "path": "concepts/turnaround-v01.md",
+      "bytes": 3056,
+      "sha256": "2593604b933b7e01ef5ebfd7bfd75a1a6fb1411d0f9a10e55f94c9fb43adb534",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v01.md",
+      "kind": "saved-artwork-or-record"
+    },
+    {
+      "path": "concepts/turnaround-v01.png",
+      "bytes": 1662568,
+      "sha256": "2ddf8f756d7a1ef60ac5ecd54c30ea165feba5aa0dbb82f37854328617e68edd",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v01.png",
+      "kind": "saved-artwork-or-record",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "concepts/turnaround-v02-accessories-v01.md",
+      "bytes": 2008,
+      "sha256": "35ddf4b95a824c79946c880e61b645c9d832d5a12ff8a3fa356b22832c0c3033",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v02-accessories-v01.md",
+      "kind": "saved-artwork-or-record"
+    },
+    {
+      "path": "concepts/turnaround-v02-accessories-v01.png",
+      "bytes": 1925254,
+      "sha256": "b6f9a01301c2235de2ca1a030fe0952357ecaaae6eb2c2ab6d9db8df2fd26cac",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v02-accessories-v01.png",
+      "kind": "saved-artwork-or-record",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "concepts/turnaround-v02-accessories-v02.md",
+      "bytes": 2021,
+      "sha256": "fa40a5f1c3b27bdc2bdf78630af5541816cc2e26e2fa3f017ce558f728ca1c11",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v02-accessories-v02.md",
+      "kind": "saved-artwork-or-record"
+    },
+    {
+      "path": "concepts/turnaround-v02-accessories-v02.png",
+      "bytes": 1898320,
+      "sha256": "3e000a3dc5c0a2fb697e302f1202570eb2c4686ad6411d7ce9fd4ed2d87995e2",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v02-accessories-v02.png",
+      "kind": "saved-artwork-or-record",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "concepts/turnaround-v02-accessories-v03.md",
+      "bytes": 2184,
+      "sha256": "34832f4386a6852dc6413905e746a2ec4f99facbfe5195464f3b5c1872fcd068",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v02-accessories-v03.md",
+      "kind": "saved-artwork-or-record"
+    },
+    {
+      "path": "concepts/turnaround-v02-accessories-v03.png",
+      "bytes": 1934814,
+      "sha256": "f4d73d27c361d0424180b2b1bb3ee3dae845a6ec963a34fe5efa6116d4a0ea41",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v02-accessories-v03.png",
+      "kind": "saved-artwork-or-record",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "concepts/turnaround-v02-accessories-v04.md",
+      "bytes": 2279,
+      "sha256": "67f4c87293f83ce01c4f3b2303b860e9f0fb7877e18a753e18a3cb8f42324d58",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v02-accessories-v04.md",
+      "kind": "saved-artwork-or-record"
+    },
+    {
+      "path": "concepts/turnaround-v02-accessories-v04.png",
+      "bytes": 1885616,
+      "sha256": "220016881f7fdb298239480eb72f46fa3ecc3b674c41a2232195cab4dc49e857",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v02-accessories-v04.png",
+      "kind": "saved-artwork-or-record",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "concepts/turnaround-v02-accessories-v05.md",
+      "bytes": 2426,
+      "sha256": "c94a4024346f352384e22cce29f1c82f34441bd5200bf88cc17737b711e9b490",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v02-accessories-v05.md",
+      "kind": "saved-artwork-or-record"
+    },
+    {
+      "path": "concepts/turnaround-v02-accessories-v05.png",
+      "bytes": 1900573,
+      "sha256": "5669afa085036a699324098780a8784b658b9f51b4d4e79426ffc4686b9e13fe",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v02-accessories-v05.png",
+      "kind": "saved-artwork-or-record",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "concepts/turnaround-v02-accessories-v06.md",
+      "bytes": 3205,
+      "sha256": "837321b50a3b9565015e895f75a8c487f676b0f78d26716d3264b3a13788b158",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v02-accessories-v06.md",
+      "kind": "saved-artwork-or-record"
+    },
+    {
+      "path": "concepts/turnaround-v02-accessories-v06.png",
+      "bytes": 1546216,
+      "sha256": "6689d36618da880b782e6e825c4830b2ec21d64409963149e3280b057528693a",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v02-accessories-v06.png",
+      "kind": "saved-artwork-or-record",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "concepts/turnaround-v02-accessories-v07.md",
+      "bytes": 2487,
+      "sha256": "8f2345df99ce616d91f8fca14a1af61852bf92d87b29f4cfbadfa38a9bb32b5e",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v02-accessories-v07.md",
+      "kind": "saved-artwork-or-record"
+    },
+    {
+      "path": "concepts/turnaround-v02-accessories-v07.png",
+      "bytes": 1547179,
+      "sha256": "963463d761daa2169e32c90444a91f5ae141f4606ed0311ea43bf1c4753fc427",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v02-accessories-v07.png",
+      "kind": "saved-artwork-or-record",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "concepts/turnaround-v02-accessories-v08.md",
+      "bytes": 2849,
+      "sha256": "a262d462e2c83b82ac019205d03917e1dd48696ab0448c88a24c6892d7c51c75",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v02-accessories-v08.md",
+      "kind": "saved-artwork-or-record"
+    },
+    {
+      "path": "concepts/turnaround-v02-accessories-v08.png",
+      "bytes": 1551764,
+      "sha256": "f2e734ea2c69f63b0b0c9a25148810e63e672b9f1eefb6b4c30ffed5870e83e2",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v02-accessories-v08.png",
+      "kind": "saved-artwork-or-record",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "concepts/turnaround-v02-accessories-v09.png",
+      "bytes": 1168800,
+      "sha256": "923ee93509a5db78b542791c6024c7422c6fbdcdd02fcb38a666643e615d72cb",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v02-accessories-v09.png",
+      "kind": "saved-artwork-or-record",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA"
+    },
+    {
+      "path": "concepts/turnaround-v02-accessories-v10-qa.json",
+      "bytes": 942,
+      "sha256": "47212301a44be672d7e39161986e9a9df9930370989959cbb8bdc313b32550ad",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v02-accessories-v10-qa.json",
+      "kind": "saved-artwork-or-record"
+    },
+    {
+      "path": "concepts/turnaround-v02-accessories-v10.md",
+      "bytes": 3660,
+      "sha256": "f84925ffc19ef86e7ad2a433d144b22f994332daead90c9b72c8daff663cfe07",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v02-accessories-v10.md",
+      "kind": "saved-artwork-or-record"
+    },
+    {
+      "path": "concepts/turnaround-v02-accessories-v10.png",
+      "bytes": 1168265,
+      "sha256": "164b70073d685f95eda74b6b03c927093b415749b8d1da7b3444137436f32eef",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v02-accessories-v10.png",
+      "kind": "saved-artwork-or-record",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA"
+    },
+    {
+      "path": "concepts/turnaround-v02-accessories-v11-qa.json",
+      "bytes": 2273,
+      "sha256": "a82817658ce065c355f7ba7a4e56139fce4581aec2045f801d3ea6691e948c03",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v02-accessories-v11-qa.json",
+      "kind": "saved-artwork-or-record"
+    },
+    {
+      "path": "concepts/turnaround-v02-accessories-v11.md",
+      "bytes": 3263,
+      "sha256": "76c7aa4407f165e01ea84635a1156a3c8b829260f8dbbd060864e59af56fcffb",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v02-accessories-v11.md",
+      "kind": "saved-artwork-or-record"
+    },
+    {
+      "path": "concepts/turnaround-v02-accessories-v11.png",
+      "bytes": 1170297,
+      "sha256": "0ca4335d50ce92f9bbea13588e3a27592e8a65e6f7b66af32b0b6ff6e93e0bab",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v02-accessories-v11.png",
+      "kind": "saved-artwork-or-record",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA"
+    },
+    {
+      "path": "concepts/turnaround-v02-accessories-v12-qa.json",
+      "bytes": 417,
+      "sha256": "842ac94f7fd536a83c80cd59f8d596d347752e9bf6f282845e8cfb5edeaee0bb",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v02-accessories-v12-qa.json",
+      "kind": "saved-artwork-or-record"
+    },
+    {
+      "path": "concepts/turnaround-v02-accessories-v12.md",
+      "bytes": 2498,
+      "sha256": "31717a783391e5eaccbb4ce5de5bcdffd0eb856e0c0ec2c11487572ef052fbb7",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v02-accessories-v12.md",
+      "kind": "saved-artwork-or-record"
+    },
+    {
+      "path": "concepts/turnaround-v02-accessories-v12.png",
+      "bytes": 1115905,
+      "sha256": "23255c1276dd2a795df165e24cb5f143188759e907a14751e3fb6403425b15cf",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v02-accessories-v12.png",
+      "kind": "saved-artwork-or-record",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA"
+    },
+    {
+      "path": "concepts/turnaround-v02.md",
+      "bytes": 3596,
+      "sha256": "1b65812d2b42667373209ad1d343ccbb6da1f90b12a3cd796f686258b0916bfb",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v02.md",
+      "kind": "saved-artwork-or-record"
+    },
+    {
+      "path": "concepts/turnaround-v02.png",
+      "bytes": 1622906,
+      "sha256": "af0e82e8c9dd8cf711f55705d0abb2134d5f2e6499b4717d36db3e9521955219",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v02.png",
+      "kind": "saved-artwork-or-record",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "concepts/turnaround-v03.md",
+      "bytes": 3955,
+      "sha256": "9d46f6a2f31460b5291090340ad38c0a143bd288f4fabd4b57e32bffead55ec9",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v03.md",
+      "kind": "saved-artwork-or-record"
+    },
+    {
+      "path": "concepts/turnaround-v03.png",
+      "bytes": 1598711,
+      "sha256": "5a568118eddbabc5e71981d6dd8ceab4f5c25058a16b01c9ff94cf3f498aeecf",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v03.png",
+      "kind": "saved-artwork-or-record",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "concepts/turnaround-v04.md",
+      "bytes": 3425,
+      "sha256": "d61b8011ef56865dedc4d8a3ae1f0434ef3a723c9a34d3261aef45206d38efe0",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v04.md",
+      "kind": "saved-artwork-or-record"
+    },
+    {
+      "path": "concepts/turnaround-v04.png",
+      "bytes": 1553406,
+      "sha256": "19f55125a3cb09f095c24a3a31668ab17f8ae661ebc8ce49c350490ecbddca69",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v04.png",
+      "kind": "saved-artwork-or-record",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "concepts/turnaround-v05.md",
+      "bytes": 3110,
+      "sha256": "4c0bb62a260ed01c94efb1c3261182375b7c24345166d385510da44824d1e112",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v05.md",
+      "kind": "saved-artwork-or-record"
+    },
+    {
+      "path": "concepts/turnaround-v05.png",
+      "bytes": 1607665,
+      "sha256": "fe1d4cfc82a4a5db91fec67fba5990857e4323084d70ad8fadd0c1724379ee8c",
+      "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v05.png",
+      "kind": "saved-artwork-or-record",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "processing/color-match-final-mask.png",
+      "bytes": 62092,
+      "sha256": "3c6ec78d514fa9bf8b8abda2b7ecd56793104888d73b430406b9e922359e2e99",
+      "source": "D:\\desktop-pet\\tmp\\character-analysis\\color-match-final-mask.png",
+      "kind": "final-processing-mask",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA"
+    },
+    {
+      "path": "processing/denoise-character.cs",
+      "bytes": 8056,
+      "sha256": "57f2c0094574807fee4ee6ada5516841fff9e6db4290bc1f2ee324eb2ed955c3",
+      "source": "D:\\desktop-pet\\scripts\\denoise-character.cs",
+      "kind": "layout-specific-processing-source"
+    },
+    {
+      "path": "processing/denoise-character.ps1",
+      "bytes": 1232,
+      "sha256": "a906419a959e92158db7c9f154a578349b12b471d4e49f4554e71f0ebe3c5cd0",
+      "source": "D:\\desktop-pet\\scripts\\denoise-character.ps1",
+      "kind": "layout-specific-processing-source"
+    },
+    {
+      "path": "processing/match-character-colors.cs",
+      "bytes": 13820,
+      "sha256": "8ad9c616ae3116db56fecc4e93974b21953e769db5355c228d1ced41c286573e",
+      "source": "D:\\desktop-pet\\scripts\\match-character-colors.cs",
+      "kind": "layout-specific-processing-source"
+    },
+    {
+      "path": "processing/match-character-colors.ps1",
+      "bytes": 1580,
+      "sha256": "35b1d41b40a316733b2eba2d2f248c70720e8873074ab1627b0eb52bf13f1f1f",
+      "source": "D:\\desktop-pet\\scripts\\match-character-colors.ps1",
+      "kind": "layout-specific-processing-source"
+    },
+    {
+      "path": "processing/white-final-mask.png",
+      "bytes": 55382,
+      "sha256": "ad538861784ad8ffdc33c0e32af4047d8b7ff0cf6d4eea61bdd56ffb7489db71",
+      "source": "D:\\desktop-pet\\tmp\\character-analysis\\white-final-mask.png",
+      "kind": "final-processing-mask",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA"
+    },
+    {
+      "path": "records/character-art-sop.md",
+      "bytes": 10892,
+      "sha256": "b0cfc7fc08bc5858deb882c3e211da9d60343e8827eb018469021306b1a3692b",
+      "source": "D:\\desktop-pet\\docs\\character-art-sop.md",
+      "kind": "historical-document-snapshot"
+    },
+    {
+      "path": "records/character-spec.md",
+      "bytes": 19590,
+      "sha256": "3469ceed5c13e71cf1a552b2876405680c0fb1660b6cb7fa4a99931678e31fbe",
+      "source": "D:\\desktop-pet\\docs\\character-spec.md",
+      "kind": "historical-document-snapshot"
+    },
+    {
+      "path": "source-materials/角色1.png",
+      "bytes": 17476,
+      "sha256": "4ad594e1a4c1ff9c068379378300d22d56e7c9ca76715af6996fa8f2b0e3e703",
+      "source": "D:\\desktop-pet\\角色素材\\角色1.png",
+      "kind": "user-original",
+      "width": 73,
+      "height": 117,
+      "mode": "RGBA"
+    },
+    {
+      "path": "source-materials/角色10.png",
+      "bytes": 22484,
+      "sha256": "532bf6a04951f731ac6911af59c30d4a4e9c3bd2a65ab7ffba20094a0161a900",
+      "source": "D:\\desktop-pet\\角色素材\\角色10.png",
+      "kind": "user-original",
+      "width": 99,
+      "height": 123,
+      "mode": "RGBA"
+    },
+    {
+      "path": "source-materials/角色11.png",
+      "bytes": 16123,
+      "sha256": "2a8072dbbf36bf1b3f6bb78652bd8af52a30cc1440841e2712e53fc6719dc81f",
+      "source": "D:\\desktop-pet\\角色素材\\角色11.png",
+      "kind": "user-original",
+      "width": 102,
+      "height": 107,
+      "mode": "RGBA"
+    },
+    {
+      "path": "source-materials/角色12.png",
+      "bytes": 16814,
+      "sha256": "1a0a014bcd96ebe0676085349d2a7241f525cd6d610c60b029879bacf054321e",
+      "source": "D:\\desktop-pet\\角色素材\\角色12.png",
+      "kind": "user-original",
+      "width": 101,
+      "height": 114,
+      "mode": "RGBA"
+    },
+    {
+      "path": "source-materials/角色13.png",
+      "bytes": 14938,
+      "sha256": "960f64b169e7fe295f8bb7e7d774063da78432fc8462bb81b951250c30c5c428",
+      "source": "D:\\desktop-pet\\角色素材\\角色13.png",
+      "kind": "user-original",
+      "width": 86,
+      "height": 106,
+      "mode": "RGBA"
+    },
+    {
+      "path": "source-materials/角色14.png",
+      "bytes": 14399,
+      "sha256": "0be6a343d38052417fdaa0ccc5a3d67905c46530a0c6c362666bdcf8649af434",
+      "source": "D:\\desktop-pet\\角色素材\\角色14.png",
+      "kind": "user-original",
+      "width": 98,
+      "height": 96,
+      "mode": "RGBA"
+    },
+    {
+      "path": "source-materials/角色15.png",
+      "bytes": 19169,
+      "sha256": "1e2d12f99662373a3c7635c08584936a83200fce8647b68f1555e1206804f91e",
+      "source": "D:\\desktop-pet\\角色素材\\角色15.png",
+      "kind": "user-original",
+      "width": 144,
+      "height": 112,
+      "mode": "RGBA"
+    },
+    {
+      "path": "source-materials/角色16.png",
+      "bytes": 15828,
+      "sha256": "24ff8fb7cc2b6d2dd775fded1f4cdb02863e4a27531aa985552219bc3abb52b6",
+      "source": "D:\\desktop-pet\\角色素材\\角色16.png",
+      "kind": "user-original",
+      "width": 88,
+      "height": 111,
+      "mode": "RGBA"
+    },
+    {
+      "path": "source-materials/角色2.png",
+      "bytes": 16773,
+      "sha256": "84abb3014cc463a46086eb90459498fd9132f7ea8ca47db7c89d35184c223932",
+      "source": "D:\\desktop-pet\\角色素材\\角色2.png",
+      "kind": "user-original",
+      "width": 69,
+      "height": 118,
+      "mode": "RGBA"
+    },
+    {
+      "path": "source-materials/角色3.png",
+      "bytes": 17720,
+      "sha256": "b3c7886541338cabf675fa85a794d1fcfa38a633220281faf7a00a16c45e8e5f",
+      "source": "D:\\desktop-pet\\角色素材\\角色3.png",
+      "kind": "user-original",
+      "width": 75,
+      "height": 116,
+      "mode": "RGBA"
+    },
+    {
+      "path": "source-materials/角色4.png",
+      "bytes": 19220,
+      "sha256": "76c0d751b55917c245f644442b116bdacc19d892c01647d43b534ca07db800bd",
+      "source": "D:\\desktop-pet\\角色素材\\角色4.png",
+      "kind": "user-original",
+      "width": 89,
+      "height": 108,
+      "mode": "RGBA"
+    },
+    {
+      "path": "source-materials/角色5.png",
+      "bytes": 19760,
+      "sha256": "86b15ce659e678095a367346a42d6540d95f94a9414877f7750b438acc447c08",
+      "source": "D:\\desktop-pet\\角色素材\\角色5.png",
+      "kind": "user-original",
+      "width": 84,
+      "height": 121,
+      "mode": "RGBA"
+    },
+    {
+      "path": "source-materials/角色6.png",
+      "bytes": 19442,
+      "sha256": "21e2d8fa0438bd4b497a2eab891768c2b60d7e9319871af3e175ba9f5d056fb1",
+      "source": "D:\\desktop-pet\\角色素材\\角色6.png",
+      "kind": "user-original",
+      "width": 89,
+      "height": 117,
+      "mode": "RGBA"
+    },
+    {
+      "path": "source-materials/角色7.png",
+      "bytes": 20485,
+      "sha256": "f841b26cdd696474d190fda003138efc32fc5bec80fea489b5962b7c3362eae3",
+      "source": "D:\\desktop-pet\\角色素材\\角色7.png",
+      "kind": "user-original",
+      "width": 91,
+      "height": 119,
+      "mode": "RGBA"
+    },
+    {
+      "path": "source-materials/角色8.png",
+      "bytes": 16967,
+      "sha256": "b24bf601ed9d46b01bec8543e9cfb7809ae137abb38381a69cb81eae4a60a425",
+      "source": "D:\\desktop-pet\\角色素材\\角色8.png",
+      "kind": "user-original",
+      "width": 79,
+      "height": 112,
+      "mode": "RGBA"
+    },
+    {
+      "path": "source-materials/角色9.png",
+      "bytes": 23296,
+      "sha256": "fee7c65b1afd1e45e57795d3faca27bd6f7045a7fa919deeb3445e92519ae305",
+      "source": "D:\\desktop-pet\\角色素材\\角色9.png",
+      "kind": "user-original",
+      "width": 91,
+      "height": 136,
+      "mode": "RGBA"
+    },
+    {
+      "path": "source-materials/跳舞视频.avi",
+      "bytes": 20138254,
+      "sha256": "a08755d27a2592104b99df4bc02f9313d7de6c0019b79a65f56c63854b7bb9fe",
+      "source": "D:\\desktop-pet\\角色素材\\跳舞视频.avi",
+      "kind": "user-original"
+    },
+    {
+      "path": "user-uploads/三视图.png",
+      "bytes": 1622906,
+      "sha256": "af0e82e8c9dd8cf711f55705d0abb2134d5f2e6499b4717d36db3e9521955219",
+      "source": "C:\\Users\\HP\\Desktop\\三视图.png",
+      "kind": "user-upload-snapshot",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "user-uploads/角色图.png",
+      "bytes": 1975736,
+      "sha256": "5516d6c7e4ef47e73b5ff4597d8aa9ee763a053f29b51a91b2b71e36c7802fa6",
+      "source": "C:\\Users\\HP\\Desktop\\角色图.png",
+      "kind": "user-upload-snapshot",
+      "width": 1226,
+      "height": 1283,
+      "mode": "RGB"
+    },
+    {
+      "path": "video-analysis/character-01.png",
+      "bytes": 1921524,
+      "sha256": "62d5972e9630a71513fd0e5c01d414f4d3ef2ebb9489da6f5b936793218e6bd5",
+      "source": "D:\\desktop-pet\\tmp\\character-analysis\\character-01.png",
+      "kind": "video-analysis-contact-sheet",
+      "width": 1200,
+      "height": 2310,
+      "mode": "RGB"
+    },
+    {
+      "path": "video-analysis/character-02.png",
+      "bytes": 1943148,
+      "sha256": "83a503eeb8f2bfa1789d19c5ce476592183d9e08f9b93e350a66636a5a3e460a",
+      "source": "D:\\desktop-pet\\tmp\\character-analysis\\character-02.png",
+      "kind": "video-analysis-contact-sheet",
+      "width": 1200,
+      "height": 2310,
+      "mode": "RGB"
+    },
+    {
+      "path": "video-analysis/detail-5s-01.png",
+      "bytes": 1528380,
+      "sha256": "122f1ec1ce384cab440c587d7e467c9478d0ffb40908032413c0fd5f77379e67",
+      "source": "D:\\desktop-pet\\tmp\\character-analysis\\detail-5s-01.png",
+      "kind": "video-analysis-contact-sheet",
+      "width": 2000,
+      "height": 1320,
+      "mode": "RGB"
+    },
+    {
+      "path": "video-analysis/detail-5s-02.png",
+      "bytes": 1377149,
+      "sha256": "eac3f24e67dcb01c348f08896fce89ea6a662f53da503e39b765e3681d02f4e5",
+      "source": "D:\\desktop-pet\\tmp\\character-analysis\\detail-5s-02.png",
+      "kind": "video-analysis-contact-sheet",
+      "width": 2000,
+      "height": 1320,
+      "mode": "RGB"
+    },
+    {
+      "path": "video-analysis/frame0000.png",
+      "bytes": 484098,
+      "sha256": "b46a9759cd2e96639a14da67e76722ce3c1405d8deaaa8d8282aaef9f9edc3e9",
+      "source": "D:\\desktop-pet\\tmp\\character-analysis\\frame0000.png",
+      "kind": "video-analysis-contact-sheet",
+      "width": 960,
+      "height": 600,
+      "mode": "RGB"
+    },
+    {
+      "path": "video-analysis/overview-01.png",
+      "bytes": 4841094,
+      "sha256": "348a7e358f45cfcd4434ca779c06e1cd31027e91658170cf9bca21382bc97806",
+      "source": "D:\\desktop-pet\\tmp\\character-analysis\\overview-01.png",
+      "kind": "video-analysis-contact-sheet",
+      "width": 1920,
+      "height": 2100,
+      "mode": "RGB"
+    },
+    {
+      "path": "video-analysis/overview-02.png",
+      "bytes": 4890641,
+      "sha256": "df3a6721dddef62fc8baae4b854f456006da36aae21341f0b1c1e5241235f217",
+      "source": "D:\\desktop-pet\\tmp\\character-analysis\\overview-02.png",
+      "kind": "video-analysis-contact-sheet",
+      "width": 1920,
+      "height": 2100,
+      "mode": "RGB"
+    },
+    {
+      "path": "case-study.md",
+      "bytes": 13698,
+      "sha256": "4b8914d5f05a8caf2cfae70da31c5b50dda4856dc25173f42380977c801bdf80",
+      "kind": "case-index-and-decisions"
+    }
+  ]
+}
