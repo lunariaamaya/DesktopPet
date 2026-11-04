@@ -1,0 +1,885 @@
+[
+  {
+    "file": "Anime_Cat_Girl_Model_191.glb",
+    "sha256": "a9bf8774099e61f77cf5c8cda5427dfa4e1106a9718d433606bc3f8eb0ca0ac5",
+    "bytes": 68794580,
+    "vertices": 1029836,
+    "triangles": 1910084,
+    "mesh_count": 1,
+    "primitive_count": 1,
+    "materials": 1,
+    "morph_targets": 0,
+    "geometry_bounds": [
+      [
+        -0.43682900071144104,
+        -0.9505900144577026,
+        -0.3286460041999817
+      ],
+      [
+        0.4387980103492737,
+        0.9501109719276428,
+        0.34402599930763245
+      ]
+    ],
+    "animations": []
+  },
+  {
+    "file": "Rigged Anime Cat Girl HD move.glb",
+    "sha256": "55a81668a5eaced8b16f3c0d4188f6bf6f78ebc3014e90e4688bf4c5afe71ab0",
+    "bytes": 43140268,
+    "vertices": 282040,
+    "triangles": 289825,
+    "mesh_count": 1,
+    "primitive_count": 1,
+    "materials": 1,
+    "morph_targets": 0,
+    "geometry_bounds": [
+      [
+        -0.3823033571243286,
+        0.0,
+        -0.29371851682662964
+      ],
+      [
+        0.3823033571243286,
+        1.659999966621399,
+        0.29371851682662964
+      ]
+    ],
+    "animations": [
+      {
+        "name": "Armature|clip0|baselayer",
+        "channels": [
+          {
+            "node": "Hips",
+            "path": "translation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "Hips",
+            "path": "rotation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "Hips",
+            "path": "scale",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "Spine02",
+            "path": "translation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "Spine02",
+            "path": "rotation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "Spine02",
+            "path": "scale",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "Spine01",
+            "path": "translation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "Spine01",
+            "path": "rotation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "Spine01",
+            "path": "scale",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "Spine",
+            "path": "translation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "Spine",
+            "path": "rotation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "Spine",
+            "path": "scale",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "neck",
+            "path": "translation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "neck",
+            "path": "rotation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "neck",
+            "path": "scale",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "Head",
+            "path": "translation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "Head",
+            "path": "rotation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "Head",
+            "path": "scale",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "head_end",
+            "path": "translation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "head_end",
+            "path": "rotation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "head_end",
+            "path": "scale",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "headfront",
+            "path": "translation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "headfront",
+            "path": "rotation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "headfront",
+            "path": "scale",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "LeftShoulder",
+            "path": "translation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "LeftShoulder",
+            "path": "rotation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "LeftShoulder",
+            "path": "scale",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "LeftArm",
+            "path": "translation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "LeftArm",
+            "path": "rotation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "LeftArm",
+            "path": "scale",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "LeftForeArm",
+            "path": "translation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "LeftForeArm",
+            "path": "rotation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "LeftForeArm",
+            "path": "scale",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "LeftHand",
+            "path": "translation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "LeftHand",
+            "path": "rotation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "LeftHand",
+            "path": "scale",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "RightShoulder",
+            "path": "translation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "RightShoulder",
+            "path": "rotation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "RightShoulder",
+            "path": "scale",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "RightArm",
+            "path": "translation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "RightArm",
+            "path": "rotation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "RightArm",
+            "path": "scale",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "RightForeArm",
+            "path": "translation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "RightForeArm",
+            "path": "rotation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "RightForeArm",
+            "path": "scale",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "RightHand",
+            "path": "translation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "RightHand",
+            "path": "rotation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "RightHand",
+            "path": "scale",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "LeftUpLeg",
+            "path": "translation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "LeftUpLeg",
+            "path": "rotation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "LeftUpLeg",
+            "path": "scale",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "LeftLeg",
+            "path": "translation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "LeftLeg",
+            "path": "rotation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "LeftLeg",
+            "path": "scale",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "LeftFoot",
+            "path": "translation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "LeftFoot",
+            "path": "rotation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "LeftFoot",
+            "path": "scale",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "LeftToeBase",
+            "path": "translation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "LeftToeBase",
+            "path": "rotation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "LeftToeBase",
+            "path": "scale",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "RightUpLeg",
+            "path": "translation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "RightUpLeg",
+            "path": "rotation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "RightUpLeg",
+            "path": "scale",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "RightLeg",
+            "path": "translation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "RightLeg",
+            "path": "rotation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "RightLeg",
+            "path": "scale",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "RightFoot",
+            "path": "translation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "RightFoot",
+            "path": "rotation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "RightFoot",
+            "path": "scale",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "RightToeBase",
+            "path": "translation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "RightToeBase",
+            "path": "rotation",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          },
+          {
+            "node": "RightToeBase",
+            "path": "scale",
+            "keys": 1,
+            "time_min": 0.03333333507180214,
+            "time_max": 0.03333333507180214,
+            "max_component_range": 0.0
+          }
+        ],
+        "effective_duration": 0.0
+      }
+    ],
+    "skin": {
+      "joint_count": 24,
+      "joints": [
+        "Hips",
+        "Spine02",
+        "Spine01",
+        "Spine",
+        "neck",
+        "Head",
+        "head_end",
+        "headfront",
+        "LeftShoulder",
+        "LeftArm",
+        "LeftForeArm",
+        "LeftHand",
+        "RightShoulder",
+        "RightArm",
+        "RightForeArm",
+        "RightHand",
+        "LeftUpLeg",
+        "LeftLeg",
+        "LeftFoot",
+        "LeftToeBase",
+        "RightUpLeg",
+        "RightLeg",
+        "RightFoot",
+        "RightToeBase"
+      ],
+      "max_weight_sum_error": 1.7881393432617188e-07,
+      "zero_weight_vertices": 0,
+      "invalid_joint_indices": 0,
+      "bind_joint_positions": {
+        "Hips": [
+          0.06307653337717056,
+          0.8939335346221924,
+          0.05707934498786926
+        ],
+        "Spine02": [
+          0.062125641852617264,
+          0.9966299533843994,
+          0.04747387394309044
+        ],
+        "Spine01": [
+          0.06117476150393486,
+          1.099326491355896,
+          0.03786841034889221
+        ],
+        "Spine": [
+          0.06019504740834236,
+          1.2051347494125366,
+          0.027971860021352768
+        ],
+        "neck": [
+          0.05874812975525856,
+          1.2721068859100342,
+          0.0217132605612278
+        ],
+        "Head": [
+          0.057313546538352966,
+          1.3385069370269775,
+          0.015508134849369526
+        ],
+        "head_end": [
+          0.07608700543642044,
+          1.5867644548416138,
+          0.040501344949007034
+        ],
+        "headfront": [
+          0.057313550263643265,
+          1.3385069370269775,
+          0.10961686074733734
+        ],
+        "LeftShoulder": [
+          0.08254648000001907,
+          1.2468148469924927,
+          0.023922136053442955
+        ],
+        "LeftArm": [
+          0.1736856997013092,
+          1.2465732097625732,
+          -0.01868630014359951
+        ],
+        "LeftForeArm": [
+          0.1936665028333664,
+          1.015856146812439,
+          0.02012600749731064
+        ],
+        "LeftHand": [
+          0.2563791275024414,
+          0.8396409749984741,
+          0.02773122861981392
+        ],
+        "RightShoulder": [
+          0.03182616084814072,
+          1.2468148469924927,
+          0.02425958216190338
+        ],
+        "RightArm": [
+          -0.07194405794143677,
+          1.2477037906646729,
+          -0.02811705321073532
+        ],
+        "RightForeArm": [
+          -0.09178813546895981,
+          1.0158565044403076,
+          0.031615566462278366
+        ],
+        "RightHand": [
+          -0.1579645276069641,
+          0.8418945074081421,
+          0.023951228708028793
+        ],
+        "LeftUpLeg": [
+          0.10588068515062332,
+          0.7909049391746521,
+          0.05707932636141777
+        ],
+        "LeftLeg": [
+          0.12292663753032684,
+          0.3787909150123596,
+          0.2639406621456146
+        ],
+        "LeftFoot": [
+          0.10885167866945267,
+          0.0938386470079422,
+          0.025573324412107468
+        ],
+        "LeftToeBase": [
+          0.10564806312322617,
+          0.03841343894600868,
+          0.05803772434592247
+        ],
+        "RightUpLeg": [
+          0.0032983922865241766,
+          0.7909049987792969,
+          0.05707932263612747
+        ],
+        "RightLeg": [
+          -0.02104843221604824,
+          0.37879082560539246,
+          0.263940691947937
+        ],
+        "RightFoot": [
+          -0.007955430075526237,
+          0.09342788904905319,
+          0.028280537575483322
+        ],
+        "RightToeBase": [
+          -0.0038590668700635433,
+          0.03747120127081871,
+          0.058649588376283646
+        ]
+      },
+      "weight_per_joint": {
+        "Hips": 10438.533203125,
+        "Spine02": 9292.7294921875,
+        "Spine01": 7342.26806640625,
+        "Spine": 8.086821556091309,
+        "neck": 114.89820861816406,
+        "Head": 57209.70703125,
+        "head_end": 6.662783622741699,
+        "headfront": 11.576634407043457,
+        "LeftShoulder": 2004.094482421875,
+        "LeftArm": 49875.79296875,
+        "LeftForeArm": 14201.802734375,
+        "LeftHand": 2697.874755859375,
+        "RightShoulder": 3687.96240234375,
+        "RightArm": 46571.76953125,
+        "RightForeArm": 14931.75390625,
+        "RightHand": 7201.6201171875,
+        "LeftUpLeg": 22961.62890625,
+        "LeftLeg": 3308.50634765625,
+        "LeftFoot": 172.07229614257812,
+        "LeftToeBase": 616.30908203125,
+        "RightUpLeg": 25540.103515625,
+        "RightLeg": 3022.8173828125,
+        "RightFoot": 311.0195007324219,
+        "RightToeBase": 510.4072265625
+      }
+    },
+    "spatial_weight_probes": {
+      "rear_upper_hair_candidate": {
+        "vertices": 44342,
+        "definition": "Manual XYZ box; may include nearby materials",
+        "average_weight": {
+          "LeftArm": 0.42161899976320416,
+          "RightArm": 0.3724451511123765,
+          "LeftForeArm": 0.06395876528601552,
+          "RightForeArm": 0.06222167902679739,
+          "Head": 0.05291442196626505,
+          "RightShoulder": 0.013399653137738346,
+          "Hips": 0.01016425578854768,
+          "LeftShoulder": 0.003277058777953887
+        }
+      },
+      "rear_low_hair_candidate": {
+        "vertices": 32142,
+        "definition": "Manual XYZ box; may include nearby materials",
+        "average_weight": {
+          "RightArm": 0.30899282748234397,
+          "LeftArm": 0.30083496671022336,
+          "RightForeArm": 0.1754129198653631,
+          "LeftForeArm": 0.15523709972543712,
+          "Hips": 0.051460634978911936,
+          "RightUpLeg": 0.007726441796911459,
+          "LeftUpLeg": 0.00020250715707087366,
+          "RightShoulder": 0.0001208378526731416
+        }
+      },
+      "lower_skirt_front_candidate": {
+        "vertices": 14147,
+        "definition": "Manual XYZ box; may include nearby materials",
+        "average_weight": {
+          "LeftUpLeg": 0.4841189690172828,
+          "RightUpLeg": 0.4798533506441295,
+          "LeftLeg": 0.013793931290851748,
+          "RightLeg": 0.012208470086828259,
+          "LeftHand": 0.005348742164098948,
+          "RightHand": 0.0034566078285804577,
+          "Hips": 0.0009579244937089136,
+          "RightForeArm": 0.00017620361575121726
+        }
+      },
+      "lower_skirt_rear_candidate": {
+        "vertices": 16194,
+        "definition": "Manual XYZ box; may include nearby materials",
+        "average_weight": {
+          "RightUpLeg": 0.3834196403760652,
+          "RightHand": 0.3351015663594541,
+          "LeftUpLeg": 0.22430450827659937,
+          "LeftHand": 0.030660342121913403,
+          "LeftLeg": 0.01136020803151196,
+          "RightLeg": 0.007660330939295852,
+          "RightForeArm": 0.005103462372824956,
+          "Hips": 0.002261143548114367
+        }
+      },
+      "tail_left_candidate": {
+        "vertices": 7144,
+        "definition": "Manual XYZ box; may include nearby materials",
+        "average_weight": {
+          "RightHand": 0.6145215007786254,
+          "RightUpLeg": 0.3767726167719415,
+          "RightForeArm": 0.0047378299751580765,
+          "RightLeg": 0.003952315246137766,
+          "Hips": 1.5765727859528575e-05,
+          "Spine02": 0.0,
+          "Spine01": 0.0,
+          "Spine": 0.0
+        }
+      }
+    }
+  }
+]
