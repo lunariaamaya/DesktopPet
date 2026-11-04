@@ -1,7 +1,7 @@
 {
   "snapshot_date": "2026-11-04",
   "scope": "User materials through 2D design, turnaround and pose branches; excludes 3D models and tool caches.",
-  "hash_note": "Hashes identify this packaged snapshot; Markdown links were rebased, so record hashes can differ from source records.",
+  "hash_note": "Hashes identify this packaged snapshot. Markdown links were rebased and text normalized to LF; source record hashes can differ. Git attributes preserve packaged bytes after checkout.",
   "files": [
     {
       "path": "concepts/design-shy-fullbody-v01.md",
@@ -219,8 +219,8 @@
     },
     {
       "path": "concepts/turnaround-v02-accessories-v10-qa.json",
-      "bytes": 942,
-      "sha256": "47212301a44be672d7e39161986e9a9df9930370989959cbb8bdc313b32550ad",
+      "bytes": 896,
+      "sha256": "e0ace656ead8171c0a787d25b78feac6d6da858fe61a924fdedbc9dd9ee71215",
       "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v02-accessories-v10-qa.json",
       "kind": "saved-artwork-or-record"
     },
@@ -243,8 +243,8 @@
     },
     {
       "path": "concepts/turnaround-v02-accessories-v11-qa.json",
-      "bytes": 2273,
-      "sha256": "a82817658ce065c355f7ba7a4e56139fce4581aec2045f801d3ea6691e948c03",
+      "bytes": 2167,
+      "sha256": "3f6c8e2f5c559dbf000c0c3c8352e5cc6744d763b205ef1230c060bc0c67daaf",
       "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v02-accessories-v11-qa.json",
       "kind": "saved-artwork-or-record"
     },
@@ -267,8 +267,8 @@
     },
     {
       "path": "concepts/turnaround-v02-accessories-v12-qa.json",
-      "bytes": 417,
-      "sha256": "842ac94f7fd536a83c80cd59f8d596d347752e9bf6f282845e8cfb5edeaee0bb",
+      "bytes": 401,
+      "sha256": "a98a997c683baafd9e7e0291471dfccbee74a0437c38598aaffb40386289b502",
       "source": "D:\\desktop-pet\\assets\\characters\\first-character\\concepts\\turnaround-v02-accessories-v12-qa.json",
       "kind": "saved-artwork-or-record"
     },
@@ -681,6 +681,12 @@
       "bytes": 13698,
       "sha256": "4b8914d5f05a8caf2cfae70da31c5b50dda4856dc25173f42380977c801bdf80",
       "kind": "case-index-and-decisions"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 124,
+      "sha256": "ba04eb06d8d714a134302f82a60d7af2ad41fcb0e17e3840c8993d2cc5a33fe5",
+      "kind": "portable-text-and-binary-policy"
     }
   ]
 }
