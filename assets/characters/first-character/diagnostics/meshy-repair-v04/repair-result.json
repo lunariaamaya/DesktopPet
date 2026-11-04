@@ -1,0 +1,156 @@
+{
+  "original_group_count": 24,
+  "new_controls": [
+    "HairRoot",
+    "HairTip",
+    "TailRoot",
+    "TailMid",
+    "TailTip"
+  ],
+  "changed_vertices": 233850,
+  "max_weight_sum_error": 3.3306690738754696e-16,
+  "hair_mask_strong_vertices": 153633,
+  "tail_mask_strong_vertices": 6133,
+  "skirt_upper_limb_weight_removed_total": 42143.560478915526,
+  "source_sha256": "55a81668a5eaced8b16f3c0d4188f6bf6f78ebc3014e90e4688bf4c5afe71ab0",
+  "source": "C:\\Users\\HP\\Downloads\\Rigged Anime Cat Girl HD move.glb",
+  "before": {
+    "rest": {
+      "hair": {
+        "n": 90821,
+        "median_m": 0.0,
+        "p95_m": 0.0,
+        "max_m": 0.0
+      },
+      "tail": {
+        "n": 6133,
+        "median_m": 0.0,
+        "p95_m": 0.0,
+        "max_m": 0.0
+      }
+    },
+    "raise-arm": {
+      "hair": {
+        "n": 90821,
+        "median_m": 0.05003099521363412,
+        "p95_m": 0.2958131211308043,
+        "max_m": 0.355076639409554
+      },
+      "tail": {
+        "n": 6133,
+        "median_m": 0.44831080174707383,
+        "p95_m": 0.5296135031422723,
+        "max_m": 0.5447726754439214
+      }
+    },
+    "head-turn": {
+      "hair": {
+        "n": 90821,
+        "median_m": 0.0,
+        "p95_m": 0.009643725546477487,
+        "max_m": 0.029836555126536077
+      },
+      "tail": {
+        "n": 6133,
+        "median_m": 0.0,
+        "p95_m": 0.0,
+        "max_m": 0.0
+      }
+    },
+    "step": {
+      "hair": {
+        "n": 90821,
+        "median_m": 0.0,
+        "p95_m": 0.0,
+        "max_m": 0.0
+      },
+      "tail": {
+        "n": 6133,
+        "median_m": 0.0,
+        "p95_m": 0.0,
+        "max_m": 0.0
+      }
+    }
+  },
+  "after": {
+    "rest": {
+      "hair": {
+        "n": 90821,
+        "median_m": 0.0,
+        "p95_m": 0.0,
+        "max_m": 0.0
+      },
+      "tail": {
+        "n": 6133,
+        "median_m": 0.0,
+        "p95_m": 0.0,
+        "max_m": 0.0
+      }
+    },
+    "raise-arm": {
+      "hair": {
+        "n": 90821,
+        "median_m": 0.0,
+        "p95_m": 0.0,
+        "max_m": 0.005221831921753419
+      },
+      "tail": {
+        "n": 6133,
+        "median_m": 0.0,
+        "p95_m": 0.0,
+        "max_m": 0.0
+      }
+    },
+    "head-turn": {
+      "hair": {
+        "n": 90821,
+        "median_m": 0.0746798484820767,
+        "p95_m": 0.1038937627095397,
+        "max_m": 0.12503883370020996
+      },
+      "tail": {
+        "n": 6133,
+        "median_m": 0.0,
+        "p95_m": 0.0,
+        "max_m": 0.0
+      }
+    },
+    "step": {
+      "hair": {
+        "n": 90821,
+        "median_m": 0.0,
+        "p95_m": 0.0,
+        "max_m": 0.0
+      },
+      "tail": {
+        "n": 6133,
+        "median_m": 0.0,
+        "p95_m": 0.0,
+        "max_m": 0.0
+      }
+    }
+  },
+  "rest_max_vertex_difference_m": 2.2908042680760732e-07,
+  "limitations": [
+    "Spatial masks require artist review; blended boundaries remain.",
+    "No cloth/physics/collision; original thigh-skirt weights remain.",
+    "No face, finger or topology repair; diagnostic motion is newly scripted."
+  ],
+  "outputs": [
+    {
+      "name": "character-weight-repair-v04-motion-check.glb",
+      "bytes": 38587824,
+      "sha256": "52d80c2cb6702b63749cc17f134b6536befdfa000e878fbd5be9f6b725f1ac01"
+    },
+    {
+      "name": "character-weight-repair-v04.blend",
+      "bytes": 66585141,
+      "sha256": "9a1f3e028ad61ac7d777ddfb0ba8a42137b826b38d68161a379654ee7eea9cc0"
+    },
+    {
+      "name": "character-weight-repair-v04.glb",
+      "bytes": 38557488,
+      "sha256": "f3a794a603fe18bd19911f586e77b764e1bef942b2731bead20e7465f5674de5"
+    }
+  ]
+}

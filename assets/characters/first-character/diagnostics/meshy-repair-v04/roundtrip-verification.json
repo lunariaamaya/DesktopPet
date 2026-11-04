@@ -1,0 +1,48 @@
+{
+  "frames": [
+    {
+      "frame": 1.0,
+      "time_seconds": 0.0
+    },
+    {
+      "frame": 16.0,
+      "time_seconds": 0.5
+    },
+    {
+      "frame": 31.0,
+      "time_seconds": 1.0
+    },
+    {
+      "frame": 46.0,
+      "time_seconds": 1.5
+    },
+    {
+      "frame": 61.0,
+      "time_seconds": 2.0
+    },
+    {
+      "frame": 76.0,
+      "time_seconds": 2.5
+    },
+    {
+      "frame": 91.0,
+      "time_seconds": 3.0
+    }
+  ],
+  "max_displacement_m": [
+    0.0,
+    0.5212732459398349,
+    0.0,
+    0.1250387876584116,
+    0.0,
+    0.10168020993833757,
+    0.0
+  ],
+  "animation_frame_range": [
+    1.0,
+    91.0
+  ],
+  "bone_count": 29,
+  "passed": true,
+  "elbow_test_hem_max_m": 0.0
+}

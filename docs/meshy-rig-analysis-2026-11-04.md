@@ -77,6 +77,8 @@ Meshy官方也说明自动绑定需要清晰A/T姿态，并且面部骨骼、尾
 
 ## 复现与边界
 
+后续已完成第一轮本地权重试修，交付及剩余问题见 [试修记录](meshy-rig-repair-2026-11-04.md)。本文保留原文件诊断结论，未将试修结果追写成原模型本来具备的能力。
+
 - [结构检查脚本](../scripts/analyze-meshy-glb.py)：使用Python/NumPy读取原GLB，输出tmp/meshy-diagnostics/glb-analysis.json，原件只读。
 - [诊断渲染脚本](../scripts/render-meshy-diagnostics.py)：使用项目现有隔离bpy运行时；原导入静止图、受控骨骼旋转和主导骨骼着色均单独保存。不输出或覆盖修复模型。
 - [静态原模型预览](../assets/characters/first-character/diagnostics/meshy-2026-11-04/static-front.png)、[抬臂试验](../assets/characters/first-character/diagnostics/meshy-2026-11-04/probe-right-upper-arm.png)、[抬腿试验](../assets/characters/first-character/diagnostics/meshy-2026-11-04/probe-left-thigh.png)、[背部骨骼归属](../assets/characters/first-character/diagnostics/meshy-2026-11-04/weights-back.png)。

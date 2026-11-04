@@ -1,0 +1,45 @@
+{
+  "character-weight-repair-v04.glb": {
+    "sha256": "f3a794a603fe18bd19911f586e77b764e1bef942b2731bead20e7465f5674de5",
+    "bytes": 38557488,
+    "triangles": 289825,
+    "vertices": 282048,
+    "position_scale_ratio": 0.9999996423721313,
+    "geometry_preserved": true,
+    "uv_preserved": true,
+    "max_vertex_nearest_error_m": 8.38711684991722e-07,
+    "max_uv_nearest_error": 0.0,
+    "textures_identical_pixels": {
+      "baseColorTexture": true,
+      "metallicRoughnessTexture": true
+    },
+    "joint_count": 29,
+    "max_weight_sum_error": 1.7881393432617188e-07,
+    "animations": []
+  },
+  "character-weight-repair-v04-motion-check.glb": {
+    "sha256": "52d80c2cb6702b63749cc17f134b6536befdfa000e878fbd5be9f6b725f1ac01",
+    "bytes": 38587824,
+    "triangles": 289825,
+    "vertices": 282048,
+    "position_scale_ratio": 0.9999996423721313,
+    "geometry_preserved": true,
+    "uv_preserved": true,
+    "max_vertex_nearest_error_m": 8.38711684991722e-07,
+    "max_uv_nearest_error": 0.0,
+    "textures_identical_pixels": {
+      "baseColorTexture": true,
+      "metallicRoughnessTexture": true
+    },
+    "joint_count": 29,
+    "max_weight_sum_error": 1.7881393432617188e-07,
+    "animations": [
+      {
+        "name": "Animation",
+        "max_duration": 3.0,
+        "varying_tracks": 6
+      }
+    ]
+  },
+  "original_unchanged": true
+}

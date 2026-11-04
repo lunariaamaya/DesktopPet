@@ -1,0 +1,19 @@
+{
+  "bones": 29,
+  "max_bone_display_length_m": 0.2563201084065412,
+  "packed_images": [
+    [
+      "texture_0",
+      true
+    ],
+    [
+      "texture_0_metallic_roughness",
+      true
+    ]
+  ],
+  "action": "RepairDiagnostic_NotOriginal",
+  "frames": [
+    1.0,
+    91.0
+  ]
+}

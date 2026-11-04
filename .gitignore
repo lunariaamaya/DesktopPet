@@ -18,6 +18,8 @@ secrets*.json
 .DS_Store
 Thumbs.db
 node_modules/
+__pycache__/
+*.py[cod]
 bin/
 obj/
 dist/
