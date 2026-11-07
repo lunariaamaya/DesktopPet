@@ -2,6 +2,8 @@
 
 版本：1.0 · 日期：2026-11-03。范围止于二维美术冻结与三维交接，不承诺自动产出生产级三维模型。既包含下次可执行的流程，也保留本次实际版本与失败经验。
 
+2026-11-07 项目路线已变更为二维，当前端到端流程以 [二维角色管线](character-2d-pipeline.md) 为准。本文继续保留外观整理、局部修订与配色经验；三视图不再是进入三维制作的必经阶段，不能据历史 SOP 宣称二维分层/绑定已经完成。可复用通用 skill 的原案例不在本次路线决定中重写或覆盖。
+
 复用入口：[character-reference-to-turnaround skill](../skills/character-reference-to-turnaround/SKILL.md)。完整操作与提示词骨架见 [制作流程](../skills/character-reference-to-turnaround/references/workflow.md)，新角色直接复制 [工作簿模板](../skills/character-reference-to-turnaround/assets/character-workbook.md)。三者分别承担入口、操作细节和填写记录，避免维护多套重复规则。
 
 ## 1. 流程、产物与验收关口

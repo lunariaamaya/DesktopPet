@@ -1,6 +1,6 @@
 # 模块与数据接口契约
 
-版本：0.2 · 日期：2026-10-31 · 状态：设计草案，未实现
+版本：0.3 · 日期：2026-11-07 · 状态：设计草案，未实现
 上位需求：[PRD](./PRD.md)。接口使用 TypeScript 风格说明，与最终语言无关；WPF/C# 可等价映射。接口名不是已经可调用的 API。
 
 ## 1. 设计原则与依赖
@@ -91,9 +91,15 @@ interface DomainEvent<T> {
 
 ### 4.1 角色、场景与内容能力
 
+当前二维制作与验收以 [二维管线](character-2d-pipeline.md) 为准；旧三维文件保留历史，不作为首版运行时支持承诺。
+
 ```ts
 interface CharacterCapabilities {
-  renderer: 'sprite2d' | 'live2d' | 'model3d';
+  renderer: 'sprite2d' | 'live2d';
+  baseTemplateId: BaseTemplateId;
+  templateRevision: string;
+  rigProfileVersion: string;
+  poseSetVersion: string;
   actionIds: string[];
   expressionIds: string[];
   hotspots: Array<{ id: string; polygon: number[][]; actionId: string }>;
@@ -107,9 +113,56 @@ interface ActionRequest {
 }
 interface Hotspot { id: string; polygon: number[][]; actionId: string; labelKey: string }
 interface SceneAction { actionId: string; targetId: string; value?: string | boolean }
+
+type BaseTemplateId = 'base-a' | 'base-b'; // 恰好两类，不从外观名称推断
+interface BodyLandmark {
+  id: string;
+  x: number; y: number; // 标准画布归一化坐标，非真实厘米尺寸
+  evidence: 'visible' | 'inferred' | 'user_confirmed';
+  sourceRefIds: string[];
+}
+interface BaseTemplateSpec {
+  id: BaseTemplateId;
+  revision: string;
+  status: 'draft' | 'approved';
+  designSize: { width: number; height: number };
+  landmarks: BodyLandmark[];
+  ratioMeasurements: Array<{ id: string; value?: number;
+    evidence: 'visible' | 'inferred' | 'user_confirmed' }>;
+  rigProfileVersion: string;
+  poseSetVersion: string;
+}
+interface AppearanceCompatibility {
+  baseTemplateId: BaseTemplateId;
+  templateRevisions: string[];
+  rigProfileVersion: string;
+  poseSetVersion: string;
+  slotId: string;
+  supportedActionIds: string[];
+  occlusionMaskAssetIds: string[];
+}
+type CreationStage = 'reference' | 'appearance' | 'layers' | 'rig_motion' | 'qa_preview';
+interface CreationJob {
+  id: string;
+  baseTemplateId?: BaseTemplateId; // 无法判断时待确认，不自动分到 A
+  stage: CreationStage;
+  state: 'pending' | 'running' | 'needs_review' | 'failed' | 'complete';
+  artifactIds: string[];
+  unresolvedEvidenceIds: string[];
+}
+// 未来创作端接口；MVP 不部署用户上传/生成服务。
+interface CharacterCreation {
+  createJob(referenceAssetIds: string[]): Promise<Result<CreationJob>>;
+  runStage(jobId: string, stage: CreationStage): Promise<Result<CreationJob>>;
+  getPreview(jobId: string): Promise<Result<{ videoAssetId?: string;
+    interactivePreviewId?: string; qaReportAssetId: string }>>;
+  approveBaseline(jobId: string, artifactId: string): Promise<Result<CreationJob>>;
+}
 ```
 
 热点使用内容 manifest 的 designWidth/designHeight 坐标；宿主维护唯一缩放变换，输入与渲染共用。Character 只执行自身动作；Scene 只修改物件状态。Interaction 中的语义映射如「头部点击→回应动作＋本地台词」不能包含系统工具执行。
+
+二维大姿态切换需声明 entryPose、exitPose、接地/家具锚点、图层顺序及可打断规则；不能把不兼容动作强制混合。坐姿热点可随姿态切换，输入与显示共用当前变换。Wardrobe 按 AppearanceCompatibility 检查，不匹配返回不兼容结果并保留原装备；不得直接拉伸服装凑合适配。有限捏脸参数必须在模板允许范围内，范围外进入新修订审阅。模型参数名、编辑器命令和 MCP 细节封装在适配器，不暴露给 Conversation/Memory。
 
 ### 4.2 对话与模型
 
