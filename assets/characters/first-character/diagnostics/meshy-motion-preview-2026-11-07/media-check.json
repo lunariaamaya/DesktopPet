@@ -1,0 +1,10 @@
+{
+  "gif_decoded_frames": 43,
+  "gif_duration_ms": 5750,
+  "mp4_decoded_size": [
+    720,
+    580
+  ],
+  "mp4_decoded_frames": 46,
+  "model_unchanged": true
+}
