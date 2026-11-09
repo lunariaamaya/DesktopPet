@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-09",
+  "kind": "work_in_progress_index_not_runtime_manifest",
+  "approvedBaselines": {
+    "base-a": null,
+    "base-b": null
+  },
+  "candidates": [
+    {
+      "templateId": "base-a",
+      "displayName": "魔法师",
+      "revision": "draft-01",
+      "artifact": "base-a-mage/v01/base-a-mage-mannequin-v01.png",
+      "sha256": "c5a9b0ed86ec66e3894b0fc982f0eed0d7a3bb08730f654f0c5f046be5aff564",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "prompt": "base-a-mage/v01/mannequin-prompt.txt",
+      "method": "built-in image_gen",
+      "referenceImagesUsedForGeneration": [],
+      "kind": "independent_mechanical_proportion_sketch",
+      "approval": "not_reviewed",
+      "referenceFit": "not_verified",
+      "layers": null,
+      "rig": null,
+      "runtimeLoadable": false,
+      "manualReview": {
+        "views": "front, left side, back",
+        "limits": [
+          "Mechanical sketch, not a human base or exact reconstruction",
+          "Proportions not approved; do not proceed to binding",
+          "No PSD/CMO3/MOC3 or animation delivered"
+        ]
+      }
+    },
+    {
+      "templateId": "base-b",
+      "displayName": "弓箭手",
+      "revision": "draft-01",
+      "artifact": "base-b-archer/v01/base-b-archer-mannequin-v01.png",
+      "sha256": "6b2dfae19265d9df48bf94634f9401188f248e1c193f85aa8c2e3edbdff5e939",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "prompt": "base-b-archer/v01/mannequin-prompt.txt",
+      "method": "built-in image_gen",
+      "referenceImagesUsedForGeneration": [],
+      "kind": "independent_mechanical_proportion_sketch",
+      "approval": "not_reviewed",
+      "referenceFit": "not_verified",
+      "layers": null,
+      "rig": null,
+      "runtimeLoadable": false,
+      "manualReview": {
+        "views": "front, left side, back",
+        "limits": [
+          "Mechanical sketch, not a human base or exact reconstruction",
+          "Proportions not approved; do not proceed to binding",
+          "No PSD/CMO3/MOC3 or animation delivered"
+        ]
+      }
+    }
+  ]
+}

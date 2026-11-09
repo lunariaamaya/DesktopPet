@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-09",
+  "attempts": [
+    {
+      "templateId": "base-a",
+      "method": "built-in image_gen with mage references and a covered-unitard prompt",
+      "prompt": "base-a-mage/v01/prompt.txt",
+      "status": "blocked",
+      "output": null,
+      "reason": "Tool rejected at input moderation stage, category sexual.",
+      "requestId": "19568475-4c3c-4b57-954c-c55aa6a1a166"
+    },
+    {
+      "templateId": "base-a",
+      "method": "built-in image_gen, independent nonhuman mechanical mannequin",
+      "prompt": "base-a-mage/v01/mannequin-prompt.txt",
+      "referenceImagesUsed": [],
+      "status": "generated_not_approved",
+      "output": "base-a-mage/v01/base-a-mage-mannequin-v01.png",
+      "note": "A structure sketch, not human body recovery, a layered model or a rig."
+    },
+    {
+      "templateId": "base-b",
+      "method": "built-in image_gen, independent nonhuman mechanical mannequin",
+      "prompt": "base-b-archer/v01/mannequin-prompt.txt",
+      "referenceImagesUsed": [],
+      "status": "generated_not_approved",
+      "output": "base-b-archer/v01/base-b-archer-mannequin-v01.png",
+      "note": "A structure sketch, not human body recovery, a layered model or a rig."
+    }
+  ],
+  "nextScope": "Independent nonhuman mechanical proportion mannequins without input images; not nude edits, not exact reference reconstruction."
+}

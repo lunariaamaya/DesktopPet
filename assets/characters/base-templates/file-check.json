@@ -1,0 +1,14 @@
+{
+  "sourceReferences": 17,
+  "allOriginalHashesUnchanged": true,
+  "candidateCount": 2,
+  "generatedFilesCopiedWithoutPixelChanges": true,
+  "notChecked": [
+    "reference fidelity",
+    "anatomy",
+    "view registration",
+    "layering",
+    "rigging",
+    "animation"
+  ]
+}

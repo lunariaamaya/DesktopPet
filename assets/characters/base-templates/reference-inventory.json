@@ -1,0 +1,260 @@
+{
+  "date": "2026-11-09",
+  "references": [
+    {
+      "templateId": "base-a",
+      "label": "魔法师",
+      "source": "素体参考图/魔法师/魔法师素体1.png",
+      "bytes": 20164,
+      "sha256": "f80610ae0e17bb076d85437e01edc2895c016d727db9631a924157a3d25578d5",
+      "width": 90,
+      "height": 118,
+      "mode": "RGBA",
+      "review": "visually_inspected",
+      "limitations": [
+        "Low-resolution game/pixel image",
+        "Pose, hairstyle and/or equipment obscure body landmarks; not an exact body recovery source"
+      ]
+    },
+    {
+      "templateId": "base-a",
+      "label": "魔法师",
+      "source": "素体参考图/魔法师/魔法师素体2.png",
+      "bytes": 18864,
+      "sha256": "2cce74152945b301481d22e9bb54874632cf78b5a968906248454b4540788705",
+      "width": 87,
+      "height": 113,
+      "mode": "RGBA",
+      "review": "visually_inspected",
+      "limitations": [
+        "Low-resolution game/pixel image",
+        "Pose, hairstyle and/or equipment obscure body landmarks; not an exact body recovery source"
+      ]
+    },
+    {
+      "templateId": "base-a",
+      "label": "魔法师",
+      "source": "素体参考图/魔法师/魔法师素体3.png",
+      "bytes": 20201,
+      "sha256": "f42679b94dc3a2c03a77fa695eae1735ea4b04dc974d13ae4e05eb3564c5b2ff",
+      "width": 90,
+      "height": 116,
+      "mode": "RGBA",
+      "review": "visually_inspected",
+      "limitations": [
+        "Low-resolution game/pixel image",
+        "Pose, hairstyle and/or equipment obscure body landmarks; not an exact body recovery source"
+      ]
+    },
+    {
+      "templateId": "base-a",
+      "label": "魔法师",
+      "source": "素体参考图/魔法师/魔法师素体4.png",
+      "bytes": 18686,
+      "sha256": "f321f932ed53fcad3c91304776f422715e078cf8d948faa337b7dcd413808020",
+      "width": 84,
+      "height": 117,
+      "mode": "RGBA",
+      "review": "visually_inspected",
+      "limitations": [
+        "Low-resolution game/pixel image",
+        "Pose, hairstyle and/or equipment obscure body landmarks; not an exact body recovery source"
+      ]
+    },
+    {
+      "templateId": "base-a",
+      "label": "魔法师",
+      "source": "素体参考图/魔法师/魔法师素体5.png",
+      "bytes": 20694,
+      "sha256": "bf8426c2499ab8f9e71983c35af1aa367bfb8ff036d8bf531141de1f41136425",
+      "width": 87,
+      "height": 124,
+      "mode": "RGBA",
+      "review": "visually_inspected",
+      "limitations": [
+        "Low-resolution game/pixel image",
+        "Pose, hairstyle and/or equipment obscure body landmarks; not an exact body recovery source"
+      ]
+    },
+    {
+      "templateId": "base-a",
+      "label": "魔法师",
+      "source": "素体参考图/魔法师/魔法师素体6.png",
+      "bytes": 21641,
+      "sha256": "43077f3877ae4ddf88f3c539915b6ab9b4e5ba0b01d48314265223be3b1dcc9d",
+      "width": 92,
+      "height": 123,
+      "mode": "RGBA",
+      "review": "visually_inspected",
+      "limitations": [
+        "Low-resolution game/pixel image",
+        "Pose, hairstyle and/or equipment obscure body landmarks; not an exact body recovery source"
+      ]
+    },
+    {
+      "templateId": "base-a",
+      "label": "魔法师",
+      "source": "素体参考图/魔法师/魔法师素体7.png",
+      "bytes": 25524,
+      "sha256": "a9abeea98a7af1def9b6567d7994e1374d92d947f17a880175189439951ba8d0",
+      "width": 95,
+      "height": 136,
+      "mode": "RGBA",
+      "review": "visually_inspected",
+      "limitations": [
+        "Low-resolution game/pixel image",
+        "Pose, hairstyle and/or equipment obscure body landmarks; not an exact body recovery source"
+      ]
+    },
+    {
+      "templateId": "base-a",
+      "label": "魔法师",
+      "source": "素体参考图/魔法师/魔法师素体8.png",
+      "bytes": 1670,
+      "sha256": "9954753a6da0c80aa7ad89e410c94b653f6b1398c969a99e2343e9142c5a908f",
+      "width": 75,
+      "height": 90,
+      "mode": "RGBA",
+      "review": "visually_inspected",
+      "limitations": [
+        "Low-resolution game/pixel image",
+        "Pose, hairstyle and/or equipment obscure body landmarks; not an exact body recovery source"
+      ]
+    },
+    {
+      "templateId": "base-b",
+      "label": "弓箭手",
+      "source": "素体参考图/弓箭手/弓箭手素体1.png",
+      "bytes": 36694,
+      "sha256": "404f8e077f4244fd7f05949e5a63e16cda61c0434dd45b9a1f729fc39ff90186",
+      "width": 129,
+      "height": 149,
+      "mode": "RGBA",
+      "review": "visually_inspected",
+      "limitations": [
+        "Low-resolution game/pixel image",
+        "Pose, hairstyle and/or equipment obscure body landmarks; not an exact body recovery source"
+      ]
+    },
+    {
+      "templateId": "base-b",
+      "label": "弓箭手",
+      "source": "素体参考图/弓箭手/弓箭手素体2.png",
+      "bytes": 33950,
+      "sha256": "c5ed945289b5820ece87a32ed5edfc0e6813d3114705ef70d31d874b65aeac7e",
+      "width": 119,
+      "height": 147,
+      "mode": "RGBA",
+      "review": "visually_inspected",
+      "limitations": [
+        "Low-resolution game/pixel image",
+        "Pose, hairstyle and/or equipment obscure body landmarks; not an exact body recovery source"
+      ]
+    },
+    {
+      "templateId": "base-b",
+      "label": "弓箭手",
+      "source": "素体参考图/弓箭手/弓箭手素体3.png",
+      "bytes": 35531,
+      "sha256": "3b6446fdd6a20cb39d35d40c6ed2ba14bb56928ca6bf22b5ed6ef7371f4a90bc",
+      "width": 132,
+      "height": 139,
+      "mode": "RGBA",
+      "review": "visually_inspected",
+      "limitations": [
+        "Low-resolution game/pixel image",
+        "Pose, hairstyle and/or equipment obscure body landmarks; not an exact body recovery source"
+      ]
+    },
+    {
+      "templateId": "base-b",
+      "label": "弓箭手",
+      "source": "素体参考图/弓箭手/弓箭手素体4.png",
+      "bytes": 37064,
+      "sha256": "3e1d7c266e64d4819b6352ef0dbe92ff90b86ff180caef3c555f7f8dcbaafc33",
+      "width": 123,
+      "height": 158,
+      "mode": "RGBA",
+      "review": "visually_inspected",
+      "limitations": [
+        "Low-resolution game/pixel image",
+        "Pose, hairstyle and/or equipment obscure body landmarks; not an exact body recovery source"
+      ]
+    },
+    {
+      "templateId": "base-b",
+      "label": "弓箭手",
+      "source": "素体参考图/弓箭手/弓箭手素体5.png",
+      "bytes": 33536,
+      "sha256": "56c8c32ce3a3b5724bda5fdee40f0bf085448acc19aabff2925acf1becd6e483",
+      "width": 126,
+      "height": 139,
+      "mode": "RGBA",
+      "review": "visually_inspected",
+      "limitations": [
+        "Low-resolution game/pixel image",
+        "Pose, hairstyle and/or equipment obscure body landmarks; not an exact body recovery source"
+      ]
+    },
+    {
+      "templateId": "base-b",
+      "label": "弓箭手",
+      "source": "素体参考图/弓箭手/弓箭手素体6.png",
+      "bytes": 31025,
+      "sha256": "ed2afa654280d51e0687d1ab2c53d09f32fc8a97eaa37884cd6e0bbcd1f74049",
+      "width": 128,
+      "height": 123,
+      "mode": "RGBA",
+      "review": "visually_inspected",
+      "limitations": [
+        "Low-resolution game/pixel image",
+        "Pose, hairstyle and/or equipment obscure body landmarks; not an exact body recovery source"
+      ]
+    },
+    {
+      "templateId": "base-b",
+      "label": "弓箭手",
+      "source": "素体参考图/弓箭手/弓箭手素体7.png",
+      "bytes": 38593,
+      "sha256": "1930f22b78dcbc71011e0829a6979952f93a457c6814556a5f7ada3594d05c1e",
+      "width": 143,
+      "height": 140,
+      "mode": "RGBA",
+      "review": "visually_inspected",
+      "limitations": [
+        "Low-resolution game/pixel image",
+        "Pose, hairstyle and/or equipment obscure body landmarks; not an exact body recovery source"
+      ]
+    },
+    {
+      "templateId": "base-b",
+      "label": "弓箭手",
+      "source": "素体参考图/弓箭手/弓箭手素体8.png",
+      "bytes": 41420,
+      "sha256": "6045c3feb973067a02f2d76660518d5d127694dc1bb7f547e66baa23b88c69b4",
+      "width": 119,
+      "height": 182,
+      "mode": "RGBA",
+      "review": "visually_inspected",
+      "limitations": [
+        "Low-resolution game/pixel image",
+        "Pose, hairstyle and/or equipment obscure body landmarks; not an exact body recovery source"
+      ]
+    },
+    {
+      "templateId": "base-b",
+      "label": "弓箭手",
+      "source": "素体参考图/弓箭手/弓箭手素体9.png",
+      "bytes": 28835,
+      "sha256": "1da22c31784959650af2cb5494f4b80c0473a45fb125bf85cd05d78ea945ae04",
+      "width": 109,
+      "height": 137,
+      "mode": "RGBA",
+      "review": "visually_inspected",
+      "limitations": [
+        "Low-resolution game/pixel image",
+        "Pose, hairstyle and/or equipment obscure body landmarks; not an exact body recovery source"
+      ]
+    }
+  ]
+}
