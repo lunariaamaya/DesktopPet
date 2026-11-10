@@ -1,4 +1,8 @@
-"""Read-only inventory of the user-supplied A/B base reference images."""
+"""Read-only inventory of the original 2026-11-09 A/B reference set.
+
+Retain original source paths and track the user's 2026-11-10 archive relocation.
+New reference sets are indexed separately, not mixed into this historical set.
+"""
 from pathlib import Path
 import hashlib,json
 from PIL import Image
@@ -11,9 +15,12 @@ def main():
     records=[]
     for template_id,label in GROUPS:
         folder=ROOT/'素体参考图'/label
-        for path in sorted(folder.glob('*.png')):
+        source_folder=folder if list(folder.glob('*.png')) else folder/'穿太少了'
+        for path in sorted(source_folder.glob('*.png')):
             with Image.open(path) as image:
-                records.append({'templateId':template_id,'label':label,'source':path.relative_to(ROOT).as_posix(),
+                records.append({'templateId':template_id,'label':label,
+                    'source':(folder/path.name).relative_to(ROOT).as_posix(),
+                    'currentSource':path.relative_to(ROOT).as_posix(),
                     'bytes':path.stat().st_size,'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),
                     'width':image.width,'height':image.height,'mode':image.mode,
                     'review':'visually_inspected','limitations':['Low-resolution game/pixel image',
@@ -21,7 +28,7 @@ def main():
     assert len([r for r in records if r['templateId']=='base-a'])==8
     assert len([r for r in records if r['templateId']=='base-b'])==9
     OUT.parent.mkdir(parents=True,exist_ok=True)
-    OUT.write_text(json.dumps({'date':'2026-11-09','references':records},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    for item in records:print(item['source'],item['width'],item['height'])
+    OUT.write_text(json.dumps({'date':'2026-11-09','pathReviewDate':'2026-11-10','references':records},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    for item in records:print(item['currentSource'],item['width'],item['height'])
 
 if __name__=='__main__':main()

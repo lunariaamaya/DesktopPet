@@ -19,7 +19,9 @@ def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
 
 def main():
     references=json.loads((BASE/'reference-inventory.json').read_text(encoding='utf-8'))['references']
-    for item in references:assert sha(ROOT/item['source'])==item['sha256'],item['source']
+    for item in references:
+        current=item.get('currentSource',item['source'])
+        assert sha(ROOT/current)==item['sha256'],current
     records=[]
     for tid,label,folder,name,source_name in ITEMS:
         path=BASE/folder/name

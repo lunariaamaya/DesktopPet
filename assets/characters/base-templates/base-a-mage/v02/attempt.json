@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-10",
+  "templateId": "base-a",
+  "label": "魔法师",
+  "scope": "One fully clothed, opaque neutral-unitard front-view 2D reference candidate",
+  "references": [
+    {
+      "source": "素体参考图/魔法师/新素体参考图/新魔法师素体1.png",
+      "sha256": "1dbbb5ba02d3f8e932294117af21c1620cc6ba00fd9fb891ef9f5a449e9c5a36",
+      "bytes": 23506,
+      "width": 96,
+      "height": 129,
+      "visuallyInspected": true,
+      "usedAsGenerationReference": true
+    },
+    {
+      "source": "素体参考图/魔法师/新素体参考图/新魔法师素体2.png",
+      "sha256": "5fc77a941324191e76e10c8bb8eccb0294f2b796601baa29099b4e1cc89dae11",
+      "bytes": 19351,
+      "width": 82,
+      "height": 121,
+      "visuallyInspected": true,
+      "usedAsGenerationReference": false
+    },
+    {
+      "source": "素体参考图/魔法师/新素体参考图/新魔法师素体3.png",
+      "sha256": "46a74aa650b235a05b90291449d29f18814bc85924bdf2bb4599ad9a6d409b51",
+      "bytes": 22993,
+      "width": 100,
+      "height": 118,
+      "visuallyInspected": true,
+      "usedAsGenerationReference": true
+    },
+    {
+      "source": "素体参考图/魔法师/新素体参考图/新魔法师素体4.png",
+      "sha256": "21997eba1ce6b3bb4293c6afdbe9b0ecb0e41042eecbd6538e1dcd0fb01eacf4",
+      "bytes": 20012,
+      "width": 83,
+      "height": 126,
+      "visuallyInspected": true,
+      "usedAsGenerationReference": false
+    },
+    {
+      "source": "素体参考图/魔法师/新素体参考图/新魔法师素体5.png",
+      "sha256": "e0547de1bc9358c7efc766f210aa7b8bef6ab9a32f813dcaa654ef411253a52e",
+      "bytes": 25702,
+      "width": 99,
+      "height": 136,
+      "visuallyInspected": true,
+      "usedAsGenerationReference": true
+    },
+    {
+      "source": "素体参考图/魔法师/新素体参考图/新魔法师素体6.png",
+      "sha256": "7ff321840f6f576c885fca9f09d0b19a97d95ec92dd9e406208769a4fcef83c3",
+      "bytes": 21146,
+      "width": 91,
+      "height": 121,
+      "visuallyInspected": true,
+      "usedAsGenerationReference": false
+    },
+    {
+      "source": "素体参考图/魔法师/新素体参考图/新魔法师素体7.png",
+      "sha256": "159ff9f145c0e6f9cb933f91a590c082b4449733e6f2dc71fc45ace3d37c51f0",
+      "bytes": 26143,
+      "width": 92,
+      "height": 143,
+      "visuallyInspected": true,
+      "usedAsGenerationReference": false
+    }
+  ],
+  "prompt": "prompt.txt",
+  "promptFileSha256": "809f1f468bbf48965da7a96a3a0d669aae218505b5024b56c64dcb59fbc02b72",
+  "method": "built-in image_gen",
+  "transparentBackground": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "transport_error",
+      "error": "image generation failed: connection failed: error sending request",
+      "output": null
+    },
+    {
+      "attempt": 2,
+      "status": "transport_error",
+      "error": "image generation failed: connection failed: error sending request",
+      "output": null,
+      "retry": "Same prompt and same three references; no coverage or wording changes"
+    }
+  ],
+  "safetyDecision": "not_available",
+  "generationStatus": "no_result_received",
+  "candidateImage": null,
+  "rig": null,
+  "approval": "not_applicable_no_image",
+  "conclusion": "Network/transport failure cannot establish whether image moderation accepted or rejected the request.",
+  "oldReferenceRelocation": {
+    "verifiedImages": 17,
+    "allHashesUnchanged": true,
+    "currentArchiveDirectory": "穿太少了"
+  }
+}

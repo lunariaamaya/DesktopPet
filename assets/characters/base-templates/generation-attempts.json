@@ -1,5 +1,6 @@
 {
   "date": "2026-11-09",
+  "updatedOn": "2026-11-10",
   "attempts": [
     {
       "templateId": "base-a",
@@ -27,7 +28,18 @@
       "status": "generated_not_approved",
       "output": "base-b-archer/v01/base-b-archer-mannequin-v01.png",
       "note": "A structure sketch, not human body recovery, a layered model or a rig."
+    },
+    {
+      "date": "2026-11-10",
+      "templateId": "base-a",
+      "method": "built-in image_gen with new clothed mage references; full opaque neutral clothing output requested",
+      "prompt": "base-a-mage/v02/prompt.txt",
+      "attemptLog": "base-a-mage/v02/attempt.json",
+      "attemptCount": 2,
+      "status": "transport_error",
+      "safetyDecision": "not_available",
+      "output": null
     }
   ],
-  "nextScope": "Independent nonhuman mechanical proportion mannequins without input images; not nude edits, not exact reference reconstruction."
+  "nextScope": "Continue the same fully clothed reference request when transport is available; no safety-threshold probing or conclusion from connection failures."
 }
