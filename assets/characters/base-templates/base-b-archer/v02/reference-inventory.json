@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-10",
+  "templateId": "base-b",
+  "sources": [
+    {
+      "source": "素体参考图/弓箭手/新素体参考图/新弓箭手素体1.png",
+      "sha256": "ae0649a68d029fd829064b3612457d0980c397f746cc059899126036777d80d0",
+      "width": 120,
+      "height": 155,
+      "mode": "RGBA"
+    },
+    {
+      "source": "素体参考图/弓箭手/新素体参考图/新弓箭手素体2.png",
+      "sha256": "62e203e747bfb4041377f92619edf0d7c556ad2e7f63e6917bd921918559c293",
+      "width": 115,
+      "height": 157,
+      "mode": "RGBA"
+    },
+    {
+      "source": "素体参考图/弓箭手/新素体参考图/新弓箭手素体3.png",
+      "sha256": "05506bbed6366e80d49bbfc533d7d55691bf0e63a970547823fc2ac987e392f7",
+      "width": 130,
+      "height": 163,
+      "mode": "RGBA"
+    },
+    {
+      "source": "素体参考图/弓箭手/新素体参考图/新弓箭手素体4.png",
+      "sha256": "a8bfdb72799eabbe79646d0f5202c142e97d5047ed1c0b2598e21ead13ffee0a",
+      "width": 121,
+      "height": 167,
+      "mode": "RGBA"
+    },
+    {
+      "source": "素体参考图/弓箭手/新素体参考图/新弓箭手素体5.png",
+      "sha256": "f91fce794ad5f9eaa9fd2f97b0e1bc884f3b831d782fc1637cbe52a00415cf11",
+      "width": 133,
+      "height": 171,
+      "mode": "RGBA"
+    },
+    {
+      "source": "素体参考图/弓箭手/新素体参考图/新弓箭手素体6.png",
+      "sha256": "dac00d1edbc9a04fe380b2e5b66ab8e80cf0041cd41b4982029cc875252a2d12",
+      "width": 129,
+      "height": 173,
+      "mode": "RGBA"
+    },
+    {
+      "source": "素体参考图/弓箭手/新素体参考图/新弓箭手素体7.png",
+      "sha256": "3b9a3b04fb9cadbbe767d85bb08ba23d27cc490db59b752ba5280ad6d69f70de",
+      "width": 130,
+      "height": 141,
+      "mode": "RGBA"
+    },
+    {
+      "source": "素体参考图/弓箭手/新素体参考图/新弓箭手素体8.png",
+      "sha256": "7c572c55890c3a33fc5d2a5f8bb16cd5f0b3f6f6e37f18005dff875b273b7155",
+      "width": 121,
+      "height": 138,
+      "mode": "RGBA"
+    },
+    {
+      "source": "素体参考图/弓箭手/新素体参考图/新弓箭手素体9.png",
+      "sha256": "d7e2ac2b2b686bcb6a398dc0c8e1edea16eed3efeb99c552bd7e207b844a7bb2",
+      "width": 136,
+      "height": 150,
+      "mode": "RGBA"
+    },
+    {
+      "source": "素体参考图/弓箭手/新素体参考图/新弓箭手素体10.png",
+      "sha256": "77786d8ca074e1c0405576070cd9e5397fdd2ad51cb9119b139261763d39e950",
+      "width": 139,
+      "height": 166,
+      "mode": "RGBA"
+    },
+    {
+      "source": "素体参考图/弓箭手/新素体参考图/新弓箭手素体11.png",
+      "sha256": "f2a36b5baa98e8df2e24b262b5b5a685db9744041050ce92b660dc98a05366bb",
+      "width": 145,
+      "height": 179,
+      "mode": "RGBA"
+    },
+    {
+      "source": "素体参考图/弓箭手/新素体参考图/新弓箭手素体12.png",
+      "sha256": "3e22fc3f2596d105c84c0e5b46a746900e0615fd4441652aee8f35707af1d920",
+      "width": 129,
+      "height": 167,
+      "mode": "RGBA"
+    }
+  ],
+  "contactSheet": "reference-contact-sheet.png",
+  "contactSheetMethod": "Read-only nearest-neighbor enlargement on contact sheet, no new detail",
+  "limitations": [
+    "Low-resolution images, equipment and pose obscure hidden anatomy; exact reconstruction is not established"
+  ],
+  "review": {
+    "contactSheet": "All 12 references visually reviewed on the contact sheet",
+    "individualOriginalsViewed": [
+      1,
+      2,
+      5,
+      6
+    ],
+    "generationSelection": [
+      1,
+      2,
+      5
+    ],
+    "visibleFindings": [
+      "Standing images 1/2 used for proportion; side image 5 used for body-depth cues",
+      "Archer reads more elongated and relatively long-legged than the compact mage",
+      "Hair, bow, clothing and active poses obscure hidden body structure"
+    ],
+    "uncertain": [
+      "Exact ear shape",
+      "Precise iris colors",
+      "Hidden torso/back structure",
+      "Physical height"
+    ]
+  }
+}

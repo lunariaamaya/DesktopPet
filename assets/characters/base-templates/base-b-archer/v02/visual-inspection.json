@@ -1,0 +1,432 @@
+{
+  "date": "2026-11-10",
+  "image": "base-b-archer-covered-front-v02.png",
+  "sha256": "69e19e6018721583fe96aad3ee297e337cfffbf23a3aa594b9e67203d607632f",
+  "size": [
+    1024,
+    1536
+  ],
+  "generatedImageCopiedWithoutPixelChanges": true,
+  "skinSamples": {
+    "forehead": {
+      "roi_xywh": [
+        498,
+        217,
+        12,
+        12
+      ],
+      "pixels": 144,
+      "medianRGB": [
+        254,
+        242,
+        240
+      ],
+      "medianHEX": "#FEF2F0",
+      "channelP10P90": [
+        [
+          253.0,
+          241.0,
+          239.0
+        ],
+        [
+          255.0,
+          242.0,
+          240.0
+        ]
+      ]
+    },
+    "viewer_left_upper_arm": {
+      "roi_xywh": [
+        415,
+        471,
+        10,
+        16
+      ],
+      "pixels": 160,
+      "medianRGB": [
+        254,
+        241,
+        238
+      ],
+      "medianHEX": "#FEF1EE",
+      "channelP10P90": [
+        [
+          254.0,
+          240.0,
+          237.0
+        ],
+        [
+          255.0,
+          242.0,
+          239.1
+        ]
+      ]
+    },
+    "viewer_right_upper_arm": {
+      "roi_xywh": [
+        597,
+        471,
+        10,
+        16
+      ],
+      "pixels": 160,
+      "medianRGB": [
+        254,
+        241,
+        238
+      ],
+      "medianHEX": "#FEF1EE",
+      "channelP10P90": [
+        [
+          254.0,
+          240.0,
+          237.0
+        ],
+        [
+          255.0,
+          241.0,
+          239.0
+        ]
+      ]
+    },
+    "viewer_left_forearm": {
+      "roi_xywh": [
+        358,
+        650,
+        10,
+        16
+      ],
+      "pixels": 160,
+      "medianRGB": [
+        254,
+        242,
+        240
+      ],
+      "medianHEX": "#FEF2F0",
+      "channelP10P90": [
+        [
+          253.0,
+          240.0,
+          238.0
+        ],
+        [
+          255.0,
+          244.0,
+          241.0
+        ]
+      ]
+    },
+    "viewer_right_forearm": {
+      "roi_xywh": [
+        650,
+        650,
+        10,
+        16
+      ],
+      "pixels": 160,
+      "medianRGB": [
+        254,
+        242,
+        240
+      ],
+      "medianHEX": "#FEF2F0",
+      "channelP10P90": [
+        [
+          254.0,
+          241.0,
+          238.0
+        ],
+        [
+          255.0,
+          244.0,
+          241.0
+        ]
+      ]
+    },
+    "viewer_left_hand": {
+      "roi_xywh": [
+        331,
+        755,
+        8,
+        12
+      ],
+      "pixels": 96,
+      "medianRGB": [
+        254,
+        239,
+        236
+      ],
+      "medianHEX": "#FEEFEC",
+      "channelP10P90": [
+        [
+          253.0,
+          235.0,
+          231.5
+        ],
+        [
+          255.0,
+          242.0,
+          240.0
+        ]
+      ]
+    },
+    "viewer_right_hand": {
+      "roi_xywh": [
+        683,
+        755,
+        8,
+        12
+      ],
+      "pixels": 96,
+      "medianRGB": [
+        254,
+        238,
+        235
+      ],
+      "medianHEX": "#FEEEEB",
+      "channelP10P90": [
+        [
+          253.0,
+          222.5,
+          216.5
+        ],
+        [
+          254.0,
+          240.0,
+          237.0
+        ]
+      ]
+    },
+    "viewer_left_thigh": {
+      "roi_xywh": [
+        450,
+        839,
+        12,
+        16
+      ],
+      "pixels": 192,
+      "medianRGB": [
+        254,
+        242,
+        239
+      ],
+      "medianHEX": "#FEF2EF",
+      "channelP10P90": [
+        [
+          254.0,
+          241.0,
+          238.0
+        ],
+        [
+          255.0,
+          242.0,
+          240.0
+        ]
+      ]
+    },
+    "viewer_right_thigh": {
+      "roi_xywh": [
+        560,
+        839,
+        12,
+        16
+      ],
+      "pixels": 192,
+      "medianRGB": [
+        254,
+        242,
+        239
+      ],
+      "medianHEX": "#FEF2EF",
+      "channelP10P90": [
+        [
+          254.0,
+          241.0,
+          239.0
+        ],
+        [
+          255.0,
+          242.0,
+          240.0
+        ]
+      ]
+    },
+    "viewer_left_shin": {
+      "roi_xywh": [
+        448,
+        1190,
+        10,
+        16
+      ],
+      "pixels": 160,
+      "medianRGB": [
+        254,
+        242,
+        239
+      ],
+      "medianHEX": "#FEF2EF",
+      "channelP10P90": [
+        [
+          254.0,
+          240.0,
+          236.9
+        ],
+        [
+          255.0,
+          242.0,
+          240.0
+        ]
+      ]
+    },
+    "viewer_right_shin": {
+      "roi_xywh": [
+        566,
+        1190,
+        10,
+        16
+      ],
+      "pixels": 160,
+      "medianRGB": [
+        254,
+        241,
+        238
+      ],
+      "medianHEX": "#FEF1EE",
+      "channelP10P90": [
+        [
+          253.0,
+          240.0,
+          237.0
+        ],
+        [
+          255.0,
+          242.0,
+          239.0
+        ]
+      ]
+    },
+    "viewer_left_foot": {
+      "roi_xywh": [
+        447,
+        1345,
+        10,
+        14
+      ],
+      "pixels": 140,
+      "medianRGB": [
+        254,
+        242,
+        240
+      ],
+      "medianHEX": "#FEF2F0",
+      "channelP10P90": [
+        [
+          253.0,
+          241.0,
+          239.0
+        ],
+        [
+          255.0,
+          243.0,
+          240.0
+        ]
+      ]
+    },
+    "viewer_right_foot": {
+      "roi_xywh": [
+        568,
+        1345,
+        10,
+        14
+      ],
+      "pixels": 140,
+      "medianRGB": [
+        254,
+        242,
+        240
+      ],
+      "medianHEX": "#FEF2F0",
+      "channelP10P90": [
+        [
+          253.0,
+          241.9,
+          239.0
+        ],
+        [
+          255.0,
+          243.0,
+          240.1
+        ]
+      ]
+    }
+  },
+  "inspectionFigures": {
+    "hand-foot-review.png": {
+      "cropBoxes": {
+        "viewer-left hand": [
+          292,
+          720,
+          365,
+          840
+        ],
+        "viewer-right hand": [
+          659,
+          720,
+          732,
+          840
+        ],
+        "viewer-left foot": [
+          414,
+          1274,
+          490,
+          1400
+        ],
+        "viewer-right foot": [
+          534,
+          1274,
+          610,
+          1400
+        ]
+      },
+      "scale": 4,
+      "resampling": "nearest-neighbor"
+    },
+    "mage-archer-comparison.png": {
+      "scale": 0.5,
+      "resampling": "nearest-neighbor",
+      "note": "Same display scale, not a physical-height comparison"
+    }
+  },
+  "limits": [
+    "Sampling does not prove global noise absence or anatomical accuracy",
+    "Full-body hands are small raster details; enlarged figures add no original detail",
+    "Original references are only 115-145 pixels wide and mostly in motion; hidden structures are inferred"
+  ],
+  "manualReview": {
+    "views": "front only",
+    "visibleFingerCounts": {
+      "viewerLeft": 5,
+      "viewerRight": 5
+    },
+    "visibleToeCounts": {
+      "viewerLeft": 5,
+      "viewerRight": 5
+    },
+    "observations": [
+      "Slim elongated torso/legs and smaller relative head compared with the mage baseline",
+      "Bald neutral base, relaxed hands, no bow/hair/accessories",
+      "Opaque high-neck sleeveless gray short unitard covering torso and pelvis",
+      "Pale continuous skin in the same palette as mage v09; wrists and ankles show no former fabric cuffs"
+    ],
+    "provisionalFeatures": {
+      "ears": "Small ordinary ears; source ear shape unclear",
+      "irises": "Matching muted reddish-brown; precise source color unclear, no mage heterochromia copied"
+    },
+    "method": "Manual full image, A/B comparison and 4x nearest-neighbor hand/foot inspection",
+    "limits": [
+      "User approval pending, no exact original-proportion recovery claimed",
+      "Static PNG only; no layers, rig, Cubism project or animation",
+      "Magnified raster details and RGB samples do not prove perfect anatomy or absence of all noise"
+    ]
+  }
+}

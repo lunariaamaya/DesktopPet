@@ -1,0 +1,68 @@
+{
+  "templateId": "base-b",
+  "displayName": "弓箭手",
+  "revision": "draft-02",
+  "artifact": "base-b-archer/v02/base-b-archer-covered-front-v02.png",
+  "sha256": "69e19e6018721583fe96aad3ee297e337cfffbf23a3aa594b9e67203d607632f",
+  "width": 1024,
+  "height": 1536,
+  "mode": "RGB",
+  "prompt": "base-b-archer/v02/prompt.txt",
+  "method": "built-in image_gen generation with role-separated references",
+  "referenceImagesUsedForGeneration": [
+    "素体参考图/弓箭手/新素体参考图/新弓箭手素体1.png",
+    "素体参考图/弓箭手/新素体参考图/新弓箭手素体2.png",
+    "素体参考图/弓箭手/新素体参考图/新弓箭手素体5.png",
+    "assets/characters/base-templates/base-a-mage/v09/base-a-mage-skin-tone-limbs-front-v09.png"
+  ],
+  "sourceHashes": {
+    "素体参考图/弓箭手/新素体参考图/新弓箭手素体1.png": "ae0649a68d029fd829064b3612457d0980c397f746cc059899126036777d80d0",
+    "素体参考图/弓箭手/新素体参考图/新弓箭手素体2.png": "62e203e747bfb4041377f92619edf0d7c556ad2e7f63e6917bd921918559c293",
+    "素体参考图/弓箭手/新素体参考图/新弓箭手素体5.png": "f91fce794ad5f9eaa9fd2f97b0e1bc884f3b831d782fc1637cbe52a00415cf11",
+    "assets/characters/base-templates/base-a-mage/v09/base-a-mage-skin-tone-limbs-front-v09.png": "4c740be63fe75c00ab0f093cfb76768b0c43bf09c1329a252f897199403bee4c"
+  },
+  "referenceRoles": {
+    "proportionAndBodyReferences": [
+      "素体参考图/弓箭手/新素体参考图/新弓箭手素体1.png",
+      "素体参考图/弓箭手/新素体参考图/新弓箭手素体2.png"
+    ],
+    "supportingSideReference": "素体参考图/弓箭手/新素体参考图/新弓箭手素体5.png",
+    "styleSkinClothingAndDetailStandardOnly": "assets/characters/base-templates/base-a-mage/v09/base-a-mage-skin-tone-limbs-front-v09.png"
+  },
+  "parent": null,
+  "relatedHistoricalExperiment": "draft-01 independent mechanical mannequin, not a human base",
+  "kind": "covered_2d_reference_candidate",
+  "approval": "not_reviewed",
+  "referenceFit": "not_verified",
+  "layers": null,
+  "rig": null,
+  "runtimeLoadable": false,
+  "sourceBuiltinFilename": "exec-49fe023a-035b-4419-9366-1cc6db1d770a.png",
+  "manualReview": {
+    "views": "front only",
+    "visibleFingerCounts": {
+      "viewerLeft": 5,
+      "viewerRight": 5
+    },
+    "visibleToeCounts": {
+      "viewerLeft": 5,
+      "viewerRight": 5
+    },
+    "observations": [
+      "Slim elongated torso/legs and smaller relative head compared with the mage baseline",
+      "Bald neutral base, relaxed hands, no bow/hair/accessories",
+      "Opaque high-neck sleeveless gray short unitard covering torso and pelvis",
+      "Pale continuous skin in the same palette as mage v09; wrists and ankles show no former fabric cuffs"
+    ],
+    "provisionalFeatures": {
+      "ears": "Small ordinary ears; source ear shape unclear",
+      "irises": "Matching muted reddish-brown; precise source color unclear, no mage heterochromia copied"
+    },
+    "method": "Manual full image, A/B comparison and 4x nearest-neighbor hand/foot inspection",
+    "limits": [
+      "User approval pending, no exact original-proportion recovery claimed",
+      "Static PNG only; no layers, rig, Cubism project or animation",
+      "Magnified raster details and RGB samples do not prove perfect anatomy or absence of all noise"
+    ]
+  }
+}

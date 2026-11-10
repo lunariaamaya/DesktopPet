@@ -22,6 +22,14 @@ def main():
     for item in references:
         current=item.get('currentSource',item['source'])
         assert sha(ROOT/current)==item['sha256'],current
+    additional=[]
+    for inventory in sorted(BASE.glob('*/v*/reference-inventory.json')):
+        for item in json.loads(inventory.read_text(encoding='utf-8')).get('sources',[]):
+            source=ROOT/item['source']
+            assert sha(source)==item['sha256'],item['source']
+            with Image.open(source) as image:
+                assert (image.width,image.height)==(item['width'],item['height'])
+            additional.append(item)
     records=[]
     for tid,label,folder,name,source_name in ITEMS:
         path=BASE/folder/name
@@ -62,16 +70,26 @@ def main():
         if record['approval']=='approved_reference':
             approved[record['templateId']]={key:record[key] for key in ('revision','artifact','sha256')}
             approved[record['templateId']]['scope']='front_static_reference_only'
+    for path in sorted(BASE.glob('*/baseline.json')):
+        baseline=json.loads(path.read_text(encoding='utf-8'))
+        selected=approved[baseline['templateId']]
+        assert selected and all(baseline[key]==selected[key] for key in ('revision','artifact','sha256'))
+        assert sha(BASE/baseline['artifact'])==baseline['sha256']
+        assert baseline['scope']=='front_static_reference_only'
+        assert baseline['userApproval']['quote']
+        assert baseline['rig'] is None and not baseline['runtimeLoadable']
+        selected['baselineSpecification']=path.relative_to(BASE).as_posix()
     (BASE/'candidate-index.json').write_text(json.dumps({'date':'2026-11-09',
         'updatedOn':'2026-11-10',
         'kind':'work_in_progress_index_not_runtime_manifest','approvedBaselines':approved,
         'candidates':records},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     (BASE/'file-check.json').write_text(json.dumps({'sourceReferences':len(references),
+        'additionalReferencesChecked':len(additional),'allAdditionalReferenceHashesUnchanged':True,
         'allOriginalHashesUnchanged':True,'candidateCount':len(records),
         'approvedFrontReferenceCount':sum(record['approval']=='approved_reference' for record in records),
         'generatedFilesCopiedWithoutPixelChanges':True,
         'notChecked':['reference fidelity','anatomy','view registration','layering','rigging','animation']},
         indent=2)+'\n',encoding='utf-8')
-    print(f'{len(references)} original references unchanged; {len(records)} PNG references indexed across 2 template IDs; {sum(record["approval"]=="approved_reference" for record in records)} user-approved front reference; no rig claimed')
+    print(f'{len(references)} original and {len(additional)} additional references unchanged; {len(records)} PNG references across 2 template IDs; approved current baselines: '+str({key:value["revision"] if value else None for key,value in approved.items()})+'; no rig claimed')
 
 if __name__=='__main__':main()

@@ -120,8 +120,21 @@
       "attemptLog": "base-a-mage/v09/generation.json",
       "generationCalls": 1,
       "status": "generated_not_approved",
-      "output": "base-a-mage/v09/base-a-mage-skin-tone-limbs-front-v09.png"
+      "output": "base-a-mage/v09/base-a-mage-skin-tone-limbs-front-v09.png",
+      "userReviewOutcome": "approved_reference: canonical mage base for future proportions, body build and skin",
+      "userReviewEvidence": "很好，就以这张作为魔法师角色的底稿，后续的魔法师角色设计就参照这张的身材比例及体型和肤色。"
+    },
+    {
+      "date": "2026-11-10",
+      "templateId": "base-b",
+      "revision": "draft-02",
+      "method": "built-in image_gen generation with role-separated references",
+      "prompt": "base-b-archer/v02/prompt.txt",
+      "attemptLog": "base-b-archer/v02/generation.json",
+      "generationCalls": 1,
+      "status": "generated_not_approved",
+      "output": "base-b-archer/v02/base-b-archer-covered-front-v02.png"
     }
   ],
-  "nextScope": "User review of v09 limb skin color and continuity; v08 is the approved front geometry/hand baseline. B remains unchanged."
+  "nextScope": "User review of archer v02 body proportions and build; mage v09 is the canonical approved base. B ears/iris colors are provisional. No layering or rigging yet."
 }

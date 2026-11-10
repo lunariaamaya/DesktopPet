@@ -1,8 +1,10 @@
 {
   "sourceReferences": 17,
+  "additionalReferencesChecked": 12,
+  "allAdditionalReferenceHashesUnchanged": true,
   "allOriginalHashesUnchanged": true,
-  "candidateCount": 10,
-  "approvedFrontReferenceCount": 1,
+  "candidateCount": 11,
+  "approvedFrontReferenceCount": 2,
   "generatedFilesCopiedWithoutPixelChanges": true,
   "notChecked": [
     "reference fidelity",

@@ -1,0 +1,388 @@
+{
+  "templateId": "base-a",
+  "displayName": "魔法师",
+  "date": "2026-11-10",
+  "revision": "draft-09",
+  "artifact": "base-a-mage/v09/base-a-mage-skin-tone-limbs-front-v09.png",
+  "sha256": "4c740be63fe75c00ab0f093cfb76768b0c43bf09c1329a252f897199403bee4c",
+  "scope": "front_static_reference_only",
+  "userApproval": {
+    "date": "2026-11-10",
+    "scope": "front_static_reference",
+    "quote": "很好，就以这张作为魔法师角色的底稿，后续的魔法师角色设计就参照这张的身材比例及体型和肤色。",
+    "interpretation": "v09 为魔法师当前正式正面底稿；后续魔法师设计参照其身材比例、体型和肤色，不表示已完成侧背视图、分层或绑定。"
+  },
+  "lockedForFutureMageDesigns": {
+    "proportions": "Follow v09 head/body relationship and relative torso/limb lengths",
+    "bodyBuild": "Follow v09 petite slender silhouette, shoulder/waist/hip shape and straight slim legs",
+    "skin": "Follow v09 pale low-saturation pink-ivory skin, with continuous same-hue gentle shading",
+    "handsAndFeet": "Retain delicate small hands/feet and normal five-finger/five-toe structure when visible"
+  },
+  "skinSamples": {
+    "forehead": {
+      "roi_xywh": [
+        497,
+        251,
+        16,
+        16
+      ],
+      "pixels": 256,
+      "medianRGB": [
+        254,
+        239,
+        236
+      ],
+      "medianHEX": "#FEEFEC",
+      "channelP10P90": [
+        [
+          253.5,
+          239.0,
+          236.0
+        ],
+        [
+          255.0,
+          240.0,
+          237.0
+        ]
+      ]
+    },
+    "viewer_left_upper_arm": {
+      "roi_xywh": [
+        411,
+        544,
+        12,
+        16
+      ],
+      "pixels": 192,
+      "medianRGB": [
+        254,
+        241,
+        238
+      ],
+      "medianHEX": "#FEF1EE",
+      "channelP10P90": [
+        [
+          254.0,
+          240.0,
+          237.0
+        ],
+        [
+          255.0,
+          241.0,
+          238.0
+        ]
+      ]
+    },
+    "viewer_right_upper_arm": {
+      "roi_xywh": [
+        601,
+        544,
+        12,
+        16
+      ],
+      "pixels": 192,
+      "medianRGB": [
+        254,
+        240,
+        237
+      ],
+      "medianHEX": "#FEF0ED",
+      "channelP10P90": [
+        [
+          254.0,
+          240.0,
+          237.0
+        ],
+        [
+          255.0,
+          241.0,
+          238.0
+        ]
+      ]
+    },
+    "viewer_left_forearm": {
+      "roi_xywh": [
+        355,
+        721,
+        10,
+        14
+      ],
+      "pixels": 140,
+      "medianRGB": [
+        254,
+        241,
+        238
+      ],
+      "medianHEX": "#FEF1EE",
+      "channelP10P90": [
+        [
+          254.0,
+          239.0,
+          236.0
+        ],
+        [
+          255.0,
+          242.0,
+          239.0
+        ]
+      ]
+    },
+    "viewer_right_forearm": {
+      "roi_xywh": [
+        649,
+        721,
+        10,
+        14
+      ],
+      "pixels": 140,
+      "medianRGB": [
+        254,
+        239,
+        236
+      ],
+      "medianHEX": "#FEEFEC",
+      "channelP10P90": [
+        [
+          254.0,
+          235.0,
+          230.0
+        ],
+        [
+          255.0,
+          241.0,
+          238.0
+        ]
+      ]
+    },
+    "viewer_left_hand": {
+      "roi_xywh": [
+        317,
+        817,
+        10,
+        12
+      ],
+      "pixels": 120,
+      "medianRGB": [
+        254,
+        238,
+        235
+      ],
+      "medianHEX": "#FEEEEB",
+      "channelP10P90": [
+        [
+          254.0,
+          237.0,
+          234.0
+        ],
+        [
+          255.0,
+          240.0,
+          236.0
+        ]
+      ]
+    },
+    "viewer_right_hand": {
+      "roi_xywh": [
+        697,
+        817,
+        10,
+        12
+      ],
+      "pixels": 120,
+      "medianRGB": [
+        254,
+        237,
+        234
+      ],
+      "medianHEX": "#FEEDEA",
+      "channelP10P90": [
+        [
+          254.0,
+          237.0,
+          233.0
+        ],
+        [
+          255.0,
+          239.0,
+          235.0
+        ]
+      ]
+    },
+    "viewer_left_thigh": {
+      "roi_xywh": [
+        453,
+        911,
+        14,
+        18
+      ],
+      "pixels": 252,
+      "medianRGB": [
+        254,
+        242,
+        239
+      ],
+      "medianHEX": "#FEF2EF",
+      "channelP10P90": [
+        [
+          254.0,
+          241.0,
+          238.0
+        ],
+        [
+          255.0,
+          243.0,
+          240.0
+        ]
+      ]
+    },
+    "viewer_right_thigh": {
+      "roi_xywh": [
+        558,
+        911,
+        14,
+        18
+      ],
+      "pixels": 252,
+      "medianRGB": [
+        254,
+        241,
+        238
+      ],
+      "medianHEX": "#FEF1EE",
+      "channelP10P90": [
+        [
+          254.0,
+          241.0,
+          238.0
+        ],
+        [
+          255.0,
+          242.0,
+          239.0
+        ]
+      ]
+    },
+    "viewer_left_shin": {
+      "roi_xywh": [
+        449,
+        1206,
+        12,
+        18
+      ],
+      "pixels": 216,
+      "medianRGB": [
+        254,
+        240,
+        237
+      ],
+      "medianHEX": "#FEF0ED",
+      "channelP10P90": [
+        [
+          254.0,
+          239.0,
+          236.0
+        ],
+        [
+          255.0,
+          241.0,
+          238.0
+        ]
+      ]
+    },
+    "viewer_right_shin": {
+      "roi_xywh": [
+        563,
+        1206,
+        12,
+        18
+      ],
+      "pixels": 216,
+      "medianRGB": [
+        254,
+        240,
+        237
+      ],
+      "medianHEX": "#FEF0ED",
+      "channelP10P90": [
+        [
+          254.0,
+          239.0,
+          235.0
+        ],
+        [
+          255.0,
+          241.0,
+          238.0
+        ]
+      ]
+    },
+    "viewer_left_foot": {
+      "roi_xywh": [
+        449,
+        1344,
+        12,
+        16
+      ],
+      "pixels": 192,
+      "medianRGB": [
+        254,
+        239,
+        236
+      ],
+      "medianHEX": "#FEEFEC",
+      "channelP10P90": [
+        [
+          253.0,
+          239.0,
+          235.1
+        ],
+        [
+          255.0,
+          240.0,
+          237.0
+        ]
+      ]
+    },
+    "viewer_right_foot": {
+      "roi_xywh": [
+        562,
+        1344,
+        12,
+        16
+      ],
+      "pixels": 192,
+      "medianRGB": [
+        254,
+        239,
+        236
+      ],
+      "medianHEX": "#FEEFEC",
+      "channelP10P90": [
+        [
+          254.0,
+          238.0,
+          235.0
+        ],
+        [
+          255.0,
+          240.0,
+          236.0
+        ]
+      ]
+    }
+  },
+  "skinSampleSource": "base-a-mage/v09/color-inspection.json",
+  "futureDesignRule": "Use this baseline unless the user explicitly changes it; add character appearance over the baseline rather than replacing its approved proportions/build/skin.",
+  "notEstablished": [
+    "Real-world height or centimeter measurements",
+    "Exact recovery of hidden original anatomy",
+    "Side/back reference geometry",
+    "Layer separation",
+    "Cubism project",
+    "Rigging",
+    "Animation"
+  ],
+  "layers": null,
+  "rig": null,
+  "runtimeLoadable": false
+}

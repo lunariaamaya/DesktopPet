@@ -18,7 +18,9 @@
 
 2026-11-10 最新：用户明确满意 v08，要求锁定现有身材形状。v08 现为认可的正面静态参考；以它为唯一底图制作 [v09 四肢肤色候选](../assets/characters/base-templates/base-a-mage/v09/base-a-mage-skin-tone-limbs-front-v09.png)，手臂、腿部采用与现有手脚接近的低饱和浅粉象牙白，躯干/骨盆保留灰色不透明基础服装。v09 待用户看图，详见 [修订记录](mage-limb-color-revision-2026-11-10.md)。此前 v08“未确认”是生成当时状态。
 
-**当前制作规则：** 用户已确认改用二维，以及“上传图片 → 整理角色外观 → 分层与补图 → 二维绑定及动作制作 → 自动检查与预览”。以 [二维管线与样机验收](character-2d-pipeline.md) 覆盖下文旧三维制作、网格和骨架要求；原外观、配色、左右、槽位及完整动作意图继续保留。基础素体恰好 A/B 两类；A 已认可 v08 正面静态参考，其他方向、分层与绑定尚未完成，B 未认可。不将参考中的隐藏身体称为精确恢复。后续 Meshy 检查/试修见 [诊断](meshy-rig-analysis-2026-11-04.md) 和 [试修](meshy-rig-repair-2026-11-04.md)。以下“最新决定/最新候选”均按当时记录理解，不覆盖本段当前规则。
+2026-11-10 当前确认：用户指定魔法师 [v09](../assets/characters/base-templates/base-a-mage/v09/base-a-mage-skin-tone-limbs-front-v09.png) 为后续设计底稿，身材比例、体型和肤色按 [A 类基线规范](../assets/characters/base-templates/base-a-mage/baseline.json) 固定。弓箭手按新目录 12 张参考制作 [v02 正面候选](../assets/characters/base-templates/base-b-archer/v02/base-b-archer-covered-front-v02.png)，自身比例更修长，肤色和绘制标准参照魔法师；B 仍待确认。见 [本轮记录](archer-base-draft-2026-11-10.md)。
+
+**当前制作规则：** 用户已确认改用二维，以及“上传图片 → 整理角色外观 → 分层与补图 → 二维绑定及动作制作 → 自动检查与预览”。以 [二维管线与样机验收](character-2d-pipeline.md) 覆盖下文旧三维制作、网格和骨架要求；原外观、配色、左右、槽位及完整动作意图继续保留。基础素体恰好 A/B 两类；A 当前底稿为已认可 v09，其他方向、分层与绑定尚未完成，B v02 未认可。不将参考中的隐藏身体称为精确恢复。后续 Meshy 检查/试修见 [诊断](meshy-rig-analysis-2026-11-04.md) 和 [试修](meshy-rig-repair-2026-11-04.md)。以下“最新决定/最新候选”均按当时记录理解，不覆盖本段当前规则。
 
 最新决定：停止以程序化草模作为角色成品路线。用户反馈自行用 Tripo 生成的模型较好；该外部文件尚未在项目中验收，不宣称已具备绑定、分件或动作能力。二维全流程已整理为 [SOP](character-art-sop.md) 与 [可复用 skill](../skills/character-reference-to-turnaround/SKILL.md)，连接核查见 [Tripo 接入说明](tripo-integration.md)。以下按版本累积的“最新候选”等措辞仅为当时记录；当前基线以本段与下段版12冻结信息为准。
 

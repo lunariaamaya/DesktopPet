@@ -2,9 +2,11 @@
 
 日期：2026-11-09。稳定模板 ID 与用户命名：A=`base-a`（魔法师），B=`base-b`（弓箭手）。名称可改，ID 不随展示名称变化。
 
-**当前 A 类改色候选：[手臂与腿部肤色 v09](base-a-mage/v09/base-a-mage-skin-tone-limbs-front-v09.png)**。用户明确满意 v08，并要求保持身材形状，仅恢复四肢肤色、改善色差。v08 已记录为认可的正面静态参考，v09 待看图确认。躯干与骨盆保留不透明灰色基础服装，四肢改为与手脚接近的浅粉象牙白；未分层/绑定。见 [改色记录](../../../docs/mage-limb-color-revision-2026-11-10.md) · [手腕/脚踝对比](base-a-mage/v09/skin-transition-review.png)。原图保留，B 类不改。
+**A 类魔法师底稿已确认：[v09](base-a-mage/v09/base-a-mage-skin-tone-limbs-front-v09.png)**。用户明确指定后续魔法师角色设计参照此图的身材比例、体型和肤色；规范与取样冻结在 [baseline.json](base-a-mage/baseline.json)。当前为正面静态底稿，后续外观服饰在此基础上设计，不擅自改变已认可的身体比例或肤色。见 [确认与弓箭手制作记录](../../../docs/archer-base-draft-2026-11-10.md)。
 
-认可基线：[自然小手 v08](base-a-mage/v08/base-a-mage-natural-five-finger-hands-front-v08.png)。用户原话“很不错，我很满意”，并要求“保持现有的身材形状不变”；认可范围为当前正面参考，不等于多视图、分层或完整 G0 已完成。见 [重做说明及后续认可](../../../docs/mage-natural-hand-revision-2026-11-10.md) · [手型参考](base-a-mage/v08/natural-hand-guide-v08.png)。
+**B 类弓箭手待确认：[正面底稿候选 v02](base-b-archer/v02/base-b-archer-covered-front-v02.png)**。已查看 12 张新参考联系表，并单独查看站立/侧面原图，采用 1/2/5 为生成参考；魔法师 v09 仅提供绘制、肤色和手足质量标准，弓箭手保留自身修长比例。见 [A/B 并排](base-b-archer/v02/mage-archer-comparison.png) · [手足放大](base-b-archer/v02/hand-foot-review.png) · [参考索引](base-b-archer/v02/reference-inventory.json)。耳型与眼色受低清图限制暂定，详见制作记录；未分层或绑定。
+
+历史认可参考：[自然小手 v08](base-a-mage/v08/base-a-mage-natural-five-finger-hands-front-v08.png)。后续四肢肤色 v09 已获确认并成为当前底稿，v08 保留作回退；两者均不等于多视图、分层或完整 G0 已完成。见 [重做说明及后续认可](../../../docs/mage-natural-hand-revision-2026-11-10.md) · [手型参考](base-a-mage/v08/natural-hand-guide-v08.png)。
 
 v07 历史：[五指版（用户已否定）](base-a-mage/v07/base-a-mage-five-fingers-front-v07.png)。其计数检查不代表手势、肤色或轮廓质量达标，不作为后续默认底图。
 

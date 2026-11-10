@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-10",
+  "templateId": "base-b",
+  "revision": "draft-02",
+  "method": "built-in image_gen generation with role-separated references",
+  "generationCalls": 1,
+  "prompt": "prompt.txt",
+  "promptFileSha256": "dcb7f90ded8beb5c74c745420bfe04f07b7a9f809bc5a20e6c95c3d6ce3cd329",
+  "inputHashes": {
+    "素体参考图/弓箭手/新素体参考图/新弓箭手素体1.png": "ae0649a68d029fd829064b3612457d0980c397f746cc059899126036777d80d0",
+    "素体参考图/弓箭手/新素体参考图/新弓箭手素体2.png": "62e203e747bfb4041377f92619edf0d7c556ad2e7f63e6917bd921918559c293",
+    "素体参考图/弓箭手/新素体参考图/新弓箭手素体5.png": "f91fce794ad5f9eaa9fd2f97b0e1bc884f3b831d782fc1637cbe52a00415cf11",
+    "assets/characters/base-templates/base-a-mage/v09/base-a-mage-skin-tone-limbs-front-v09.png": "4c740be63fe75c00ab0f093cfb76768b0c43bf09c1329a252f897199403bee4c"
+  },
+  "inputRoles": {
+    "proportionAndBodyReferences": [
+      "素体参考图/弓箭手/新素体参考图/新弓箭手素体1.png",
+      "素体参考图/弓箭手/新素体参考图/新弓箭手素体2.png"
+    ],
+    "supportingSideReference": "素体参考图/弓箭手/新素体参考图/新弓箭手素体5.png",
+    "styleSkinClothingAndDetailStandardOnly": "assets/characters/base-templates/base-a-mage/v09/base-a-mage-skin-tone-limbs-front-v09.png"
+  },
+  "output": "base-b-archer-covered-front-v02.png",
+  "outputSha256": "69e19e6018721583fe96aad3ee297e337cfffbf23a3aa594b9e67203d607632f",
+  "size": [
+    1024,
+    1536
+  ],
+  "sourceBuiltinFilename": "exec-49fe023a-035b-4419-9366-1cc6db1d770a.png",
+  "transparentBackground": false,
+  "productionImageCopiedWithoutPixelChanges": true,
+  "status": "generated_not_approved",
+  "referenceReview": "reference-inventory.json",
+  "visualInspection": "visual-inspection.json",
+  "note": "No script edits to the generated production image; crops/contact sheets are read-only inspection aids."
+}

@@ -2,6 +2,8 @@
 
 日期：2026-11-10。用户确认 v08：“很不错，我很满意”，随后要求保持现有身材形状，将手臂与腿部恢复正常肤色，并改善色差。
 
+后续确认：用户指定“就以这张作为魔法师角色的底稿”，后续设计参照 v09 的身材比例、体型和肤色。v09 现为 `approved_reference`，当前规范已冻结在 [魔法师 baseline.json](../assets/characters/base-templates/base-a-mage/baseline.json)。下文“待确认”是生成当时状态，不覆盖本段。继续制作的 [弓箭手候选](archer-base-draft-2026-11-10.md) 尚未获认可。
+
 ## 基线与本轮范围
 
 唯一底图为已获认可的 [v08](../assets/characters/base-templates/base-a-mage/v08/base-a-mage-natural-five-finger-hands-front-v08.png)，SHA256 `729bd3685bc9115713bbd56a9c452c7cdba47a9fccb2c77d1b396030ce6c7bf8`。已将其状态改为 `approved_reference`，保留用户原话；认可仅限当前正面静态参考，不扩大为多视图、分层或绑定验收。

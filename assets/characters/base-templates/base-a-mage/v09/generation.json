@@ -71,5 +71,12 @@
     "Generative editing changes pixels outside the requested color regions; no exact pixel-preservation claim",
     "Sparse contour-row proxy and regional RGB samples do not certify identical anatomy or absence of all noise",
     "v09 remains pending user review; only source v08 was explicitly accepted"
-  ]
+  ],
+  "userReview": {
+    "status": "approved_reference",
+    "date": "2026-11-10",
+    "scope": "front_static_reference",
+    "quote": "很好，就以这张作为魔法师角色的底稿，后续的魔法师角色设计就参照这张的身材比例及体型和肤色。",
+    "interpretation": "v09 为魔法师当前正式正面底稿；后续魔法师设计参照其身材比例、体型和肤色，不表示已完成侧背视图、分层或绑定。"
+  }
 }
