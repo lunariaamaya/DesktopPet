@@ -74,7 +74,14 @@ def main():
                           'Proportions, face, shoulder and hip silhouette require user review',
                           'Hidden structure is inferred from small posed game references',
                           'Do not interpret one successful request as a general moderation boundary']}}
-        (OUT/'candidate.json').write_text(json.dumps(candidate,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+        candidate_path=OUT/'candidate.json'
+        if candidate_path.exists():
+            previous=json.loads(candidate_path.read_text(encoding='utf-8'))
+            assert previous['sha256']==candidate['sha256']
+            for field in ['approval','userFeedback']:
+                if field in previous:candidate[field]=previous[field]
+            result['approval']=candidate['approval']
+        candidate_path.write_text(json.dumps(candidate,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     log.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(f"7 new references and 17 archive hashes verified; attempts={len(result['attempts'])}; {result['generationStatus']}")
 

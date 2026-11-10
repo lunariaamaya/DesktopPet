@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-10",
+  "templateId": "base-a",
+  "revision": "draft-03",
+  "method": "built-in image_gen",
+  "prompt": "prompt.txt",
+  "promptFileSha256": "38de0b87c50822762a70c29d4abccd1e35afb45b4661f807f419e5b8986b2262",
+  "inputHashes": {
+    "assets/characters/base-templates/base-a-mage/v02/base-a-mage-covered-front-v02.png": "dbbd09625ac68ae20571e058d8a36af8920b5be6b5ab8b633f4723aa86386e85",
+    "assets/characters/first-character/concepts/design-v01.png": "c9d8198dad396ba790993dd49e48ce31aba786e0908d82eb3b73d3866afa769d"
+  },
+  "transparentBackground": false,
+  "status": "generated_not_approved",
+  "output": "base-a-mage-design-proportion-front-v03.png",
+  "outputSha256": "f8bcb3ed7274710ac8cb9c7ea3bf801332da8476a60ec7cd46ad07f31a7938d1",
+  "copiedWithoutPixelChanges": true,
+  "sourceBuiltinFilename": "exec-6a95bb23-ff8c-4229-be81-15fa24ed29b2.png",
+  "parentRevision": "draft-02",
+  "userFeedback": {
+    "date": "2026-11-10",
+    "summary": "用户认为 v02 与参考不够相似、显得太高；指定 design-v01.png 为比例和脸型参考进行调整。",
+    "nextRevision": "base-a-mage/v03/candidate.json"
+  },
+  "note": "User-directed proportion revision, not a new base template or approval."
+}

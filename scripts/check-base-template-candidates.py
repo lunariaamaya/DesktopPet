@@ -50,7 +50,9 @@ def main():
             image.load();assert (image.width,image.height)==(record['width'],record['height'])
         original=GENERATED/record['sourceBuiltinFilename']
         if original.exists():assert sha(original)==record['sha256']
-        assert record['approval']=='not_reviewed' and record['rig'] is None and not record['runtimeLoadable']
+        assert record['approval'] in {'not_reviewed','revision_requested'} and record['rig'] is None and not record['runtimeLoadable']
+        for source,digest in record.get('sourceHashes',{}).items():
+            assert sha(ROOT/source)==digest,source
         records.append(record)
     (BASE/'candidate-index.json').write_text(json.dumps({'date':'2026-11-09',
         'updatedOn':'2026-11-10',

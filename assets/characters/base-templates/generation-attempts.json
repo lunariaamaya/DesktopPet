@@ -40,7 +40,18 @@
       "safetyDecision": "no_separate_verdict_exposed_image_returned",
       "output": "base-a-mage/v02/base-a-mage-covered-front-v02.png",
       "note": "First two attempts were transport errors; user requested retry after checking network. Same prompt and references produced one unapproved static image."
+    },
+    {
+      "date": "2026-11-10",
+      "templateId": "base-a",
+      "revision": "draft-03",
+      "method": "built-in image_gen edit, design-v01 proportion and face reference",
+      "prompt": "base-a-mage/v03/prompt.txt",
+      "attemptLog": "base-a-mage/v03/generation.json",
+      "attemptCount": 1,
+      "status": "generated_not_approved",
+      "output": "base-a-mage/v03/base-a-mage-design-proportion-front-v03.png"
     }
   ],
-  "nextScope": "User review of the covered front-view candidate before layering or rigging; one successful request does not establish hidden moderation thresholds."
+  "nextScope": "User review of v03 proportions and face before layering; v02 marked revision_requested."
 }

@@ -78,7 +78,7 @@
         "素体参考图/魔法师/新素体参考图/新魔法师素体5.png"
       ],
       "kind": "covered_2d_reference_candidate",
-      "approval": "not_reviewed",
+      "approval": "revision_requested",
       "referenceFit": "not_verified",
       "layers": null,
       "rig": null,
@@ -92,6 +92,60 @@
           "Proportions, face, shoulder and hip silhouette require user review",
           "Hidden structure is inferred from small posed game references",
           "Do not interpret one successful request as a general moderation boundary"
+        ]
+      },
+      "userFeedback": {
+        "date": "2026-11-10",
+        "summary": "用户认为 v02 与参考不够相似、显得太高；指定 design-v01.png 为比例和脸型参考进行调整。",
+        "nextRevision": "base-a-mage/v03/candidate.json"
+      }
+    },
+    {
+      "templateId": "base-a",
+      "displayName": "魔法师",
+      "revision": "draft-03",
+      "artifact": "base-a-mage/v03/base-a-mage-design-proportion-front-v03.png",
+      "sha256": "f8bcb3ed7274710ac8cb9c7ea3bf801332da8476a60ec7cd46ad07f31a7938d1",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "prompt": "base-a-mage/v03/prompt.txt",
+      "method": "built-in image_gen edit",
+      "referenceImagesUsedForGeneration": [
+        "assets/characters/base-templates/base-a-mage/v02/base-a-mage-covered-front-v02.png",
+        "assets/characters/first-character/concepts/design-v01.png"
+      ],
+      "sourceHashes": {
+        "assets/characters/base-templates/base-a-mage/v02/base-a-mage-covered-front-v02.png": "dbbd09625ac68ae20571e058d8a36af8920b5be6b5ab8b633f4723aa86386e85",
+        "assets/characters/first-character/concepts/design-v01.png": "c9d8198dad396ba790993dd49e48ce31aba786e0908d82eb3b73d3866afa769d"
+      },
+      "referenceRoles": {
+        "editTarget": "assets/characters/base-templates/base-a-mage/v02/base-a-mage-covered-front-v02.png",
+        "authoritativeProportionAndFaceReference": "assets/characters/first-character/concepts/design-v01.png"
+      },
+      "kind": "covered_2d_reference_candidate",
+      "approval": "not_reviewed",
+      "referenceFit": "not_verified",
+      "layers": null,
+      "rig": null,
+      "runtimeLoadable": false,
+      "sourceBuiltinFilename": "exec-6a95bb23-ff8c-4229-be81-15fa24ed29b2.png",
+      "manualReview": {
+        "views": "front only",
+        "observedChanges": [
+          "Larger head relative to body, shorter-looking neck and more compact legs",
+          "Red iris on character-left/viewer-right, blue on character-right/viewer-left",
+          "Pointed elf ears and a smaller neutral mouth based on the selected design"
+        ],
+        "preserved": [
+          "Hairless base, no decorative accessories, full opaque gray clothing coverage",
+          "Single front view on white, hands and face visible"
+        ],
+        "limits": [
+          "Head enlargement is visually substantial; proportions need user review",
+          "Reference dress obscures waist/hip/upper-leg contours; these remain inferred",
+          "No numerical fidelity claim, exact body recovery, layers, rig or animation",
+          "Generative editing can change untargeted pixels; no pixel-identical claim"
         ]
       }
     }

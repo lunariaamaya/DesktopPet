@@ -6,6 +6,8 @@
 
 2026-11-10 更新：魔法师新增 7 张着装参考，全覆盖中性基础层请求前两次连接失败。用户检查网络后要求重试，第三次同请求成功生成 [正面候选 v02](../assets/characters/base-templates/base-a-mage/v02/base-a-mage-covered-front-v02.png)。尚未获用户认可或完成分层/绑定；一次成功不能作为通用审核阈值结论，历史网络错误也不改写为拒绝。见 [本轮尝试记录](covered-mage-reference-attempt-2026-11-10.md)。
 
+同日后续：用户指出 v02 显高并指定 design-v01 为新参考，已生成 [比例/脸型修订 v03](../assets/characters/base-templates/base-a-mage/v03/base-a-mage-design-proportion-front-v03.png)。v02 为 revision_requested，v03 仍待用户确认；G0 未自动通过。保持全覆盖基础层，B 类不改。见 [比例修订记录](mage-proportion-revision-2026-11-10.md)。
+
 ## 1. 已确认的范围
 
 生产顺序：**上传图片 → 整理角色外观 → 分层与补图 → 二维绑定及动作制作 → 自动检查与预览**。

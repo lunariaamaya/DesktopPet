@@ -98,11 +98,16 @@
   "generationStatus": "image_received",
   "candidateImage": "base-a-mage-covered-front-v02.png",
   "rig": null,
-  "approval": "not_reviewed",
+  "approval": "revision_requested",
   "conclusion": "This exact fully clothed request produced an image; do not infer hidden thresholds, exact reconstruction, layering or rigging.",
   "oldReferenceRelocation": {
     "verifiedImages": 17,
     "allHashesUnchanged": true,
     "currentArchiveDirectory": "穿太少了"
+  },
+  "userFeedback": {
+    "date": "2026-11-10",
+    "summary": "用户认为 v02 与参考不够相似、显得太高；指定 design-v01.png 为比例和脸型参考进行调整。",
+    "nextRevision": "base-a-mage/v03/candidate.json"
   }
 }
