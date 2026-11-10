@@ -1,0 +1,13 @@
+Use case: precise-object-edit
+Asset type: neutral 2D character base reference, front view, color-only revision v09.
+Input image 1 is the sole edit target and authoritative geometry, identity, pose, hands and feet. The user has explicitly approved it.
+
+Primary request: keep the exact existing body silhouette and pose; recolor the arms and legs to natural pale skin matching the existing hands and feet. This is a neutral, fully nonsexual character production reference.
+
+Editable regions: the gray-filled arms from shoulder/armhole to wrist, and both legs below the modest short upper-thigh garment through the ankles. Replace their gray fill with the same very pale, low-saturation pink-ivory skin seen on the existing hands/feet. Keep the high-neck central torso and pelvis covered in opaque neutral-gray base clothing, with simple modest short legs covering the uppermost thighs, no underwear styling. Only add the simple internal armhole and short-leg hem boundaries needed for the color transition. No changes to the outer contour.
+
+Color quality: match the existing hand/foot light skin rather than inventing a different complexion. Use continuous, very gentle front-facing diffuse shading, with subtle same-hue pink-peach shadows. Blend wrists and ankles seamlessly into the existing hands and feet without gray cuffs, dark bands, orange/red patches, pink knees or mottled highlights. Smooth clean fills and restrained thin contours; avoid noise, ghosting, gradients that form visible blotches, hard color steps and excessive saturation. Preserve the existing small cheek blush.
+
+Hard invariants: identical head size, body height, head-to-body ratio, shoulder width, waist/hip contour, limb thickness and lengths, straight slender leg alignment, foot size, toe shape and hand gestures. Keep the approved small delicate hands and each hand's five rounded fingers; do not redraw or spread the fingers. Keep all toes unchanged. Keep the bald head, elf ears, face, expression, character-left red eye/viewer-right red, character-right blue eye/viewer-left blue. Preserve the image's exact placement, full-body framing, white backdrop, existing heading text and ground line. Preserve the neutral-gray torso color and shape. No hair, accessories, scenery, new text, nude torso or exposed private areas.
+
+Perform a precise color edit of image 1, not a new character drawing. Output one image with the same 1024 x 1536 canvas.

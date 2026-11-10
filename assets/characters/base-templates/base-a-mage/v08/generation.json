@@ -60,5 +60,12 @@
     },
     "scale": 4,
     "resampling": "nearest-neighbor; no invented detail"
+  },
+  "userReview": {
+    "status": "approved_reference",
+    "date": "2026-11-10",
+    "scope": "front_static_reference",
+    "quote": "很不错，我很满意，接下来将保持现有的身材形状不变，将手臂及腿部的颜色换回正常的肤色，并注意改善一下色差问题。",
+    "interpretation": "用户认可 v08 正面图，要求锁定现有身材形状；不等于认可新生成 v09、完整 G0、多视图、分层或绑定。"
   }
 }

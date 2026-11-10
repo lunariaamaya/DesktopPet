@@ -23,8 +23,8 @@
   },
   "rollbackBase": "draft-06",
   "kind": "covered_2d_reference_candidate",
-  "approval": "not_reviewed",
-  "referenceFit": "not_verified",
+  "approval": "approved_reference",
+  "referenceFit": "user_accepted_front_appearance_not_exact_reconstruction",
   "layers": null,
   "rig": null,
   "runtimeLoadable": false,
@@ -54,16 +54,22 @@
         "viewerRightFoot": 5
       },
       "pending": [
-        "User judgement of naturalness, smallness and rounded softness",
         "Small full-body raster hands cannot establish anatomical perfection or animation readiness"
       ],
       "comparisonFigure": "hand-detail-review.png",
       "comparisonNote": "4x nearest-neighbor crop inspection only; not a new production drawing."
     },
     "limits": [
-      "The user rejected v07 quality despite five visible digits; do not promote this version without review",
+      "User approved this static front reference on 2026-11-10; this does not approve the later v09 color candidate, other views, layering or rigging",
       "Generative editing does not guarantee pixel-identical regions outside hands",
       "Static composite PNG only, no layers, rig or animation"
     ]
-  }
+  },
+  "userApproval": {
+    "date": "2026-11-10",
+    "scope": "front_static_reference",
+    "quote": "很不错，我很满意，接下来将保持现有的身材形状不变，将手臂及腿部的颜色换回正常的肤色，并注意改善一下色差问题。",
+    "interpretation": "用户认可 v08 正面图，要求锁定现有身材形状；不等于认可新生成 v09、完整 G0、多视图、分层或绑定。"
+  },
+  "nextRevision": "base-a-mage/v09/candidate.json"
 }

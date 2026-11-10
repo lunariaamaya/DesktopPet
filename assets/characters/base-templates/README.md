@@ -2,7 +2,9 @@
 
 日期：2026-11-09。稳定模板 ID 与用户命名：A=`base-a`（魔法师），B=`base-b`（弓箭手）。名称可改，ID 不随展示名称变化。
 
-**当前 A 类待看图候选：[自然小手重做 v08](base-a-mage/v08/base-a-mage-natural-five-finger-hands-front-v08.png)**。用户否定 v07 手型与重影，已回退 v06 并新建柔和手型参考，再修整图；v07 为 rejected，v08 待确认，未分层/绑定。见 [重做说明](../../../docs/mage-natural-hand-revision-2026-11-10.md) · [手部放大对比](base-a-mage/v08/hand-detail-review.png) · [参考图](base-a-mage/v08/natural-hand-guide-v08.png)。原图保留，B 类不改。
+**当前 A 类改色候选：[手臂与腿部肤色 v09](base-a-mage/v09/base-a-mage-skin-tone-limbs-front-v09.png)**。用户明确满意 v08，并要求保持身材形状，仅恢复四肢肤色、改善色差。v08 已记录为认可的正面静态参考，v09 待看图确认。躯干与骨盆保留不透明灰色基础服装，四肢改为与手脚接近的浅粉象牙白；未分层/绑定。见 [改色记录](../../../docs/mage-limb-color-revision-2026-11-10.md) · [手腕/脚踝对比](base-a-mage/v09/skin-transition-review.png)。原图保留，B 类不改。
+
+认可基线：[自然小手 v08](base-a-mage/v08/base-a-mage-natural-five-finger-hands-front-v08.png)。用户原话“很不错，我很满意”，并要求“保持现有的身材形状不变”；认可范围为当前正面参考，不等于多视图、分层或完整 G0 已完成。见 [重做说明及后续认可](../../../docs/mage-natural-hand-revision-2026-11-10.md) · [手型参考](base-a-mage/v08/natural-hand-guide-v08.png)。
 
 v07 历史：[五指版（用户已否定）](base-a-mage/v07/base-a-mage-five-fingers-front-v07.png)。其计数检查不代表手势、肤色或轮廓质量达标，不作为后续默认底图。
 

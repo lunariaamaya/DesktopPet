@@ -1,4 +1,4 @@
-"""Validate reference immutability and index unapproved reference candidates.
+"""Validate reference immutability and index reference artwork with user status.
 
 File checks do not prove anatomical accuracy, visual fidelity, view consistency,
 layer separation or rigging. This index must never be used as a runtime model.
@@ -50,19 +50,28 @@ def main():
             image.load();assert (image.width,image.height)==(record['width'],record['height'])
         original=GENERATED/record['sourceBuiltinFilename']
         if original.exists():assert sha(original)==record['sha256']
-        assert record['approval'] in {'not_reviewed','revision_requested','rejected'} and record['rig'] is None and not record['runtimeLoadable']
+        assert record['approval'] in {'not_reviewed','revision_requested','rejected','approved_reference'} and record['rig'] is None and not record['runtimeLoadable']
+        if record['approval']=='approved_reference':
+            evidence=record['userApproval']
+            assert evidence['scope']=='front_static_reference' and evidence['quote'] and evidence['date']
         for source,digest in record.get('sourceHashes',{}).items():
             assert sha(ROOT/source)==digest,source
         records.append(record)
+    approved={'base-a':None,'base-b':None}
+    for record in records:
+        if record['approval']=='approved_reference':
+            approved[record['templateId']]={key:record[key] for key in ('revision','artifact','sha256')}
+            approved[record['templateId']]['scope']='front_static_reference_only'
     (BASE/'candidate-index.json').write_text(json.dumps({'date':'2026-11-09',
         'updatedOn':'2026-11-10',
-        'kind':'work_in_progress_index_not_runtime_manifest','approvedBaselines':{'base-a':None,'base-b':None},
+        'kind':'work_in_progress_index_not_runtime_manifest','approvedBaselines':approved,
         'candidates':records},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     (BASE/'file-check.json').write_text(json.dumps({'sourceReferences':len(references),
         'allOriginalHashesUnchanged':True,'candidateCount':len(records),
+        'approvedFrontReferenceCount':sum(record['approval']=='approved_reference' for record in records),
         'generatedFilesCopiedWithoutPixelChanges':True,
         'notChecked':['reference fidelity','anatomy','view registration','layering','rigging','animation']},
         indent=2)+'\n',encoding='utf-8')
-    print(f'17 original references unchanged; {len(records)} PNG candidates indexed across 2 template IDs; no rig or approval claimed')
+    print(f'{len(references)} original references unchanged; {len(records)} PNG references indexed across 2 template IDs; {sum(record["approval"]=="approved_reference" for record in records)} user-approved front reference; no rig claimed')
 
 if __name__=='__main__':main()

@@ -107,8 +107,21 @@
       "attemptLog": "base-a-mage/v08/generation.json",
       "generationCalls": 2,
       "status": "generated_not_approved",
-      "output": "base-a-mage/v08/base-a-mage-natural-five-finger-hands-front-v08.png"
+      "output": "base-a-mage/v08/base-a-mage-natural-five-finger-hands-front-v08.png",
+      "userReviewOutcome": "approved_reference: user satisfied with v08 and requests unchanged body shape",
+      "userReviewEvidence": "很不错，我很满意，接下来将保持现有的身材形状不变，将手臂及腿部的颜色换回正常的肤色，并注意改善一下色差问题。"
+    },
+    {
+      "date": "2026-11-10",
+      "templateId": "base-a",
+      "revision": "draft-09",
+      "method": "built-in image_gen: approved v08 geometry, arm/leg skin-color edit",
+      "prompt": "base-a-mage/v09/prompt.txt",
+      "attemptLog": "base-a-mage/v09/generation.json",
+      "generationCalls": 1,
+      "status": "generated_not_approved",
+      "output": "base-a-mage/v09/base-a-mage-skin-tone-limbs-front-v09.png"
     }
   ],
-  "nextScope": "User review of v08 natural small pale rounded five-finger hands. Do not reuse rejected v07 or equate digit counts with art approval."
+  "nextScope": "User review of v09 limb skin color and continuity; v08 is the approved front geometry/hand baseline. B remains unchanged."
 }

@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-10",
+  "templateId": "base-a",
+  "revision": "draft-09",
+  "method": "built-in image_gen edit",
+  "generationCalls": 1,
+  "prompt": "prompt.txt",
+  "promptFileSha256": "9597686e963a65371c278528af4b00bef78a730336ff2e2d5b83963bbc8f725d",
+  "inputHashes": {
+    "assets/characters/base-templates/base-a-mage/v08/base-a-mage-natural-five-finger-hands-front-v08.png": "729bd3685bc9115713bbd56a9c452c7cdba47a9fccb2c77d1b396030ce6c7bf8"
+  },
+  "output": "base-a-mage-skin-tone-limbs-front-v09.png",
+  "outputSha256": "4c740be63fe75c00ab0f093cfb76768b0c43bf09c1329a252f897199403bee4c",
+  "size": [
+    1024,
+    1536
+  ],
+  "sourceBuiltinFilename": "exec-335fd3eb-54e8-4a2e-a76f-eafbcfe78841.png",
+  "transparentBackground": false,
+  "productionImageCopiedWithoutPixelChanges": true,
+  "userRequest": "很不错，我很满意，接下来将保持现有的身材形状不变，将手臂及腿部的颜色换回正常的肤色，并注意改善一下色差问题。",
+  "sourceApproval": {
+    "date": "2026-11-10",
+    "scope": "front_static_reference",
+    "quote": "很不错，我很满意，接下来将保持现有的身材形状不变，将手臂及腿部的颜色换回正常的肤色，并注意改善一下色差问题。",
+    "interpretation": "用户认可 v08 正面图，要求锁定现有身材形状；不等于认可新生成 v09、完整 G0、多视图、分层或绑定。"
+  },
+  "status": "generated_not_approved",
+  "inspectionFigure": {
+    "file": "skin-transition-review.png",
+    "kind": "read-only QA figure, not production art",
+    "cropBoxes": {
+      "left wrist/hand": [
+        280,
+        750,
+        370,
+        910
+      ],
+      "right wrist/hand": [
+        655,
+        750,
+        745,
+        910
+      ],
+      "left ankle/foot": [
+        415,
+        1260,
+        495,
+        1405
+      ],
+      "right ankle/foot": [
+        525,
+        1260,
+        605,
+        1405
+      ]
+    },
+    "scale": 2,
+    "resampling": "nearest-neighbor; no invented detail"
+  },
+  "observedChanges": [
+    "Arms and visible legs recolored from gray to pale low-saturation pink-ivory skin",
+    "Wrists and ankles now join hands/feet without the former gray cuffs or fill boundary",
+    "Five fingers on each approved relaxed hand and five toes per foot remain visually readable",
+    "Compact proportions, slender straight leg appearance, pose, face, elf ears and eye-color sides retained in appearance",
+    "High-neck torso and pelvis retain opaque gray base clothing with modest upper-thigh shorts",
+    "Generator changed the heading suffix from v08 to v09 despite preserve-text wording"
+  ],
+  "limitations": [
+    "Static single front PNG, no separate layers, binding or animation",
+    "Generative editing changes pixels outside the requested color regions; no exact pixel-preservation claim",
+    "Sparse contour-row proxy and regional RGB samples do not certify identical anatomy or absence of all noise",
+    "v09 remains pending user review; only source v08 was explicitly accepted"
+  ]
+}

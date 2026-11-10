@@ -1,0 +1,603 @@
+{
+  "date": "2026-11-10",
+  "before": "assets/characters/base-templates/base-a-mage/v08/base-a-mage-natural-five-finger-hands-front-v08.png",
+  "after": "assets/characters/base-templates/base-a-mage/v09/base-a-mage-skin-tone-limbs-front-v09.png",
+  "beforeSha256": "729bd3685bc9115713bbd56a9c452c7cdba47a9fccb2c77d1b396030ce6c7bf8",
+  "afterSha256": "4c740be63fe75c00ab0f093cfb76768b0c43bf09c1329a252f897199403bee4c",
+  "sizeBefore": [
+    1024,
+    1536
+  ],
+  "sizeAfter": [
+    1024,
+    1536
+  ],
+  "productionImageCopiedWithoutPixelChanges": true,
+  "method": "Read-only RGB sampling and sparse dark-contour row extrema; no production pixel editing",
+  "skinSamples": {
+    "forehead": {
+      "roi_xywh": [
+        497,
+        251,
+        16,
+        16
+      ],
+      "pixels": 256,
+      "medianRGB": [
+        254,
+        239,
+        236
+      ],
+      "medianHEX": "#FEEFEC",
+      "channelP10P90": [
+        [
+          253.5,
+          239.0,
+          236.0
+        ],
+        [
+          255.0,
+          240.0,
+          237.0
+        ]
+      ]
+    },
+    "viewer_left_upper_arm": {
+      "roi_xywh": [
+        411,
+        544,
+        12,
+        16
+      ],
+      "pixels": 192,
+      "medianRGB": [
+        254,
+        241,
+        238
+      ],
+      "medianHEX": "#FEF1EE",
+      "channelP10P90": [
+        [
+          254.0,
+          240.0,
+          237.0
+        ],
+        [
+          255.0,
+          241.0,
+          238.0
+        ]
+      ]
+    },
+    "viewer_right_upper_arm": {
+      "roi_xywh": [
+        601,
+        544,
+        12,
+        16
+      ],
+      "pixels": 192,
+      "medianRGB": [
+        254,
+        240,
+        237
+      ],
+      "medianHEX": "#FEF0ED",
+      "channelP10P90": [
+        [
+          254.0,
+          240.0,
+          237.0
+        ],
+        [
+          255.0,
+          241.0,
+          238.0
+        ]
+      ]
+    },
+    "viewer_left_forearm": {
+      "roi_xywh": [
+        355,
+        721,
+        10,
+        14
+      ],
+      "pixels": 140,
+      "medianRGB": [
+        254,
+        241,
+        238
+      ],
+      "medianHEX": "#FEF1EE",
+      "channelP10P90": [
+        [
+          254.0,
+          239.0,
+          236.0
+        ],
+        [
+          255.0,
+          242.0,
+          239.0
+        ]
+      ]
+    },
+    "viewer_right_forearm": {
+      "roi_xywh": [
+        649,
+        721,
+        10,
+        14
+      ],
+      "pixels": 140,
+      "medianRGB": [
+        254,
+        239,
+        236
+      ],
+      "medianHEX": "#FEEFEC",
+      "channelP10P90": [
+        [
+          254.0,
+          235.0,
+          230.0
+        ],
+        [
+          255.0,
+          241.0,
+          238.0
+        ]
+      ]
+    },
+    "viewer_left_hand": {
+      "roi_xywh": [
+        317,
+        817,
+        10,
+        12
+      ],
+      "pixels": 120,
+      "medianRGB": [
+        254,
+        238,
+        235
+      ],
+      "medianHEX": "#FEEEEB",
+      "channelP10P90": [
+        [
+          254.0,
+          237.0,
+          234.0
+        ],
+        [
+          255.0,
+          240.0,
+          236.0
+        ]
+      ]
+    },
+    "viewer_right_hand": {
+      "roi_xywh": [
+        697,
+        817,
+        10,
+        12
+      ],
+      "pixels": 120,
+      "medianRGB": [
+        254,
+        237,
+        234
+      ],
+      "medianHEX": "#FEEDEA",
+      "channelP10P90": [
+        [
+          254.0,
+          237.0,
+          233.0
+        ],
+        [
+          255.0,
+          239.0,
+          235.0
+        ]
+      ]
+    },
+    "viewer_left_thigh": {
+      "roi_xywh": [
+        453,
+        911,
+        14,
+        18
+      ],
+      "pixels": 252,
+      "medianRGB": [
+        254,
+        242,
+        239
+      ],
+      "medianHEX": "#FEF2EF",
+      "channelP10P90": [
+        [
+          254.0,
+          241.0,
+          238.0
+        ],
+        [
+          255.0,
+          243.0,
+          240.0
+        ]
+      ]
+    },
+    "viewer_right_thigh": {
+      "roi_xywh": [
+        558,
+        911,
+        14,
+        18
+      ],
+      "pixels": 252,
+      "medianRGB": [
+        254,
+        241,
+        238
+      ],
+      "medianHEX": "#FEF1EE",
+      "channelP10P90": [
+        [
+          254.0,
+          241.0,
+          238.0
+        ],
+        [
+          255.0,
+          242.0,
+          239.0
+        ]
+      ]
+    },
+    "viewer_left_shin": {
+      "roi_xywh": [
+        449,
+        1206,
+        12,
+        18
+      ],
+      "pixels": 216,
+      "medianRGB": [
+        254,
+        240,
+        237
+      ],
+      "medianHEX": "#FEF0ED",
+      "channelP10P90": [
+        [
+          254.0,
+          239.0,
+          236.0
+        ],
+        [
+          255.0,
+          241.0,
+          238.0
+        ]
+      ]
+    },
+    "viewer_right_shin": {
+      "roi_xywh": [
+        563,
+        1206,
+        12,
+        18
+      ],
+      "pixels": 216,
+      "medianRGB": [
+        254,
+        240,
+        237
+      ],
+      "medianHEX": "#FEF0ED",
+      "channelP10P90": [
+        [
+          254.0,
+          239.0,
+          235.0
+        ],
+        [
+          255.0,
+          241.0,
+          238.0
+        ]
+      ]
+    },
+    "viewer_left_foot": {
+      "roi_xywh": [
+        449,
+        1344,
+        12,
+        16
+      ],
+      "pixels": 192,
+      "medianRGB": [
+        254,
+        239,
+        236
+      ],
+      "medianHEX": "#FEEFEC",
+      "channelP10P90": [
+        [
+          253.0,
+          239.0,
+          235.1
+        ],
+        [
+          255.0,
+          240.0,
+          237.0
+        ]
+      ]
+    },
+    "viewer_right_foot": {
+      "roi_xywh": [
+        562,
+        1344,
+        12,
+        16
+      ],
+      "pixels": 192,
+      "medianRGB": [
+        254,
+        239,
+        236
+      ],
+      "medianHEX": "#FEEFEC",
+      "channelP10P90": [
+        [
+          254.0,
+          238.0,
+          235.0
+        ],
+        [
+          255.0,
+          240.0,
+          236.0
+        ]
+      ]
+    }
+  },
+  "sparseContourRows": [
+    {
+      "y": 205,
+      "before_x_extrema": [
+        453,
+        569
+      ],
+      "after_x_extrema": [
+        452,
+        569
+      ],
+      "delta_x": [
+        -1,
+        0
+      ]
+    },
+    {
+      "y": 295,
+      "before_x_extrema": [
+        410,
+        611
+      ],
+      "after_x_extrema": [
+        410,
+        611
+      ],
+      "delta_x": [
+        0,
+        0
+      ]
+    },
+    {
+      "y": 350,
+      "before_x_extrema": [
+        381,
+        640
+      ],
+      "after_x_extrema": [
+        381,
+        640
+      ],
+      "delta_x": [
+        0,
+        0
+      ]
+    },
+    {
+      "y": 470,
+      "before_x_extrema": [
+        423,
+        598
+      ],
+      "after_x_extrema": [
+        423,
+        598
+      ],
+      "delta_x": [
+        0,
+        0
+      ]
+    },
+    {
+      "y": 550,
+      "before_x_extrema": [
+        395,
+        624
+      ],
+      "after_x_extrema": [
+        393,
+        629
+      ],
+      "delta_x": [
+        -2,
+        5
+      ]
+    },
+    {
+      "y": 650,
+      "before_x_extrema": [
+        371,
+        652
+      ],
+      "after_x_extrema": [
+        371,
+        652
+      ],
+      "delta_x": [
+        0,
+        0
+      ]
+    },
+    {
+      "y": 730,
+      "before_x_extrema": [
+        342,
+        680
+      ],
+      "after_x_extrema": [
+        342,
+        680
+      ],
+      "delta_x": [
+        0,
+        0
+      ]
+    },
+    {
+      "y": 780,
+      "before_x_extrema": [
+        324,
+        697
+      ],
+      "after_x_extrema": [
+        324,
+        698
+      ],
+      "delta_x": [
+        0,
+        1
+      ]
+    },
+    {
+      "y": 850,
+      "before_x_extrema": [
+        288,
+        734
+      ],
+      "after_x_extrema": [
+        288,
+        734
+      ],
+      "delta_x": [
+        0,
+        0
+      ]
+    },
+    {
+      "y": 920,
+      "before_x_extrema": [
+        427,
+        596
+      ],
+      "after_x_extrema": [
+        427,
+        596
+      ],
+      "delta_x": [
+        0,
+        0
+      ]
+    },
+    {
+      "y": 1010,
+      "before_x_extrema": [
+        438,
+        585
+      ],
+      "after_x_extrema": [
+        438,
+        585
+      ],
+      "delta_x": [
+        0,
+        0
+      ]
+    },
+    {
+      "y": 1120,
+      "before_x_extrema": [
+        429,
+        594
+      ],
+      "after_x_extrema": [
+        429,
+        594
+      ],
+      "delta_x": [
+        0,
+        0
+      ]
+    },
+    {
+      "y": 1220,
+      "before_x_extrema": [
+        437,
+        587
+      ],
+      "after_x_extrema": [
+        436,
+        587
+      ],
+      "delta_x": [
+        -1,
+        0
+      ]
+    },
+    {
+      "y": 1300,
+      "before_x_extrema": [
+        438,
+        585
+      ],
+      "after_x_extrema": [
+        438,
+        585
+      ],
+      "delta_x": [
+        0,
+        0
+      ]
+    },
+    {
+      "y": 1355,
+      "before_x_extrema": [
+        430,
+        593
+      ],
+      "after_x_extrema": [
+        430,
+        593
+      ],
+      "delta_x": [
+        0,
+        0
+      ]
+    }
+  ],
+  "limitations": [
+    "Sparse contour extrema do not measure every limb contour or prove identical anatomy",
+    "Generative output has pixel differences outside requested regions; no pixel-identical claim",
+    "Regional color samples do not prove absence of all mottling/noise or establish a universal skin color",
+    "Generator updated the header from v08 to v09 despite the preserve-text instruction"
+  ]
+}

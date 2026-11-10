@@ -1,7 +1,8 @@
 {
   "sourceReferences": 17,
   "allOriginalHashesUnchanged": true,
-  "candidateCount": 9,
+  "candidateCount": 10,
+  "approvedFrontReferenceCount": 1,
   "generatedFilesCopiedWithoutPixelChanges": true,
   "notChecked": [
     "reference fidelity",
