@@ -18,7 +18,7 @@
     "assets/characters/first-character/concepts/design-v01.png": "c9d8198dad396ba790993dd49e48ce31aba786e0908d82eb3b73d3866afa769d"
   },
   "kind": "covered_2d_reference_candidate",
-  "approval": "not_reviewed",
+  "approval": "revision_requested",
   "referenceFit": "not_verified",
   "layers": null,
   "rig": null,
@@ -49,5 +49,10 @@
   "referenceRoles": {
     "editTarget": "assets/characters/base-templates/base-a-mage/v05/base-a-mage-skin-tone-feet-front-v05.png",
     "toeAppearanceReferenceOnly": "assets/characters/first-character/concepts/design-v01.png"
+  },
+  "userFeedback": {
+    "date": "2026-11-10",
+    "summary": "用户认为手部看起来只有四指，要求补齐精致的五指。",
+    "nextRevision": "base-a-mage/v07/candidate.json"
   }
 }

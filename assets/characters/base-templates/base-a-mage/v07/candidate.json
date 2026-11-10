@@ -1,0 +1,61 @@
+{
+  "templateId": "base-a",
+  "displayName": "魔法师",
+  "revision": "draft-07",
+  "artifact": "base-a-mage/v07/base-a-mage-five-fingers-front-v07.png",
+  "sha256": "f7aaab77743a7adb4f39cef7e286afd2e3fc3328b529920c7279977ebab165ff",
+  "width": 1024,
+  "height": 1536,
+  "mode": "RGB",
+  "prompt": "base-a-mage/v07/prompt.txt",
+  "method": "built-in image_gen edit",
+  "referenceImagesUsedForGeneration": [
+    "assets/characters/base-templates/base-a-mage/v06/base-a-mage-detailed-toes-front-v06.png"
+  ],
+  "sourceHashes": {
+    "assets/characters/base-templates/base-a-mage/v06/base-a-mage-detailed-toes-front-v06.png": "aed950aaf23362ce9ac30f997fab26d253d40446190626a1f124e1fe81735972"
+  },
+  "kind": "covered_2d_reference_candidate",
+  "approval": "not_reviewed",
+  "referenceFit": "not_verified",
+  "layers": null,
+  "rig": null,
+  "runtimeLoadable": false,
+  "sourceBuiltinFilename": "exec-ad7408f5-64b8-437c-a1bf-775464c1b1af.png",
+  "manualReview": {
+    "views": "front only",
+    "observedChanges": [
+      "Five visible digits per hand with thumb plus four long fingers",
+      "Slightly relaxed/open hand orientation to make individual fingers readable"
+    ],
+    "preservedInAppearance": [
+      "Compact head/body, elf ears and red/blue eyes",
+      "Slim straight legs, pale feet and five rounded toes on each foot",
+      "Opaque neutral gray clothing above wrists and ankles"
+    ],
+    "digitInspection": {
+      "type": "manual review of full-size image and 4x nearest-neighbor inspection crops",
+      "viewerLeftHand": {
+        "thumb": 1,
+        "longFingers": 4,
+        "visibleDigitCount": 5
+      },
+      "viewerRightHand": {
+        "thumb": 1,
+        "longFingers": 4,
+        "visibleDigitCount": 5
+      },
+      "thumbPosition": "inner edge toward body on each hand",
+      "otherChecks": [
+        "Rounded slender fingertips; four long fingers visibly separated",
+        "Five toes still visible on each foot in the full-body result"
+      ],
+      "inspectionFigure": "hand-detail-review.png",
+      "note": "Counts are human visual inspection, not automatic anatomical or rigging validation."
+    },
+    "limits": [
+      "Static single image, no layers, rig or animation",
+      "No pixel-identical promise outside the hand edit region; user approval pending"
+    ]
+  }
+}

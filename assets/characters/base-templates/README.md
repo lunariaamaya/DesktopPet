@@ -2,7 +2,9 @@
 
 日期：2026-11-09。稳定模板 ID 与用户命名：A=`base-a`（魔法师），B=`base-b`（弓箭手）。名称可改，ID 不随展示名称变化。
 
-**当前 A 类待看图候选：[脚部肤色与脚趾细节 v06](base-a-mage/v06/base-a-mage-detailed-toes-front-v06.png)**。沿用 v04 纤细腿型，先在 v05 恢复脚部肤色，再按用户补充要求细化五趾。v04/v05 为需修订，v06 待确认，未分层/绑定。见 [脚部修订说明](../../../docs/mage-foot-revision-2026-11-10.md) · [v06 提示词](base-a-mage/v06/prompt.txt)。原图保留，B 类不改。
+**当前 A 类待看图候选：[精致五指修订 v07](base-a-mage/v07/base-a-mage-five-fingers-front-v07.png)**。按用户反馈补齐双手五指，保留脚部肤色、五趾及纤细腿型；v06 为需修订，v07 待确认，未分层/绑定。见 [手部修订说明](../../../docs/mage-hand-revision-2026-11-10.md) · [手部放大对比](base-a-mage/v07/hand-detail-review.png) · [提示词](base-a-mage/v07/prompt.txt)。原图保留，B 类不改。
+
+v05–v06 历史：[脚部肤色与五趾候选](base-a-mage/v06/base-a-mage-detailed-toes-front-v06.png)。见 [脚部修订记录](../../../docs/mage-foot-revision-2026-11-10.md)。
 
 v04 历史：[纤细直腿修订](base-a-mage/v04/base-a-mage-slim-straight-legs-front-v04.png)。按用户要求收细腿部并减弱外弓轮廓，详见 [腿部修订记录](../../../docs/mage-leg-revision-2026-11-10.md)。
 

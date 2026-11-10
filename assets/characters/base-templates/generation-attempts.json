@@ -84,7 +84,18 @@
       "attemptCount": 1,
       "status": "generated_not_approved",
       "output": "base-a-mage/v06/base-a-mage-detailed-toes-front-v06.png"
+    },
+    {
+      "date": "2026-11-10",
+      "templateId": "base-a",
+      "revision": "draft-07",
+      "method": "built-in image_gen edit",
+      "prompt": "base-a-mage/v07/prompt.txt",
+      "attemptLog": "base-a-mage/v07/generation.json",
+      "attemptCount": 1,
+      "status": "generated_not_approved",
+      "output": "base-a-mage/v07/base-a-mage-five-fingers-front-v07.png"
     }
   ],
-  "nextScope": "User review of v06 skin-colored feet and delicate rounded toes; retain slender leg design; no binding approval."
+  "nextScope": "User review of v07 five-finger hands and retained five-toe feet; no layering or rigging approval."
 }

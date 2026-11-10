@@ -12,6 +12,8 @@
 
 随后用户要求脚部恢复肤色并补回精致脚趾，先出 v05 肤色版，再出 [v06 脚趾细节候选](../assets/characters/base-templates/base-a-mage/v06/base-a-mage-detailed-toes-front-v06.png)。保留灰色裤腿和纤细腿型，v06 仍待确认，G0 未通过；见 [脚部修订记录](mage-foot-revision-2026-11-10.md)。
 
+最新：按用户反馈修正手部五指可读性，交付 [v07 候选](../assets/characters/base-templates/base-a-mage/v07/base-a-mage-five-fingers-front-v07.png)，两手经放大人工检查均为一拇指加四长指。v06 为需修订，v07 未确认，脚趾与腿型继续保留。见 [手部修订记录](mage-hand-revision-2026-11-10.md)。
+
 ## 1. 已确认的范围
 
 生产顺序：**上传图片 → 整理角色外观 → 分层与补图 → 二维绑定及动作制作 → 自动检查与预览**。

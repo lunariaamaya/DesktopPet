@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-10",
+  "templateId": "base-a",
+  "revision": "draft-07",
+  "method": "built-in image_gen edit",
+  "prompt": "prompt.txt",
+  "promptFileSha256": "f82256cf17697e22474e15a7012c741a6ea61689751a6deba21ef9e3d79f6917",
+  "input": "assets/characters/base-templates/base-a-mage/v06/base-a-mage-detailed-toes-front-v06.png",
+  "inputSha256": "aed950aaf23362ce9ac30f997fab26d253d40446190626a1f124e1fe81735972",
+  "transparentBackground": false,
+  "output": "base-a-mage-five-fingers-front-v07.png",
+  "outputSha256": "f7aaab77743a7adb4f39cef7e286afd2e3fc3328b529920c7279977ebab165ff",
+  "sourceBuiltinFilename": "exec-ad7408f5-64b8-437c-a1bf-775464c1b1af.png",
+  "copiedWithoutPixelChanges": true,
+  "status": "generated_not_approved",
+  "userFeedback": {
+    "date": "2026-11-10",
+    "summary": "用户认为手部看起来只有四指，要求补齐精致的五指。",
+    "nextRevision": "base-a-mage/v07/candidate.json"
+  },
+  "inspectionFigure": {
+    "file": "hand-detail-review.png",
+    "kind": "read-only magnified QA figure",
+    "cropBoxes": {
+      "viewerLeft": [
+        278,
+        780,
+        360,
+        910
+      ],
+      "viewerRight": [
+        667,
+        780,
+        750,
+        910
+      ]
+    },
+    "scale": 4,
+    "resampling": "nearest-neighbor; adds no detail; not a production image edit"
+  }
+}
