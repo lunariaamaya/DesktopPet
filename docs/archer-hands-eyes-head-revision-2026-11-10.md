@@ -1,6 +1,6 @@
 # 弓箭手：五指、蓝紫异瞳与头部肤色连续化
 
-日期：2026-11-10。当前交付为 **v06 候选**，不是已获认可的 B 类底稿。魔法师 v09 基线保持原图及规范不变。
+日期：2026-11-10。后续用户已明确确认 **v06 为弓箭手底稿**，要求今后同类设计参照其身材比例、体型和肤色。见 [B 类基线规范](../assets/characters/base-templates/base-b-archer/baseline.json)；两张底稿已纳入 [skill 的 A/B 参考规范](../skills/character-reference-to-turnaround/references/cases/desktop-pet-base-templates/reference-standard.md)。下文“候选/待确认”均为生成当时状态，不覆盖本段认可。魔法师 v09 保持原图不变。
 
 ## 本轮用户要求与有效状态
 

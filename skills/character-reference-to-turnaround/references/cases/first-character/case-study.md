@@ -4,6 +4,7 @@
 
 ## 阅读入口与当前有效状态
 
+- **2026-11-10 新确认的身体底稿规范**：[DesktopPet A/B 底稿](../desktop-pet-base-templates/reference-standard.md)。后续魔法师/弓箭手角色的体型外形、身材比例与肤色分别以魔法师 v09、弓箭手 v06 为准。本页设计稿/三视图保留为首位角色服饰、外观和修订过程资料，不能覆盖新底稿的身体规范；当前项目已选二维路线。
 - **建模三视图基线**：[白色提亮版12](concepts/turnaround-v02-accessories-v12.png)，用户“暂定为最终版”，不是永久冻结或解剖结构已全部验证的声明。SHA256：`23255c1276dd2a795df165e24cb5f143188759e907a14751e3fb6403425b15cf`。
 - **原始设计候选**：[design-v01](concepts/design-v01.png)，[完整生成提示词](concepts/generation-v01.md)。用于身份、比例和整体美术方向；后续三视图修订另有依据。
 - **最新姿态插画**：[害羞站姿](concepts/design-shy-fullbody-v01.png)、[坐地抱腿](concepts/design-shy-seated-v01.png)。坐姿以站姿为唯一底图，用户要求保持面部表情、双手抱双腿；坐姿尚未获得最终认可。这两张不替换版12三视图。

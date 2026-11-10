@@ -211,7 +211,13 @@
   },
   "limits": [
     "Smoothness statistics apply to listed skin ROIs, not universal noise absence",
-    "User review of head color is pending",
     "Only deterministic v06 has proven exact preservation outside its head mask"
-  ]
+  ],
+  "userReview": {
+    "status": "approved_reference",
+    "date": "2026-11-10",
+    "scope": "front_static_reference",
+    "quote": "很好，就以这张作为弓箭手角色的底稿，后续的弓箭手角色设计就参照这张的身材比例及体型和肤色。",
+    "interpretation": "弓箭手 v06 正面底稿已获认可，后续同类角色参照其身材比例、体型和肤色；不扩大为多视图/分层/绑定验收。"
+  }
 }

@@ -384,5 +384,7 @@
   ],
   "layers": null,
   "rig": null,
-  "runtimeLoadable": false
+  "runtimeLoadable": false,
+  "referencePriority": "Primary body silhouette/proportion/build/skin reference for future mage design, not style-only",
+  "skillReference": "references/cases/desktop-pet-base-templates/base-a-mage-v09.png"
 }

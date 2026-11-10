@@ -4,10 +4,12 @@
   "allAdditionalReferenceHashesUnchanged": true,
   "allOriginalHashesUnchanged": true,
   "candidateCount": 15,
-  "approvedFrontReferenceCount": 2,
+  "approvedFrontReferenceCount": 3,
   "generatedFilesCopiedWithoutPixelChanges": false,
   "postprocessedReferenceCount": 1,
   "postprocessedOutputsPreserveOutsideMask": true,
+  "approvedSkillReferenceCopiesChecked": 2,
+  "allApprovedSkillReferenceHashesMatch": true,
   "notChecked": [
     "reference fidelity",
     "anatomy",

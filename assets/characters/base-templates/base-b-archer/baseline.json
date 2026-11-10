@@ -1,0 +1,121 @@
+{
+  "templateId": "base-b",
+  "displayName": "弓箭手",
+  "date": "2026-11-10",
+  "revision": "draft-06",
+  "artifact": "base-b-archer/v06/base-b-archer-continuous-head-skin-front-v06.png",
+  "sha256": "9956cf5dcf3437d38f64b8c0feac9401d0cc19ec603694d66f70d91b4782c21c",
+  "scope": "front_static_reference_only",
+  "userApproval": {
+    "date": "2026-11-10",
+    "scope": "front_static_reference",
+    "quote": "很好，就以这张作为弓箭手角色的底稿，后续的弓箭手角色设计就参照这张的身材比例及体型和肤色。",
+    "interpretation": "弓箭手 v06 正面底稿已获认可，后续同类角色参照其身材比例、体型和肤色；不扩大为多视图/分层/绑定验收。"
+  },
+  "referencePriority": "Primary body silhouette/proportion/build/skin reference for future archer design, not style-only",
+  "lockedForFutureArcherDesigns": {
+    "proportions": "Follow v06 head/body relationship and relative torso/limb lengths, not the compact mage proportions",
+    "bodyBuild": "Follow v06 slender elongated silhouette, shoulder/waist/hip shape, leg contour and hand/foot size",
+    "skin": "Follow v06 pale low-saturation pink-ivory skin and continuous restrained same-hue shading"
+  },
+  "skinSamples": {
+    "scalp": {
+      "roi_xywh": [
+        504,
+        207,
+        14,
+        18
+      ],
+      "pixels": 252,
+      "medianRGB": [
+        254,
+        241,
+        239
+      ],
+      "medianHEX": "#FEF1EF"
+    },
+    "upperArm": {
+      "roi_xywh": [
+        415,
+        471,
+        10,
+        16
+      ],
+      "pixels": 160,
+      "medianRGB": [
+        254,
+        240,
+        238
+      ],
+      "medianHEX": "#FEF0EE"
+    },
+    "forearm": {
+      "roi_xywh": [
+        358,
+        650,
+        10,
+        16
+      ],
+      "pixels": 160,
+      "medianRGB": [
+        254,
+        239,
+        237
+      ],
+      "medianHEX": "#FEEFED"
+    },
+    "shin": {
+      "roi_xywh": [
+        448,
+        1190,
+        10,
+        16
+      ],
+      "pixels": 160,
+      "medianRGB": [
+        254,
+        241,
+        240
+      ],
+      "medianHEX": "#FEF1F0"
+    },
+    "foot": {
+      "roi_xywh": [
+        447,
+        1345,
+        10,
+        14
+      ],
+      "pixels": 140,
+      "medianRGB": [
+        254,
+        241,
+        239
+      ],
+      "medianHEX": "#FEF1EF"
+    }
+  },
+  "skinSampleSource": "base-b-archer/v06/visual-inspection.json plus approved image sampling",
+  "currentSheetEyeColors": {
+    "coordinateConvention": "character_own_left_right",
+    "characterLeft": "purple",
+    "characterRight": "blue",
+    "frontViewerLeft": "blue",
+    "frontViewerRight": "purple",
+    "source": "user explicit instruction on 2026-11-10"
+  },
+  "futureDesignRule": "Use v06 body silhouette, proportions, build and skin unless the user explicitly requests a change; add appearance over the approved body.",
+  "skillReference": "references/cases/desktop-pet-base-templates/base-b-archer-v06.png",
+  "notEstablished": [
+    "Real-world height or centimeter measurements",
+    "Exact original hidden anatomy",
+    "Side/back reference geometry",
+    "Layer separation",
+    "Cubism project",
+    "Rigging",
+    "Animation"
+  ],
+  "layers": null,
+  "rig": null,
+  "runtimeLoadable": false
+}

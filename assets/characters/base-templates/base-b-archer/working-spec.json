@@ -2,10 +2,9 @@
   "templateId": "base-b",
   "displayName": "弓箭手",
   "date": "2026-11-10",
-  "currentCandidate": "base-b-archer/v06/candidate.json",
-  "approval": "not_reviewed",
-  "bodyProportionReference": "base-b-archer/v02/base-b-archer-covered-front-v02.png",
-  "bodyProportionNote": "User requested other body/pose/skin features preserved during hand/eye correction; not a complete approved baseline.",
+  "approval": "approved_reference",
+  "bodyProportionReference": "base-b-archer/v06/base-b-archer-continuous-head-skin-front-v06.png",
+  "bodyProportionNote": "The approved v06 drawing is the current body silhouette, proportion and skin reference for future archer designs.",
   "requiredEyeColors": {
     "coordinateConvention": "character_own_left_right",
     "characterLeft": "purple",
@@ -18,5 +17,14 @@
   "ears": "Existing small ordinary ears retained, original source ear structure still not independently established",
   "layers": null,
   "rig": null,
-  "runtimeLoadable": false
+  "runtimeLoadable": false,
+  "currentBaseline": "base-b-archer/v06/candidate.json",
+  "baselineSpecification": "base-b-archer/baseline.json",
+  "historicalProportionSource": "base-b-archer/v02/base-b-archer-covered-front-v02.png",
+  "userApproval": {
+    "date": "2026-11-10",
+    "scope": "front_static_reference",
+    "quote": "很好，就以这张作为弓箭手角色的底稿，后续的弓箭手角色设计就参照这张的身材比例及体型和肤色。",
+    "interpretation": "弓箭手 v06 正面底稿已获认可，后续同类角色参照其身材比例、体型和肤色；不扩大为多视图/分层/绑定验收。"
+  }
 }

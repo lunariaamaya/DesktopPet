@@ -97,6 +97,15 @@ def main():
         assert baseline['userApproval']['quote']
         assert baseline['rig'] is None and not baseline['runtimeLoadable']
         selected['baselineSpecification']=path.relative_to(BASE).as_posix()
+    skill_package=ROOT/'skills/character-reference-to-turnaround/references/cases/desktop-pet-base-templates'
+    skill_references=json.loads((skill_package/'baselines.json').read_text(encoding='utf-8'))['templates']
+    assert {item['templateId'] for item in skill_references}=={'base-a','base-b'}
+    for item in skill_references:
+        selected=approved[item['templateId']]
+        assert selected and selected['revision']==item['revision'] and selected['sha256']==item['sha256']
+        assert sha(ROOT/item['sourceProjectPath'])==sha(skill_package/item['image'])==item['sha256']
+        with Image.open(skill_package/item['image']) as image:
+            assert image.size==(item['width'],item['height'])
     (BASE/'candidate-index.json').write_text(json.dumps({'date':'2026-11-09',
         'updatedOn':'2026-11-10',
         'kind':'work_in_progress_index_not_runtime_manifest','approvedBaselines':approved,
@@ -108,6 +117,8 @@ def main():
         'generatedFilesCopiedWithoutPixelChanges':not any(record.get('postprocessing') for record in records),
         'postprocessedReferenceCount':sum(bool(record.get('postprocessing')) for record in records),
         'postprocessedOutputsPreserveOutsideMask':True,
+        'approvedSkillReferenceCopiesChecked':len(skill_references),
+        'allApprovedSkillReferenceHashesMatch':True,
         'notChecked':['reference fidelity','anatomy','view registration','layering','rigging','animation']},
         indent=2)+'\n',encoding='utf-8')
     print(f'{len(references)} original and {len(additional)} additional references unchanged; {len(records)} PNG references across 2 template IDs; approved current baselines: '+str({key:value["revision"] if value else None for key,value in approved.items()})+'; no rig claimed')

@@ -10,7 +10,13 @@
       "scope": "front_static_reference_only",
       "baselineSpecification": "base-a-mage/baseline.json"
     },
-    "base-b": null
+    "base-b": {
+      "revision": "draft-06",
+      "artifact": "base-b-archer/v06/base-b-archer-continuous-head-skin-front-v06.png",
+      "sha256": "9956cf5dcf3437d38f64b8c0feac9401d0cc19ec603694d66f70d91b4782c21c",
+      "scope": "front_static_reference_only",
+      "baselineSpecification": "base-b-archer/baseline.json"
+    }
   },
   "candidates": [
     {
@@ -769,8 +775,8 @@
         "authorization": "User previously allowed programmatic postprocessing for color continuity/noise, and currently requires a local head-color repair with everything else preserved."
       },
       "kind": "covered_2d_reference_candidate",
-      "approval": "not_reviewed",
-      "referenceFit": "not_verified",
+      "approval": "approved_reference",
+      "referenceFit": "user_approved_archer_body_proportions_build_and_skin",
       "layers": null,
       "rig": null,
       "runtimeLoadable": false,
@@ -789,12 +795,19 @@
         "inspectionReport": "visual-inspection.json",
         "observation": "Scalp/forehead patches reduced through a continuous pale skin field; original eyes, hands and entire body retained pixel-identically relative to v04",
         "limits": [
-          "Head-color judgement awaits user review",
+          "User approved v06 as the archer front reference; 3D recovery, side/back views, layers and rigging remain unestablished",
           "Static PNG only, no layers/rig/animation"
         ]
       },
       "processingRequirements": "Only repair head skin-color blocks; preserve all other parts, including v04 hands and character-left purple / character-right blue irises.",
-      "relatedUnselectedGenerationPrompt": "base-b-archer/v05/prompt.txt"
+      "relatedUnselectedGenerationPrompt": "base-b-archer/v05/prompt.txt",
+      "userApproval": {
+        "date": "2026-11-10",
+        "scope": "front_static_reference",
+        "quote": "很好，就以这张作为弓箭手角色的底稿，后续的弓箭手角色设计就参照这张的身材比例及体型和肤色。",
+        "interpretation": "弓箭手 v06 正面底稿已获认可，后续同类角色参照其身材比例、体型和肤色；不扩大为多视图/分层/绑定验收。"
+      },
+      "canonicalBaseline": "base-b-archer/baseline.json"
     }
   ]
 }

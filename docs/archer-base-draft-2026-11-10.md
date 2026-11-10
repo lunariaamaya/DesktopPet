@@ -2,7 +2,7 @@
 
 日期：2026-11-10。稳定模板仍为 A=`base-a`（魔法师）、B=`base-b`（弓箭手），不新增第三类。
 
-后续更新：用户要求修手部重影与五指可读性，明确弓箭手角色自身左眼紫、右眼蓝，随后要求修复头部肤色块。当前为 [v06 头部局部修色候选](archer-hands-eyes-head-revision-2026-11-10.md)，B 仍未最终确认。下文 v02 的普通双眼颜色是当时推定，已被用户新设定覆盖；原图/历史记录保留。
+后续更新：用户要求修手部重影与五指可读性，明确弓箭手角色自身左眼紫、右眼蓝，随后要求修复头部肤色块。[v06 修订](archer-hands-eyes-head-revision-2026-11-10.md) 现已获用户确认，作为后续弓箭手设计的身材比例、体型和肤色基准；与魔法师 v09 一同纳入 [skill 底稿规范](../skills/character-reference-to-turnaround/references/cases/desktop-pet-base-templates/reference-standard.md)。下文 v02 的普通双眼颜色是当时推定，已被用户新设定覆盖；原图/历史记录保留。
 
 ## 魔法师：确认并冻结 v09
 

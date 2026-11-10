@@ -20,5 +20,12 @@
   "outputSha256": "9956cf5dcf3437d38f64b8c0feac9401d0cc19ec603694d66f70d91b4782c21c",
   "inspection": "visual-inspection.json",
   "rejectedGeneration": "../v05/generation.json",
-  "note": "v05 was not used as processing input; rollback to v04 preserved its hands and eye colors."
+  "note": "v05 was not used as processing input; rollback to v04 preserved its hands and eye colors.",
+  "userReview": {
+    "status": "approved_reference",
+    "date": "2026-11-10",
+    "scope": "front_static_reference",
+    "quote": "很好，就以这张作为弓箭手角色的底稿，后续的弓箭手角色设计就参照这张的身材比例及体型和肤色。",
+    "interpretation": "弓箭手 v06 正面底稿已获认可，后续同类角色参照其身材比例、体型和肤色；不扩大为多视图/分层/绑定验收。"
+  }
 }

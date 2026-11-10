@@ -177,8 +177,10 @@
       "attemptLog": "base-b-archer/v06/processing.json",
       "output": "base-b-archer/v06/base-b-archer-continuous-head-skin-front-v06.png",
       "status": "processed_not_approved",
-      "generationCalls": 0
+      "generationCalls": 0,
+      "userReviewOutcome": "approved_reference: canonical archer base for future body proportions, build and skin",
+      "userReviewEvidence": "很好，就以这张作为弓箭手角色的底稿，后续的弓箭手角色设计就参照这张的身材比例及体型和肤色。"
     }
   ],
-  "nextScope": "User review of archer v06 head-color continuity; v04 supplies improved hands and explicit blue/purple eyes. Mage v09 remains approved and unchanged."
+  "nextScope": "Both A mage v09 and B archer v06 are approved front baselines. Future designs use their own body silhouettes/proportions/build/skin. Layering, rigging and other views remain incomplete."
 }

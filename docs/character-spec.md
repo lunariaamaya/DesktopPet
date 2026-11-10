@@ -22,7 +22,9 @@
 
 2026-11-10 弓箭手后续：用户明确眼色为角色自身左紫、右蓝，要求改善五指重影与可读性，再补充只修头部肤色块。当前为 [v06 头部局部修色候选](../assets/characters/base-templates/base-b-archer/v06/base-b-archer-continuous-head-skin-front-v06.png)，头部外、双手与虹膜核查区相对 v04 像素不变；B 仍待确认。详见 [修订记录](archer-hands-eyes-head-revision-2026-11-10.md) 和 [B 类规格](../assets/characters/base-templates/base-b-archer/working-spec.json)。魔法师基线及其红蓝异瞳不因此改变。
 
-**当前制作规则：** 用户已确认改用二维，以及“上传图片 → 整理角色外观 → 分层与补图 → 二维绑定及动作制作 → 自动检查与预览”。以 [二维管线与样机验收](character-2d-pipeline.md) 覆盖下文旧三维制作、网格和骨架要求；原外观、配色、左右、槽位及完整动作意图继续保留。基础素体恰好 A/B 两类；A 当前底稿为已认可 v09，其他方向、分层与绑定尚未完成，B v06 未认可。不将参考中的隐藏身体称为精确恢复。后续 Meshy 检查/试修见 [诊断](meshy-rig-analysis-2026-11-04.md) 和 [试修](meshy-rig-repair-2026-11-04.md)。以下“最新决定/最新候选”均按当时记录理解，不覆盖本段当前规则。
+2026-11-10 两类底稿确认：用户已确认弓箭手 v06，魔法师 v09 继续有效；后续同类角色必须分别参照对应底稿的**体型外形、身材比例和肤色**。两张原尺寸 PNG、摘要和规则已纳入 [skill 参考规范](../skills/character-reference-to-turnaround/references/cases/desktop-pet-base-templates/reference-standard.md)。本项目 [A 基线](../assets/characters/base-templates/base-a-mage/baseline.json) 与 [B 基线](../assets/characters/base-templates/base-b-archer/baseline.json) 记录认可依据；不得只模仿画风而重新改变身形。此前“B 未认可”是各轮生成当时状态。
+
+**当前制作规则：** 用户已确认改用二维，以及“上传图片 → 整理角色外观 → 分层与补图 → 二维绑定及动作制作 → 自动检查与预览”。以 [二维管线与样机验收](character-2d-pipeline.md) 覆盖下文旧三维制作、网格和骨架要求；原外观、配色、左右、槽位及完整动作意图继续保留。基础素体恰好 A/B 两类；A v09、B v06 正面底稿均已认可，其他方向、分层与绑定尚未完成。不将参考中的隐藏身体称为精确恢复。后续 Meshy 检查/试修见 [诊断](meshy-rig-analysis-2026-11-04.md) 和 [试修](meshy-rig-repair-2026-11-04.md)。以下“最新决定/最新候选”均按当时记录理解，不覆盖本段当前规则。
 
 最新决定：停止以程序化草模作为角色成品路线。用户反馈自行用 Tripo 生成的模型较好；该外部文件尚未在项目中验收，不宣称已具备绑定、分件或动作能力。二维全流程已整理为 [SOP](character-art-sop.md) 与 [可复用 skill](../skills/character-reference-to-turnaround/SKILL.md)，连接核查见 [Tripo 接入说明](tripo-integration.md)。以下按版本累积的“最新候选”等措辞仅为当时记录；当前基线以本段与下段版12冻结信息为准。
 

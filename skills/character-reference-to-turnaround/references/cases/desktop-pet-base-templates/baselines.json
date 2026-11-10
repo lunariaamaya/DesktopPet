@@ -1,0 +1,232 @@
+{
+  "date": "2026-11-10",
+  "project": "DesktopPet",
+  "scope": "This project or explicit selection of these templates only",
+  "normativeReference": "reference-standard.md",
+  "templates": [
+    {
+      "templateId": "base-a",
+      "displayName": "魔法师",
+      "revision": "draft-09",
+      "image": "base-a-mage-v09.png",
+      "sha256": "4c740be63fe75c00ab0f093cfb76768b0c43bf09c1329a252f897199403bee4c",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "sourceProjectPath": "assets/characters/base-templates/base-a-mage/v09/base-a-mage-skin-tone-limbs-front-v09.png",
+      "projectBaselineSpecification": "assets/characters/base-templates/base-a-mage/baseline.json",
+      "approval": "approved_reference",
+      "userApproval": {
+        "date": "2026-11-10",
+        "scope": "front_static_reference",
+        "quote": "很好，就以这张作为魔法师角色的底稿，后续的魔法师角色设计就参照这张的身材比例及体型和肤色。",
+        "interpretation": "v09 为魔法师当前正式正面底稿；后续魔法师设计参照其身材比例、体型和肤色，不表示已完成侧背视图、分层或绑定。"
+      },
+      "referenceRole": "Primary body silhouette, head-to-body and limb proportions, body build and skin reference, not style-only",
+      "bodyAppearance": "Petite slender compact proportions",
+      "skinSamples": {
+        "forehead": {
+          "roi_xywh": [
+            497,
+            251,
+            16,
+            16
+          ],
+          "pixels": 256,
+          "medianRGB": [
+            254,
+            239,
+            236
+          ],
+          "medianHEX": "#FEEFEC"
+        },
+        "upperArm": {
+          "roi_xywh": [
+            411,
+            544,
+            12,
+            16
+          ],
+          "pixels": 192,
+          "medianRGB": [
+            254,
+            241,
+            238
+          ],
+          "medianHEX": "#FEF1EE"
+        },
+        "forearm": {
+          "roi_xywh": [
+            355,
+            721,
+            10,
+            14
+          ],
+          "pixels": 140,
+          "medianRGB": [
+            254,
+            241,
+            238
+          ],
+          "medianHEX": "#FEF1EE"
+        },
+        "shin": {
+          "roi_xywh": [
+            449,
+            1206,
+            12,
+            18
+          ],
+          "pixels": 216,
+          "medianRGB": [
+            254,
+            240,
+            237
+          ],
+          "medianHEX": "#FEF0ED"
+        },
+        "foot": {
+          "roi_xywh": [
+            449,
+            1344,
+            12,
+            16
+          ],
+          "pixels": 192,
+          "medianRGB": [
+            254,
+            239,
+            236
+          ],
+          "medianHEX": "#FEEFEC"
+        }
+      },
+      "currentSheetEyeColors": {
+        "characterLeft": "red",
+        "characterRight": "blue",
+        "frontViewerLeft": "blue",
+        "frontViewerRight": "red"
+      },
+      "limits": [
+        "Approved front 2D image only; no real-world height or exact hidden anatomy established",
+        "No layered model, side/back reference, rigging or animation delivered"
+      ]
+    },
+    {
+      "templateId": "base-b",
+      "displayName": "弓箭手",
+      "revision": "draft-06",
+      "image": "base-b-archer-v06.png",
+      "sha256": "9956cf5dcf3437d38f64b8c0feac9401d0cc19ec603694d66f70d91b4782c21c",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sourceProjectPath": "assets/characters/base-templates/base-b-archer/v06/base-b-archer-continuous-head-skin-front-v06.png",
+      "projectBaselineSpecification": "assets/characters/base-templates/base-b-archer/baseline.json",
+      "approval": "approved_reference",
+      "userApproval": {
+        "date": "2026-11-10",
+        "scope": "front_static_reference",
+        "quote": "很好，就以这张作为弓箭手角色的底稿，后续的弓箭手角色设计就参照这张的身材比例及体型和肤色。",
+        "interpretation": "弓箭手 v06 正面底稿已获认可，后续同类角色参照其身材比例、体型和肤色；不扩大为多视图/分层/绑定验收。"
+      },
+      "referenceRole": "Primary body silhouette, head-to-body and limb proportions, body build and skin reference, not style-only",
+      "bodyAppearance": "Slender elongated proportions with smaller relative head than A",
+      "skinSamples": {
+        "scalp": {
+          "roi_xywh": [
+            504,
+            207,
+            14,
+            18
+          ],
+          "pixels": 252,
+          "medianRGB": [
+            254,
+            241,
+            239
+          ],
+          "medianHEX": "#FEF1EF"
+        },
+        "upperArm": {
+          "roi_xywh": [
+            415,
+            471,
+            10,
+            16
+          ],
+          "pixels": 160,
+          "medianRGB": [
+            254,
+            240,
+            238
+          ],
+          "medianHEX": "#FEF0EE"
+        },
+        "forearm": {
+          "roi_xywh": [
+            358,
+            650,
+            10,
+            16
+          ],
+          "pixels": 160,
+          "medianRGB": [
+            254,
+            239,
+            237
+          ],
+          "medianHEX": "#FEEFED"
+        },
+        "shin": {
+          "roi_xywh": [
+            448,
+            1190,
+            10,
+            16
+          ],
+          "pixels": 160,
+          "medianRGB": [
+            254,
+            241,
+            240
+          ],
+          "medianHEX": "#FEF1F0"
+        },
+        "foot": {
+          "roi_xywh": [
+            447,
+            1345,
+            10,
+            14
+          ],
+          "pixels": 140,
+          "medianRGB": [
+            254,
+            241,
+            239
+          ],
+          "medianHEX": "#FEF1EF"
+        }
+      },
+      "currentSheetEyeColors": {
+        "coordinateConvention": "character_own_left_right",
+        "characterLeft": "purple",
+        "characterRight": "blue",
+        "frontViewerLeft": "blue",
+        "frontViewerRight": "purple",
+        "source": "user explicit instruction on 2026-11-10"
+      },
+      "limits": [
+        "Approved front 2D image only; no real-world height or exact hidden anatomy established",
+        "No layered model, side/back reference, rigging or animation delivered"
+      ]
+    }
+  ],
+  "requirements": [
+    "Actually inspect the selected original-size image before design",
+    "Treat it as body silhouette, head/body and limb-proportion, build and skin authority",
+    "Do not replace body proportions when adding hairstyle/clothing/accessories",
+    "A and B remain distinct; no invented physical height or fixed head-count claims"
+  ]
+}
