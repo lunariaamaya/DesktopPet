@@ -2,7 +2,7 @@
 
 日期：2026-11-09。稳定模板 ID 与用户命名：A=`base-a`（魔法师），B=`base-b`（弓箭手）。名称可改，ID 不随展示名称变化。
 
-2026-11-10：已查看魔法师新增 7 张着装参考，尝试生成全覆盖中性基础层；两次调用均连接失败，审核结论未知，没有新图片。见 [本轮记录](../../../docs/covered-mage-reference-attempt-2026-11-10.md) 和 [原始结果](base-a-mage/v02/attempt.json)。旧参考已由用户移至 `穿太少了/` 子目录，17 张摘要一致；历史索引的 `source` 保留原路径，`currentSource` 跟踪当前位置。
+2026-11-10：魔法师新增 7 张着装参考。前两次连接失败；用户检查网络后要求重试，第三次同方案成功，交付 [A 类全覆盖正面候选 v02](base-a-mage/v02/base-a-mage-covered-front-v02.png)。这是未确认的单张合成 PNG，比例与脸型待审阅，未分层、未绑定。见 [本轮记录](../../../docs/covered-mage-reference-attempt-2026-11-10.md)、[完整提示词](base-a-mage/v02/prompt.txt) 和 [调用历史](base-a-mage/v02/attempt.json)。旧参考由用户移至 `穿太少了/` 子目录，17 张摘要一致；历史索引的 `source` 保留原路径，`currentSource` 跟踪当前位置。以下 11 月 9 日机械人台记录保留，不覆盖当前 v02。
 
 ## 本轮实际结果
 

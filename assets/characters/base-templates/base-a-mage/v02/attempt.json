@@ -85,14 +85,21 @@
       "error": "image generation failed: connection failed: error sending request",
       "output": null,
       "retry": "Same prompt and same three references; no coverage or wording changes"
+    },
+    {
+      "attempt": 3,
+      "status": "generated",
+      "output": "base-a-mage-covered-front-v02.png",
+      "sha256": "dbbd09625ac68ae20571e058d8a36af8920b5be6b5ab8b633f4723aa86386e85",
+      "retry": "User requested retry after checking network; same prompt and same three references"
     }
   ],
-  "safetyDecision": "not_available",
-  "generationStatus": "no_result_received",
-  "candidateImage": null,
+  "safetyDecision": "no_separate_verdict_exposed_image_returned",
+  "generationStatus": "image_received",
+  "candidateImage": "base-a-mage-covered-front-v02.png",
   "rig": null,
-  "approval": "not_applicable_no_image",
-  "conclusion": "Network/transport failure cannot establish whether image moderation accepted or rejected the request.",
+  "approval": "not_reviewed",
+  "conclusion": "This exact fully clothed request produced an image; do not infer hidden thresholds, exact reconstruction, layering or rigging.",
   "oldReferenceRelocation": {
     "verifiedImages": 17,
     "allHashesUnchanged": true,

@@ -1,0 +1,34 @@
+{
+  "templateId": "base-a",
+  "displayName": "魔法师",
+  "revision": "draft-02",
+  "artifact": "base-a-mage/v02/base-a-mage-covered-front-v02.png",
+  "sha256": "dbbd09625ac68ae20571e058d8a36af8920b5be6b5ab8b633f4723aa86386e85",
+  "width": 1024,
+  "height": 1536,
+  "mode": "RGB",
+  "prompt": "base-a-mage/v02/prompt.txt",
+  "method": "built-in image_gen",
+  "referenceImagesUsedForGeneration": [
+    "素体参考图/魔法师/新素体参考图/新魔法师素体1.png",
+    "素体参考图/魔法师/新素体参考图/新魔法师素体3.png",
+    "素体参考图/魔法师/新素体参考图/新魔法师素体5.png"
+  ],
+  "kind": "covered_2d_reference_candidate",
+  "approval": "not_reviewed",
+  "referenceFit": "not_verified",
+  "layers": null,
+  "rig": null,
+  "runtimeLoadable": false,
+  "sourceBuiltinFilename": "exec-355b6a02-022a-4e95-b158-2563b72fcdfb.png",
+  "manualReview": {
+    "views": "front only",
+    "coverage": "opaque high-neck long-sleeve full-length neutral base clothing",
+    "limits": [
+      "Static composite PNG, not PSD/CMO3/MOC3 or animation",
+      "Proportions, face, shoulder and hip silhouette require user review",
+      "Hidden structure is inferred from small posed game references",
+      "Do not interpret one successful request as a general moderation boundary"
+    ]
+  }
+}

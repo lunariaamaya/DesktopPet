@@ -1,4 +1,4 @@
-"""Validate reference immutability and index the unapproved mannequin sketches.
+"""Validate reference immutability and index unapproved reference candidates.
 
 File checks do not prove anatomical accuracy, visual fidelity, view consistency,
 layer separation or rigging. This index must never be used as a runtime model.
@@ -42,7 +42,18 @@ def main():
         # Built-in generation originals are kept; no pixel postprocessing.
         if (GENERATED/source_name).exists():assert sha(GENERATED/source_name)==record['sha256']
         records.append(record)
+    for candidate_file in sorted(BASE.glob('*/v*/candidate.json')):
+        record=json.loads(candidate_file.read_text(encoding='utf-8'))
+        assert record['templateId'] in {'base-a','base-b'}
+        path=BASE/record['artifact'];assert sha(path)==record['sha256']
+        with Image.open(path) as image:
+            image.load();assert (image.width,image.height)==(record['width'],record['height'])
+        original=GENERATED/record['sourceBuiltinFilename']
+        if original.exists():assert sha(original)==record['sha256']
+        assert record['approval']=='not_reviewed' and record['rig'] is None and not record['runtimeLoadable']
+        records.append(record)
     (BASE/'candidate-index.json').write_text(json.dumps({'date':'2026-11-09',
+        'updatedOn':'2026-11-10',
         'kind':'work_in_progress_index_not_runtime_manifest','approvedBaselines':{'base-a':None,'base-b':None},
         'candidates':records},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     (BASE/'file-check.json').write_text(json.dumps({'sourceReferences':len(references),
@@ -50,6 +61,6 @@ def main():
         'generatedFilesCopiedWithoutPixelChanges':True,
         'notChecked':['reference fidelity','anatomy','view registration','layering','rigging','animation']},
         indent=2)+'\n',encoding='utf-8')
-    print('17 original references unchanged; 2 PNG sketches indexed; no rig or approval claimed')
+    print(f'17 original references unchanged; {len(records)} PNG candidates indexed across 2 template IDs; no rig or approval claimed')
 
 if __name__=='__main__':main()
