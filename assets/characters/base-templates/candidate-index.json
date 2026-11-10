@@ -124,7 +124,7 @@
         "authoritativeProportionAndFaceReference": "assets/characters/first-character/concepts/design-v01.png"
       },
       "kind": "covered_2d_reference_candidate",
-      "approval": "not_reviewed",
+      "approval": "revision_requested",
       "referenceFit": "not_verified",
       "layers": null,
       "rig": null,
@@ -146,6 +146,52 @@
           "Reference dress obscures waist/hip/upper-leg contours; these remain inferred",
           "No numerical fidelity claim, exact body recovery, layers, rig or animation",
           "Generative editing can change untargeted pixels; no pixel-identical claim"
+        ]
+      },
+      "userFeedback": {
+        "date": "2026-11-10",
+        "summary": "用户要求腿型更纤细，不要 O 形腿；本轮只修腿部轮廓与站姿轴线。",
+        "nextRevision": "base-a-mage/v04/candidate.json"
+      }
+    },
+    {
+      "templateId": "base-a",
+      "displayName": "魔法师",
+      "revision": "draft-04",
+      "artifact": "base-a-mage/v04/base-a-mage-slim-straight-legs-front-v04.png",
+      "sha256": "373531fa90988e0a7b5287b65fc89264d975f095d0563be8c8b4256c120ebb65",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "prompt": "base-a-mage/v04/prompt.txt",
+      "method": "built-in image_gen edit",
+      "referenceImagesUsedForGeneration": [
+        "assets/characters/base-templates/base-a-mage/v03/base-a-mage-design-proportion-front-v03.png"
+      ],
+      "sourceHashes": {
+        "assets/characters/base-templates/base-a-mage/v03/base-a-mage-design-proportion-front-v03.png": "f8bcb3ed7274710ac8cb9c7ea3bf801332da8476a60ec7cd46ad07f31a7938d1"
+      },
+      "kind": "covered_2d_reference_candidate",
+      "approval": "not_reviewed",
+      "referenceFit": "not_verified",
+      "layers": null,
+      "rig": null,
+      "runtimeLoadable": false,
+      "sourceBuiltinFilename": "exec-b41d4fd5-571d-4cf1-8b2f-97dc880377d5.png",
+      "manualReview": {
+        "views": "front only",
+        "observedChanges": [
+          "Thinner thigh and calf silhouettes",
+          "Reduced outward calf bulge; visually straighter clothed leg contours"
+        ],
+        "preservedInAppearance": [
+          "Compact head/body proportion, face, eye colors and elf ears",
+          "Upper-body pose and full opaque gray base clothing"
+        ],
+        "limits": [
+          "Visual art alignment, not a medical conclusion",
+          "Single static reference, no layers, rig or animation",
+          "No pixel-identical promise outside the target edit region"
         ]
       }
     }

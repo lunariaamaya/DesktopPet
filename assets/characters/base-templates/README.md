@@ -2,7 +2,9 @@
 
 日期：2026-11-09。稳定模板 ID 与用户命名：A=`base-a`（魔法师），B=`base-b`（弓箭手）。名称可改，ID 不随展示名称变化。
 
-**当前 A 类待看图候选：[设计图比例修订 v03](base-a-mage/v03/base-a-mage-design-proportion-front-v03.png)**。用户反馈 v02 显高、不够相似，指定 design-v01 为比例/脸型基准；本轮已调整头身、颈肩和下肢关系，并采用参考中的精灵耳与异瞳。v02 标为需修订，v03 待用户确认，未分层/绑定。完整记录：[比例修订说明](../../../docs/mage-proportion-revision-2026-11-10.md) · [提示词](base-a-mage/v03/prompt.txt)。B 类不改。
+**当前 A 类待看图候选：[纤细直腿修订 v04](base-a-mage/v04/base-a-mage-slim-straight-legs-front-v04.png)**。在 v03 的头身/脸部设计上，按用户要求收细腿部并减弱外弓轮廓；v03 为需修订，v04 待确认，未分层/绑定。完整记录：[腿部修订说明](../../../docs/mage-leg-revision-2026-11-10.md) · [提示词](base-a-mage/v04/prompt.txt)。原图保留，B 类不改。
+
+v03 历史：[设计图比例修订](base-a-mage/v03/base-a-mage-design-proportion-front-v03.png)。此前用户反馈 v02 显高，指定 design-v01 为比例/脸型基准，已调整头身、颈肩、下肢及脸部特征。见 [比例修订说明](../../../docs/mage-proportion-revision-2026-11-10.md)。
 
 2026-11-10：魔法师新增 7 张着装参考。前两次连接失败；用户检查网络后要求重试，第三次同方案成功，交付 [A 类全覆盖正面候选 v02](base-a-mage/v02/base-a-mage-covered-front-v02.png)。这是未确认的单张合成 PNG，比例与脸型待审阅，未分层、未绑定。见 [本轮记录](../../../docs/covered-mage-reference-attempt-2026-11-10.md)、[完整提示词](base-a-mage/v02/prompt.txt) 和 [调用历史](base-a-mage/v02/attempt.json)。旧参考由用户移至 `穿太少了/` 子目录，17 张摘要一致；历史索引的 `source` 保留原路径，`currentSource` 跟踪当前位置。以下 11 月 9 日机械人台记录保留，不覆盖当前 v02。
 

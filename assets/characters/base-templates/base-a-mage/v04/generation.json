@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-10",
+  "revision": "draft-04",
+  "templateId": "base-a",
+  "method": "built-in image_gen edit",
+  "prompt": "prompt.txt",
+  "promptFileSha256": "8e358cef692f4be39e4ded8a9ee2b0d9921e584a02f7a597b2be18d9babb95c3",
+  "input": "assets/characters/base-templates/base-a-mage/v03/base-a-mage-design-proportion-front-v03.png",
+  "inputSha256": "f8bcb3ed7274710ac8cb9c7ea3bf801332da8476a60ec7cd46ad07f31a7938d1",
+  "transparentBackground": false,
+  "output": "base-a-mage-slim-straight-legs-front-v04.png",
+  "outputSha256": "373531fa90988e0a7b5287b65fc89264d975f095d0563be8c8b4256c120ebb65",
+  "sourceBuiltinFilename": "exec-b41d4fd5-571d-4cf1-8b2f-97dc880377d5.png",
+  "status": "generated_not_approved",
+  "copiedWithoutPixelChanges": true,
+  "userFeedback": {
+    "date": "2026-11-10",
+    "summary": "用户要求腿型更纤细，不要 O 形腿；本轮只修腿部轮廓与站姿轴线。",
+    "nextRevision": "base-a-mage/v04/candidate.json"
+  }
+}

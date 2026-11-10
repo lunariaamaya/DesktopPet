@@ -2,6 +2,8 @@
 
 日期：2026-11-10。用户反馈 v02 与参考不够相似，主要观感为“太高”，指定 [design-v01.png](../assets/characters/first-character/concepts/design-v01.png) 为本轮基准。
 
+后续：用户要求腿部更纤细、消除 O 形轮廓，已以本版为底图生成 [v04 腿部修订](mage-leg-revision-2026-11-10.md)。v03 保留作回退，记录为需修订，未整体定稿。
+
 ## 输入与变更范围
 
 - 唯一编辑底图：[v02 全覆盖正面候选](../assets/characters/base-templates/base-a-mage/v02/base-a-mage-covered-front-v02.png)。保留不透明高领、长袖、长裤连脚的灰色基础层及正面 A-pose 用途。

@@ -22,7 +22,7 @@
     "authoritativeProportionAndFaceReference": "assets/characters/first-character/concepts/design-v01.png"
   },
   "kind": "covered_2d_reference_candidate",
-  "approval": "not_reviewed",
+  "approval": "revision_requested",
   "referenceFit": "not_verified",
   "layers": null,
   "rig": null,
@@ -45,5 +45,10 @@
       "No numerical fidelity claim, exact body recovery, layers, rig or animation",
       "Generative editing can change untargeted pixels; no pixel-identical claim"
     ]
+  },
+  "userFeedback": {
+    "date": "2026-11-10",
+    "summary": "用户要求腿型更纤细，不要 O 形腿；本轮只修腿部轮廓与站姿轴线。",
+    "nextRevision": "base-a-mage/v04/candidate.json"
   }
 }

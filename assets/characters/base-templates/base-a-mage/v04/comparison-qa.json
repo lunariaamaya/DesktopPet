@@ -1,0 +1,134 @@
+{
+  "method": "Read-only raster comparison; sample rows in the same unscaled canvas. Gray silhouette spans are not anatomical dimensions or a medical leg-axis test.",
+  "imageSizeUnchanged": true,
+  "copiedWithoutPixelChanges": true,
+  "silhouetteSamples": [
+    {
+      "row": 925,
+      "before": [
+        {
+          "x0": 421,
+          "x1": 498,
+          "spanPixels": 78
+        },
+        {
+          "x0": 525,
+          "x1": 602,
+          "spanPixels": 78
+        }
+      ],
+      "after": [
+        {
+          "x0": 427,
+          "x1": 499,
+          "spanPixels": 73
+        },
+        {
+          "x0": 524,
+          "x1": 596,
+          "spanPixels": 73
+        }
+      ]
+    },
+    {
+      "row": 1100,
+      "before": [
+        {
+          "x0": 416,
+          "x1": 483,
+          "spanPixels": 68
+        },
+        {
+          "x0": 540,
+          "x1": 607,
+          "spanPixels": 68
+        }
+      ],
+      "after": [
+        {
+          "x0": 429,
+          "x1": 485,
+          "spanPixels": 57
+        },
+        {
+          "x0": 538,
+          "x1": 594,
+          "spanPixels": 57
+        }
+      ]
+    },
+    {
+      "row": 1250,
+      "before": [
+        {
+          "x0": 432,
+          "x1": 468,
+          "spanPixels": 37
+        },
+        {
+          "x0": 556,
+          "x1": 592,
+          "spanPixels": 37
+        }
+      ],
+      "after": [
+        {
+          "x0": 438,
+          "x1": 474,
+          "spanPixels": 37
+        },
+        {
+          "x0": 550,
+          "x1": 585,
+          "spanPixels": 36
+        }
+      ]
+    }
+  ],
+  "protectedRegionChecks": {
+    "headFace": {
+      "rectangle": [
+        350,
+        160,
+        675,
+        440
+      ],
+      "meanAbsoluteChannelDifference": 2.0052893772893774,
+      "fractionPixelsWithAnyChannelDifferenceOver10": 0.05824175824175824
+    },
+    "upperTorso": {
+      "rectangle": [
+        350,
+        440,
+        675,
+        740
+      ],
+      "meanAbsoluteChannelDifference": 6.0949264957264955,
+      "fractionPixelsWithAnyChannelDifferenceOver10": 0.04426666666666667
+    },
+    "leftHand": {
+      "rectangle": [
+        280,
+        780,
+        355,
+        910
+      ],
+      "meanAbsoluteChannelDifference": 5.959726495726496,
+      "fractionPixelsWithAnyChannelDifferenceOver10": 0.13497435897435897
+    },
+    "rightHand": {
+      "rectangle": [
+        675,
+        780,
+        745,
+        910
+      ],
+      "meanAbsoluteChannelDifference": 4.037912087912088,
+      "fractionPixelsWithAnyChannelDifferenceOver10": 0.12263736263736263
+    }
+  },
+  "limits": [
+    "Generative editing is not guaranteed pixel-identical outside the legs.",
+    "Leg alignment and appearance still need user review."
+  ]
+}
