@@ -1,0 +1,44 @@
+{
+  "templateId": "base-a",
+  "displayName": "魔法师",
+  "revision": "draft-05",
+  "artifact": "base-a-mage/v05/base-a-mage-skin-tone-feet-front-v05.png",
+  "sha256": "d59d55665d4740383c1a292df8a93f5706bf63465b0b745e5d1999648b77e5c9",
+  "width": 1024,
+  "height": 1536,
+  "mode": "RGB",
+  "prompt": "base-a-mage/v05/prompt.txt",
+  "method": "built-in image_gen edit",
+  "referenceImagesUsedForGeneration": [
+    "assets/characters/base-templates/base-a-mage/v04/base-a-mage-slim-straight-legs-front-v04.png"
+  ],
+  "sourceHashes": {
+    "assets/characters/base-templates/base-a-mage/v04/base-a-mage-slim-straight-legs-front-v04.png": "373531fa90988e0a7b5287b65fc89264d975f095d0563be8c8b4256c120ebb65"
+  },
+  "kind": "covered_2d_reference_candidate",
+  "approval": "revision_requested",
+  "referenceFit": "not_verified",
+  "layers": null,
+  "rig": null,
+  "runtimeLoadable": false,
+  "sourceBuiltinFilename": "exec-d1b9d447-64a6-4816-be4c-bcf029b95a9c.png",
+  "manualReview": {
+    "views": "front only",
+    "observedChanges": [
+      "Restored pale skin tone on feet below ankle cuffs; gray clothing above ankles retained"
+    ],
+    "preservedInAppearance": [
+      "Slim straight-leg design, compact head/body and facial design",
+      "Opaque neutral base clothing above the ankles"
+    ],
+    "limits": [
+      "Static single PNG, no layers or binding",
+      "Appearance still needs user review; no pixel-identical outside-region promise"
+    ]
+  },
+  "userFeedback": {
+    "date": "2026-11-10",
+    "summary": "用户在脚部肤色修订期间补充要求还原精致的脚趾；沿用刚生成的肤色版本继续编辑。",
+    "nextRevision": "base-a-mage/v06/candidate.json"
+  }
+}

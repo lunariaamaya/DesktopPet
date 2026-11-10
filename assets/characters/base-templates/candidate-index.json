@@ -172,7 +172,7 @@
         "assets/characters/base-templates/base-a-mage/v03/base-a-mage-design-proportion-front-v03.png": "f8bcb3ed7274710ac8cb9c7ea3bf801332da8476a60ec7cd46ad07f31a7938d1"
       },
       "kind": "covered_2d_reference_candidate",
-      "approval": "not_reviewed",
+      "approval": "revision_requested",
       "referenceFit": "not_verified",
       "layers": null,
       "rig": null,
@@ -193,6 +193,108 @@
           "Single static reference, no layers, rig or animation",
           "No pixel-identical promise outside the target edit region"
         ]
+      },
+      "userFeedback": {
+        "date": "2026-11-10",
+        "summary": "用户要求将脚部还原为原本肤色，保留腿型及其他外观。",
+        "nextRevision": "base-a-mage/v05/candidate.json"
+      }
+    },
+    {
+      "templateId": "base-a",
+      "displayName": "魔法师",
+      "revision": "draft-05",
+      "artifact": "base-a-mage/v05/base-a-mage-skin-tone-feet-front-v05.png",
+      "sha256": "d59d55665d4740383c1a292df8a93f5706bf63465b0b745e5d1999648b77e5c9",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "prompt": "base-a-mage/v05/prompt.txt",
+      "method": "built-in image_gen edit",
+      "referenceImagesUsedForGeneration": [
+        "assets/characters/base-templates/base-a-mage/v04/base-a-mage-slim-straight-legs-front-v04.png"
+      ],
+      "sourceHashes": {
+        "assets/characters/base-templates/base-a-mage/v04/base-a-mage-slim-straight-legs-front-v04.png": "373531fa90988e0a7b5287b65fc89264d975f095d0563be8c8b4256c120ebb65"
+      },
+      "kind": "covered_2d_reference_candidate",
+      "approval": "revision_requested",
+      "referenceFit": "not_verified",
+      "layers": null,
+      "rig": null,
+      "runtimeLoadable": false,
+      "sourceBuiltinFilename": "exec-d1b9d447-64a6-4816-be4c-bcf029b95a9c.png",
+      "manualReview": {
+        "views": "front only",
+        "observedChanges": [
+          "Restored pale skin tone on feet below ankle cuffs; gray clothing above ankles retained"
+        ],
+        "preservedInAppearance": [
+          "Slim straight-leg design, compact head/body and facial design",
+          "Opaque neutral base clothing above the ankles"
+        ],
+        "limits": [
+          "Static single PNG, no layers or binding",
+          "Appearance still needs user review; no pixel-identical outside-region promise"
+        ]
+      },
+      "userFeedback": {
+        "date": "2026-11-10",
+        "summary": "用户在脚部肤色修订期间补充要求还原精致的脚趾；沿用刚生成的肤色版本继续编辑。",
+        "nextRevision": "base-a-mage/v06/candidate.json"
+      }
+    },
+    {
+      "templateId": "base-a",
+      "displayName": "魔法师",
+      "revision": "draft-06",
+      "artifact": "base-a-mage/v06/base-a-mage-detailed-toes-front-v06.png",
+      "sha256": "aed950aaf23362ce9ac30f997fab26d253d40446190626a1f124e1fe81735972",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "prompt": "base-a-mage/v06/prompt.txt",
+      "method": "built-in image_gen edit",
+      "referenceImagesUsedForGeneration": [
+        "assets/characters/base-templates/base-a-mage/v05/base-a-mage-skin-tone-feet-front-v05.png",
+        "assets/characters/first-character/concepts/design-v01.png"
+      ],
+      "sourceHashes": {
+        "assets/characters/base-templates/base-a-mage/v05/base-a-mage-skin-tone-feet-front-v05.png": "d59d55665d4740383c1a292df8a93f5706bf63465b0b745e5d1999648b77e5c9",
+        "assets/characters/first-character/concepts/design-v01.png": "c9d8198dad396ba790993dd49e48ce31aba786e0908d82eb3b73d3866afa769d"
+      },
+      "kind": "covered_2d_reference_candidate",
+      "approval": "not_reviewed",
+      "referenceFit": "not_verified",
+      "layers": null,
+      "rig": null,
+      "runtimeLoadable": false,
+      "sourceBuiltinFilename": "exec-33ac332d-cf13-44fb-a584-7bb7103c21b1.png",
+      "manualReview": {
+        "views": "front only",
+        "observedChanges": [
+          "Retained pale skin-colored feet",
+          "Five rounded toes per foot with inner big toe and restrained separation/nail hints"
+        ],
+        "preservedInAppearance": [
+          "Slim straight-leg design, compact head/body and facial design",
+          "Opaque neutral base clothing above the ankles"
+        ],
+        "limits": [
+          "Static single PNG, no layers or binding",
+          "Appearance still needs user review; no pixel-identical outside-region promise"
+        ],
+        "toeInspection": {
+          "type": "manual visual review",
+          "viewerLeftFootToeCount": 5,
+          "viewerRightFootToeCount": 5,
+          "bigToePosition": "inner edge on each foot",
+          "style": "small rounded tips with subtle separation and nail hints"
+        }
+      },
+      "referenceRoles": {
+        "editTarget": "assets/characters/base-templates/base-a-mage/v05/base-a-mage-skin-tone-feet-front-v05.png",
+        "toeAppearanceReferenceOnly": "assets/characters/first-character/concepts/design-v01.png"
       }
     }
   ]

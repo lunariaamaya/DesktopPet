@@ -10,6 +10,8 @@
 
 2026-11-10 当前：按用户要求，以 v03 为底图收细双腿并减弱外弓轮廓，交付 [v04 腿部候选](../assets/characters/base-templates/base-a-mage/v04/base-a-mage-slim-straight-legs-front-v04.png)。v03 保留回退，v04 待用户看图确认；未进入分层或绑定。详见 [腿部修订记录](mage-leg-revision-2026-11-10.md)。
 
+2026-11-10 后续脚部修订：用户要求恢复脚部肤色并还原精致脚趾，交付 [v06 候选](../assets/characters/base-templates/base-a-mage/v06/base-a-mage-detailed-toes-front-v06.png)。两脚各五趾，大脚趾在内侧；保持圆润小脚和浅肤色，腿部灰色基础层保留。v06 仍待确认，未分层或绑定。详见 [脚部修订记录](mage-foot-revision-2026-11-10.md)。
+
 **当前制作规则：** 用户已确认改用二维，以及“上传图片 → 整理角色外观 → 分层与补图 → 二维绑定及动作制作 → 自动检查与预览”。以 [二维管线与样机验收](character-2d-pipeline.md) 覆盖下文旧三维制作、网格和骨架要求；原外观、配色、左右、槽位及完整动作意图继续保留。基础素体恰好 A/B 两类；此角色仅为 A 类比例参考，尚未产出经确认的无装饰素体，不将参考中的隐藏身体称为精确恢复。后续 Meshy 检查/试修见 [诊断](meshy-rig-analysis-2026-11-04.md) 和 [试修](meshy-rig-repair-2026-11-04.md)。以下“最新决定/最新候选”均按当时记录理解，不覆盖本段当前规则。
 
 最新决定：停止以程序化草模作为角色成品路线。用户反馈自行用 Tripo 生成的模型较好；该外部文件尚未在项目中验收，不宣称已具备绑定、分件或动作能力。二维全流程已整理为 [SOP](character-art-sop.md) 与 [可复用 skill](../skills/character-reference-to-turnaround/SKILL.md)，连接核查见 [Tripo 接入说明](tripo-integration.md)。以下按版本累积的“最新候选”等措辞仅为当时记录；当前基线以本段与下段版12冻结信息为准。

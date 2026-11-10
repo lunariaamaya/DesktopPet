@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-10",
+  "templateId": "base-a",
+  "revision": "draft-05",
+  "method": "built-in image_gen edit",
+  "prompt": "prompt.txt",
+  "promptFileSha256": "40574a2a0f67e075253d2f7b2455856af98942f985ff7df6210faf7727866948",
+  "inputHashes": {
+    "assets/characters/base-templates/base-a-mage/v04/base-a-mage-slim-straight-legs-front-v04.png": "373531fa90988e0a7b5287b65fc89264d975f095d0563be8c8b4256c120ebb65"
+  },
+  "transparentBackground": false,
+  "output": "base-a-mage-skin-tone-feet-front-v05.png",
+  "outputSha256": "d59d55665d4740383c1a292df8a93f5706bf63465b0b745e5d1999648b77e5c9",
+  "sourceBuiltinFilename": "exec-d1b9d447-64a6-4816-be4c-bcf029b95a9c.png",
+  "copiedWithoutPixelChanges": true,
+  "status": "generated_not_approved",
+  "userRequest": "用户要求将脚部还原为原本肤色，保留腿型及其他外观。"
+}

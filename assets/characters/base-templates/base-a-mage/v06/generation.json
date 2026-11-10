@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-10",
+  "templateId": "base-a",
+  "revision": "draft-06",
+  "method": "built-in image_gen edit",
+  "prompt": "prompt.txt",
+  "promptFileSha256": "7686d0d3e6db6e69782db06b3ea9ed0d6558cc95c96d9bc7a93c39a64546c1c0",
+  "inputHashes": {
+    "assets/characters/base-templates/base-a-mage/v05/base-a-mage-skin-tone-feet-front-v05.png": "d59d55665d4740383c1a292df8a93f5706bf63465b0b745e5d1999648b77e5c9",
+    "assets/characters/first-character/concepts/design-v01.png": "c9d8198dad396ba790993dd49e48ce31aba786e0908d82eb3b73d3866afa769d"
+  },
+  "transparentBackground": false,
+  "output": "base-a-mage-detailed-toes-front-v06.png",
+  "outputSha256": "aed950aaf23362ce9ac30f997fab26d253d40446190626a1f124e1fe81735972",
+  "sourceBuiltinFilename": "exec-33ac332d-cf13-44fb-a584-7bb7103c21b1.png",
+  "copiedWithoutPixelChanges": true,
+  "status": "generated_not_approved",
+  "userRequest": "用户在脚部肤色修订期间补充要求还原精致的脚趾；沿用刚生成的肤色版本继续编辑。"
+}

@@ -2,6 +2,8 @@
 
 日期：2026-11-10。用户要求：腿型纤细一点，不要 O 形腿。以 [v03](../assets/characters/base-templates/base-a-mage/v03/base-a-mage-design-proportion-front-v03.png) 为唯一编辑底图；保留头身、脸型、异瞳、精灵耳、上身姿势及全覆盖灰色基础层。
 
+后续：用户要求恢复脚部肤色并补充精致脚趾，已在本版基础上完成 [v05–v06 脚部候选](mage-foot-revision-2026-11-10.md)。本版像素保留作回退，不视为已批准模板。
+
 ## 交付
 
 - [v04 候选 PNG](../assets/characters/base-templates/base-a-mage/v04/base-a-mage-slim-straight-legs-front-v04.png)

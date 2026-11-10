@@ -1,0 +1,66 @@
+{
+  "method": "Read-only local RGB sampling and visual toe review; not a shape or pixel-lock guarantee",
+  "sizeUnchanged": true,
+  "originalV04Sha256": "373531fa90988e0a7b5287b65fc89264d975f095d0563be8c8b4256c120ebb65",
+  "v06Sha256": "aed950aaf23362ce9ac30f997fab26d253d40446190626a1f124e1fe81735972",
+  "skinSamples": {
+    "viewerLeftFoot": {
+      "roi": [
+        442,
+        1335,
+        468,
+        1365
+      ],
+      "medianRGB": [
+        254,
+        242,
+        238
+      ],
+      "hex": "#FEF2EE"
+    },
+    "viewerRightFoot": {
+      "roi": [
+        556,
+        1335,
+        582,
+        1365
+      ],
+      "medianRGB": [
+        254,
+        242,
+        238
+      ],
+      "hex": "#FEF2EE"
+    }
+  },
+  "protectedRegions": {
+    "headFace": {
+      "roi": [
+        350,
+        160,
+        675,
+        440
+      ],
+      "meanAbsoluteChannelDifference": 2.858941391941392
+    },
+    "torso": {
+      "roi": [
+        350,
+        440,
+        675,
+        740
+      ],
+      "meanAbsoluteChannelDifference": 4.509958974358974
+    },
+    "clothedLegs": {
+      "roi": [
+        400,
+        900,
+        625,
+        1290
+      ],
+      "meanAbsoluteChannelDifference": 3.8977511870845203
+    }
+  },
+  "note": "Foot/toe changes were generated; no pixel processing or cropping was applied to the delivered PNG."
+}

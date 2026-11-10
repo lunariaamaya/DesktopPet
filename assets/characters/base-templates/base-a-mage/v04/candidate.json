@@ -16,7 +16,7 @@
     "assets/characters/base-templates/base-a-mage/v03/base-a-mage-design-proportion-front-v03.png": "f8bcb3ed7274710ac8cb9c7ea3bf801332da8476a60ec7cd46ad07f31a7938d1"
   },
   "kind": "covered_2d_reference_candidate",
-  "approval": "not_reviewed",
+  "approval": "revision_requested",
   "referenceFit": "not_verified",
   "layers": null,
   "rig": null,
@@ -37,5 +37,10 @@
       "Single static reference, no layers, rig or animation",
       "No pixel-identical promise outside the target edit region"
     ]
+  },
+  "userFeedback": {
+    "date": "2026-11-10",
+    "summary": "用户要求将脚部还原为原本肤色，保留腿型及其他外观。",
+    "nextRevision": "base-a-mage/v05/candidate.json"
   }
 }

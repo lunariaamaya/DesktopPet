@@ -10,6 +10,8 @@
 
 当前后续：用户要求 v03 腿部纤细且不要 O 形腿，已生成 [v04 腿部候选](../assets/characters/base-templates/base-a-mage/v04/base-a-mage-slim-straight-legs-front-v04.png)。v03 为 revision_requested，v04 未确认，仍未分层或绑定；见 [腿部修订记录](mage-leg-revision-2026-11-10.md)。
 
+随后用户要求脚部恢复肤色并补回精致脚趾，先出 v05 肤色版，再出 [v06 脚趾细节候选](../assets/characters/base-templates/base-a-mage/v06/base-a-mage-detailed-toes-front-v06.png)。保留灰色裤腿和纤细腿型，v06 仍待确认，G0 未通过；见 [脚部修订记录](mage-foot-revision-2026-11-10.md)。
+
 ## 1. 已确认的范围
 
 生产顺序：**上传图片 → 整理角色外观 → 分层与补图 → 二维绑定及动作制作 → 自动检查与预览**。

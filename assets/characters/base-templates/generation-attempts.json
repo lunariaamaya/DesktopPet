@@ -62,7 +62,29 @@
       "attemptCount": 1,
       "status": "generated_not_approved",
       "output": "base-a-mage/v04/base-a-mage-slim-straight-legs-front-v04.png"
+    },
+    {
+      "date": "2026-11-10",
+      "templateId": "base-a",
+      "revision": "draft-05",
+      "method": "built-in image_gen edit",
+      "prompt": "base-a-mage/v05/prompt.txt",
+      "attemptLog": "base-a-mage/v05/generation.json",
+      "attemptCount": 1,
+      "status": "generated_not_approved",
+      "output": "base-a-mage/v05/base-a-mage-skin-tone-feet-front-v05.png"
+    },
+    {
+      "date": "2026-11-10",
+      "templateId": "base-a",
+      "revision": "draft-06",
+      "method": "built-in image_gen edit",
+      "prompt": "base-a-mage/v06/prompt.txt",
+      "attemptLog": "base-a-mage/v06/generation.json",
+      "attemptCount": 1,
+      "status": "generated_not_approved",
+      "output": "base-a-mage/v06/base-a-mage-detailed-toes-front-v06.png"
     }
   ],
-  "nextScope": "User review of v04 leg silhouettes; preserve v03 head/body appearance; no layering or rigging approval."
+  "nextScope": "User review of v06 skin-colored feet and delicate rounded toes; retain slender leg design; no binding approval."
 }

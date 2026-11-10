@@ -2,7 +2,9 @@
 
 日期：2026-11-09。稳定模板 ID 与用户命名：A=`base-a`（魔法师），B=`base-b`（弓箭手）。名称可改，ID 不随展示名称变化。
 
-**当前 A 类待看图候选：[纤细直腿修订 v04](base-a-mage/v04/base-a-mage-slim-straight-legs-front-v04.png)**。在 v03 的头身/脸部设计上，按用户要求收细腿部并减弱外弓轮廓；v03 为需修订，v04 待确认，未分层/绑定。完整记录：[腿部修订说明](../../../docs/mage-leg-revision-2026-11-10.md) · [提示词](base-a-mage/v04/prompt.txt)。原图保留，B 类不改。
+**当前 A 类待看图候选：[脚部肤色与脚趾细节 v06](base-a-mage/v06/base-a-mage-detailed-toes-front-v06.png)**。沿用 v04 纤细腿型，先在 v05 恢复脚部肤色，再按用户补充要求细化五趾。v04/v05 为需修订，v06 待确认，未分层/绑定。见 [脚部修订说明](../../../docs/mage-foot-revision-2026-11-10.md) · [v06 提示词](base-a-mage/v06/prompt.txt)。原图保留，B 类不改。
+
+v04 历史：[纤细直腿修订](base-a-mage/v04/base-a-mage-slim-straight-legs-front-v04.png)。按用户要求收细腿部并减弱外弓轮廓，详见 [腿部修订记录](../../../docs/mage-leg-revision-2026-11-10.md)。
 
 v03 历史：[设计图比例修订](base-a-mage/v03/base-a-mage-design-proportion-front-v03.png)。此前用户反馈 v02 显高，指定 design-v01 为比例/脸型基准，已调整头身、颈肩、下肢及脸部特征。见 [比例修订说明](../../../docs/mage-proportion-revision-2026-11-10.md)。
 
