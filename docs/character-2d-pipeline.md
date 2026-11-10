@@ -18,13 +18,13 @@
 
 同日最新：用户明确满意 v08，并要求保持现有身材形状，恢复手臂与腿部肤色、改善色差。v08 已登记为认可的正面静态参考；以它为唯一底图交付 [v09 改色候选](../assets/characters/base-templates/base-a-mage/v09/base-a-mage-skin-tone-limbs-front-v09.png)，保留躯干与骨盆的灰色不透明基础服装。v09 待确认，多视图/分层/重组和完整 G0 尚未完成。见 [肤色修订与检查](mage-limb-color-revision-2026-11-10.md)。此前各版“未确认”按当时状态理解。
 
-当前状态：用户已确认魔法师 [v09 正面底稿](../assets/characters/base-templates/base-a-mage/v09/base-a-mage-skin-tone-limbs-front-v09.png)，后续魔法师设计的身材比例、体型和肤色以 [A 类基线规范](../assets/characters/base-templates/base-a-mage/baseline.json) 为准。同轮按弓箭手 12 张新参考制作 [B 类正面候选 v02](../assets/characters/base-templates/base-b-archer/v02/base-b-archer-covered-front-v02.png)，沿用同等绘制/肤色/手足要求，但采用自身修长体型；B 仍待确认。详见 [本轮记录](archer-base-draft-2026-11-10.md)。当前没有分层、绑定或完整 G0 通过记录。
+当前状态：用户已确认魔法师 [v09 正面底稿](../assets/characters/base-templates/base-a-mage/v09/base-a-mage-skin-tone-limbs-front-v09.png)，后续魔法师设计的身材比例、体型和肤色以 [A 类基线规范](../assets/characters/base-templates/base-a-mage/baseline.json) 为准。弓箭手已根据 12 张新参考制作 v02，并按反馈修手与异瞳，再用头部局部颜色处理得到 [B 类当前候选 v06](../assets/characters/base-templates/base-b-archer/v06/base-b-archer-continuous-head-skin-front-v06.png)。用户明确角色自身左紫、右蓝；其余体型/肤色保持方向，B 仍待确认。见 [初稿记录](archer-base-draft-2026-11-10.md) 与 [修订及像素检查](archer-hands-eyes-head-revision-2026-11-10.md)。当前没有分层、绑定或完整 G0 通过记录。
 
 ## 1. 已确认的范围
 
 生产顺序：**上传图片 → 整理角色外观 → 分层与补图 → 二维绑定及动作制作 → 自动检查与预览**。
 
-- 恰好两个基础身体模板，稳定 ID 为 `base-a`、`base-b`；未经用户变更不增加第三类。A 暂名魔法师，B 暂名弓箭手。A 的 v09 为已确认正面底稿，锁定后续设计的比例、体型和肤色；B 的 v02 为候选，尚无完整多视图/分层模板。不得将候选或其他方向的比例自动称为用户已确认。
+- 恰好两个基础身体模板，稳定 ID 为 `base-a`、`base-b`；未经用户变更不增加第三类。A 暂名魔法师，B 暂名弓箭手。A 的 v09 为已确认正面底稿，锁定后续设计的比例、体型和肤色；B 的 v06 为候选，明确眼色及当前编辑依据见 [B 类规格](../assets/characters/base-templates/base-b-archer/working-spec.json)。尚无完整多视图/分层模板，不得将候选或其他方向的比例自动称为用户已确认。
 - 素体是无发型、无服装/饰品的中性美术基底，简化身体结构，不绘制私密解剖细节。基础脸型、耳型是否属于模板或可替换部件，在基准图审阅时确认。角色人格、身份、记忆独立于身体模板。
 - MVP 仍为固定角色、固定场景。两模板体系是内容规范，不把用户自助上传生成、换装商城、自由捏脸提前纳入 MVP。未来定制优先在模板范围内实现。
 - 场景使用分层二维素材；日常角色动作采用分层变形，坐下、睡眠、转身等大姿态可使用专用姿势/动作素材。不能用站姿强行拉成全部姿态。三视图继续作为外观参考，不再是三维交接的必经步骤；需要背面动作时补相应二维素材。

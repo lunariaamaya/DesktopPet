@@ -1,0 +1,22 @@
+{
+  "templateId": "base-b",
+  "displayName": "弓箭手",
+  "date": "2026-11-10",
+  "currentCandidate": "base-b-archer/v06/candidate.json",
+  "approval": "not_reviewed",
+  "bodyProportionReference": "base-b-archer/v02/base-b-archer-covered-front-v02.png",
+  "bodyProportionNote": "User requested other body/pose/skin features preserved during hand/eye correction; not a complete approved baseline.",
+  "requiredEyeColors": {
+    "coordinateConvention": "character_own_left_right",
+    "characterLeft": "purple",
+    "characterRight": "blue",
+    "frontViewerLeft": "blue",
+    "frontViewerRight": "purple",
+    "source": "user explicit instruction on 2026-11-10"
+  },
+  "headColorRepairSource": "base-b-archer/v04/candidate.json",
+  "ears": "Existing small ordinary ears retained, original source ear structure still not independently established",
+  "layers": null,
+  "rig": null,
+  "runtimeLoadable": false
+}

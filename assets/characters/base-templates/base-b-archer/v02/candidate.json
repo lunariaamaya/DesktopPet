@@ -32,7 +32,7 @@
   "parent": null,
   "relatedHistoricalExperiment": "draft-01 independent mechanical mannequin, not a human base",
   "kind": "covered_2d_reference_candidate",
-  "approval": "not_reviewed",
+  "approval": "revision_requested",
   "referenceFit": "not_verified",
   "layers": null,
   "rig": null,
@@ -64,5 +64,11 @@
       "Static PNG only; no layers, rig, Cubism project or animation",
       "Magnified raster details and RGB samples do not prove perfect anatomy or absence of all noise"
     ]
+  },
+  "userFeedback": {
+    "date": "2026-11-10",
+    "quote": "还不错，不过有些小瑕疵，手部手指有些重影，而且无法清晰分辨五指，需要改善一下，另外应该眼睛是蓝紫异瞳，左眼为紫色，右眼为蓝色。其他部分保持不变，只修改手部和眼睛。",
+    "nextSelectedRevision": "base-b-archer/v04/candidate.json",
+    "note": "Earlier digit-count observations did not resolve user concerns about ghosting/readability. Historical QA remains preserved."
   }
 }

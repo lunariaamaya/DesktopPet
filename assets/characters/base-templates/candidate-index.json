@@ -541,7 +541,7 @@
       "parent": null,
       "relatedHistoricalExperiment": "draft-01 independent mechanical mannequin, not a human base",
       "kind": "covered_2d_reference_candidate",
-      "approval": "not_reviewed",
+      "approval": "revision_requested",
       "referenceFit": "not_verified",
       "layers": null,
       "rig": null,
@@ -573,7 +573,228 @@
           "Static PNG only; no layers, rig, Cubism project or animation",
           "Magnified raster details and RGB samples do not prove perfect anatomy or absence of all noise"
         ]
+      },
+      "userFeedback": {
+        "date": "2026-11-10",
+        "quote": "还不错，不过有些小瑕疵，手部手指有些重影，而且无法清晰分辨五指，需要改善一下，另外应该眼睛是蓝紫异瞳，左眼为紫色，右眼为蓝色。其他部分保持不变，只修改手部和眼睛。",
+        "nextSelectedRevision": "base-b-archer/v04/candidate.json",
+        "note": "Earlier digit-count observations did not resolve user concerns about ghosting/readability. Historical QA remains preserved."
       }
+    },
+    {
+      "templateId": "base-b",
+      "displayName": "弓箭手",
+      "revision": "draft-03",
+      "artifact": "base-b-archer/v03/base-b-archer-five-fingers-blue-purple-eyes-front-v03.png",
+      "sha256": "b9452dab9e36fbf0a1df18fb0ee42d6d501e53477e5d4d5a870925810cf5c331",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "prompt": "base-b-archer/v03/prompt.txt",
+      "method": "built-in image_gen edit",
+      "referenceImagesUsedForGeneration": [
+        "assets/characters/base-templates/base-b-archer/v02/base-b-archer-covered-front-v02.png",
+        "assets/characters/base-templates/base-a-mage/v08/natural-hand-guide-v08.png"
+      ],
+      "sourceHashes": {
+        "assets/characters/base-templates/base-b-archer/v02/base-b-archer-covered-front-v02.png": "69e19e6018721583fe96aad3ee297e337cfffbf23a3aa594b9e67203d607632f",
+        "assets/characters/base-templates/base-a-mage/v08/natural-hand-guide-v08.png": "3b648689a4af7539c5290366591157319b4fb628f6b00a21045f463c4d1bab57"
+      },
+      "referenceRoles": {
+        "soleEditTarget": "assets/characters/base-templates/base-b-archer/v02/base-b-archer-covered-front-v02.png",
+        "handStructureGuide": "assets/characters/base-templates/base-a-mage/v08/natural-hand-guide-v08.png"
+      },
+      "parent": "draft-02",
+      "kind": "covered_2d_reference_candidate",
+      "approval": "not_reviewed",
+      "referenceFit": "not_verified",
+      "layers": null,
+      "rig": null,
+      "runtimeLoadable": false,
+      "sourceBuiltinFilename": "exec-d78f4cb5-bb50-405d-b8e2-1bf405d2132b.png",
+      "internalReviewDisposition": "not_selected_remaining_ambiguous_finger_traces",
+      "requiredEyeColors": {
+        "coordinateConvention": "character_own_left_right",
+        "characterLeft": "purple",
+        "characterRight": "blue",
+        "frontViewerLeft": "blue",
+        "frontViewerRight": "purple",
+        "source": "user explicit instruction on 2026-11-10"
+      },
+      "manualReview": {
+        "views": "front only",
+        "note": "Keep intermediate results traceable; internal non-selection is not a user rejection.",
+        "limits": [
+          "Generative output is not pixel-identical outside requested regions",
+          "No layer/rig/animation"
+        ]
+      }
+    },
+    {
+      "templateId": "base-b",
+      "displayName": "弓箭手",
+      "revision": "draft-04",
+      "artifact": "base-b-archer/v04/base-b-archer-five-fingers-blue-purple-eyes-front-v04.png",
+      "sha256": "fd9074e12b38fd7e27ac579a5ce777c964955bc876d3159c5383cc4efcc1eb14",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "prompt": "base-b-archer/v04/prompt.txt",
+      "method": "built-in image_gen edit",
+      "referenceImagesUsedForGeneration": [
+        "assets/characters/base-templates/base-b-archer/v02/base-b-archer-covered-front-v02.png",
+        "assets/characters/base-templates/base-b-archer/v04/separated-five-finger-guide.png"
+      ],
+      "sourceHashes": {
+        "assets/characters/base-templates/base-b-archer/v02/base-b-archer-covered-front-v02.png": "69e19e6018721583fe96aad3ee297e337cfffbf23a3aa594b9e67203d607632f",
+        "assets/characters/base-templates/base-b-archer/v04/separated-five-finger-guide.png": "996edec193dee2f05941d70a26c0c66351c2e819b9ad41815166c0ced3d17608"
+      },
+      "referenceRoles": {
+        "soleEditTarget": "assets/characters/base-templates/base-b-archer/v02/base-b-archer-covered-front-v02.png",
+        "handStructureGuide": "assets/characters/base-templates/base-b-archer/v04/separated-five-finger-guide.png"
+      },
+      "parent": "draft-02",
+      "kind": "covered_2d_reference_candidate",
+      "approval": "revision_requested",
+      "referenceFit": "not_verified",
+      "layers": null,
+      "rig": null,
+      "runtimeLoadable": false,
+      "sourceBuiltinFilename": "exec-18ede1bc-6777-48ec-bc74-ca46b8f6b0d6.png",
+      "internalReviewDisposition": "selected_hand_and_eye_candidate_then_head_revision_requested",
+      "requiredEyeColors": {
+        "coordinateConvention": "character_own_left_right",
+        "characterLeft": "purple",
+        "characterRight": "blue",
+        "frontViewerLeft": "blue",
+        "frontViewerRight": "purple",
+        "source": "user explicit instruction on 2026-11-10"
+      },
+      "manualReview": {
+        "views": "front only",
+        "note": "Keep intermediate results traceable; internal non-selection is not a user rejection.",
+        "limits": [
+          "Generative output is not pixel-identical outside requested regions",
+          "No layer/rig/animation"
+        ],
+        "visibleFingerCounts": {
+          "viewerLeft": 5,
+          "viewerRight": 5
+        },
+        "observation": "Individual long-finger tips and small separations are more legible, with rounded ends; exact overall naturalness remains for user review"
+      },
+      "userFeedback": {
+        "date": "2026-11-10",
+        "quote": "头部有很明显的色差块，需要修复一下。其他的保持不变。",
+        "nextRevision": "base-b-archer/v06/candidate.json"
+      }
+    },
+    {
+      "templateId": "base-b",
+      "displayName": "弓箭手",
+      "revision": "draft-05",
+      "artifact": "base-b-archer/v05/base-b-archer-head-skin-raw-v05.png",
+      "sha256": "a2fd6d014b0097eb1445317731107b39f71c26496986e5e11b65abd6b909a9cf",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "prompt": "base-b-archer/v05/prompt.txt",
+      "method": "built-in image_gen edit",
+      "referenceImagesUsedForGeneration": [
+        "assets/characters/base-templates/base-b-archer/v04/base-b-archer-five-fingers-blue-purple-eyes-front-v04.png"
+      ],
+      "sourceHashes": {
+        "assets/characters/base-templates/base-b-archer/v04/base-b-archer-five-fingers-blue-purple-eyes-front-v04.png": "fd9074e12b38fd7e27ac579a5ce777c964955bc876d3159c5383cc4efcc1eb14"
+      },
+      "referenceRoles": {
+        "soleEditTarget": "assets/characters/base-templates/base-b-archer/v04/base-b-archer-five-fingers-blue-purple-eyes-front-v04.png",
+        "handStructureGuide": null
+      },
+      "parent": "draft-04",
+      "kind": "covered_2d_reference_candidate",
+      "approval": "not_reviewed",
+      "referenceFit": "not_verified",
+      "layers": null,
+      "rig": null,
+      "runtimeLoadable": false,
+      "sourceBuiltinFilename": "exec-f937c892-ed9d-45be-98db-866deb185555.png",
+      "internalReviewDisposition": "not_selected_off_target_body_outline_and_skin_red_shift",
+      "requiredEyeColors": {
+        "coordinateConvention": "character_own_left_right",
+        "characterLeft": "purple",
+        "characterRight": "blue",
+        "frontViewerLeft": "blue",
+        "frontViewerRight": "purple",
+        "source": "user explicit instruction on 2026-11-10"
+      },
+      "manualReview": {
+        "views": "front only",
+        "note": "Keep intermediate results traceable; internal non-selection is not a user rejection.",
+        "limits": [
+          "Generative output is not pixel-identical outside requested regions",
+          "No layer/rig/animation"
+        ]
+      }
+    },
+    {
+      "templateId": "base-b",
+      "displayName": "弓箭手",
+      "revision": "draft-06",
+      "artifact": "base-b-archer/v06/base-b-archer-continuous-head-skin-front-v06.png",
+      "sha256": "9956cf5dcf3437d38f64b8c0feac9401d0cc19ec603694d66f70d91b4782c21c",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "prompt": null,
+      "method": "deterministic head-skin color postprocessing of generated v04",
+      "referenceImagesUsedForGeneration": [],
+      "sourceHashes": {
+        "assets/characters/base-templates/base-b-archer/v04/base-b-archer-five-fingers-blue-purple-eyes-front-v04.png": "fd9074e12b38fd7e27ac579a5ce777c964955bc876d3159c5383cc4efcc1eb14"
+      },
+      "parent": "draft-04",
+      "postprocessing": {
+        "sourceArtifact": "base-b-archer/v04/base-b-archer-five-fingers-blue-purple-eyes-front-v04.png",
+        "sourceSha256": "fd9074e12b38fd7e27ac579a5ce777c964955bc876d3159c5383cc4efcc1eb14",
+        "maskArtifact": "base-b-archer/v06/head-skin-edit-mask.png",
+        "maskSha256": "02bbff867076986202369ac4ea1db5f2e9fc483337b93cedf6fc3ca0d269bab2",
+        "allowedBoundsXYXY": [
+          438,
+          175,
+          587,
+          354
+        ],
+        "script": "scripts/recolor-archer-head-v06.ps1",
+        "scriptSha256NormalizedLF": "00ee2829eed8e1c325494c7113f9cbad2874ce95ee41b035dde98c0c3a5bbfa2",
+        "method": "C# continuous pink-ivory skin field inside a feathered head-only mask; original eye/brow/nose/mouth features excluded",
+        "authorization": "User previously allowed programmatic postprocessing for color continuity/noise, and currently requires a local head-color repair with everything else preserved."
+      },
+      "kind": "covered_2d_reference_candidate",
+      "approval": "not_reviewed",
+      "referenceFit": "not_verified",
+      "layers": null,
+      "rig": null,
+      "runtimeLoadable": false,
+      "sourceBuiltinFilename": "exec-18ede1bc-6777-48ec-bc74-ca46b8f6b0d6.png",
+      "sourceBuiltinRole": "v04 source image; v06 is a processed output and not a direct generation",
+      "requiredEyeColors": {
+        "coordinateConvention": "character_own_left_right",
+        "characterLeft": "purple",
+        "characterRight": "blue",
+        "frontViewerLeft": "blue",
+        "frontViewerRight": "purple",
+        "source": "user explicit instruction on 2026-11-10"
+      },
+      "manualReview": {
+        "views": "front only",
+        "inspectionReport": "visual-inspection.json",
+        "observation": "Scalp/forehead patches reduced through a continuous pale skin field; original eyes, hands and entire body retained pixel-identically relative to v04",
+        "limits": [
+          "Head-color judgement awaits user review",
+          "Static PNG only, no layers/rig/animation"
+        ]
+      },
+      "processingRequirements": "Only repair head skin-color blocks; preserve all other parts, including v04 hands and character-left purple / character-right blue irises.",
+      "relatedUnselectedGenerationPrompt": "base-b-archer/v05/prompt.txt"
     }
   ]
 }

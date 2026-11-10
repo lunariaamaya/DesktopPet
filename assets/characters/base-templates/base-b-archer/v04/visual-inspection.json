@@ -1,0 +1,170 @@
+{
+  "date": "2026-11-10",
+  "before": "assets/characters/base-templates/base-b-archer/v02/base-b-archer-covered-front-v02.png",
+  "after": "assets/characters/base-templates/base-b-archer/v04/base-b-archer-five-fingers-blue-purple-eyes-front-v04.png",
+  "beforeSha256": "69e19e6018721583fe96aad3ee297e337cfffbf23a3aa594b9e67203d607632f",
+  "afterSha256": "fd9074e12b38fd7e27ac579a5ce777c964955bc876d3159c5383cc4efcc1eb14",
+  "size": [
+    1024,
+    1536
+  ],
+  "productionImageCopiedWithoutPixelChanges": true,
+  "inspectionFigure": {
+    "file": "hands-eyes-review.png",
+    "cropBoxes": {
+      "viewer-left hand": [
+        292,
+        715,
+        367,
+        842
+      ],
+      "viewer-right hand": [
+        657,
+        715,
+        732,
+        842
+      ],
+      "eyes: screen-left blue / right violet": [
+        450,
+        263,
+        570,
+        311
+      ]
+    },
+    "handScale": 4,
+    "eyeScale": 3,
+    "resampling": "nearest-neighbor; original pixel inspection, no invented detail"
+  },
+  "outsideRequestedRegionProxy": {
+    "rectangles_xyxy": {
+      "viewerLeftHand": [
+        294,
+        720,
+        364,
+        838
+      ],
+      "viewerRightHand": [
+        660,
+        720,
+        730,
+        838
+      ],
+      "viewerLeftEye": [
+        462,
+        270,
+        497,
+        307
+      ],
+      "viewerRightEye": [
+        527,
+        270,
+        562,
+        307
+      ]
+    },
+    "note": "Bounding rectangles for inspection only, not proof of a production mask or exact iris segmentation",
+    "meanAbsoluteChannelDifference": 0.88983,
+    "maxChannelDifference": 210,
+    "changedPixelCount": 795496,
+    "pixelCount": 1553754,
+    "pixelCountWithAnyChannelDifferenceAbove16": 16519,
+    "pixelIdenticalOutsideProxy": false
+  },
+  "samples": {
+    "viewerLeftBlueIrisLower": {
+      "roi_xywh": [
+        477,
+        292,
+        5,
+        4
+      ],
+      "pixels": 20,
+      "medianRGB": [
+        164,
+        190,
+        241
+      ],
+      "medianHEX": "#A4BEF1"
+    },
+    "viewerRightPurpleIrisLower": {
+      "roi_xywh": [
+        542,
+        292,
+        5,
+        4
+      ],
+      "pixels": 20,
+      "medianRGB": [
+        219,
+        137,
+        217
+      ],
+      "medianHEX": "#DB89D9"
+    },
+    "leftForearmRetainedSkin": {
+      "roi_xywh": [
+        358,
+        650,
+        10,
+        16
+      ],
+      "pixels": 160,
+      "medianRGB": [
+        254,
+        239,
+        237
+      ],
+      "medianHEX": "#FEEFED"
+    },
+    "rightForearmRetainedSkin": {
+      "roi_xywh": [
+        650,
+        650,
+        10,
+        16
+      ],
+      "pixels": 160,
+      "medianRGB": [
+        254,
+        240,
+        238
+      ],
+      "medianHEX": "#FEF0EE"
+    },
+    "leftShinRetainedSkin": {
+      "roi_xywh": [
+        448,
+        1190,
+        10,
+        16
+      ],
+      "pixels": 160,
+      "medianRGB": [
+        254,
+        241,
+        240
+      ],
+      "medianHEX": "#FEF1F0"
+    },
+    "rightShinRetainedSkin": {
+      "roi_xywh": [
+        566,
+        1190,
+        10,
+        16
+      ],
+      "pixels": 160,
+      "medianRGB": [
+        254,
+        240,
+        238
+      ],
+      "medianHEX": "#FEF0EE"
+    }
+  },
+  "limits": [
+    "Only hand/eye appearance is intended to change; generative edits do not guarantee exact preservation elsewhere",
+    "Color samples and pixel comparisons do not prove correct anatomy or perfect removal of ghosting",
+    "The preserved title still says v02; the revision filename/metadata is v04 intentionally"
+  ]
+}

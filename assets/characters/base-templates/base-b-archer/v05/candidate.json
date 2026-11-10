@@ -1,0 +1,47 @@
+{
+  "templateId": "base-b",
+  "displayName": "弓箭手",
+  "revision": "draft-05",
+  "artifact": "base-b-archer/v05/base-b-archer-head-skin-raw-v05.png",
+  "sha256": "a2fd6d014b0097eb1445317731107b39f71c26496986e5e11b65abd6b909a9cf",
+  "width": 1024,
+  "height": 1536,
+  "mode": "RGB",
+  "prompt": "base-b-archer/v05/prompt.txt",
+  "method": "built-in image_gen edit",
+  "referenceImagesUsedForGeneration": [
+    "assets/characters/base-templates/base-b-archer/v04/base-b-archer-five-fingers-blue-purple-eyes-front-v04.png"
+  ],
+  "sourceHashes": {
+    "assets/characters/base-templates/base-b-archer/v04/base-b-archer-five-fingers-blue-purple-eyes-front-v04.png": "fd9074e12b38fd7e27ac579a5ce777c964955bc876d3159c5383cc4efcc1eb14"
+  },
+  "referenceRoles": {
+    "soleEditTarget": "assets/characters/base-templates/base-b-archer/v04/base-b-archer-five-fingers-blue-purple-eyes-front-v04.png",
+    "handStructureGuide": null
+  },
+  "parent": "draft-04",
+  "kind": "covered_2d_reference_candidate",
+  "approval": "not_reviewed",
+  "referenceFit": "not_verified",
+  "layers": null,
+  "rig": null,
+  "runtimeLoadable": false,
+  "sourceBuiltinFilename": "exec-f937c892-ed9d-45be-98db-866deb185555.png",
+  "internalReviewDisposition": "not_selected_off_target_body_outline_and_skin_red_shift",
+  "requiredEyeColors": {
+    "coordinateConvention": "character_own_left_right",
+    "characterLeft": "purple",
+    "characterRight": "blue",
+    "frontViewerLeft": "blue",
+    "frontViewerRight": "purple",
+    "source": "user explicit instruction on 2026-11-10"
+  },
+  "manualReview": {
+    "views": "front only",
+    "note": "Keep intermediate results traceable; internal non-selection is not a user rejection.",
+    "limits": [
+      "Generative output is not pixel-identical outside requested regions",
+      "No layer/rig/animation"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-10",
+  "templateId": "base-b",
+  "revision": "draft-03",
+  "method": "built-in image_gen edit",
+  "prompt": "prompt.txt",
+  "promptFileSha256": "5ab82c616c648336e5f93614aa75016f5f26d425b355d4e63bd884069e8aafcd",
+  "inputHashes": {
+    "assets/characters/base-templates/base-b-archer/v02/base-b-archer-covered-front-v02.png": "69e19e6018721583fe96aad3ee297e337cfffbf23a3aa594b9e67203d607632f",
+    "assets/characters/base-templates/base-a-mage/v08/natural-hand-guide-v08.png": "3b648689a4af7539c5290366591157319b4fb628f6b00a21045f463c4d1bab57"
+  },
+  "output": "base-b-archer-five-fingers-blue-purple-eyes-front-v03.png",
+  "outputSha256": "b9452dab9e36fbf0a1df18fb0ee42d6d501e53477e5d4d5a870925810cf5c331",
+  "sourceBuiltinFilename": "exec-d78f4cb5-bb50-405d-b8e2-1bf405d2132b.png",
+  "transparentBackground": false,
+  "productionImageCopiedWithoutPixelChanges": true,
+  "status": "not_selected_remaining_ambiguous_finger_traces",
+  "generationCalls": 1,
+  "requiredEyeColors": {
+    "coordinateConvention": "character_own_left_right",
+    "characterLeft": "purple",
+    "characterRight": "blue",
+    "frontViewerLeft": "blue",
+    "frontViewerRight": "purple",
+    "source": "user explicit instruction on 2026-11-10"
+  }
+}

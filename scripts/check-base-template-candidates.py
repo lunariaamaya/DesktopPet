@@ -5,7 +5,7 @@ layer separation or rigging. This index must never be used as a runtime model.
 """
 from pathlib import Path
 import hashlib,json
-from PIL import Image
+from PIL import Image,ImageChops
 
 ROOT=Path(__file__).resolve().parents[1]
 BASE=ROOT/'assets/characters/base-templates'
@@ -57,7 +57,25 @@ def main():
         with Image.open(path) as image:
             image.load();assert (image.width,image.height)==(record['width'],record['height'])
         original=GENERATED/record['sourceBuiltinFilename']
-        if original.exists():assert sha(original)==record['sha256']
+        processing=record.get('postprocessing')
+        if processing:
+            source=BASE/processing['sourceArtifact']
+            mask_path=BASE/processing['maskArtifact']
+            assert sha(source)==processing['sourceSha256']
+            assert sha(mask_path)==processing['maskSha256']
+            if original.exists():assert sha(original)==sha(source)
+            with Image.open(source) as source_image,Image.open(path) as output_image,Image.open(mask_path) as mask_image:
+                mask=mask_image.convert('L')
+                assert mask.size==source_image.size==output_image.size
+                bbox=mask.getbbox();bounds=processing['allowedBoundsXYXY']
+                assert bbox and bbox[0]>=bounds[0] and bbox[1]>=bounds[1] and bbox[2]<=bounds[2] and bbox[3]<=bounds[3]
+                difference=ImageChops.difference(source_image.convert('RGB'),output_image.convert('RGB'))
+                difference.paste((0,0,0),mask=mask.point(lambda p:255 if p>0 else 0))
+                assert difference.getbbox() is None,'Pixels changed outside processing mask'
+                assert ImageChops.difference(source_image.convert('RGBA').getchannel('A'),output_image.convert('RGBA').getchannel('A')).getbbox() is None
+            script=(ROOT/processing['script']).read_text(encoding='utf-8').replace('\r\n','\n')
+            assert hashlib.sha256(script.encode('utf-8')).hexdigest()==processing['scriptSha256NormalizedLF']
+        elif original.exists():assert sha(original)==record['sha256']
         assert record['approval'] in {'not_reviewed','revision_requested','rejected','approved_reference'} and record['rig'] is None and not record['runtimeLoadable']
         if record['approval']=='approved_reference':
             evidence=record['userApproval']
@@ -87,7 +105,9 @@ def main():
         'additionalReferencesChecked':len(additional),'allAdditionalReferenceHashesUnchanged':True,
         'allOriginalHashesUnchanged':True,'candidateCount':len(records),
         'approvedFrontReferenceCount':sum(record['approval']=='approved_reference' for record in records),
-        'generatedFilesCopiedWithoutPixelChanges':True,
+        'generatedFilesCopiedWithoutPixelChanges':not any(record.get('postprocessing') for record in records),
+        'postprocessedReferenceCount':sum(bool(record.get('postprocessing')) for record in records),
+        'postprocessedOutputsPreserveOutsideMask':True,
         'notChecked':['reference fidelity','anatomy','view registration','layering','rigging','animation']},
         indent=2)+'\n',encoding='utf-8')
     print(f'{len(references)} original and {len(additional)} additional references unchanged; {len(records)} PNG references across 2 template IDs; approved current baselines: '+str({key:value["revision"] if value else None for key,value in approved.items()})+'; no rig claimed')

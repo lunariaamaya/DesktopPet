@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-10",
+  "templateId": "base-b",
+  "revision": "draft-05",
+  "method": "built-in image_gen edit",
+  "prompt": "prompt.txt",
+  "promptFileSha256": "d237f4f7564e45b81b6dd8c297679cc2b57eb9d696e10b866572cd0939ac4ea3",
+  "inputHashes": {
+    "assets/characters/base-templates/base-b-archer/v04/base-b-archer-five-fingers-blue-purple-eyes-front-v04.png": "fd9074e12b38fd7e27ac579a5ce777c964955bc876d3159c5383cc4efcc1eb14"
+  },
+  "output": "base-b-archer-head-skin-raw-v05.png",
+  "outputSha256": "a2fd6d014b0097eb1445317731107b39f71c26496986e5e11b65abd6b909a9cf",
+  "sourceBuiltinFilename": "exec-f937c892-ed9d-45be-98db-866deb185555.png",
+  "transparentBackground": false,
+  "productionImageCopiedWithoutPixelChanges": true,
+  "status": "not_selected_off_target_body_outline_and_skin_red_shift",
+  "generationCalls": 1,
+  "requiredEyeColors": {
+    "coordinateConvention": "character_own_left_right",
+    "characterLeft": "purple",
+    "characterRight": "blue",
+    "frontViewerLeft": "blue",
+    "frontViewerRight": "purple",
+    "source": "user explicit instruction on 2026-11-10"
+  }
+}

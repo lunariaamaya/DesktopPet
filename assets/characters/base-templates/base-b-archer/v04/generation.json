@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-10",
+  "templateId": "base-b",
+  "revision": "draft-04",
+  "method": "built-in image_gen edit",
+  "prompt": "prompt.txt",
+  "promptFileSha256": "21f5f8fe0d4a6ff58fdcc95854f7208d6d38c4da35f25306fff91c70f0e8bc8a",
+  "inputHashes": {
+    "assets/characters/base-templates/base-b-archer/v02/base-b-archer-covered-front-v02.png": "69e19e6018721583fe96aad3ee297e337cfffbf23a3aa594b9e67203d607632f",
+    "assets/characters/base-templates/base-b-archer/v04/separated-five-finger-guide.png": "996edec193dee2f05941d70a26c0c66351c2e819b9ad41815166c0ced3d17608"
+  },
+  "output": "base-b-archer-five-fingers-blue-purple-eyes-front-v04.png",
+  "outputSha256": "fd9074e12b38fd7e27ac579a5ce777c964955bc876d3159c5383cc4efcc1eb14",
+  "sourceBuiltinFilename": "exec-18ede1bc-6777-48ec-bc74-ca46b8f6b0d6.png",
+  "transparentBackground": false,
+  "productionImageCopiedWithoutPixelChanges": true,
+  "status": "selected_hand_and_eye_candidate_then_head_revision_requested",
+  "generationCalls": 2,
+  "requiredEyeColors": {
+    "coordinateConvention": "character_own_left_right",
+    "characterLeft": "purple",
+    "characterRight": "blue",
+    "frontViewerLeft": "blue",
+    "frontViewerRight": "purple",
+    "source": "user explicit instruction on 2026-11-10"
+  },
+  "guideGeneration": {
+    "prompt": "hand-guide-prompt.txt",
+    "promptFileSha256": "5150b0869a4a9b314670a3b1431328b5e18b0fb660744307c6cb5696abf024e0",
+    "referenceImages": [],
+    "output": "separated-five-finger-guide.png",
+    "outputSha256": "996edec193dee2f05941d70a26c0c66351c2e819b9ad41815166c0ced3d17608",
+    "sourceBuiltinFilename": "exec-5976b2d6-0f84-4933-90b6-8649268840a6.png"
+  }
+}

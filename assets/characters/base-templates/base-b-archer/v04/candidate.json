@@ -1,0 +1,59 @@
+{
+  "templateId": "base-b",
+  "displayName": "弓箭手",
+  "revision": "draft-04",
+  "artifact": "base-b-archer/v04/base-b-archer-five-fingers-blue-purple-eyes-front-v04.png",
+  "sha256": "fd9074e12b38fd7e27ac579a5ce777c964955bc876d3159c5383cc4efcc1eb14",
+  "width": 1024,
+  "height": 1536,
+  "mode": "RGB",
+  "prompt": "base-b-archer/v04/prompt.txt",
+  "method": "built-in image_gen edit",
+  "referenceImagesUsedForGeneration": [
+    "assets/characters/base-templates/base-b-archer/v02/base-b-archer-covered-front-v02.png",
+    "assets/characters/base-templates/base-b-archer/v04/separated-five-finger-guide.png"
+  ],
+  "sourceHashes": {
+    "assets/characters/base-templates/base-b-archer/v02/base-b-archer-covered-front-v02.png": "69e19e6018721583fe96aad3ee297e337cfffbf23a3aa594b9e67203d607632f",
+    "assets/characters/base-templates/base-b-archer/v04/separated-five-finger-guide.png": "996edec193dee2f05941d70a26c0c66351c2e819b9ad41815166c0ced3d17608"
+  },
+  "referenceRoles": {
+    "soleEditTarget": "assets/characters/base-templates/base-b-archer/v02/base-b-archer-covered-front-v02.png",
+    "handStructureGuide": "assets/characters/base-templates/base-b-archer/v04/separated-five-finger-guide.png"
+  },
+  "parent": "draft-02",
+  "kind": "covered_2d_reference_candidate",
+  "approval": "revision_requested",
+  "referenceFit": "not_verified",
+  "layers": null,
+  "rig": null,
+  "runtimeLoadable": false,
+  "sourceBuiltinFilename": "exec-18ede1bc-6777-48ec-bc74-ca46b8f6b0d6.png",
+  "internalReviewDisposition": "selected_hand_and_eye_candidate_then_head_revision_requested",
+  "requiredEyeColors": {
+    "coordinateConvention": "character_own_left_right",
+    "characterLeft": "purple",
+    "characterRight": "blue",
+    "frontViewerLeft": "blue",
+    "frontViewerRight": "purple",
+    "source": "user explicit instruction on 2026-11-10"
+  },
+  "manualReview": {
+    "views": "front only",
+    "note": "Keep intermediate results traceable; internal non-selection is not a user rejection.",
+    "limits": [
+      "Generative output is not pixel-identical outside requested regions",
+      "No layer/rig/animation"
+    ],
+    "visibleFingerCounts": {
+      "viewerLeft": 5,
+      "viewerRight": 5
+    },
+    "observation": "Individual long-finger tips and small separations are more legible, with rounded ends; exact overall naturalness remains for user review"
+  },
+  "userFeedback": {
+    "date": "2026-11-10",
+    "quote": "头部有很明显的色差块，需要修复一下。其他的保持不变。",
+    "nextRevision": "base-b-archer/v06/candidate.json"
+  }
+}

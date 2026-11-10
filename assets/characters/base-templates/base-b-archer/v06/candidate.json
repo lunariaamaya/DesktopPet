@@ -1,0 +1,60 @@
+{
+  "templateId": "base-b",
+  "displayName": "弓箭手",
+  "revision": "draft-06",
+  "artifact": "base-b-archer/v06/base-b-archer-continuous-head-skin-front-v06.png",
+  "sha256": "9956cf5dcf3437d38f64b8c0feac9401d0cc19ec603694d66f70d91b4782c21c",
+  "width": 1024,
+  "height": 1536,
+  "mode": "RGBA",
+  "prompt": null,
+  "method": "deterministic head-skin color postprocessing of generated v04",
+  "referenceImagesUsedForGeneration": [],
+  "sourceHashes": {
+    "assets/characters/base-templates/base-b-archer/v04/base-b-archer-five-fingers-blue-purple-eyes-front-v04.png": "fd9074e12b38fd7e27ac579a5ce777c964955bc876d3159c5383cc4efcc1eb14"
+  },
+  "parent": "draft-04",
+  "postprocessing": {
+    "sourceArtifact": "base-b-archer/v04/base-b-archer-five-fingers-blue-purple-eyes-front-v04.png",
+    "sourceSha256": "fd9074e12b38fd7e27ac579a5ce777c964955bc876d3159c5383cc4efcc1eb14",
+    "maskArtifact": "base-b-archer/v06/head-skin-edit-mask.png",
+    "maskSha256": "02bbff867076986202369ac4ea1db5f2e9fc483337b93cedf6fc3ca0d269bab2",
+    "allowedBoundsXYXY": [
+      438,
+      175,
+      587,
+      354
+    ],
+    "script": "scripts/recolor-archer-head-v06.ps1",
+    "scriptSha256NormalizedLF": "00ee2829eed8e1c325494c7113f9cbad2874ce95ee41b035dde98c0c3a5bbfa2",
+    "method": "C# continuous pink-ivory skin field inside a feathered head-only mask; original eye/brow/nose/mouth features excluded",
+    "authorization": "User previously allowed programmatic postprocessing for color continuity/noise, and currently requires a local head-color repair with everything else preserved."
+  },
+  "kind": "covered_2d_reference_candidate",
+  "approval": "not_reviewed",
+  "referenceFit": "not_verified",
+  "layers": null,
+  "rig": null,
+  "runtimeLoadable": false,
+  "sourceBuiltinFilename": "exec-18ede1bc-6777-48ec-bc74-ca46b8f6b0d6.png",
+  "sourceBuiltinRole": "v04 source image; v06 is a processed output and not a direct generation",
+  "requiredEyeColors": {
+    "coordinateConvention": "character_own_left_right",
+    "characterLeft": "purple",
+    "characterRight": "blue",
+    "frontViewerLeft": "blue",
+    "frontViewerRight": "purple",
+    "source": "user explicit instruction on 2026-11-10"
+  },
+  "manualReview": {
+    "views": "front only",
+    "inspectionReport": "visual-inspection.json",
+    "observation": "Scalp/forehead patches reduced through a continuous pale skin field; original eyes, hands and entire body retained pixel-identically relative to v04",
+    "limits": [
+      "Head-color judgement awaits user review",
+      "Static PNG only, no layers/rig/animation"
+    ]
+  },
+  "processingRequirements": "Only repair head skin-color blocks; preserve all other parts, including v04 hands and character-left purple / character-right blue irises.",
+  "relatedUnselectedGenerationPrompt": "base-b-archer/v05/prompt.txt"
+}

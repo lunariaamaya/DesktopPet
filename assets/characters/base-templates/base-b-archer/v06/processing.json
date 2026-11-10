@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-10",
+  "revision": "draft-06",
+  "userRequest": "头部有很明显的色差块，需要修复一下。其他的保持不变。",
+  "sourceArtifact": "base-b-archer/v04/base-b-archer-five-fingers-blue-purple-eyes-front-v04.png",
+  "sourceSha256": "fd9074e12b38fd7e27ac579a5ce777c964955bc876d3159c5383cc4efcc1eb14",
+  "maskArtifact": "base-b-archer/v06/head-skin-edit-mask.png",
+  "maskSha256": "02bbff867076986202369ac4ea1db5f2e9fc483337b93cedf6fc3ca0d269bab2",
+  "allowedBoundsXYXY": [
+    438,
+    175,
+    587,
+    354
+  ],
+  "script": "scripts/recolor-archer-head-v06.ps1",
+  "scriptSha256NormalizedLF": "00ee2829eed8e1c325494c7113f9cbad2874ce95ee41b035dde98c0c3a5bbfa2",
+  "method": "C# continuous pink-ivory skin field inside a feathered head-only mask; original eye/brow/nose/mouth features excluded",
+  "authorization": "User previously allowed programmatic postprocessing for color continuity/noise, and currently requires a local head-color repair with everything else preserved.",
+  "output": "base-b-archer-continuous-head-skin-front-v06.png",
+  "outputSha256": "9956cf5dcf3437d38f64b8c0feac9401d0cc19ec603694d66f70d91b4782c21c",
+  "inspection": "visual-inspection.json",
+  "rejectedGeneration": "../v05/generation.json",
+  "note": "v05 was not used as processing input; rollback to v04 preserved its hands and eye colors."
+}

@@ -133,8 +133,52 @@
       "attemptLog": "base-b-archer/v02/generation.json",
       "generationCalls": 1,
       "status": "generated_not_approved",
-      "output": "base-b-archer/v02/base-b-archer-covered-front-v02.png"
+      "output": "base-b-archer/v02/base-b-archer-covered-front-v02.png",
+      "userReviewOutcome": "revision_requested: finger ghosting/readability; explicit blue/purple eye sides supplied"
+    },
+    {
+      "date": "2026-11-10",
+      "templateId": "base-b",
+      "revision": "draft-03",
+      "method": "built-in image_gen",
+      "attemptLog": "base-b-archer/v03/generation.json",
+      "prompt": "base-b-archer/v03/prompt.txt",
+      "generationCalls": 1,
+      "output": "base-b-archer/v03/base-b-archer-five-fingers-blue-purple-eyes-front-v03.png",
+      "status": "not_selected_remaining_ambiguous_finger_traces"
+    },
+    {
+      "date": "2026-11-10",
+      "templateId": "base-b",
+      "revision": "draft-04",
+      "method": "built-in image_gen",
+      "attemptLog": "base-b-archer/v04/generation.json",
+      "prompt": "base-b-archer/v04/prompt.txt",
+      "generationCalls": 2,
+      "output": "base-b-archer/v04/base-b-archer-five-fingers-blue-purple-eyes-front-v04.png",
+      "status": "selected_hand_and_eye_candidate_then_head_revision_requested"
+    },
+    {
+      "date": "2026-11-10",
+      "templateId": "base-b",
+      "revision": "draft-05",
+      "method": "built-in image_gen",
+      "attemptLog": "base-b-archer/v05/generation.json",
+      "prompt": "base-b-archer/v05/prompt.txt",
+      "generationCalls": 1,
+      "output": "base-b-archer/v05/base-b-archer-head-skin-raw-v05.png",
+      "status": "not_selected_off_target_body_outline_and_skin_red_shift"
+    },
+    {
+      "date": "2026-11-10",
+      "templateId": "base-b",
+      "revision": "draft-06",
+      "method": "deterministic head-skin color postprocessing of generated v04",
+      "attemptLog": "base-b-archer/v06/processing.json",
+      "output": "base-b-archer/v06/base-b-archer-continuous-head-skin-front-v06.png",
+      "status": "processed_not_approved",
+      "generationCalls": 0
     }
   ],
-  "nextScope": "User review of archer v02 body proportions and build; mage v09 is the canonical approved base. B ears/iris colors are provisional. No layering or rigging yet."
+  "nextScope": "User review of archer v06 head-color continuity; v04 supplies improved hands and explicit blue/purple eyes. Mage v09 remains approved and unchanged."
 }

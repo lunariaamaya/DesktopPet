@@ -3,9 +3,11 @@
   "additionalReferencesChecked": 12,
   "allAdditionalReferenceHashesUnchanged": true,
   "allOriginalHashesUnchanged": true,
-  "candidateCount": 11,
+  "candidateCount": 15,
   "approvedFrontReferenceCount": 2,
-  "generatedFilesCopiedWithoutPixelChanges": true,
+  "generatedFilesCopiedWithoutPixelChanges": false,
+  "postprocessedReferenceCount": 1,
+  "postprocessedOutputsPreserveOutsideMask": true,
   "notChecked": [
     "reference fidelity",
     "anatomy",

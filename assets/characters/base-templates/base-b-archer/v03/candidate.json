@@ -1,0 +1,49 @@
+{
+  "templateId": "base-b",
+  "displayName": "弓箭手",
+  "revision": "draft-03",
+  "artifact": "base-b-archer/v03/base-b-archer-five-fingers-blue-purple-eyes-front-v03.png",
+  "sha256": "b9452dab9e36fbf0a1df18fb0ee42d6d501e53477e5d4d5a870925810cf5c331",
+  "width": 1024,
+  "height": 1536,
+  "mode": "RGB",
+  "prompt": "base-b-archer/v03/prompt.txt",
+  "method": "built-in image_gen edit",
+  "referenceImagesUsedForGeneration": [
+    "assets/characters/base-templates/base-b-archer/v02/base-b-archer-covered-front-v02.png",
+    "assets/characters/base-templates/base-a-mage/v08/natural-hand-guide-v08.png"
+  ],
+  "sourceHashes": {
+    "assets/characters/base-templates/base-b-archer/v02/base-b-archer-covered-front-v02.png": "69e19e6018721583fe96aad3ee297e337cfffbf23a3aa594b9e67203d607632f",
+    "assets/characters/base-templates/base-a-mage/v08/natural-hand-guide-v08.png": "3b648689a4af7539c5290366591157319b4fb628f6b00a21045f463c4d1bab57"
+  },
+  "referenceRoles": {
+    "soleEditTarget": "assets/characters/base-templates/base-b-archer/v02/base-b-archer-covered-front-v02.png",
+    "handStructureGuide": "assets/characters/base-templates/base-a-mage/v08/natural-hand-guide-v08.png"
+  },
+  "parent": "draft-02",
+  "kind": "covered_2d_reference_candidate",
+  "approval": "not_reviewed",
+  "referenceFit": "not_verified",
+  "layers": null,
+  "rig": null,
+  "runtimeLoadable": false,
+  "sourceBuiltinFilename": "exec-d78f4cb5-bb50-405d-b8e2-1bf405d2132b.png",
+  "internalReviewDisposition": "not_selected_remaining_ambiguous_finger_traces",
+  "requiredEyeColors": {
+    "coordinateConvention": "character_own_left_right",
+    "characterLeft": "purple",
+    "characterRight": "blue",
+    "frontViewerLeft": "blue",
+    "frontViewerRight": "purple",
+    "source": "user explicit instruction on 2026-11-10"
+  },
+  "manualReview": {
+    "views": "front only",
+    "note": "Keep intermediate results traceable; internal non-selection is not a user rejection.",
+    "limits": [
+      "Generative output is not pixel-identical outside requested regions",
+      "No layer/rig/animation"
+    ]
+  }
+}

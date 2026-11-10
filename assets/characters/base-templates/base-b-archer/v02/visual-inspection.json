@@ -428,5 +428,9 @@
       "Static PNG only; no layers, rig, Cubism project or animation",
       "Magnified raster details and RGB samples do not prove perfect anatomy or absence of all noise"
     ]
+  },
+  "userReview": {
+    "status": "revision_requested",
+    "quote": "还不错，不过有些小瑕疵，手部手指有些重影，而且无法清晰分辨五指，需要改善一下，另外应该眼睛是蓝紫异瞳，左眼为紫色，右眼为蓝色。其他部分保持不变，只修改手部和眼睛。"
   }
 }

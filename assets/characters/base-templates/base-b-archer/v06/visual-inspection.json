@@ -1,0 +1,217 @@
+{
+  "date": "2026-11-10",
+  "method": "Read-only inspection of deterministic C# color pass",
+  "source": "assets/characters/base-templates/base-b-archer/v04/base-b-archer-five-fingers-blue-purple-eyes-front-v04.png",
+  "sourceSha256": "fd9074e12b38fd7e27ac579a5ce777c964955bc876d3159c5383cc4efcc1eb14",
+  "output": "assets/characters/base-templates/base-b-archer/v06/base-b-archer-continuous-head-skin-front-v06.png",
+  "outputSha256": "9956cf5dcf3437d38f64b8c0feac9401d0cc19ec603694d66f70d91b4782c21c",
+  "mask": "head-skin-edit-mask.png",
+  "maskSha256": "02bbff867076986202369ac4ea1db5f2e9fc483337b93cedf6fc3ca0d269bab2",
+  "maskNonzeroPixels": 13207,
+  "changedPixels": 12476,
+  "outsideMaskChangedPixels": 0,
+  "outsideHeadChangedPixels": 0,
+  "protectedRegionChecks": {
+    "viewerLeftBlueIris": {
+      "roi_xywh": [
+        466,
+        273,
+        28,
+        29
+      ],
+      "changedPixels": 0
+    },
+    "viewerRightPurpleIris": {
+      "roi_xywh": [
+        534,
+        273,
+        28,
+        29
+      ],
+      "changedPixels": 0
+    },
+    "leftHand": {
+      "roi_xywh": [
+        294,
+        720,
+        70,
+        118
+      ],
+      "changedPixels": 0
+    },
+    "rightHand": {
+      "roi_xywh": [
+        660,
+        720,
+        70,
+        118
+      ],
+      "changedPixels": 0
+    },
+    "bodyAndFeet": {
+      "roi_xywh": [
+        250,
+        356,
+        525,
+        1042
+      ],
+      "changedPixels": 0
+    }
+  },
+  "skinSamples": {
+    "leftScalp": {
+      "roi_xywh": [
+        474,
+        207,
+        14,
+        18
+      ],
+      "before": {
+        "medianRGB": [
+          254,
+          242,
+          240
+        ],
+        "medianHEX": "#FEF2F0",
+        "channelStd": [
+          0.5963,
+          0.5414,
+          0.5608
+        ]
+      },
+      "after": {
+        "medianRGB": [
+          254,
+          241,
+          238
+        ],
+        "medianHEX": "#FEF1EE",
+        "channelStd": [
+          0.0,
+          0.0,
+          0.4949
+        ]
+      }
+    },
+    "centerScalp": {
+      "roi_xywh": [
+        504,
+        207,
+        14,
+        18
+      ],
+      "before": {
+        "medianRGB": [
+          254,
+          243,
+          241
+        ],
+        "medianHEX": "#FEF3F1",
+        "channelStd": [
+          0.5375,
+          0.5962,
+          0.5308
+        ]
+      },
+      "after": {
+        "medianRGB": [
+          254,
+          241,
+          239
+        ],
+        "medianHEX": "#FEF1EF",
+        "channelStd": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "rightScalp": {
+      "roi_xywh": [
+        534,
+        207,
+        14,
+        18
+      ],
+      "before": {
+        "medianRGB": [
+          254,
+          242,
+          241
+        ],
+        "medianHEX": "#FEF2F1",
+        "channelStd": [
+          0.6644,
+          0.5866,
+          0.513
+        ]
+      },
+      "after": {
+        "medianRGB": [
+          254,
+          241,
+          239
+        ],
+        "medianHEX": "#FEF1EF",
+        "channelStd": [
+          0.0,
+          0.0,
+          0.4792
+        ]
+      }
+    },
+    "centerForehead": {
+      "roi_xywh": [
+        503,
+        231,
+        14,
+        12
+      ],
+      "before": {
+        "medianRGB": [
+          254,
+          242,
+          240
+        ],
+        "medianHEX": "#FEF2F0",
+        "channelStd": [
+          0.5756,
+          0.6897,
+          0.5638
+        ]
+      },
+      "after": {
+        "medianRGB": [
+          254,
+          241,
+          239
+        ],
+        "medianHEX": "#FEF1EF",
+        "channelStd": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "inspectionFigure": {
+    "file": "head-color-review.png",
+    "crop_xyxy": [
+      432,
+      168,
+      592,
+      360
+    ],
+    "scale": 2,
+    "resampling": "nearest-neighbor",
+    "diagnosticContrast": 0.65,
+    "note": "Contrast panels are diagnostic figures only, not edited production assets"
+  },
+  "limits": [
+    "Smoothness statistics apply to listed skin ROIs, not universal noise absence",
+    "User review of head color is pending",
+    "Only deterministic v06 has proven exact preservation outside its head mask"
+  ]
+}
