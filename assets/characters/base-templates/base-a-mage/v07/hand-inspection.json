@@ -16,5 +16,15 @@
     "Five toes still visible on each foot in the full-body result"
   ],
   "inspectionFigure": "hand-detail-review.png",
-  "note": "Counts are human visual inspection, not automatic anatomical or rigging validation."
+  "note": "Counts are human visual inspection, not automatic anatomical or rigging validation.",
+  "userReview": {
+    "status": "rejected",
+    "feedback": {
+      "date": "2026-11-10",
+      "summary": "用户否定 v07：手指难看、手势不自然、有重影；要求纤细小巧、白嫩圆润且正常五指。",
+      "rollbackBase": "draft-06",
+      "nextRevision": "base-a-mage/v08/candidate.json"
+    },
+    "lesson": "Visible digit count alone did not establish acceptable pose, contour or skin quality."
+  }
 }

@@ -1,0 +1,23 @@
+{
+  "method": "Manual review of hand guide, full-body image and 4x pixel inspection crops",
+  "visibleDigitCounts": {
+    "viewerLeftHand": 5,
+    "viewerRightHand": 5
+  },
+  "qualityObservations": [
+    "Four long fingers gathered in a more relaxed cascade instead of zigzag bends",
+    "Thumb relaxed toward inner side, smoother wrist/palm transition",
+    "Pale continuous skin shading with softer single contours; old sharp white thumb-base patches reduced",
+    "No obvious duplicated old finger silhouette observed in enlarged v08 crops"
+  ],
+  "retainedToeCounts": {
+    "viewerLeftFoot": 5,
+    "viewerRightFoot": 5
+  },
+  "pending": [
+    "User judgement of naturalness, smallness and rounded softness",
+    "Small full-body raster hands cannot establish anatomical perfection or animation readiness"
+  ],
+  "comparisonFigure": "hand-detail-review.png",
+  "comparisonNote": "4x nearest-neighbor crop inspection only; not a new production drawing."
+}

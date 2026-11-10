@@ -320,7 +320,7 @@
         "assets/characters/base-templates/base-a-mage/v06/base-a-mage-detailed-toes-front-v06.png": "aed950aaf23362ce9ac30f997fab26d253d40446190626a1f124e1fe81735972"
       },
       "kind": "covered_2d_reference_candidate",
-      "approval": "not_reviewed",
+      "approval": "rejected",
       "referenceFit": "not_verified",
       "layers": null,
       "rig": null,
@@ -360,6 +360,81 @@
         "limits": [
           "Static single image, no layers, rig or animation",
           "No pixel-identical promise outside the hand edit region; user approval pending"
+        ]
+      },
+      "userFeedback": {
+        "date": "2026-11-10",
+        "summary": "用户否定 v07：手指难看、手势不自然、有重影；要求纤细小巧、白嫩圆润且正常五指。",
+        "rollbackBase": "draft-06",
+        "nextRevision": "base-a-mage/v08/candidate.json"
+      }
+    },
+    {
+      "templateId": "base-a",
+      "displayName": "魔法师",
+      "revision": "draft-08",
+      "artifact": "base-a-mage/v08/base-a-mage-natural-five-finger-hands-front-v08.png",
+      "sha256": "729bd3685bc9115713bbd56a9c452c7cdba47a9fccb2c77d1b396030ce6c7bf8",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "prompt": "base-a-mage/v08/prompt.txt",
+      "method": "built-in image_gen guide generation then full-body edit",
+      "referenceImagesUsedForGeneration": [
+        "assets/characters/base-templates/base-a-mage/v06/base-a-mage-detailed-toes-front-v06.png",
+        "assets/characters/base-templates/base-a-mage/v08/natural-hand-guide-v08.png"
+      ],
+      "sourceHashes": {
+        "assets/characters/base-templates/base-a-mage/v06/base-a-mage-detailed-toes-front-v06.png": "aed950aaf23362ce9ac30f997fab26d253d40446190626a1f124e1fe81735972",
+        "assets/characters/base-templates/base-a-mage/v08/natural-hand-guide-v08.png": "3b648689a4af7539c5290366591157319b4fb628f6b00a21045f463c4d1bab57"
+      },
+      "referenceRoles": {
+        "soleEditTarget": "assets/characters/base-templates/base-a-mage/v06/base-a-mage-detailed-toes-front-v06.png",
+        "handPoseStyleGuide": "assets/characters/base-templates/base-a-mage/v08/natural-hand-guide-v08.png"
+      },
+      "rollbackBase": "draft-06",
+      "kind": "covered_2d_reference_candidate",
+      "approval": "not_reviewed",
+      "referenceFit": "not_verified",
+      "layers": null,
+      "rig": null,
+      "runtimeLoadable": false,
+      "sourceBuiltinFilename": "exec-6c97071f-7a47-47ed-b8ea-1fd2deb0c7c9.png",
+      "manualReview": {
+        "views": "front only",
+        "observedChanges": [
+          "Four long fingers gathered in a more relaxed cascade instead of zigzag bends",
+          "Thumb relaxed toward inner side, smoother wrist/palm transition",
+          "Pale continuous skin shading with softer single contours; old sharp white thumb-base patches reduced",
+          "No obvious duplicated old finger silhouette observed in enlarged v08 crops"
+        ],
+        "digitInspection": {
+          "method": "Manual review of hand guide, full-body image and 4x pixel inspection crops",
+          "visibleDigitCounts": {
+            "viewerLeftHand": 5,
+            "viewerRightHand": 5
+          },
+          "qualityObservations": [
+            "Four long fingers gathered in a more relaxed cascade instead of zigzag bends",
+            "Thumb relaxed toward inner side, smoother wrist/palm transition",
+            "Pale continuous skin shading with softer single contours; old sharp white thumb-base patches reduced",
+            "No obvious duplicated old finger silhouette observed in enlarged v08 crops"
+          ],
+          "retainedToeCounts": {
+            "viewerLeftFoot": 5,
+            "viewerRightFoot": 5
+          },
+          "pending": [
+            "User judgement of naturalness, smallness and rounded softness",
+            "Small full-body raster hands cannot establish anatomical perfection or animation readiness"
+          ],
+          "comparisonFigure": "hand-detail-review.png",
+          "comparisonNote": "4x nearest-neighbor crop inspection only; not a new production drawing."
+        },
+        "limits": [
+          "The user rejected v07 quality despite five visible digits; do not promote this version without review",
+          "Generative editing does not guarantee pixel-identical regions outside hands",
+          "Static composite PNG only, no layers, rig or animation"
         ]
       }
     }

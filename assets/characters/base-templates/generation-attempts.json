@@ -94,8 +94,21 @@
       "attemptLog": "base-a-mage/v07/generation.json",
       "attemptCount": 1,
       "status": "generated_not_approved",
-      "output": "base-a-mage/v07/base-a-mage-five-fingers-front-v07.png"
+      "output": "base-a-mage/v07/base-a-mage-five-fingers-front-v07.png",
+      "userReviewOutcome": "rejected: unnatural pose, unattractive fingers and ghosting"
+    },
+    {
+      "date": "2026-11-10",
+      "templateId": "base-a",
+      "revision": "draft-08",
+      "method": "built-in image_gen: new hand guide then v06-based edit",
+      "prompt": "base-a-mage/v08/prompt.txt",
+      "guidePrompt": "base-a-mage/v08/hand-guide-prompt.txt",
+      "attemptLog": "base-a-mage/v08/generation.json",
+      "generationCalls": 2,
+      "status": "generated_not_approved",
+      "output": "base-a-mage/v08/base-a-mage-natural-five-finger-hands-front-v08.png"
     }
   ],
-  "nextScope": "User review of v07 five-finger hands and retained five-toe feet; no layering or rigging approval."
+  "nextScope": "User review of v08 natural small pale rounded five-finger hands. Do not reuse rejected v07 or equate digit counts with art approval."
 }

@@ -16,7 +16,7 @@
     "assets/characters/base-templates/base-a-mage/v06/base-a-mage-detailed-toes-front-v06.png": "aed950aaf23362ce9ac30f997fab26d253d40446190626a1f124e1fe81735972"
   },
   "kind": "covered_2d_reference_candidate",
-  "approval": "not_reviewed",
+  "approval": "rejected",
   "referenceFit": "not_verified",
   "layers": null,
   "rig": null,
@@ -57,5 +57,11 @@
       "Static single image, no layers, rig or animation",
       "No pixel-identical promise outside the hand edit region; user approval pending"
     ]
+  },
+  "userFeedback": {
+    "date": "2026-11-10",
+    "summary": "用户否定 v07：手指难看、手势不自然、有重影；要求纤细小巧、白嫩圆润且正常五指。",
+    "rollbackBase": "draft-06",
+    "nextRevision": "base-a-mage/v08/candidate.json"
   }
 }

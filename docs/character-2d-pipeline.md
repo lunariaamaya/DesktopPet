@@ -14,6 +14,8 @@
 
 最新：按用户反馈修正手部五指可读性，交付 [v07 候选](../assets/characters/base-templates/base-a-mage/v07/base-a-mage-five-fingers-front-v07.png)，两手经放大人工检查均为一拇指加四长指。v06 为需修订，v07 未确认，脚趾与腿型继续保留。见 [手部修订记录](mage-hand-revision-2026-11-10.md)。
 
+后续用户明确否定 v07 的手势、手指造型与重影；当前回退 v06，新生成手型细节参考后编辑 [v08 候选](../assets/characters/base-templates/base-a-mage/v08/base-a-mage-natural-five-finger-hands-front-v08.png)。v07 标为 rejected，v08 未确认，G0 未通过。手部 QA 同时检查自然度、轮廓、皮肤连续性和数量，不能只数五指就宣布达标。见 [自然小手重做记录](mage-natural-hand-revision-2026-11-10.md)。
+
 ## 1. 已确认的范围
 
 生产顺序：**上传图片 → 整理角色外观 → 分层与补图 → 二维绑定及动作制作 → 自动检查与预览**。

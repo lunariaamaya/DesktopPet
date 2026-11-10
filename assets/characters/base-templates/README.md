@@ -2,7 +2,9 @@
 
 日期：2026-11-09。稳定模板 ID 与用户命名：A=`base-a`（魔法师），B=`base-b`（弓箭手）。名称可改，ID 不随展示名称变化。
 
-**当前 A 类待看图候选：[精致五指修订 v07](base-a-mage/v07/base-a-mage-five-fingers-front-v07.png)**。按用户反馈补齐双手五指，保留脚部肤色、五趾及纤细腿型；v06 为需修订，v07 待确认，未分层/绑定。见 [手部修订说明](../../../docs/mage-hand-revision-2026-11-10.md) · [手部放大对比](base-a-mage/v07/hand-detail-review.png) · [提示词](base-a-mage/v07/prompt.txt)。原图保留，B 类不改。
+**当前 A 类待看图候选：[自然小手重做 v08](base-a-mage/v08/base-a-mage-natural-five-finger-hands-front-v08.png)**。用户否定 v07 手型与重影，已回退 v06 并新建柔和手型参考，再修整图；v07 为 rejected，v08 待确认，未分层/绑定。见 [重做说明](../../../docs/mage-natural-hand-revision-2026-11-10.md) · [手部放大对比](base-a-mage/v08/hand-detail-review.png) · [参考图](base-a-mage/v08/natural-hand-guide-v08.png)。原图保留，B 类不改。
+
+v07 历史：[五指版（用户已否定）](base-a-mage/v07/base-a-mage-five-fingers-front-v07.png)。其计数检查不代表手势、肤色或轮廓质量达标，不作为后续默认底图。
 
 v05–v06 历史：[脚部肤色与五趾候选](base-a-mage/v06/base-a-mage-detailed-toes-front-v06.png)。见 [脚部修订记录](../../../docs/mage-foot-revision-2026-11-10.md)。
 

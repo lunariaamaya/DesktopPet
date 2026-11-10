@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-10",
+  "templateId": "base-a",
+  "revision": "draft-08",
+  "method": "built-in image_gen, two sequential stages",
+  "userFeedback": {
+    "date": "2026-11-10",
+    "summary": "用户否定 v07：手指难看、手势不自然、有重影；要求纤细小巧、白嫩圆润且正常五指。",
+    "rollbackBase": "draft-06",
+    "nextRevision": "base-a-mage/v08/candidate.json"
+  },
+  "status": "generated_not_approved",
+  "stages": [
+    {
+      "stage": "hand_style_guide",
+      "prompt": "hand-guide-prompt.txt",
+      "promptFileSha256": "de629a47b21db8dacb5d194f8d41592ba13703015e27bf2d82664b17d32a6db4",
+      "referenceImages": [],
+      "output": "natural-hand-guide-v08.png",
+      "outputSha256": "3b648689a4af7539c5290366591157319b4fb628f6b00a21045f463c4d1bab57",
+      "size": [
+        1774,
+        887
+      ],
+      "sourceBuiltinFilename": "exec-973d144b-8d6d-4f10-abe5-e302896a3e96.png"
+    },
+    {
+      "stage": "full_body_edit",
+      "prompt": "prompt.txt",
+      "promptFileSha256": "7485865018f261e1fffc6d2ae0528640b68f9737bec4df88e86e0f445185fa95",
+      "inputHashes": {
+        "assets/characters/base-templates/base-a-mage/v06/base-a-mage-detailed-toes-front-v06.png": "aed950aaf23362ce9ac30f997fab26d253d40446190626a1f124e1fe81735972",
+        "assets/characters/base-templates/base-a-mage/v08/natural-hand-guide-v08.png": "3b648689a4af7539c5290366591157319b4fb628f6b00a21045f463c4d1bab57"
+      },
+      "output": "base-a-mage-natural-five-finger-hands-front-v08.png",
+      "outputSha256": "729bd3685bc9115713bbd56a9c452c7cdba47a9fccb2c77d1b396030ce6c7bf8",
+      "sourceBuiltinFilename": "exec-6c97071f-7a47-47ed-b8ea-1fd2deb0c7c9.png"
+    }
+  ],
+  "transparentBackground": false,
+  "generatedPNGsCopiedWithoutPixelChanges": true,
+  "inspectionFigure": {
+    "file": "hand-detail-review.png",
+    "kind": "read-only magnified QA figure",
+    "before": "draft-07 rejected",
+    "after": "draft-08 pending",
+    "cropBoxes": {
+      "viewerLeft": [
+        275,
+        780,
+        360,
+        910
+      ],
+      "viewerRight": [
+        667,
+        780,
+        752,
+        910
+      ]
+    },
+    "scale": 4,
+    "resampling": "nearest-neighbor; no invented detail"
+  }
+}

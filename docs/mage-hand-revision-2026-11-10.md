@@ -2,6 +2,8 @@
 
 日期：2026-11-10。用户反馈 v06 手部看起来只有四指，要求补齐精致五指。以 v06 为唯一底图，仅修双手及必要的局部姿态可读性；保持当前脚部肤色、五趾和腿型设计。
 
+**用户后续已否定 v07**：手指不美观、手势不自然、有重影。下方计数检查仅为当时观察，不代表质量通过。当前已回退 v06 制作 [v08 自然小手候选](mage-natural-hand-revision-2026-11-10.md)，本版保留历史且不作为认可底图。
+
 ## 交付
 
 - [完整 v07 PNG](../assets/characters/base-templates/base-a-mage/v07/base-a-mage-five-fingers-front-v07.png)
