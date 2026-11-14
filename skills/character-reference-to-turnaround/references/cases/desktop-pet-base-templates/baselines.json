@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-13",
   "project": "DesktopPet",
   "scope": "This project or explicit selection of these templates only",
   "normativeReference": "reference-standard.md",
@@ -7,43 +7,37 @@
     {
       "templateId": "base-a",
       "displayName": "魔法师",
-      "revision": "draft-09",
-      "image": "base-a-mage-v09.png",
-      "sha256": "4c740be63fe75c00ab0f093cfb76768b0c43bf09c1329a252f897199403bee4c",
+      "revision": "draft-10",
+      "image": "base-a-mage-v10.png",
+      "sha256": "663bafceed700b487285a1d22c8de6b8c06175388faa6bbbc6ce95c6b4ebd6ee",
       "width": 1024,
       "height": 1536,
       "mode": "RGB",
-      "sourceProjectPath": "assets/characters/base-templates/base-a-mage/v09/base-a-mage-skin-tone-limbs-front-v09.png",
+      "sourceProjectPath": "assets/characters/base-templates/base-a-mage/v10/base-a-mage-proportion-front-v10.png",
       "projectBaselineSpecification": "assets/characters/base-templates/base-a-mage/baseline.json",
-      "approval": "approved_reference",
-      "userApproval": {
-        "date": "2026-11-10",
-        "scope": "front_static_reference",
-        "quote": "很好，就以这张作为魔法师角色的底稿，后续的魔法师角色设计就参照这张的身材比例及体型和肤色。",
-        "interpretation": "v09 为魔法师当前正式正面底稿；后续魔法师设计参照其身材比例、体型和肤色，不表示已完成侧背视图、分层或绑定。"
-      },
-      "referenceRole": "Primary body silhouette, head-to-body and limb proportions, body build and skin reference, not style-only",
-      "bodyAppearance": "Petite slender compact proportions",
+      "approval": "not_reviewed",
+      "referenceRole": "Current body silhouette, head-to-body proportions, leg length, body build and skin reference",
+      "bodyAppearance": "Slender build, smaller head and longer legs following the four preferred v01 concepts",
       "skinSamples": {
         "forehead": {
           "roi_xywh": [
-            497,
-            251,
+            486,
+            225,
             16,
             16
           ],
           "pixels": 256,
           "medianRGB": [
             254,
-            239,
-            236
+            237,
+            235
           ],
-          "medianHEX": "#FEEFEC"
+          "medianHEX": "#FEEDEB"
         },
         "upperArm": {
           "roi_xywh": [
             411,
-            544,
+            482,
             12,
             16
           ],
@@ -51,29 +45,29 @@
           "medianRGB": [
             254,
             241,
-            238
+            239
           ],
-          "medianHEX": "#FEF1EE"
+          "medianHEX": "#FEF1EF"
         },
         "forearm": {
           "roi_xywh": [
-            355,
-            721,
-            10,
-            14
+            351,
+            651,
+            12,
+            16
           ],
-          "pixels": 140,
+          "pixels": 192,
           "medianRGB": [
             254,
             241,
-            238
+            239
           ],
-          "medianHEX": "#FEF1EE"
+          "medianHEX": "#FEF1EF"
         },
         "shin": {
           "roi_xywh": [
             449,
-            1206,
+            1194,
             12,
             18
           ],
@@ -81,13 +75,13 @@
           "medianRGB": [
             254,
             240,
-            237
+            238
           ],
-          "medianHEX": "#FEF0ED"
+          "medianHEX": "#FEF0EE"
         },
         "foot": {
           "roi_xywh": [
-            449,
+            450,
             1344,
             12,
             16
@@ -95,10 +89,10 @@
           "pixels": 192,
           "medianRGB": [
             254,
-            239,
-            236
+            242,
+            240
           ],
-          "medianHEX": "#FEEFEC"
+          "medianHEX": "#FEF2F0"
         }
       },
       "currentSheetEyeColors": {
@@ -108,9 +102,31 @@
         "frontViewerRight": "red"
       },
       "limits": [
-        "Approved front 2D image only; no real-world height or exact hidden anatomy established",
-        "No layered model, side/back reference, rigging or animation delivered"
-      ]
+        "Front 2D reference; concept-sheet comparisons are approximate where landmarks are occluded."
+      ],
+      "revisionRequest": {
+        "date": "2026-11-13",
+        "quote": "参考一下战法、魔道、小魔女、缔造的角色设计图v01版角色设计图的身材比例，特别是头的大小以及腿长，修改一下character-reference-to-turnaround这个skill中的A类魔法师角色的底稿。",
+        "direction": "Use the four preferred v01 designs to reduce head size and increase leg share in the active A template."
+      },
+      "proportionLandmarks": {
+        "landmarksY": {
+          "crown": 187,
+          "chin": 369,
+          "crotch": 741,
+          "floor": 1391
+        },
+        "standingHeightPixels": 1204,
+        "headHeightPixels": 182,
+        "crotchToFloorPixels": 650,
+        "standingHeightInHeads": 6.62,
+        "crotchToFloorPercent": 54.0
+      },
+      "previousApprovedReference": {
+        "revision": "draft-09",
+        "image": "base-a-mage-v09.png",
+        "sha256": "4c740be63fe75c00ab0f093cfb76768b0c43bf09c1329a252f897199403bee4c"
+      }
     },
     {
       "templateId": "base-b",

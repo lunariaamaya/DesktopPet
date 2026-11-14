@@ -5,7 +5,7 @@
 
 ## 1. 时间与前提
 
-2026-11-07 已确认转二维，先完成 [二维样机 G0–G5](character-2d-pipeline.md#5-验证样机与通过条件待执行)：A 类外观/素体看图确认→分层日常动作→点击及站坐过渡→场景和桌面→可编辑/换装→性能与可复现。2026-11-10 当前：魔法师 v09、弓箭手 v06 正面底稿均已确认，并纳入 [skill 体型/比例参考规范](../skills/character-reference-to-turnaround/references/cases/desktop-pet-base-templates/reference-standard.md)，见 [底稿制作](archer-base-draft-2026-11-10.md) 与 [局部修订记录](archer-hands-eyes-head-revision-2026-11-10.md)；分层/重组、其他视图与完整 G0 尚未完成。具体软件和 MCP 兼容性先验证，不把历史 GLB 或示例模型通过当作本角色二维通过。以下 D1–D7 是应用冲刺目标，需在二维素材管线和服务依赖满足后重新估算。
+2026-11-07 已确认转二维。先按 [二维样机 G0–G5](character-2d-pipeline.md#5-验证样机与通过条件待执行) 完成外观确认、分层日常动作、点击与站坐过渡、场景和桌面、可编辑与换装，以及性能验证。2026-11-13 当前底稿为魔法师 v10 和弓箭手 v06。A v10 的比例修订图待用户看图，B v06 已确认。参照 [skill 体型与比例规范](../skills/character-reference-to-turnaround/references/cases/desktop-pet-base-templates/reference-standard.md)。分层、绑定及软件与 MCP 的兼容性另行验收。以下 D1–D7 是应用冲刺目标，需在二维素材管线和服务依赖满足后重新估算。
 
 D1–D7 是开工后的连续项目日，不对应已承诺的日历发布日期。此前讨论的七天为冲刺目标，不包含商店审核或证书签发时间。所有工期为估算，未做代码/依赖运行验证。
 

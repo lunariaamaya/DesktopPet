@@ -1,0 +1,176 @@
+{
+  "date": "2026-11-13",
+  "sourceSha256": "4c740be63fe75c00ab0f093cfb76768b0c43bf09c1329a252f897199403bee4c",
+  "outputSha256": "663bafceed700b487285a1d22c8de6b8c06175388faa6bbbc6ce95c6b4ebd6ee",
+  "canvas": [
+    1024,
+    1536
+  ],
+  "method": "Visual landmark estimates on the original front reference sheets",
+  "measurements": {
+    "v09": {
+      "landmarksY": {
+        "crown": 186,
+        "chin": 429,
+        "crotch": 803,
+        "floor": 1391
+      },
+      "standingHeightPixels": 1205,
+      "headHeightPixels": 243,
+      "crotchToFloorPixels": 588,
+      "standingHeightInHeads": 4.96,
+      "crotchToFloorPercent": 48.8
+    },
+    "v10": {
+      "landmarksY": {
+        "crown": 187,
+        "chin": 369,
+        "crotch": 741,
+        "floor": 1391
+      },
+      "standingHeightPixels": 1204,
+      "headHeightPixels": 182,
+      "crotchToFloorPixels": 650,
+      "standingHeightInHeads": 6.62,
+      "crotchToFloorPercent": 54.0
+    }
+  },
+  "skinSamples": {
+    "forehead": {
+      "roi_xywh": [
+        486,
+        225,
+        16,
+        16
+      ],
+      "pixels": 256,
+      "medianRGB": [
+        254,
+        237,
+        235
+      ],
+      "medianHEX": "#FEEDEB"
+    },
+    "upperArm": {
+      "roi_xywh": [
+        411,
+        482,
+        12,
+        16
+      ],
+      "pixels": 192,
+      "medianRGB": [
+        254,
+        241,
+        239
+      ],
+      "medianHEX": "#FEF1EF"
+    },
+    "forearm": {
+      "roi_xywh": [
+        351,
+        651,
+        12,
+        16
+      ],
+      "pixels": 192,
+      "medianRGB": [
+        254,
+        241,
+        239
+      ],
+      "medianHEX": "#FEF1EF"
+    },
+    "shin": {
+      "roi_xywh": [
+        449,
+        1194,
+        12,
+        18
+      ],
+      "pixels": 216,
+      "medianRGB": [
+        254,
+        240,
+        238
+      ],
+      "medianHEX": "#FEF0EE"
+    },
+    "foot": {
+      "roi_xywh": [
+        450,
+        1344,
+        12,
+        16
+      ],
+      "pixels": 192,
+      "medianRGB": [
+        254,
+        242,
+        240
+      ],
+      "medianHEX": "#FEF2F0"
+    }
+  },
+  "limitations": "The four clothed v01 sources motivate the direction. Posture, shoes, and occluded landmarks limit precise measurement on concept sheets.",
+  "figure": "proportion-comparison.png",
+  "comparisonSources": [
+    {
+      "character": "战法",
+      "finding": "v01 的头部占比更小。两版长裙遮住胯、膝和大部分腿段，主要参考头部比例和全身走势。",
+      "v01": {
+        "path": "assets/characters/battle-mage-01/concepts/battle-mage-01-design-v01.png",
+        "sha256": "2a5d4a7c5bf03a5ddd17ffebe4d2d0967f2d2bc4cf15f576d733208d9a403c78",
+        "role": "proportion_reference_and_generation_input"
+      },
+      "v02": {
+        "path": "assets/characters/battle-mage-01/concepts/battle-mage-01-design-v02.png",
+        "sha256": "f7e825bb8599acb76160d71eb5205a952ed68d6dff5e877ae79adaf73cedc172",
+        "role": "visual_comparison"
+      }
+    },
+    {
+      "character": "魔道",
+      "finding": "v01 的头部占比更小，短裙下露出的腿段更修长。估核时计入屈膝和厚底鞋的影响。",
+      "v01": {
+        "path": "assets/characters/witch-scholar-01/concepts/witch-scholar-01-design-v01.png",
+        "sha256": "fbc1b183ec8f58886b7dae78a0a847a804bd875cf760ed7ce28bda8bae22a44f",
+        "role": "proportion_reference_and_generation_input"
+      },
+      "v02": {
+        "path": "assets/characters/witch-scholar-01/concepts/witch-scholar-01-design-v02.png",
+        "sha256": "768a5aad979708614c1a33e7923e83e36996eccf2671507b19b76f4f9e2d5575",
+        "role": "visual_comparison"
+      }
+    },
+    {
+      "character": "小魔女",
+      "finding": "v01 的头部相对更小，腿段更舒展。以支撑腿和可辨的膝踝为参考，两图服装遮住的胯点为估计。",
+      "v01": {
+        "path": "assets/characters/little-witch-01/concepts/little-witch-01-design-v01.png",
+        "sha256": "99b6a990582354fd1166be8d85eac683b21b9b3b0577482ef08439cd90e5956e",
+        "role": "proportion_reference_and_generation_input"
+      },
+      "v02": {
+        "path": "assets/characters/little-witch-01/concepts/little-witch-01-design-v02.png",
+        "sha256": "de8c3094ee6412569d76b4b08a93907a0f5a749318615f0b21604e5adee70de3",
+        "role": "visual_comparison"
+      }
+    },
+    {
+      "character": "缔造",
+      "finding": "v01 的头部占比更小，露出的腿段更长。两版朝向、站距和裙摆位置不同，结合膝踝与足底判断。",
+      "v01": {
+        "path": "assets/characters/creator-01/concepts/creator-01-design-v01.png",
+        "sha256": "a33bec4154675861225beb6a99753737ba1b0784085ce4d861c94e2684955c03",
+        "role": "proportion_reference_and_generation_input"
+      },
+      "v02": {
+        "path": "assets/characters/creator-01/concepts/creator-01-design-v02.png",
+        "sha256": "8db46d0079c47ce4351ce205cf67793345c28bbd16ccdfee9e894c2609fbfbb5",
+        "role": "visual_comparison"
+      }
+    }
+  ],
+  "observations": "Both old and revised front sheets share canvas scale. The revised head and legs follow the preferred direction; the front figure retains delicate hands, rounded toes and a softly lit pale complexion in appearance."
+}

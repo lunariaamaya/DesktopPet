@@ -88,27 +88,47 @@ def main():
         if record['approval']=='approved_reference':
             approved[record['templateId']]={key:record[key] for key in ('revision','artifact','sha256')}
             approved[record['templateId']]['scope']='front_static_reference_only'
+    active = {}
     for path in sorted(BASE.glob('*/baseline.json')):
         baseline=json.loads(path.read_text(encoding='utf-8'))
-        selected=approved[baseline['templateId']]
-        assert selected and all(baseline[key]==selected[key] for key in ('revision','artifact','sha256'))
+        template_id = baseline['templateId']
+        identity_fields = ('templateId', 'revision', 'artifact', 'sha256')
+        selected = next((record for record in records
+                         if all(record[key] == baseline[key] for key in identity_fields)), None)
+        assert selected, f'Current baseline has no matching record: {template_id}'
         assert sha(BASE/baseline['artifact'])==baseline['sha256']
         assert baseline['scope']=='front_static_reference_only'
-        assert baseline['userApproval']['quote']
+        assert baseline.get('approval', 'approved_reference') == selected['approval']
+        if selected['approval'] == 'approved_reference':
+            assert baseline['userApproval'] == selected['userApproval']
+        else:
+            assert selected['approval'] == 'not_reviewed'
+            request = baseline['revisionRequest']
+            assert request == selected['revisionRequest'] and request['quote'] and request['date']
         assert baseline['rig'] is None and not baseline['runtimeLoadable']
-        selected['baselineSpecification']=path.relative_to(BASE).as_posix()
+        active[template_id] = {key: baseline[key] for key in ('revision', 'artifact', 'sha256', 'scope')}
+        active[template_id]['approval'] = selected['approval']
+        active[template_id]['baselineSpecification'] = path.relative_to(BASE).as_posix()
+        if approved[template_id] and approved[template_id]['revision'] == selected['revision']:
+            approved[template_id]['baselineSpecification'] = active[template_id]['baselineSpecification']
     skill_package=ROOT/'skills/character-reference-to-turnaround/references/cases/desktop-pet-base-templates'
-    skill_references=json.loads((skill_package/'baselines.json').read_text(encoding='utf-8'))['templates']
+    skill_manifest = json.loads((skill_package/'baselines.json').read_text(encoding='utf-8'))
+    skill_references = skill_manifest['templates']
     assert {item['templateId'] for item in skill_references}=={'base-a','base-b'}
     for item in skill_references:
-        selected=approved[item['templateId']]
+        selected = active[item['templateId']]
         assert selected and selected['revision']==item['revision'] and selected['sha256']==item['sha256']
+        assert selected['approval'] == item['approval']
+        assert (ROOT/item['sourceProjectPath']).resolve() == (BASE/selected['artifact']).resolve()
         assert sha(ROOT/item['sourceProjectPath'])==sha(skill_package/item['image'])==item['sha256']
+        previous = item.get('previousApprovedReference')
+        if previous:
+            assert sha(skill_package/previous['image']) == previous['sha256']
         with Image.open(skill_package/item['image']) as image:
             assert image.size==(item['width'],item['height'])
     (BASE/'candidate-index.json').write_text(json.dumps({'date':'2026-11-09',
-        'updatedOn':'2026-11-10',
-        'kind':'work_in_progress_index_not_runtime_manifest','approvedBaselines':approved,
+        'updatedOn':skill_manifest['date'],
+        'kind':'work_in_progress_index_not_runtime_manifest','activeBaselines':active,'approvedBaselines':approved,
         'candidates':records},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     (BASE/'file-check.json').write_text(json.dumps({'sourceReferences':len(references),
         'additionalReferencesChecked':len(additional),'allAdditionalReferenceHashesUnchanged':True,
@@ -117,10 +137,12 @@ def main():
         'generatedFilesCopiedWithoutPixelChanges':not any(record.get('postprocessing') for record in records),
         'postprocessedReferenceCount':sum(bool(record.get('postprocessing')) for record in records),
         'postprocessedOutputsPreserveOutsideMask':True,
-        'approvedSkillReferenceCopiesChecked':len(skill_references),
-        'allApprovedSkillReferenceHashesMatch':True,
+        'activeSkillReferenceCopiesChecked':len(skill_references),
+        'allActiveSkillReferenceHashesMatch':True,
         'notChecked':['reference fidelity','anatomy','view registration','layering','rigging','animation']},
         indent=2)+'\n',encoding='utf-8')
-    print(f'{len(references)} original and {len(additional)} additional references unchanged; {len(records)} PNG references across 2 template IDs; approved current baselines: '+str({key:value["revision"] if value else None for key,value in approved.items()})+'; no rig claimed')
+    print(f'{len(references)} original and {len(additional)} additional references verified; '
+          f'{len(records)} PNG records; active front references: '
+          f'{ {key: value["revision"] for key, value in active.items()} }')
 
 if __name__=='__main__':main()

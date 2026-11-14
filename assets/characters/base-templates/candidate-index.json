@@ -1,14 +1,31 @@
 {
   "date": "2026-11-09",
-  "updatedOn": "2026-11-10",
+  "updatedOn": "2026-11-13",
   "kind": "work_in_progress_index_not_runtime_manifest",
+  "activeBaselines": {
+    "base-a": {
+      "revision": "draft-10",
+      "artifact": "base-a-mage/v10/base-a-mage-proportion-front-v10.png",
+      "sha256": "663bafceed700b487285a1d22c8de6b8c06175388faa6bbbc6ce95c6b4ebd6ee",
+      "scope": "front_static_reference_only",
+      "approval": "not_reviewed",
+      "baselineSpecification": "base-a-mage/baseline.json"
+    },
+    "base-b": {
+      "revision": "draft-06",
+      "artifact": "base-b-archer/v06/base-b-archer-continuous-head-skin-front-v06.png",
+      "sha256": "9956cf5dcf3437d38f64b8c0feac9401d0cc19ec603694d66f70d91b4782c21c",
+      "scope": "front_static_reference_only",
+      "approval": "approved_reference",
+      "baselineSpecification": "base-b-archer/baseline.json"
+    }
+  },
   "approvedBaselines": {
     "base-a": {
       "revision": "draft-09",
       "artifact": "base-a-mage/v09/base-a-mage-skin-tone-limbs-front-v09.png",
       "sha256": "4c740be63fe75c00ab0f093cfb76768b0c43bf09c1329a252f897199403bee4c",
-      "scope": "front_static_reference_only",
-      "baselineSpecification": "base-a-mage/baseline.json"
+      "scope": "front_static_reference_only"
     },
     "base-b": {
       "revision": "draft-06",
@@ -512,6 +529,66 @@
         "interpretation": "v09 为魔法师当前正式正面底稿；后续魔法师设计参照其身材比例、体型和肤色，不表示已完成侧背视图、分层或绑定。"
       },
       "canonicalBaseline": "base-a-mage/baseline.json"
+    },
+    {
+      "templateId": "base-a",
+      "displayName": "魔法师",
+      "revision": "draft-10",
+      "artifact": "base-a-mage/v10/base-a-mage-proportion-front-v10.png",
+      "sha256": "663bafceed700b487285a1d22c8de6b8c06175388faa6bbbc6ce95c6b4ebd6ee",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGB",
+      "prompt": "base-a-mage/v10/prompt.txt",
+      "method": "built-in image_gen proportion edit",
+      "referenceImagesUsedForGeneration": [
+        "assets/characters/base-templates/base-a-mage/v09/base-a-mage-skin-tone-limbs-front-v09.png",
+        "assets/characters/battle-mage-01/concepts/battle-mage-01-design-v01.png",
+        "assets/characters/witch-scholar-01/concepts/witch-scholar-01-design-v01.png",
+        "assets/characters/little-witch-01/concepts/little-witch-01-design-v01.png",
+        "assets/characters/creator-01/concepts/creator-01-design-v01.png"
+      ],
+      "sourceHashes": {
+        "assets/characters/base-templates/base-a-mage/v09/base-a-mage-skin-tone-limbs-front-v09.png": "4c740be63fe75c00ab0f093cfb76768b0c43bf09c1329a252f897199403bee4c"
+      },
+      "sourceBuiltinFilename": "exec-dbbf8519-40b6-41b2-81d0-36eb99d53f15.png",
+      "parent": "draft-09",
+      "rollbackBase": "draft-09",
+      "kind": "covered_2d_reference_candidate",
+      "approval": "not_reviewed",
+      "referenceFit": "head_and_leg_ratios_visually_checked",
+      "revisionRequest": {
+        "date": "2026-11-13",
+        "quote": "参考一下战法、魔道、小魔女、缔造的角色设计图v01版角色设计图的身材比例，特别是头的大小以及腿长，修改一下character-reference-to-turnaround这个skill中的A类魔法师角色的底稿。",
+        "direction": "Use the four preferred v01 designs to reduce head size and increase leg share in the active A template."
+      },
+      "proportionLandmarks": {
+        "landmarksY": {
+          "crown": 187,
+          "chin": 369,
+          "crotch": 741,
+          "floor": 1391
+        },
+        "standingHeightPixels": 1204,
+        "headHeightPixels": 182,
+        "crotchToFloorPixels": 650,
+        "standingHeightInHeads": 6.62,
+        "crotchToFloorPercent": 54.0
+      },
+      "manualReview": {
+        "views": "front only",
+        "inspectionReport": "visual-inspection.json",
+        "inspectionFigure": "proportion-comparison.png",
+        "limits": [
+          "Original clothed sheets give an approximate design direction.",
+          "Generated linework and shading can vary slightly.",
+          "Visual review of the new sheet is pending."
+        ]
+      },
+      "canonicalBaseline": "base-a-mage/baseline.json",
+      "layers": null,
+      "rig": null,
+      "runtimeLoadable": false
     },
     {
       "templateId": "base-b",

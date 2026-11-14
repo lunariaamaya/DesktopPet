@@ -24,7 +24,9 @@
 
 2026-11-10 两类底稿确认：用户已确认弓箭手 v06，魔法师 v09 继续有效；后续同类角色必须分别参照对应底稿的**体型外形、身材比例和肤色**。两张原尺寸 PNG、摘要和规则已纳入 [skill 参考规范](../skills/character-reference-to-turnaround/references/cases/desktop-pet-base-templates/reference-standard.md)。本项目 [A 基线](../assets/characters/base-templates/base-a-mage/baseline.json) 与 [B 基线](../assets/characters/base-templates/base-b-archer/baseline.json) 记录认可依据；不得只模仿画风而重新改变身形。此前“B 未认可”是各轮生成当时状态。
 
-**当前制作规则：** 用户已确认改用二维，以及“上传图片 → 整理角色外观 → 分层与补图 → 二维绑定及动作制作 → 自动检查与预览”。以 [二维管线与样机验收](character-2d-pipeline.md) 覆盖下文旧三维制作、网格和骨架要求；原外观、配色、左右、槽位及完整动作意图继续保留。基础素体恰好 A/B 两类；A v09、B v06 正面底稿均已认可，其他方向、分层与绑定尚未完成。不将参考中的隐藏身体称为精确恢复。后续 Meshy 检查/试修见 [诊断](meshy-rig-analysis-2026-11-04.md) 和 [试修](meshy-rig-repair-2026-11-04.md)。以下“最新决定/最新候选”均按当时记录理解，不覆盖本段当前规则。
+2026-11-13 A 类参考更新。根据战法、魔道、小魔女、缔造的 v01 身材比例，采用头部占比更小、腿更修长的 [A v10 当前底稿](../assets/characters/base-templates/base-a-mage/v10/base-a-mage-proportion-front-v10.png)。图稿待用户看图。两类比例与肤色的当前依据见 [skill 参考规范](../skills/character-reference-to-turnaround/references/cases/desktop-pet-base-templates/reference-standard.md)。
+
+**当前制作规则。** 用户已确认采用二维路线，依次进行上传图片、整理角色外观、分层与补图、二维绑定及动作制作、自动检查与预览。原外观、配色、左右、槽位及动作意图按项目规格记录。以 [二维管线与样机验收](character-2d-pipeline.md) 为实施依据。Meshy 试修的历史记录见 [诊断](meshy-rig-analysis-2026-11-04.md) 与 [试修](meshy-rig-repair-2026-11-04.md)。
 
 最新决定：停止以程序化草模作为角色成品路线。用户反馈自行用 Tripo 生成的模型较好；该外部文件尚未在项目中验收，不宣称已具备绑定、分件或动作能力。二维全流程已整理为 [SOP](character-art-sop.md) 与 [可复用 skill](../skills/character-reference-to-turnaround/SKILL.md)，连接核查见 [Tripo 接入说明](tripo-integration.md)。以下按版本累积的“最新候选”等措辞仅为当时记录；当前基线以本段与下段版12冻结信息为准。
 

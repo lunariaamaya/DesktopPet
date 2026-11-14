@@ -2,7 +2,7 @@
 
 日期：2026-11-09。稳定模板 ID 与用户命名：A=`base-a`（魔法师），B=`base-b`（弓箭手）。名称可改，ID 不随展示名称变化。
 
-**A 类魔法师底稿已确认：[v09](base-a-mage/v09/base-a-mage-skin-tone-limbs-front-v09.png)**。用户明确指定后续魔法师角色设计参照此图的身材比例、体型和肤色；规范与取样冻结在 [baseline.json](base-a-mage/baseline.json)。当前为正面静态底稿，后续外观服饰在此基础上设计，不擅自改变已认可的身体比例或肤色。见 [确认与弓箭手制作记录](../../../docs/archer-base-draft-2026-11-10.md)。
+**A 类魔法师当前底稿为 [v10](base-a-mage/v10/base-a-mage-proportion-front-v10.png)。** 按用户偏好的四张 v01 设计减小头部占比并增加腿长。原尺寸底稿约 6.6 个头高，胯下到足底约占全身 54%。v10 已供后续设计参考，图稿待用户看图。比例、肤色、原认可图稿与版本来源见 [A 类基线](base-a-mage/baseline.json) 和 [同尺度对比](base-a-mage/v10/proportion-comparison.png)。
 
 **B 类弓箭手底稿已确认：[v06](base-b-archer/v06/base-b-archer-continuous-head-skin-front-v06.png)**。用户明确指定后续弓箭手设计参照这张的身材比例、体型和肤色；规范与取样冻结在 [baseline.json](base-b-archer/baseline.json)。角色自身左紫、右蓝（正面看左蓝、右紫），手指及头部修色过程见 [制作记录](../../../docs/archer-hands-eyes-head-revision-2026-11-10.md) · [头部检查](base-b-archer/v06/head-color-review.png) · [B 类当前规格](base-b-archer/working-spec.json)。尚未分层或绑定。
 
@@ -10,7 +10,7 @@
 
 B 类来源：[初始正面候选 v02](base-b-archer/v02/base-b-archer-covered-front-v02.png)、[12 张新参考索引](base-b-archer/v02/reference-inventory.json)。弓箭手自身修长比例保留，绘制/肤色标准参照魔法师 v09。v02 旧眼色推定已被用户明确的蓝紫异瞳覆盖；v03 手指分界改善不足、v05 整图修色导致头部外偏红，均记录为内部未采用结果，不作为当前底图。
 
-历史认可参考：[自然小手 v08](base-a-mage/v08/base-a-mage-natural-five-finger-hands-front-v08.png)。后续四肢肤色 v09 已获确认并成为当前底稿，v08 保留作回退；两者均不等于多视图、分层或完整 G0 已完成。见 [重做说明及后续认可](../../../docs/mage-natural-hand-revision-2026-11-10.md) · [手型参考](base-a-mage/v08/natural-hand-guide-v08.png)。
+历史认可参考包括 [自然小手 v08](base-a-mage/v08/base-a-mage-natural-five-finger-hands-front-v08.png) 和 [四肢肤色 v09](base-a-mage/v09/base-a-mage-skin-tone-limbs-front-v09.png)。参见 [手型重做记录](../../../docs/mage-natural-hand-revision-2026-11-10.md)。
 
 v07 历史：[五指版（用户已否定）](base-a-mage/v07/base-a-mage-five-fingers-front-v07.png)。其计数检查不代表手势、肤色或轮廓质量达标，不作为后续默认底图。
 

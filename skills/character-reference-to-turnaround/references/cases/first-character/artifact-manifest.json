@@ -678,10 +678,10 @@
     },
     {
       "path": "case-study.md",
-      "bytes": 14103,
-      "sha256": "70f04128eaa1386fa9bc7b1dc6e243b89eb0583023c2e753e54fc2e87a66e7e6",
+      "bytes": 14003,
+      "sha256": "3118b53ae12e882bd4be6b3bf0df368cd2005041bb5c82c643a01a84e6be9f19",
       "kind": "case-index-and-decisions",
-      "updated_on": "2026-11-10"
+      "updated_on": "2026-11-13"
     },
     {
       "path": ".gitattributes",
@@ -690,5 +690,5 @@
       "kind": "portable-text-and-binary-policy"
     }
   ],
-  "case_index_updated_on": "2026-11-10"
+  "case_index_updated_on": "2026-11-13"
 }
