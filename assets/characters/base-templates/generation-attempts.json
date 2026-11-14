@@ -202,7 +202,18 @@
       "generationCalls": 2,
       "status": "active_design_reference_pending_visual_review",
       "output": "base-b-archer/v07/base-b-archer-height-front-v07.png"
+    },
+    {
+      "date": "2026-11-14",
+      "templateId": "base-b",
+      "revision": "draft-08",
+      "method": "Deterministic v06 skin color matching on the shortened v07 drawing",
+      "prompt": "base-b-archer/v08/prompt.txt",
+      "attemptLog": "base-b-archer/v08/processing.json",
+      "generationCalls": 1,
+      "status": "active_design_reference_pending_visual_review",
+      "output": "base-b-archer/v08/base-b-archer-pale-skin-front-v08.png"
     }
   ],
-  "nextScope": "Use A v10 and B v07 at one scale and ground line. Keep B at most half an A head taller. A v09 and B v06 retain their recorded approvals."
+  "nextScope": "Use A v10 and B v08 at a shared scale. B v08 keeps the v07 stature and restores the v06 complexion."
 }

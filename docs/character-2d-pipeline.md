@@ -18,7 +18,7 @@
 
 同日最新：用户明确满意 v08，并要求保持现有身材形状，恢复手臂与腿部肤色、改善色差。v08 已登记为认可的正面静态参考；以它为唯一底图交付 [v09 改色候选](../assets/characters/base-templates/base-a-mage/v09/base-a-mage-skin-tone-limbs-front-v09.png)，保留躯干与骨盆的灰色不透明基础服装。v09 待确认，多视图/分层/重组和完整 G0 尚未完成。见 [肤色修订与检查](mage-limb-color-revision-2026-11-10.md)。此前各版“未确认”按当时状态理解。
 
-2026-11-14 当前底稿为 A 魔法师 v10 和 B 弓箭手 v07。B v07 调低站立身高并略收腿长。同尺度赤足站立时，B 至多比 A 高半个 A 类头高。两张修订底稿供后续设计参考，图稿待用户看图。按对应图核对体型、头身关系、躯干与四肢比例及肤色。[A 基线](../assets/characters/base-templates/base-a-mage/baseline.json) · [B 基线](../assets/characters/base-templates/base-b-archer/baseline.json) · [Skill 参考规范](../skills/character-reference-to-turnaround/references/cases/desktop-pet-base-templates/reference-standard.md)
+2026-11-14 当前底稿为 A 魔法师 v10 和 B 弓箭手 v08。B v08 沿用 v07 调低后的站立身高和腿长，肤色按 v06 校回偏白。同尺度赤足站立时，B 至多比 A 高半个 A 类头高。两张修订底稿供后续设计参考，图稿待用户看图。按对应图核对体型、头身关系、躯干与四肢比例及肤色。[A 基线](../assets/characters/base-templates/base-a-mage/baseline.json) · [B 基线](../assets/characters/base-templates/base-b-archer/baseline.json) · [Skill 参考规范](../skills/character-reference-to-turnaround/references/cases/desktop-pet-base-templates/reference-standard.md)
 
 ## 1. 已确认的范围
 

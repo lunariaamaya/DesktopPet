@@ -1,0 +1,321 @@
+{
+  "date": "2026-11-14",
+  "colorReferenceSha256": "9956cf5dcf3437d38f64b8c0feac9401d0cc19ec603694d66f70d91b4782c21c",
+  "sourceSha256": "b592f71867cef9eab5fe14fc0c2a46c7fa98f6ff23413a52f884fdd6fdc6cf84",
+  "outputSha256": "e32c4cb1d93f2613b3b12d86d20f7a4b191d777d95b2a21930c006dcc316e6e9",
+  "width": 1024,
+  "height": 1536,
+  "measurements": {
+    "v07Before": {
+      "crownY": 186,
+      "soleY": 1392,
+      "standingHeightPixels": 1206
+    },
+    "v08After": {
+      "crownY": 186,
+      "soleY": 1392,
+      "standingHeightPixels": 1206
+    }
+  },
+  "skinSamples": {
+    "scalp": {
+      "v06Reference": {
+        "roi_xywh": [
+          504,
+          207,
+          14,
+          18
+        ],
+        "pixels": 252,
+        "medianRGB": [
+          254,
+          241,
+          239
+        ],
+        "medianHEX": "#FEF1EF"
+      },
+      "v07Before": {
+        "roi_xywh": [
+          497,
+          228,
+          28,
+          14
+        ],
+        "pixels": 392,
+        "medianRGB": [
+          254,
+          231,
+          230
+        ],
+        "medianHEX": "#FEE7E6"
+      },
+      "v08After": {
+        "roi_xywh": [
+          497,
+          228,
+          28,
+          14
+        ],
+        "pixels": 392,
+        "medianRGB": [
+          254,
+          241,
+          239
+        ],
+        "medianHEX": "#FEF1EF"
+      }
+    },
+    "upperArm": {
+      "v06Reference": {
+        "roi_xywh": [
+          415,
+          471,
+          10,
+          16
+        ],
+        "pixels": 160,
+        "medianRGB": [
+          254,
+          240,
+          238
+        ],
+        "medianHEX": "#FEF0EE"
+      },
+      "v07Before": {
+        "roi_xywh": [
+          410,
+          480,
+          10,
+          16
+        ],
+        "pixels": 160,
+        "medianRGB": [
+          254,
+          236,
+          235
+        ],
+        "medianHEX": "#FEECEB"
+      },
+      "v08After": {
+        "roi_xywh": [
+          410,
+          480,
+          10,
+          16
+        ],
+        "pixels": 160,
+        "medianRGB": [
+          254,
+          240,
+          237
+        ],
+        "medianHEX": "#FEF0ED"
+      }
+    },
+    "forearm": {
+      "v06Reference": {
+        "roi_xywh": [
+          358,
+          650,
+          10,
+          16
+        ],
+        "pixels": 160,
+        "medianRGB": [
+          254,
+          239,
+          237
+        ],
+        "medianHEX": "#FEEFED"
+      },
+      "v07Before": {
+        "roi_xywh": [
+          371,
+          620,
+          10,
+          16
+        ],
+        "pixels": 160,
+        "medianRGB": [
+          254,
+          236,
+          235
+        ],
+        "medianHEX": "#FEECEB"
+      },
+      "v08After": {
+        "roi_xywh": [
+          371,
+          620,
+          10,
+          16
+        ],
+        "pixels": 160,
+        "medianRGB": [
+          254,
+          240,
+          237
+        ],
+        "medianHEX": "#FEF0ED"
+      }
+    },
+    "thigh": {
+      "v06Reference": {
+        "roi_xywh": [
+          455,
+          820,
+          12,
+          16
+        ],
+        "pixels": 192,
+        "medianRGB": [
+          254,
+          241,
+          240
+        ],
+        "medianHEX": "#FEF1F0"
+      },
+      "v07Before": {
+        "roi_xywh": [
+          456,
+          839,
+          12,
+          16
+        ],
+        "pixels": 192,
+        "medianRGB": [
+          254,
+          237,
+          237
+        ],
+        "medianHEX": "#FEEDED"
+      },
+      "v08After": {
+        "roi_xywh": [
+          456,
+          839,
+          12,
+          16
+        ],
+        "pixels": 192,
+        "medianRGB": [
+          254,
+          241,
+          239
+        ],
+        "medianHEX": "#FEF1EF"
+      }
+    },
+    "shin": {
+      "v06Reference": {
+        "roi_xywh": [
+          448,
+          1190,
+          10,
+          16
+        ],
+        "pixels": 160,
+        "medianRGB": [
+          254,
+          241,
+          240
+        ],
+        "medianHEX": "#FEF1F0"
+      },
+      "v07Before": {
+        "roi_xywh": [
+          450,
+          1176,
+          10,
+          16
+        ],
+        "pixels": 160,
+        "medianRGB": [
+          254,
+          238,
+          238
+        ],
+        "medianHEX": "#FEEEEE"
+      },
+      "v08After": {
+        "roi_xywh": [
+          450,
+          1176,
+          10,
+          16
+        ],
+        "pixels": 160,
+        "medianRGB": [
+          254,
+          242,
+          240
+        ],
+        "medianHEX": "#FEF2F0"
+      }
+    },
+    "foot": {
+      "v06Reference": {
+        "roi_xywh": [
+          447,
+          1345,
+          10,
+          14
+        ],
+        "pixels": 140,
+        "medianRGB": [
+          254,
+          241,
+          239
+        ],
+        "medianHEX": "#FEF1EF"
+      },
+      "v07Before": {
+        "roi_xywh": [
+          448,
+          1346,
+          10,
+          14
+        ],
+        "pixels": 140,
+        "medianRGB": [
+          254,
+          237,
+          237
+        ],
+        "medianHEX": "#FEEDED"
+      },
+      "v08After": {
+        "roi_xywh": [
+          448,
+          1346,
+          10,
+          14
+        ],
+        "pixels": 140,
+        "medianRGB": [
+          254,
+          241,
+          239
+        ],
+        "medianHEX": "#FEF1EF"
+      }
+    }
+  },
+  "changedPixels": 122429,
+  "maskBoundsXYXY": [
+    295,
+    186,
+    727,
+    1393
+  ],
+  "outsideMaskChangedPixels": 0,
+  "alphaChangedPixels": 0,
+  "redChannelChangedPixels": 0,
+  "unmodifiedSamples": [
+    "title",
+    "center of unitard",
+    "blue iris center",
+    "violet iris center"
+  ],
+  "figure": "skin-tone-comparison.png"
+}

@@ -5,7 +5,7 @@
 
 ## 1. 时间与前提
 
-2026-11-07 已确认转二维。先按 [二维样机 G0–G5](character-2d-pipeline.md#5-验证样机与通过条件待执行) 完成外观确认、分层日常动作、点击与站坐过渡、场景和桌面、可编辑与换装，以及性能验证。2026-11-14 当前底稿为魔法师 v10 和弓箭手 v07，修订图待用户看图。B 类在同尺度站立时最多比 A 高半个 A 类头高。[Skill 体型与比例规范](../skills/character-reference-to-turnaround/references/cases/desktop-pet-base-templates/reference-standard.md) 分层、绑定及软件与 MCP 的兼容性另行验收。以下 D1–D7 是应用冲刺目标，需在二维素材管线和服务依赖满足后重新估算。
+2026-11-07 已确认转二维。先按 [二维样机 G0–G5](character-2d-pipeline.md#5-验证样机与通过条件待执行) 完成外观确认、分层日常动作、点击与站坐过渡、场景和桌面、可编辑与换装，以及性能验证。2026-11-14 当前底稿为魔法师 v10 和弓箭手 v08，修订图待用户看图。B 类在同尺度站立时最多比 A 高半个 A 类头高。[Skill 体型与比例规范](../skills/character-reference-to-turnaround/references/cases/desktop-pet-base-templates/reference-standard.md) 分层、绑定及软件与 MCP 的兼容性另行验收。以下 D1–D7 是应用冲刺目标，需在二维素材管线和服务依赖满足后重新估算。
 
 D1–D7 是开工后的连续项目日，不对应已承诺的日历发布日期。此前讨论的七天为冲刺目标，不包含商店审核或证书签发时间。所有工期为估算，未做代码/依赖运行验证。
 

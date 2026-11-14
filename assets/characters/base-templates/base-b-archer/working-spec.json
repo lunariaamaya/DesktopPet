@@ -3,8 +3,8 @@
   "displayName": "弓箭手",
   "date": "2026-11-14",
   "approval": "not_reviewed",
-  "bodyProportionReference": "base-b-archer/v07/base-b-archer-height-front-v07.png",
-  "bodyProportionNote": "Use v07 for current design. At the A scale, B stands approximately level with A within its half-head height limit.",
+  "bodyProportionReference": "base-b-archer/v08/base-b-archer-pale-skin-front-v08.png",
+  "bodyProportionNote": "The current v08 drawing uses the v07 standing proportions with v06 pale skin tones.",
   "requiredEyeColors": {
     "coordinateConvention": "character_own_left_right",
     "characterLeft": "purple",
@@ -18,18 +18,18 @@
   "layers": null,
   "rig": null,
   "runtimeLoadable": false,
-  "currentBaseline": "base-b-archer/v07/candidate.json",
+  "currentBaseline": "base-b-archer/v08/candidate.json",
   "baselineSpecification": "base-b-archer/baseline.json",
   "historicalProportionSource": "base-b-archer/v02/base-b-archer-covered-front-v02.png",
   "revisionRequest": {
     "date": "2026-11-14",
-    "quote": "弓箭手角色应该只比魔法师角色高最多半个头就好了，需要对弓箭手的角色底稿做一下修改，调低一点身高。",
-    "direction": "Lower the B archer front base. Its barefoot height can exceed the A mage by at most half of an A head."
+    "quote": "肤色要保持不变，保持修改后变矮的身高不变，将肤色改回原来的偏白肤色。",
+    "direction": "Keep the v07 stature and shape while restoring the approved v06 pale complexion."
   },
   "pairedHeightStandard": {
     "mageRevision": "draft-10",
     "mageHeadHeightPixels": 182,
-    "referenceScale": "Original A v10 and B v07 pixel scale with aligned bare soles",
+    "referenceScale": "Original A v10 and B v08 pixel scale with aligned bare soles, using the v07 standing geometry",
     "maxArcherHeightAboveMageInMageHeads": 0.5,
     "measuredArcherHeightAboveMagePixels": 1,
     "measuredArcherHeightAboveMageInMageHeads": 0.0055
@@ -43,6 +43,21 @@
       "scope": "front_static_reference",
       "quote": "很好，就以这张作为弓箭手角色的底稿，后续的弓箭手角色设计就参照这张的身材比例及体型和肤色。",
       "interpretation": "弓箭手 v06 正面底稿已获认可，后续同类角色参照其身材比例、体型和肤色；不扩大为多视图/分层/绑定验收。"
+    }
+  },
+  "skinColorReference": {
+    "revision": "draft-06",
+    "artifact": "base-b-archer/v06/base-b-archer-continuous-head-skin-front-v06.png",
+    "sha256": "9956cf5dcf3437d38f64b8c0feac9401d0cc19ec603694d66f70d91b4782c21c"
+  },
+  "geometryReference": {
+    "revision": "draft-07",
+    "artifact": "base-b-archer/v07/base-b-archer-height-front-v07.png",
+    "sha256": "b592f71867cef9eab5fe14fc0c2a46c7fa98f6ff23413a52f884fdd6fdc6cf84",
+    "standingLandmarks": {
+      "crownY": 186,
+      "soleY": 1392,
+      "standingHeightPixels": 1206
     }
   }
 }

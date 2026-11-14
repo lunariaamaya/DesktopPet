@@ -2,15 +2,15 @@
   "templateId": "base-b",
   "displayName": "弓箭手",
   "date": "2026-11-14",
-  "revision": "draft-07",
-  "artifact": "base-b-archer/v07/base-b-archer-height-front-v07.png",
-  "sha256": "b592f71867cef9eab5fe14fc0c2a46c7fa98f6ff23413a52f884fdd6fdc6cf84",
+  "revision": "draft-08",
+  "artifact": "base-b-archer/v08/base-b-archer-pale-skin-front-v08.png",
+  "sha256": "e32c4cb1d93f2613b3b12d86d20f7a4b191d777d95b2a21930c006dcc316e6e9",
   "scope": "front_static_reference_only",
   "approval": "not_reviewed",
   "revisionRequest": {
     "date": "2026-11-14",
-    "quote": "弓箭手角色应该只比魔法师角色高最多半个头就好了，需要对弓箭手的角色底稿做一下修改，调低一点身高。",
-    "direction": "Lower the B archer front base. Its barefoot height can exceed the A mage by at most half of an A head."
+    "quote": "肤色要保持不变，保持修改后变矮的身高不变，将肤色改回原来的偏白肤色。",
+    "direction": "Keep the v07 stature and shape while restoring the approved v06 pale complexion."
   },
   "previousApprovedReference": {
     "revision": "draft-06",
@@ -24,14 +24,14 @@
     }
   },
   "lockedForFutureArcherDesigns": {
-    "proportions": "Use v07 head scale and shorter legs. On the A v10 scale, B is at most half an A head taller.",
-    "bodyBuild": "Use the v07 slender outline, shoulders, waist, pelvis, and gently tapered legs.",
-    "skin": "Use the v07 pale pink-ivory complexion with soft transitions and the measured warm skin range."
+    "proportions": "Use the v08 standing height and proportions inherited from v07. B can stand up to half an A head taller than A v10.",
+    "bodyBuild": "Use the v08 slender outline, shoulder, waist, pelvis and leg proportions.",
+    "skin": "Use the v08 pale pink-ivory complexion calibrated to approved v06 skin samples."
   },
   "pairedHeightStandard": {
     "mageRevision": "draft-10",
     "mageHeadHeightPixels": 182,
-    "referenceScale": "Original A v10 and B v07 pixel scale with aligned bare soles",
+    "referenceScale": "Original A v10 and B v08 pixel scale with aligned bare soles, using the v07 standing geometry",
     "maxArcherHeightAboveMageInMageHeads": 0.5,
     "measuredArcherHeightAboveMagePixels": 1,
     "measuredArcherHeightAboveMageInMageHeads": 0.0055
@@ -47,10 +47,10 @@
       "pixels": 392,
       "medianRGB": [
         254,
-        231,
-        230
+        241,
+        239
       ],
-      "medianHEX": "#FEE7E6"
+      "medianHEX": "#FEF1EF"
     },
     "upperArm": {
       "roi_xywh": [
@@ -62,10 +62,10 @@
       "pixels": 160,
       "medianRGB": [
         254,
-        236,
-        235
+        240,
+        237
       ],
-      "medianHEX": "#FEECEB"
+      "medianHEX": "#FEF0ED"
     },
     "forearm": {
       "roi_xywh": [
@@ -77,10 +77,25 @@
       "pixels": 160,
       "medianRGB": [
         254,
-        236,
-        235
+        240,
+        237
       ],
-      "medianHEX": "#FEECEB"
+      "medianHEX": "#FEF0ED"
+    },
+    "thigh": {
+      "roi_xywh": [
+        456,
+        839,
+        12,
+        16
+      ],
+      "pixels": 192,
+      "medianRGB": [
+        254,
+        241,
+        239
+      ],
+      "medianHEX": "#FEF1EF"
     },
     "shin": {
       "roi_xywh": [
@@ -92,10 +107,10 @@
       "pixels": 160,
       "medianRGB": [
         254,
-        238,
-        238
+        242,
+        240
       ],
-      "medianHEX": "#FEEEEE"
+      "medianHEX": "#FEF2F0"
     },
     "foot": {
       "roi_xywh": [
@@ -107,10 +122,10 @@
       "pixels": 140,
       "medianRGB": [
         254,
-        237,
-        237
+        241,
+        239
       ],
-      "medianHEX": "#FEEDED"
+      "medianHEX": "#FEF1EF"
     }
   },
   "currentSheetEyeColors": {
@@ -121,9 +136,24 @@
     "frontViewerRight": "purple",
     "source": "user explicit instruction on 2026-11-10"
   },
-  "skillReference": "references/cases/desktop-pet-base-templates/base-b-archer-v07.png",
-  "inspection": "base-b-archer/v07/visual-inspection.json",
+  "skillReference": "references/cases/desktop-pet-base-templates/base-b-archer-v08.png",
+  "inspection": "base-b-archer/v08/visual-inspection.json",
   "layers": null,
   "rig": null,
-  "runtimeLoadable": false
+  "runtimeLoadable": false,
+  "skinColorReference": {
+    "revision": "draft-06",
+    "artifact": "base-b-archer/v06/base-b-archer-continuous-head-skin-front-v06.png",
+    "sha256": "9956cf5dcf3437d38f64b8c0feac9401d0cc19ec603694d66f70d91b4782c21c"
+  },
+  "geometryReference": {
+    "revision": "draft-07",
+    "artifact": "base-b-archer/v07/base-b-archer-height-front-v07.png",
+    "sha256": "b592f71867cef9eab5fe14fc0c2a46c7fa98f6ff23413a52f884fdd6fdc6cf84",
+    "standingLandmarks": {
+      "crownY": 186,
+      "soleY": 1392,
+      "standingHeightPixels": 1206
+    }
+  }
 }

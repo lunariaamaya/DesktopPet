@@ -12,9 +12,9 @@
       "baselineSpecification": "base-a-mage/baseline.json"
     },
     "base-b": {
-      "revision": "draft-07",
-      "artifact": "base-b-archer/v07/base-b-archer-height-front-v07.png",
-      "sha256": "b592f71867cef9eab5fe14fc0c2a46c7fa98f6ff23413a52f884fdd6fdc6cf84",
+      "revision": "draft-08",
+      "artifact": "base-b-archer/v08/base-b-archer-pale-skin-front-v08.png",
+      "sha256": "e32c4cb1d93f2613b3b12d86d20f7a4b191d777d95b2a21930c006dcc316e6e9",
       "scope": "front_static_reference_only",
       "approval": "not_reviewed",
       "baselineSpecification": "base-b-archer/baseline.json"
@@ -934,6 +934,88 @@
         "inspectionReport": "visual-inspection.json",
         "inspectionFigure": "mage-archer-height-comparison.png",
         "observations": "Balanced shorter leg lengths, harmonized head-to-body ratio, violet/blue heterochromia and a slightly rosier complexion, with original A scale and floor line."
+      },
+      "layers": null,
+      "rig": null,
+      "runtimeLoadable": false
+    },
+    {
+      "templateId": "base-b",
+      "displayName": "弓箭手",
+      "revision": "draft-08",
+      "artifact": "base-b-archer/v08/base-b-archer-pale-skin-front-v08.png",
+      "sha256": "e32c4cb1d93f2613b3b12d86d20f7a4b191d777d95b2a21930c006dcc316e6e9",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "parent": "draft-07",
+      "kind": "covered_2d_reference_candidate",
+      "approval": "not_reviewed",
+      "method": "Deterministic v06 skin color matching on the shortened v07 drawing",
+      "prompt": null,
+      "referenceImagesUsedForGeneration": [],
+      "sourceHashes": {
+        "assets/characters/base-templates/base-b-archer/v07/base-b-archer-height-front-v07.png": "b592f71867cef9eab5fe14fc0c2a46c7fa98f6ff23413a52f884fdd6fdc6cf84",
+        "assets/characters/base-templates/base-b-archer/v06/base-b-archer-continuous-head-skin-front-v06.png": "9956cf5dcf3437d38f64b8c0feac9401d0cc19ec603694d66f70d91b4782c21c"
+      },
+      "sourceBuiltinFilename": "exec-54229381-7a12-42e2-81bd-9ab94439c200.png",
+      "sourceBuiltinRole": "Original raw v07 geometry source",
+      "postprocessing": {
+        "sourceArtifact": "base-b-archer/v07/base-b-archer-height-front-v07.png",
+        "sourceSha256": "b592f71867cef9eab5fe14fc0c2a46c7fa98f6ff23413a52f884fdd6fdc6cf84",
+        "maskArtifact": "base-b-archer/v08/skin-color-mask.png",
+        "maskSha256": "d38b01b353eeb6a5b766e7eb1ba5fb63ce4e450edf05e6310cdb77be74f6500a",
+        "allowedBoundsXYXY": [
+          295,
+          186,
+          728,
+          1393
+        ],
+        "script": "scripts/restore-archer-skin-v08.ps1",
+        "scriptSha256NormalizedLF": "5bd8f684d2ba93c97363050db781942cde641548acc8e3f7eb8de76eae224b32",
+        "method": "Sample the v06 scalp and limbs, then correct the warm skin selection in place on the v07 canvas."
+      },
+      "revisionRequest": {
+        "date": "2026-11-14",
+        "quote": "肤色要保持不变，保持修改后变矮的身高不变，将肤色改回原来的偏白肤色。",
+        "direction": "Keep the v07 stature and shape while restoring the approved v06 pale complexion."
+      },
+      "pairedHeightStandard": {
+        "mageRevision": "draft-10",
+        "mageHeadHeightPixels": 182,
+        "referenceScale": "Original A v10 and B v08 pixel scale with aligned bare soles, using the v07 standing geometry",
+        "maxArcherHeightAboveMageInMageHeads": 0.5,
+        "measuredArcherHeightAboveMagePixels": 1,
+        "measuredArcherHeightAboveMageInMageHeads": 0.0055
+      },
+      "skinColorReference": {
+        "revision": "draft-06",
+        "artifact": "base-b-archer/v06/base-b-archer-continuous-head-skin-front-v06.png",
+        "sha256": "9956cf5dcf3437d38f64b8c0feac9401d0cc19ec603694d66f70d91b4782c21c"
+      },
+      "geometryReference": {
+        "revision": "draft-07",
+        "artifact": "base-b-archer/v07/base-b-archer-height-front-v07.png",
+        "sha256": "b592f71867cef9eab5fe14fc0c2a46c7fa98f6ff23413a52f884fdd6fdc6cf84",
+        "standingLandmarks": {
+          "crownY": 186,
+          "soleY": 1392,
+          "standingHeightPixels": 1206
+        }
+      },
+      "requiredEyeColors": {
+        "coordinateConvention": "character_own_left_right",
+        "characterLeft": "purple",
+        "characterRight": "blue",
+        "frontViewerLeft": "blue",
+        "frontViewerRight": "purple",
+        "source": "user explicit instruction on 2026-11-10"
+      },
+      "canonicalBaseline": "base-b-archer/baseline.json",
+      "manualReview": {
+        "inspectionReport": "visual-inspection.json",
+        "inspectionFigure": "skin-tone-comparison.png",
+        "observations": "Six skin sample areas approach the v06 palette. Crown y=186 and sole y=1392 match v07."
       },
       "layers": null,
       "rig": null,

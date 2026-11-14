@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-14",
+  "templateId": "base-b",
+  "revision": "draft-08",
+  "parent": "draft-07",
+  "status": "active_design_reference_pending_visual_review",
+  "output": "base-b-archer-pale-skin-front-v08.png",
+  "outputSha256": "e32c4cb1d93f2613b3b12d86d20f7a4b191d777d95b2a21930c006dcc316e6e9",
+  "postprocessing": {
+    "sourceArtifact": "base-b-archer/v07/base-b-archer-height-front-v07.png",
+    "sourceSha256": "b592f71867cef9eab5fe14fc0c2a46c7fa98f6ff23413a52f884fdd6fdc6cf84",
+    "maskArtifact": "base-b-archer/v08/skin-color-mask.png",
+    "maskSha256": "d38b01b353eeb6a5b766e7eb1ba5fb63ce4e450edf05e6310cdb77be74f6500a",
+    "allowedBoundsXYXY": [
+      295,
+      186,
+      728,
+      1393
+    ],
+    "script": "scripts/restore-archer-skin-v08.ps1",
+    "scriptSha256NormalizedLF": "5bd8f684d2ba93c97363050db781942cde641548acc8e3f7eb8de76eae224b32",
+    "method": "Sample the v06 scalp and limbs, then correct the warm skin selection in place on the v07 canvas."
+  },
+  "skinColorReference": {
+    "revision": "draft-06",
+    "artifact": "base-b-archer/v06/base-b-archer-continuous-head-skin-front-v06.png",
+    "sha256": "9956cf5dcf3437d38f64b8c0feac9401d0cc19ec603694d66f70d91b4782c21c"
+  },
+  "geometryReference": {
+    "revision": "draft-07",
+    "artifact": "base-b-archer/v07/base-b-archer-height-front-v07.png",
+    "sha256": "b592f71867cef9eab5fe14fc0c2a46c7fa98f6ff23413a52f884fdd6fdc6cf84",
+    "standingLandmarks": {
+      "crownY": 186,
+      "soleY": 1392,
+      "standingHeightPixels": 1206
+    }
+  },
+  "inspection": "visual-inspection.json",
+  "imageGenTrial": {
+    "prompt": "prompt.txt",
+    "sourceBuiltinFilename": "exec-3dba3059-8988-4fef-bd0f-eb6dd39f4779.png",
+    "sha256": "e88e4ccd8315da8024525280c8e86a39717e80d5766701babbe20ccc012e654d",
+    "crownY": 187,
+    "soleY": 1392,
+    "disposition": "Used as a visual check. Its crown shifted one pixel."
+  }
+}
