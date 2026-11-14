@@ -4,7 +4,7 @@
 
 **A 类魔法师当前底稿为 [v10](base-a-mage/v10/base-a-mage-proportion-front-v10.png)。** 按用户偏好的四张 v01 设计减小头部占比并增加腿长。原尺寸底稿约 6.6 个头高，胯下到足底约占全身 54%。v10 已供后续设计参考，图稿待用户看图。比例、肤色、原认可图稿与版本来源见 [A 类基线](base-a-mage/baseline.json) 和 [同尺度对比](base-a-mage/v10/proportion-comparison.png)。
 
-**B 类弓箭手底稿已确认：[v06](base-b-archer/v06/base-b-archer-continuous-head-skin-front-v06.png)**。用户明确指定后续弓箭手设计参照这张的身材比例、体型和肤色；规范与取样冻结在 [baseline.json](base-b-archer/baseline.json)。角色自身左紫、右蓝（正面看左蓝、右紫），手指及头部修色过程见 [制作记录](../../../docs/archer-hands-eyes-head-revision-2026-11-10.md) · [头部检查](base-b-archer/v06/head-color-review.png) · [B 类当前规格](base-b-archer/working-spec.json)。尚未分层或绑定。
+**B 类弓箭手当前底稿为 v07。** 调低站立身高并略收腿长，使其与 A v10 接近齐高。后续派生设计在同尺度赤足站立时最多高半个 A 类头高。修订稿待用户看图。B v06 的确认记录、当前测量和肤色取样登记在基线中。[v07 底稿](base-b-archer/v07/base-b-archer-height-front-v07.png) · [身高对照](base-b-archer/v07/mage-archer-height-comparison.png) · [B 类基线](base-b-archer/baseline.json)
 
 **两类底稿的 skill 参考规范**：[A/B 规范与原尺寸图片](../../../skills/character-reference-to-turnaround/references/cases/desktop-pet-base-templates/reference-standard.md)。后续设计必须实际参照对应图的体型外形、头身关系、躯干/四肢比例和肤色，不仅匹配画风；服饰或发型设计不得擅自改变该基准。两张源 PNG 及 skill 内副本摘要一致。
 

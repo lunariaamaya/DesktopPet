@@ -1,101 +1,118 @@
 {
   "templateId": "base-b",
   "displayName": "弓箭手",
-  "date": "2026-11-10",
-  "revision": "draft-06",
-  "artifact": "base-b-archer/v06/base-b-archer-continuous-head-skin-front-v06.png",
-  "sha256": "9956cf5dcf3437d38f64b8c0feac9401d0cc19ec603694d66f70d91b4782c21c",
+  "date": "2026-11-14",
+  "revision": "draft-07",
+  "artifact": "base-b-archer/v07/base-b-archer-height-front-v07.png",
+  "sha256": "b592f71867cef9eab5fe14fc0c2a46c7fa98f6ff23413a52f884fdd6fdc6cf84",
   "scope": "front_static_reference_only",
-  "userApproval": {
-    "date": "2026-11-10",
-    "scope": "front_static_reference",
-    "quote": "很好，就以这张作为弓箭手角色的底稿，后续的弓箭手角色设计就参照这张的身材比例及体型和肤色。",
-    "interpretation": "弓箭手 v06 正面底稿已获认可，后续同类角色参照其身材比例、体型和肤色；不扩大为多视图/分层/绑定验收。"
+  "approval": "not_reviewed",
+  "revisionRequest": {
+    "date": "2026-11-14",
+    "quote": "弓箭手角色应该只比魔法师角色高最多半个头就好了，需要对弓箭手的角色底稿做一下修改，调低一点身高。",
+    "direction": "Lower the B archer front base. Its barefoot height can exceed the A mage by at most half of an A head."
   },
-  "referencePriority": "Primary body silhouette/proportion/build/skin reference for future archer design, not style-only",
+  "previousApprovedReference": {
+    "revision": "draft-06",
+    "artifact": "base-b-archer/v06/base-b-archer-continuous-head-skin-front-v06.png",
+    "sha256": "9956cf5dcf3437d38f64b8c0feac9401d0cc19ec603694d66f70d91b4782c21c",
+    "userApproval": {
+      "date": "2026-11-10",
+      "scope": "front_static_reference",
+      "quote": "很好，就以这张作为弓箭手角色的底稿，后续的弓箭手角色设计就参照这张的身材比例及体型和肤色。",
+      "interpretation": "弓箭手 v06 正面底稿已获认可，后续同类角色参照其身材比例、体型和肤色；不扩大为多视图/分层/绑定验收。"
+    }
+  },
   "lockedForFutureArcherDesigns": {
-    "proportions": "Follow v06 head/body relationship and relative torso/limb lengths, not the compact mage proportions",
-    "bodyBuild": "Follow v06 slender elongated silhouette, shoulder/waist/hip shape, leg contour and hand/foot size",
-    "skin": "Follow v06 pale low-saturation pink-ivory skin and continuous restrained same-hue shading"
+    "proportions": "Use v07 head scale and shorter legs. On the A v10 scale, B is at most half an A head taller.",
+    "bodyBuild": "Use the v07 slender outline, shoulders, waist, pelvis, and gently tapered legs.",
+    "skin": "Use the v07 pale pink-ivory complexion with soft transitions and the measured warm skin range."
+  },
+  "pairedHeightStandard": {
+    "mageRevision": "draft-10",
+    "mageHeadHeightPixels": 182,
+    "referenceScale": "Original A v10 and B v07 pixel scale with aligned bare soles",
+    "maxArcherHeightAboveMageInMageHeads": 0.5,
+    "measuredArcherHeightAboveMagePixels": 1,
+    "measuredArcherHeightAboveMageInMageHeads": 0.0055
   },
   "skinSamples": {
     "scalp": {
       "roi_xywh": [
-        504,
-        207,
-        14,
-        18
+        497,
+        228,
+        28,
+        14
       ],
-      "pixels": 252,
+      "pixels": 392,
       "medianRGB": [
         254,
-        241,
-        239
+        231,
+        230
       ],
-      "medianHEX": "#FEF1EF"
+      "medianHEX": "#FEE7E6"
     },
     "upperArm": {
       "roi_xywh": [
-        415,
-        471,
+        410,
+        480,
         10,
         16
       ],
       "pixels": 160,
       "medianRGB": [
         254,
-        240,
-        238
+        236,
+        235
       ],
-      "medianHEX": "#FEF0EE"
+      "medianHEX": "#FEECEB"
     },
     "forearm": {
       "roi_xywh": [
-        358,
-        650,
+        371,
+        620,
         10,
         16
       ],
       "pixels": 160,
       "medianRGB": [
         254,
-        239,
-        237
+        236,
+        235
       ],
-      "medianHEX": "#FEEFED"
+      "medianHEX": "#FEECEB"
     },
     "shin": {
       "roi_xywh": [
-        448,
-        1190,
+        450,
+        1176,
         10,
         16
       ],
       "pixels": 160,
       "medianRGB": [
         254,
-        241,
-        240
+        238,
+        238
       ],
-      "medianHEX": "#FEF1F0"
+      "medianHEX": "#FEEEEE"
     },
     "foot": {
       "roi_xywh": [
-        447,
-        1345,
+        448,
+        1346,
         10,
         14
       ],
       "pixels": 140,
       "medianRGB": [
         254,
-        241,
-        239
+        237,
+        237
       ],
-      "medianHEX": "#FEF1EF"
+      "medianHEX": "#FEEDED"
     }
   },
-  "skinSampleSource": "base-b-archer/v06/visual-inspection.json plus approved image sampling",
   "currentSheetEyeColors": {
     "coordinateConvention": "character_own_left_right",
     "characterLeft": "purple",
@@ -104,17 +121,8 @@
     "frontViewerRight": "purple",
     "source": "user explicit instruction on 2026-11-10"
   },
-  "futureDesignRule": "Use v06 body silhouette, proportions, build and skin unless the user explicitly requests a change; add appearance over the approved body.",
-  "skillReference": "references/cases/desktop-pet-base-templates/base-b-archer-v06.png",
-  "notEstablished": [
-    "Real-world height or centimeter measurements",
-    "Exact original hidden anatomy",
-    "Side/back reference geometry",
-    "Layer separation",
-    "Cubism project",
-    "Rigging",
-    "Animation"
-  ],
+  "skillReference": "references/cases/desktop-pet-base-templates/base-b-archer-v07.png",
+  "inspection": "base-b-archer/v07/visual-inspection.json",
   "layers": null,
   "rig": null,
   "runtimeLoadable": false

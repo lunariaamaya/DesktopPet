@@ -191,7 +191,18 @@
       "generationCalls": 1,
       "status": "active_design_reference_pending_visual_review",
       "output": "base-a-mage/v10/base-a-mage-proportion-front-v10.png"
+    },
+    {
+      "date": "2026-11-14",
+      "templateId": "base-b",
+      "revision": "draft-07",
+      "method": "built-in ImageGen",
+      "prompt": "base-b-archer/v07/prompt.txt",
+      "attemptLog": "base-b-archer/v07/generation.json",
+      "generationCalls": 2,
+      "status": "active_design_reference_pending_visual_review",
+      "output": "base-b-archer/v07/base-b-archer-height-front-v07.png"
     }
   ],
-  "nextScope": "Use the selected A v10 reference for mage proportions, with A v09 as the previously approved sheet. B uses its approved v06 reference."
+  "nextScope": "Use A v10 and B v07 at one scale and ground line. Keep B at most half an A head taller. A v09 and B v06 retain their recorded approvals."
 }

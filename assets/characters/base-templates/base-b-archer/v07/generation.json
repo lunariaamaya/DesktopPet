@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-14",
+  "templateId": "base-b",
+  "revision": "draft-07",
+  "parent": "draft-06",
+  "method": "built-in ImageGen",
+  "generationCalls": 2,
+  "references": {
+    "assets/characters/base-templates/base-b-archer/v06/base-b-archer-continuous-head-skin-front-v06.png": "9956cf5dcf3437d38f64b8c0feac9401d0cc19ec603694d66f70d91b4782c21c",
+    "assets/characters/base-templates/base-a-mage/v10/base-a-mage-proportion-front-v10.png": "663bafceed700b487285a1d22c8de6b8c06175388faa6bbbc6ce95c6b4ebd6ee"
+  },
+  "passes": [
+    {
+      "prompt": "prompt.txt",
+      "output": "initial-height-attempt.png",
+      "sha256": "46c88b9d0b496844cc553bcce4011699de22c7c902e68732afdd133dcac19e1b",
+      "sourceBuiltinFilename": "exec-ef0968c8-d5ed-41c5-9a17-6f87b5e6de32.png",
+      "heightAboveMagePixels": -1
+    },
+    {
+      "prompt": "height-calibration-prompt.txt",
+      "input": "initial-height-attempt.png",
+      "output": "base-b-archer-height-front-v07.png",
+      "sha256": "b592f71867cef9eab5fe14fc0c2a46c7fa98f6ff23413a52f884fdd6fdc6cf84",
+      "sourceBuiltinFilename": "exec-54229381-7a12-42e2-81bd-9ab94439c200.png",
+      "heightAboveMagePixels": 1
+    }
+  ],
+  "status": "active_design_reference_pending_visual_review"
+}

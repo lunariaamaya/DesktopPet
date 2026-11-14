@@ -1,0 +1,54 @@
+{
+  "templateId": "base-b",
+  "displayName": "弓箭手",
+  "revision": "draft-07",
+  "artifact": "base-b-archer/v07/base-b-archer-height-front-v07.png",
+  "sha256": "b592f71867cef9eab5fe14fc0c2a46c7fa98f6ff23413a52f884fdd6fdc6cf84",
+  "width": 1024,
+  "height": 1536,
+  "mode": "RGB",
+  "parent": "draft-06",
+  "kind": "covered_2d_reference_candidate",
+  "approval": "not_reviewed",
+  "method": "built-in ImageGen height and proportion edit followed by a same-canvas calibration",
+  "prompt": "base-b-archer/v07/prompt.txt",
+  "referenceImagesUsedForGeneration": [
+    "assets/characters/base-templates/base-b-archer/v06/base-b-archer-continuous-head-skin-front-v06.png",
+    "assets/characters/base-templates/base-a-mage/v10/base-a-mage-proportion-front-v10.png"
+  ],
+  "sourceHashes": {
+    "assets/characters/base-templates/base-b-archer/v06/base-b-archer-continuous-head-skin-front-v06.png": "9956cf5dcf3437d38f64b8c0feac9401d0cc19ec603694d66f70d91b4782c21c",
+    "assets/characters/base-templates/base-a-mage/v10/base-a-mage-proportion-front-v10.png": "663bafceed700b487285a1d22c8de6b8c06175388faa6bbbc6ce95c6b4ebd6ee"
+  },
+  "sourceBuiltinFilename": "exec-54229381-7a12-42e2-81bd-9ab94439c200.png",
+  "revisionRequest": {
+    "date": "2026-11-14",
+    "quote": "弓箭手角色应该只比魔法师角色高最多半个头就好了，需要对弓箭手的角色底稿做一下修改，调低一点身高。",
+    "direction": "Lower the B archer front base. Its barefoot height can exceed the A mage by at most half of an A head."
+  },
+  "pairedHeightStandard": {
+    "mageRevision": "draft-10",
+    "mageHeadHeightPixels": 182,
+    "referenceScale": "Original A v10 and B v07 pixel scale with aligned bare soles",
+    "maxArcherHeightAboveMageInMageHeads": 0.5,
+    "measuredArcherHeightAboveMagePixels": 1,
+    "measuredArcherHeightAboveMageInMageHeads": 0.0055
+  },
+  "requiredEyeColors": {
+    "coordinateConvention": "character_own_left_right",
+    "characterLeft": "purple",
+    "characterRight": "blue",
+    "frontViewerLeft": "blue",
+    "frontViewerRight": "purple",
+    "source": "user explicit instruction on 2026-11-10"
+  },
+  "canonicalBaseline": "base-b-archer/baseline.json",
+  "manualReview": {
+    "inspectionReport": "visual-inspection.json",
+    "inspectionFigure": "mage-archer-height-comparison.png",
+    "observations": "Balanced shorter leg lengths, harmonized head-to-body ratio, violet/blue heterochromia and a slightly rosier complexion, with original A scale and floor line."
+  },
+  "layers": null,
+  "rig": null,
+  "runtimeLoadable": false
+}

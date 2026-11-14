@@ -1,10 +1,10 @@
 {
   "templateId": "base-b",
   "displayName": "弓箭手",
-  "date": "2026-11-10",
-  "approval": "approved_reference",
-  "bodyProportionReference": "base-b-archer/v06/base-b-archer-continuous-head-skin-front-v06.png",
-  "bodyProportionNote": "The approved v06 drawing is the current body silhouette, proportion and skin reference for future archer designs.",
+  "date": "2026-11-14",
+  "approval": "not_reviewed",
+  "bodyProportionReference": "base-b-archer/v07/base-b-archer-height-front-v07.png",
+  "bodyProportionNote": "Use v07 for current design. At the A scale, B stands approximately level with A within its half-head height limit.",
   "requiredEyeColors": {
     "coordinateConvention": "character_own_left_right",
     "characterLeft": "purple",
@@ -18,13 +18,31 @@
   "layers": null,
   "rig": null,
   "runtimeLoadable": false,
-  "currentBaseline": "base-b-archer/v06/candidate.json",
+  "currentBaseline": "base-b-archer/v07/candidate.json",
   "baselineSpecification": "base-b-archer/baseline.json",
   "historicalProportionSource": "base-b-archer/v02/base-b-archer-covered-front-v02.png",
-  "userApproval": {
-    "date": "2026-11-10",
-    "scope": "front_static_reference",
-    "quote": "很好，就以这张作为弓箭手角色的底稿，后续的弓箭手角色设计就参照这张的身材比例及体型和肤色。",
-    "interpretation": "弓箭手 v06 正面底稿已获认可，后续同类角色参照其身材比例、体型和肤色；不扩大为多视图/分层/绑定验收。"
+  "revisionRequest": {
+    "date": "2026-11-14",
+    "quote": "弓箭手角色应该只比魔法师角色高最多半个头就好了，需要对弓箭手的角色底稿做一下修改，调低一点身高。",
+    "direction": "Lower the B archer front base. Its barefoot height can exceed the A mage by at most half of an A head."
+  },
+  "pairedHeightStandard": {
+    "mageRevision": "draft-10",
+    "mageHeadHeightPixels": 182,
+    "referenceScale": "Original A v10 and B v07 pixel scale with aligned bare soles",
+    "maxArcherHeightAboveMageInMageHeads": 0.5,
+    "measuredArcherHeightAboveMagePixels": 1,
+    "measuredArcherHeightAboveMageInMageHeads": 0.0055
+  },
+  "previousApprovedReference": {
+    "revision": "draft-06",
+    "artifact": "base-b-archer/v06/base-b-archer-continuous-head-skin-front-v06.png",
+    "sha256": "9956cf5dcf3437d38f64b8c0feac9401d0cc19ec603694d66f70d91b4782c21c",
+    "userApproval": {
+      "date": "2026-11-10",
+      "scope": "front_static_reference",
+      "quote": "很好，就以这张作为弓箭手角色的底稿，后续的弓箭手角色设计就参照这张的身材比例及体型和肤色。",
+      "interpretation": "弓箭手 v06 正面底稿已获认可，后续同类角色参照其身材比例、体型和肤色；不扩大为多视图/分层/绑定验收。"
+    }
   }
 }

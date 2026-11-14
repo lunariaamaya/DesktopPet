@@ -1,0 +1,125 @@
+{
+  "date": "2026-11-14",
+  "scope": "Standing front sheets at their delivered pixel scale.",
+  "poseComparison": "Height is estimated from crown to barefoot sole. Hair, headwear and footwear are excluded.",
+  "measurement": {
+    "A v10": {
+      "crownY": 187,
+      "chinY": 369,
+      "crotchY": 741,
+      "soleY": 1392,
+      "standingHeightPixels": 1205,
+      "headHeightPixels": 182,
+      "crotchToSolePixels": 651,
+      "heightAboveMagePixels": 0
+    },
+    "B v06": {
+      "crownY": 174,
+      "chinY": 349,
+      "crotchY": 721,
+      "soleY": 1392,
+      "standingHeightPixels": 1218,
+      "headHeightPixels": 175,
+      "crotchToSolePixels": 671,
+      "heightAboveMagePixels": 13
+    },
+    "B v07": {
+      "crownY": 186,
+      "chinY": 373,
+      "crotchY": 745,
+      "soleY": 1392,
+      "standingHeightPixels": 1206,
+      "headHeightPixels": 187,
+      "crotchToSolePixels": 647,
+      "heightAboveMagePixels": 1
+    }
+  },
+  "pairedHeightStandard": {
+    "mageRevision": "draft-10",
+    "mageHeadHeightPixels": 182,
+    "referenceScale": "Original A v10 and B v07 pixel scale with aligned bare soles",
+    "maxArcherHeightAboveMageInMageHeads": 0.5,
+    "measuredArcherHeightAboveMagePixels": 1,
+    "measuredArcherHeightAboveMageInMageHeads": 0.0055
+  },
+  "skinSamples": {
+    "scalp": {
+      "roi_xywh": [
+        497,
+        228,
+        28,
+        14
+      ],
+      "pixels": 392,
+      "medianRGB": [
+        254,
+        231,
+        230
+      ],
+      "medianHEX": "#FEE7E6"
+    },
+    "upperArm": {
+      "roi_xywh": [
+        410,
+        480,
+        10,
+        16
+      ],
+      "pixels": 160,
+      "medianRGB": [
+        254,
+        236,
+        235
+      ],
+      "medianHEX": "#FEECEB"
+    },
+    "forearm": {
+      "roi_xywh": [
+        371,
+        620,
+        10,
+        16
+      ],
+      "pixels": 160,
+      "medianRGB": [
+        254,
+        236,
+        235
+      ],
+      "medianHEX": "#FEECEB"
+    },
+    "shin": {
+      "roi_xywh": [
+        450,
+        1176,
+        10,
+        16
+      ],
+      "pixels": 160,
+      "medianRGB": [
+        254,
+        238,
+        238
+      ],
+      "medianHEX": "#FEEEEE"
+    },
+    "foot": {
+      "roi_xywh": [
+        448,
+        1346,
+        10,
+        14
+      ],
+      "pixels": 140,
+      "medianRGB": [
+        254,
+        237,
+        237
+      ],
+      "medianHEX": "#FEEDED"
+    }
+  },
+  "outputSha256": "b592f71867cef9eab5fe14fc0c2a46c7fa98f6ff23413a52f884fdd6fdc6cf84",
+  "figure": "mage-archer-height-comparison.png",
+  "limitation": "Landmarks on posed concepts with hair and footwear are estimated. Generated shading is slightly rosier than v06."
+}

@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "project": "DesktopPet",
   "scope": "This project or explicit selection of these templates only",
   "normativeReference": "reference-standard.md",
@@ -131,98 +131,92 @@
     {
       "templateId": "base-b",
       "displayName": "弓箭手",
-      "revision": "draft-06",
-      "image": "base-b-archer-v06.png",
-      "sha256": "9956cf5dcf3437d38f64b8c0feac9401d0cc19ec603694d66f70d91b4782c21c",
+      "revision": "draft-07",
+      "image": "base-b-archer-v07.png",
+      "sha256": "b592f71867cef9eab5fe14fc0c2a46c7fa98f6ff23413a52f884fdd6fdc6cf84",
       "width": 1024,
       "height": 1536,
-      "mode": "RGBA",
-      "sourceProjectPath": "assets/characters/base-templates/base-b-archer/v06/base-b-archer-continuous-head-skin-front-v06.png",
+      "mode": "RGB",
+      "sourceProjectPath": "assets/characters/base-templates/base-b-archer/v07/base-b-archer-height-front-v07.png",
       "projectBaselineSpecification": "assets/characters/base-templates/base-b-archer/baseline.json",
-      "approval": "approved_reference",
-      "userApproval": {
-        "date": "2026-11-10",
-        "scope": "front_static_reference",
-        "quote": "很好，就以这张作为弓箭手角色的底稿，后续的弓箭手角色设计就参照这张的身材比例及体型和肤色。",
-        "interpretation": "弓箭手 v06 正面底稿已获认可，后续同类角色参照其身材比例、体型和肤色；不扩大为多视图/分层/绑定验收。"
-      },
-      "referenceRole": "Primary body silhouette, head-to-body and limb proportions, body build and skin reference, not style-only",
-      "bodyAppearance": "Slender elongated proportions with smaller relative head than A",
+      "approval": "not_reviewed",
+      "referenceRole": "Current B silhouette, proportions, complexion, and paired standing-height reference",
+      "bodyAppearance": "Slender build with legs and head-body proportions slightly closer to the A base. The two stand nearly level on a common scale.",
       "skinSamples": {
         "scalp": {
           "roi_xywh": [
-            504,
-            207,
-            14,
-            18
+            497,
+            228,
+            28,
+            14
           ],
-          "pixels": 252,
+          "pixels": 392,
           "medianRGB": [
             254,
-            241,
-            239
+            231,
+            230
           ],
-          "medianHEX": "#FEF1EF"
+          "medianHEX": "#FEE7E6"
         },
         "upperArm": {
           "roi_xywh": [
-            415,
-            471,
+            410,
+            480,
             10,
             16
           ],
           "pixels": 160,
           "medianRGB": [
             254,
-            240,
-            238
+            236,
+            235
           ],
-          "medianHEX": "#FEF0EE"
+          "medianHEX": "#FEECEB"
         },
         "forearm": {
           "roi_xywh": [
-            358,
-            650,
+            371,
+            620,
             10,
             16
           ],
           "pixels": 160,
           "medianRGB": [
             254,
-            239,
-            237
+            236,
+            235
           ],
-          "medianHEX": "#FEEFED"
+          "medianHEX": "#FEECEB"
         },
         "shin": {
           "roi_xywh": [
-            448,
-            1190,
+            450,
+            1176,
             10,
             16
           ],
           "pixels": 160,
           "medianRGB": [
             254,
-            241,
-            240
+            238,
+            238
           ],
-          "medianHEX": "#FEF1F0"
+          "medianHEX": "#FEEEEE"
         },
         "foot": {
           "roi_xywh": [
-            447,
-            1345,
+            448,
+            1346,
             10,
             14
           ],
           "pixels": 140,
           "medianRGB": [
             254,
-            241,
-            239
+            237,
+            237
           ],
-          "medianHEX": "#FEF1EF"
+          "medianHEX": "#FEEDED"
         }
       },
       "currentSheetEyeColors": {
@@ -234,9 +228,26 @@
         "source": "user explicit instruction on 2026-11-10"
       },
       "limits": [
-        "Approved front 2D image only; no real-world height or exact hidden anatomy established",
-        "No layered model, side/back reference, rigging or animation delivered"
-      ]
+        "Front proportion reference. Clothing, hair and shoe shapes on concept sheets can change apparent stature."
+      ],
+      "revisionRequest": {
+        "date": "2026-11-14",
+        "quote": "弓箭手角色应该只比魔法师角色高最多半个头就好了，需要对弓箭手的角色底稿做一下修改，调低一点身高。",
+        "direction": "Lower the B archer front base. Its barefoot height can exceed the A mage by at most half of an A head."
+      },
+      "pairedHeightStandard": {
+        "mageRevision": "draft-10",
+        "mageHeadHeightPixels": 182,
+        "referenceScale": "Original A v10 and B v07 pixel scale with aligned bare soles",
+        "maxArcherHeightAboveMageInMageHeads": 0.5,
+        "measuredArcherHeightAboveMagePixels": 1,
+        "measuredArcherHeightAboveMageInMageHeads": 0.0055
+      },
+      "previousApprovedReference": {
+        "revision": "draft-06",
+        "image": "base-b-archer-v06.png",
+        "sha256": "9956cf5dcf3437d38f64b8c0feac9401d0cc19ec603694d66f70d91b4782c21c"
+      }
     }
   ],
   "requirements": [

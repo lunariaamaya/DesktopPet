@@ -26,6 +26,8 @@
 
 2026-11-13 A 类参考更新。根据战法、魔道、小魔女、缔造的 v01 身材比例，采用头部占比更小、腿更修长的 [A v10 当前底稿](../assets/characters/base-templates/base-a-mage/v10/base-a-mage-proportion-front-v10.png)。图稿待用户看图。两类比例与肤色的当前依据见 [skill 参考规范](../skills/character-reference-to-turnaround/references/cases/desktop-pet-base-templates/reference-standard.md)。
 
+2026-11-14 B 类参考更新。采用略矮、腿段略短的弓箭手 v07，站立时最多比 A 类高半个 A 类头高，用同尺度赤足足底对齐后核对。[B v07 当前底稿](../assets/characters/base-templates/base-b-archer/v07/base-b-archer-height-front-v07.png) · [同尺度对比](../assets/characters/base-templates/base-b-archer/v07/mage-archer-height-comparison.png)
+
 **当前制作规则。** 用户已确认采用二维路线，依次进行上传图片、整理角色外观、分层与补图、二维绑定及动作制作、自动检查与预览。原外观、配色、左右、槽位及动作意图按项目规格记录。以 [二维管线与样机验收](character-2d-pipeline.md) 为实施依据。Meshy 试修的历史记录见 [诊断](meshy-rig-analysis-2026-11-04.md) 与 [试修](meshy-rig-repair-2026-11-04.md)。
 
 最新决定：停止以程序化草模作为角色成品路线。用户反馈自行用 Tripo 生成的模型较好；该外部文件尚未在项目中验收，不宣称已具备绑定、分件或动作能力。二维全流程已整理为 [SOP](character-art-sop.md) 与 [可复用 skill](../skills/character-reference-to-turnaround/SKILL.md)，连接核查见 [Tripo 接入说明](tripo-integration.md)。以下按版本累积的“最新候选”等措辞仅为当时记录；当前基线以本段与下段版12冻结信息为准。
