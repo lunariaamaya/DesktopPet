@@ -1,0 +1,25 @@
+# 魔道学者「魔道1」三视图 v01
+
+以用户选定的 [v01 去白边版设计图](witch-scholar-01-design-v01-white-cat-print-clean-edge.png) 为唯一出图参考。使用内置 ImageGen 绘制 [三视图 v01](witch-scholar-01-turnaround-v01.png)。此图为存档稿，三视图细节待用户确认。
+
+- 从左至右为正面、角色自身右侧面和背面。视角为近正交，共用脚底线，使用同尺度的静止站姿。目视检查了头顶、袖箍、裙摆、踝圈和鞋底的高度。
+- 保留 v01 修长体型、浅粉象牙肤色、蓝青双眼、粉彩长卷发和单个兔形头饰。头饰位于角色自身右侧，背面在画面右侧只露出一只兔耳。
+- 黑色包头皮鞋前掌各印一只白猫头像。正面可见两只鞋的印花，右侧面只见近侧鞋面上的印花，背面自然遮挡。
+- 背面方形双白线水手领、上衣收腰缝线和自然垂落的长发走向依据正面服饰设计补绘。近正交手绘表现的关节位置和遮挡以目视核对为准。
+
+| 存档文件 | 尺寸 | SHA256 |
+| --- | --- | --- |
+| [v01 去白边版](witch-scholar-01-design-v01-white-cat-print-clean-edge.png) | 1536 × 1024 | `21f16990e8b3fdb1c76da6cc13daf03010ad011179f11a16a119842f52ecca93` |
+| [三视图 v01](witch-scholar-01-turnaround-v01.png) | 1536 × 1024 | `e3ffdba3021286728d8a32b98a6c41b57bc49b3c19f5a62b34965ad9050e7899` |
+
+## 生成提示词
+
+```text
+Create an exquisitely polished orthographic three-view 2D anime game character turnaround sheet using the supplied approved Witch Scholar design sheet as the sole authority for identity, design, colors and body proportions. The large figure on that sheet is the approved slender v01, and the insets clarify head ornament, uniform and shoes. Show the same one character turned to exactly three directions. One wide 3:2 or wider landscape sheet, THREE equally spaced full-body drawings only: exact FRONT view on left, true RIGHT profile in center (camera on her right, character faces frame left), exact BACK view on right. Clean very pale pink off-white backdrop with a single faint shared ground rule, plenty of margin for the outer curls and full silhouette, no captions or other drawings. Use orthographic eye-level projection with no perspective foreshortening or framing shift. Use the same uniform magnification and objectively aligned crown, eyes, shoulders, waist, skirt hem, knees, ankle bands and shoe soles. Same neutral stance throughout: legs straight but relaxed, feet under hips at a small natural separation and toes forward, arms gently separated from torso, fingers relaxed and down; in the profile the far leg and arm are mostly occluded. No contrapposto, casting, action, or wind. Preserve the reference’s longer slender limb proportions, narrow shoulders, small graceful hands and feet, low-saturation pale pink-ivory skin, and the relative size of the reference's head and torso. Keep her longer silhouette; no shortening to chibi proportions. Matching high-quality fine ink linework and smooth cel shading, clean silhouettes without a white outline or light halo.
+
+Identity and construction: bright blue-cyan irises, small content smile, pink bangs with mint-and-pale-blonde streak, one curved large pink cowlick, and one small white rabbit-shaped clip with two upright ears on the character’s RIGHT side at the temple (viewer left in front view). This is her ONLY head ornament; surrounding pink and lilac marks are strands of hair. For right profile that same clip is seen in profile, with narrow depth, and only the near blue eye is visible. For back the rear of the clip is partially occluded by the right-side pink hair, or naturally hidden; no rabbit face on the rear. Very long supple pink S-wave locks to midcalf, creamy blonde and pale turquoise streaks traveling within specific locks and lilac curl tips. In neutral pose the locks hang with gravity around both sides and down her back, keep reference's lush volume and skirt visibility. Hair and accessory placement must make 3D sense across views; show a believable continuous center back fall and distinct long curled locks in the back, leave enough of the skirt and sleeves to read. No detached clones of the hair, separate tail, additional bows or visible flower.
+
+Preserve the exact fitted ivory sailor double-breasted top with four small gold buttons, vivid blue sailor collar with two white stripes, lilac knotted scarf on front, detached white-blue upper arm bands and open shoulders, blue pleated skirt with two white hem stripes and narrow white ruffled lining. True side profile of this garment, front scarf and button placement visible only from the front edge as appropriate. A simple square sailor yoke on the back, blue with two matching white edge stripes, mostly naturally occluded by her hair; plain tailored ivory back and skirt continuing around the waist, no front scarf, buttons or added rear ornaments on the back. Keep all seams, trim and hem heights coherent.
+
+Both feet in exactly the reference black closed rounded-toe leather pumps with low black block heels and softly flared white ankle coverings with blue upper bands. Exactly ONE small flat WHITE CAT FACE printed on the forefoot of EACH shoe, same shape as the reference. Both visible in the front, only correctly foreshortened where the vamp shows in true right profile, hidden on a true back view, no prints on heels. Footwear and cuffs should be identical all around. Use the entire canvas height economically with the same shared baseline and full safe margin for all views. Polished and mechanically consistent turnaround artwork, no text, logos, special effects, inset studies or other characters.
+```
